@@ -53,7 +53,7 @@ function App() {
           <HelmetProvider>
             <Toaster />
             <Suspense fallback={<LoadingSpinner />}>
-              <Router base="/ai-agency-landing">
+              <Router>
                 <Routes />
               </Router>
             </Suspense>
