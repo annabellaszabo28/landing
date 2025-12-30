@@ -1,0 +1,110 @@
+{
+    "hero": {
+        "title": "Dominate the Digital Frontier: AI & Web3 Growth",
+        "subtitle": "Stop guessing. Start scaling. We fuse agentic AI workflows with decentralized community building to create unstoppable growth engines for ambitious brands.",
+        "cta_primary": "View Success Stories",
+        "cta_secondary": "Explore Services"
+    },
+    "services_section": {
+        "title": "The Growth OS for 2026",
+        "subtitle": "A unified operating system for brand dominance. Whether you need to scale a SaaS unicorn or launch a blue-chip protocol.",
+        "web2_tab": "Web2 Hyper-Growth",
+        "web3_tab": "Web3 Ecosystems",
+        "web2_items": [
+            {
+                "title": "Agentic SEO & Content",
+                "description": "Dominate search with AI-driven topic clusters and self-healing content funnels.",
+                "icon": "BarChart3",
+                "image": "/images/blog-funnels.png"
+            },
+            {
+                "title": "Conversion Rate Optimization",
+                "description": "Neuromarketing meets machine learning to turn traffic into obsessed customers.",
+                "icon": "Megaphone"
+            },
+            {
+                "title": "Predictive Analytics",
+                "description": "Know what your customers want before they do with behavioral forecasting.",
+                "icon": "Layers"
+            }
+        ],
+        "web3_items": [
+            {
+                "title": "Vampire Attack Architecture",
+                "description": "Ethical liquidity mining strategies to migrate users from competitors to your protocol.",
+                "icon": "Users",
+                "image": "/images/blog-community.png"
+            },
+            {
+                "title": "Tokenomic Engineering",
+                "description": "Designing sustainable economies that pump on utility, not just speculation.",
+                "icon": "Cpu"
+            },
+            {
+                "title": "Governance Design",
+                "description": "Building DAOs that actually work. High participation, low drama.",
+                "icon": "Globe"
+            }
+        ]
+    },
+    "bridge_section": {
+        "title": "The Web2.5 Bridge",
+        "subtitle": "We speak fluent Enterprise and Degen. We help traditional brands capture Web3 value without scaring their board members.",
+        "web2_label": "Legacy Scale",
+        "web2_sublabel": "Fortune 500 Infrastructure",
+        "web3_label": "Future Tech",
+        "web3_sublabel": "Blockchain Innovation"
+    },
+    "testimonials_section": {
+        "title": "Results, Not Promises",
+        "subtitle": "We let the charts do the talking.",
+        "items": [
+            {
+                "quote": "Lumina didn't just 'do marketing.' They engineered a movement. Our TVL went from $0 to $50M in 48 hours.",
+                "author": "Alex V.",
+                "role": "Founder, Nova Fi",
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop"
+            },
+            {
+                "quote": "The SEO strategy was genius. We own every keyword in our niche now. It's an unfair advantage.",
+                "author": "Sarah Chen",
+                "role": "CMO, ScaleFlow",
+                "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop"
+            },
+            {
+                "quote": "They turned our dormant loyalty program into a thriving NFT ecosystem. Our engagement is up 400%.",
+                "author": "Marcus J.",
+                "role": "Dir. of Innovation, LuxeRetail",
+                "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop"
+            }
+        ]
+    },
+    "faq_section": {
+        "title": "Strategic FAQs",
+        "subtitle": "High-level answers for high-stakes decisions.",
+        "items": [
+            {
+                "question": "Are you an agency or a tech partner?",
+                "answer": "Both. We believe modern marketing requires engineering. We deploy code as much as we deploy copy. Think of us as Growth Engineers."
+            },
+            {
+                "question": "How fast can we see results?",
+                "answer": "In Web3, hours. In Web2 SEO, months. We build a balanced portfolio of 'quick wins' (paid/social) and 'long moats' (brand/SEO) to ensure immediate traction and long-term dominance."
+            },
+            {
+                "question": "Do you handle equity/token deals?",
+                "answer": "For select partners with high-conviction protocol design, we are open to hybrid cash/token compensation models. We like to have skin in the game."
+            },
+            {
+                "question": "Can you help us pivot from Web2 to Web3?",
+                "answer": "This is our specialty. We identify which parts of your business benefit from decentralization (loyalty, community, settlement) and which should stay centralized. No forced blockchain use cases."
+            }
+        ]
+    },
+    "cta_section": {
+        "title": "Ready to Ascend?",
+        "subtitle": "Your competitors are still using ChatGPT for blog posts. We're building autonomous growth engines. Join us.",
+        "button_text": "Book Strategy War Room",
+        "button_link": "/contact"
+    }
+}
