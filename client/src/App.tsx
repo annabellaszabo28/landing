@@ -9,7 +9,11 @@ import LoadingSpinner from "./components/LoadingSpinner";
 
 // Lazy load pages for code splitting
 const Home = lazy(() => import("./pages/Home"));
-const ServicesPage = lazy(() => import("./pages/ServicesPage"));
+const Web2Home = lazy(() => import("./pages/Web2Home"));
+const Web3Home = lazy(() => import("./pages/Web3Home"));
+const ServiceDetail = lazy(() => import("./pages/ServiceDetail"));
+
+// Original pages (keep if needed or remove if obsolete)
 const AboutPage = lazy(() => import("./pages/AboutPage"));
 const WorkPage = lazy(() => import("./pages/WorkPage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
@@ -22,7 +26,19 @@ function Routes() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/services" component={ServicesPage} />
+
+      {/* Web2 Section */}
+      <Route path="/marketing" component={Web2Home} />
+      <Route path="/marketing/:slug">
+        {(params) => <ServiceDetail type="web2" />}
+      </Route>
+
+      {/* Web3 Section */}
+      <Route path="/web3" component={Web3Home} />
+      <Route path="/web3/:slug">
+        {(params) => <ServiceDetail type="web3" />}
+      </Route>
+
       <Route path="/about" component={AboutPage} />
       <Route path="/work" component={WorkPage} />
       <Route path="/work/:slug" component={CaseStudyDetail} />

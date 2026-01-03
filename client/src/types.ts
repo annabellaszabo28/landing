@@ -124,3 +124,27 @@ export interface AboutContent {
         members: TeamMember[];
     };
 }
+
+// ============ SERVICE DETAIL PAGE ============
+export interface ServiceProcess {
+    step: string;
+    title: string;
+    description: string;
+}
+
+export interface ServiceResult {
+    label: string;
+    value: string;
+}
+
+export interface ServiceDetail {
+    id: string;
+    title: string;
+    slug: string;
+    description: string;
+    longDescription: string;
+    features: string[];
+    icon: string;
+    process?: ServiceProcess[];
+    results?: ServiceResult[];
+}

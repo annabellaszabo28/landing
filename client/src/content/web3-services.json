@@ -1,0 +1,278 @@
+[
+    {
+        "id": "gotomarketstrategy",
+        "title": "GTM Strategy & Launch",
+        "slug": "gtm",
+        "description": "The blueprint for a successful Web3 launch. From tokenomics to user acquisition.",
+        "longDescription": "We craft bespoke Go To Market strategies for blockchain protocols and dApps. Our data driven approach ensures you reach your target users and liquidity providers effectively through every phase of launch.",
+        "features": [
+            "Launch Planning & Sequencing",
+            "Tokenomics Advisory",
+            "Incentive Design",
+            "Partnership Ecosystems"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Incentive Modeling",
+                "description": "Simulating tokenomics to ensure long term sustainability."
+            },
+            {
+                "step": "02",
+                "title": "Alpha Seeding",
+                "description": "Building a core group of early adopters and LPs."
+            },
+            {
+                "step": "03",
+                "title": "Mainnet Launch",
+                "description": "Orchestrating high impact community events and liquidity events."
+            },
+            {
+                "step": "04",
+                "title": "Post Launch Growth",
+                "description": "Scaling adoption through ecosystem grants and rewards."
+            }
+        ],
+        "results": [
+            {
+                "label": "TVL Reached",
+                "value": "$120M+"
+            },
+            {
+                "label": "Launch Participation",
+                "value": "25k+ Users"
+            }
+        ],
+        "icon": "Rocket"
+    },
+    {
+        "id": "communitybuilding",
+        "title": "Community Building & Management",
+        "slug": "community",
+        "description": "Cultivate a loyal army of advocates on Discord, Telegram, and Lens.",
+        "longDescription": "A strong community is the bedrock of Web3. We specialize in building and managing active communities with a focus on retention and technical support. No bots, just real humans. AI monitored for safety.",
+        "features": [
+            "Discord/Telegram Architecture",
+            "24/7 Global Moderation",
+            "Engagement & Event Management",
+            "Sentiment & Health Analytics"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Culture Design",
+                "description": "Establishing value aligned community norms and lore."
+            },
+            {
+                "step": "02",
+                "title": "Tooling Setup",
+                "description": "Implementing anti bot measures and gamified reward systems."
+            },
+            {
+                "step": "03",
+                "title": "Active Moderation",
+                "description": "24/7 global support and engagement from native Web3 experts."
+            },
+            {
+                "step": "04",
+                "title": "Conversion",
+                "description": "Turning passive members into active protocol participants."
+            }
+        ],
+        "results": [
+            {
+                "label": "Discord Active Rate",
+                "value": "42%"
+            },
+            {
+                "label": "Community Size",
+                "value": "50k+ Real Users"
+            }
+        ],
+        "icon": "Users"
+    },
+    {
+        "id": "publicrelationsweb3",
+        "title": "Public Relations (PR)",
+        "slug": "pr",
+        "description": "Global media coverage in top blockchain and mainstream tech publications.",
+        "longDescription": "We tell your story to the world. Our PR team has direct lines to journalists at Cointelegraph, Blockworks, TechCrunch, and more, ensuring your announcements have maximum impact.",
+        "features": [
+            "Strategic Storytelling",
+            "Media Relations (Tier 1)",
+            "Thought Leadership Content",
+            "Crisis Communications"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Narrative Building",
+                "description": "Crafting a compelling vertical for institutional and retail audiences."
+            },
+            {
+                "step": "02",
+                "title": "Media Pitching",
+                "description": "Direct outreach to top tier journalists in our global network."
+            },
+            {
+                "step": "03",
+                "title": "Syndication",
+                "description": "Ensuring your news is picked up by secondary and technical outlets."
+            },
+            {
+                "step": "04",
+                "title": "Brand Moat Building",
+                "description": "Ongoing thought leadership to cement your status as an industry leader."
+            }
+        ],
+        "results": [
+            {
+                "label": "Tier 1 Placements",
+                "value": "15+ Per Month"
+            },
+            {
+                "label": "Earned Media Value",
+                "value": "$500k+"
+            }
+        ],
+        "icon": "Newspaper"
+    },
+    {
+        "id": "growthmarketingweb3",
+        "title": "Web3 Growth Marketing",
+        "slug": "growth",
+        "description": "Full funnel growth strategies designed for the decentralized user journey.",
+        "longDescription": "Growth in Web3 requires a unique approach to user attribution and incentives. We use proprietary data tools to track on chain and off chain behavior to optimize your growth engine.",
+        "features": [
+            "Quest & Airdrop Strategy",
+            "Referral Program Design",
+            "Retention Engineering",
+            "On chain Analytics"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "On Chain Analysis",
+                "description": "Identifying and targeting high value user profiles by wallet behavior."
+            },
+            {
+                "step": "02",
+                "title": "Incentive Funnels",
+                "description": "Designing quest based onboarding that leads to actual protocol use."
+            },
+            {
+                "step": "03",
+                "title": "Retention Loops",
+                "description": "Using governance and social layers to keep users in the ecosystem."
+            },
+            {
+                "step": "04",
+                "title": "TVL Optimization",
+                "description": "Fine tuning liquidity incentives for maximum capital efficiency."
+            }
+        ],
+        "results": [
+            {
+                "label": "Active Wallets Growth",
+                "value": "120% QoQ"
+            },
+            {
+                "label": "Airdrop Efficiency",
+                "value": "3.5x ROI"
+            }
+        ],
+        "icon": "TrendingUp"
+    },
+    {
+        "id": "ppcredditnative",
+        "title": "Targeted PPC (Reddit & Native)",
+        "slug": "ppc_native",
+        "description": "PPC on Reddit, Twitter, and major blockchain native ad networks.",
+        "longDescription": "Reach your audience where they hang out. We manage high performance ad campaigns on Reddit, X, and blockchain native networks like Coingecko, Etherscan, and Coinmarketcap.",
+        "features": [
+            "Reddit Ad Campaigns",
+            "Blockchain Native Ad Slots",
+            "Twitter/X Ads Management",
+            "High Intent Targeting"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Audience Slicing",
+                "description": "Segmenting by subreddit, X community, and on chain activity."
+            },
+            {
+                "step": "02",
+                "title": "Native Content Design",
+                "description": "Creating ad assets that blend in with community culture."
+            },
+            {
+                "step": "03",
+                "title": "Bid Engineering",
+                "description": "Optimizing specifically for low CPA in expensive Web3 niches."
+            },
+            {
+                "step": "04",
+                "title": "Conversion Tracking",
+                "description": "Custom solutions for tracking wallet connections via paid traffic."
+            }
+        ],
+        "results": [
+            {
+                "label": "CPC Reduction",
+                "value": "50% reduction"
+            },
+            {
+                "label": "Wallet Connect Rate",
+                "value": "+28%"
+            }
+        ],
+        "icon": "Target"
+    },
+    {
+        "id": "kolinfluencermarketing",
+        "title": "KOL & Influencer Marketing",
+        "slug": "kol",
+        "description": "Partner with the most trusted voices in the Web3 ecosystem.",
+        "longDescription": "Connect with top tier Key Opinion Leaders (KOLs) who can authentically promote your project. We handle selection, vetting, negotiation, and performance tracking to ensure high ROI partnerships.",
+        "features": [
+            "Tier 1 KOL Identification",
+            "Campaign Orchestration",
+            "Negotiation & Contracting",
+            "Attribution Tracking"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Vetting & Tiering",
+                "description": "Selecting KOLs with real engagement and domain authority."
+            },
+            {
+                "step": "02",
+                "title": "Briefing",
+                "description": "Ensuring the message is authentic while hitting key value props."
+            },
+            {
+                "step": "03",
+                "title": "Launch Phase",
+                "description": "Coordinating simultaneous drops for maximum trending potential."
+            },
+            {
+                "step": "04",
+                "title": "Performance Tracking",
+                "description": "Detailed reporting on reach, engagement, and conversion."
+            }
+        ],
+        "results": [
+            {
+                "label": "Total Impressions",
+                "value": "2M+"
+            },
+            {
+                "label": "Social Trust Score",
+                "vele": "Very High"
+            }
+        ],
+        "icon": "Mic"
+    }
+]

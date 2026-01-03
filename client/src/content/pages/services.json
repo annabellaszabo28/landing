@@ -9,22 +9,22 @@
             "items": [
                 {
                     "title": "AI Performance Marketing",
-                    "description": "Maximize your ROI with machine learning algorithms that optimize ad spend in real-time across Google, Meta, and TikTok.",
+                    "description": "Maximize your ROI with machine learning algorithms that optimize ad spend in real time across Google, Meta, and TikTok.",
                     "icon": "BarChart3"
                 },
                 {
                     "title": "Brand Strategy & Identity",
-                    "description": "Crafting human-centric narratives that resonate in a digital-first world. We build brands that stand the test of time.",
+                    "description": "Crafting human centric narratives that resonate in a digital first world. We build brands that stand the test of time.",
                     "icon": "Megaphone"
                 },
                 {
                     "title": "Content Production",
-                    "description": "High-volume, high-quality content creation assisted by generative AI tools, curated by human editors.",
+                    "description": "High volume, high quality content creation assisted by generative AI tools, curated by human editors.",
                     "icon": "Layers"
                 },
                 {
                     "title": "Custom Web Development",
-                    "description": "Blazing fast, SEO-optimized websites built with modern frameworks like React and Next.js.",
+                    "description": "Blazing fast, SEO optimized websites built with modern frameworks like React and Next.js.",
                     "icon": "Code"
                 }
             ]
@@ -39,7 +39,7 @@
                 },
                 {
                     "title": "Tokenomics & Strategy",
-                    "description": "Designing sustainable economic models for your token launch. We balance incentives for long-term growth.",
+                    "description": "Designing sustainable economic models for your token launch. We balance incentives for long term growth.",
                     "icon": "Cpu"
                 },
                 {
@@ -49,7 +49,7 @@
                 },
                 {
                     "title": "Smart Contract Auditing",
-                    "description": "Ensuring your protocol is secure before launch. We partner with top-tier audit firms to provide comprehensive security.",
+                    "description": "Ensuring your protocol is secure before launch. We partner with top tier audit firms to provide comprehensive security.",
                     "icon": "ShieldCheck"
                 }
             ]

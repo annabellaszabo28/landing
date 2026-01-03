@@ -1,110 +1,108 @@
 {
     "hero": {
-        "title": "Dominate the Digital Frontier: AI & Web3 Growth",
-        "subtitle": "Stop guessing. Start scaling. We fuse agentic AI workflows with decentralized community building to create unstoppable growth engines for ambitious brands.",
-        "cta_primary": "View Success Stories",
-        "cta_secondary": "Explore Services"
+        "title": "AI Native Growth Agency: 10+ Years of Market Dominance",
+        "subtitle": "We don't just follow trends—we engineer them. Leveraging recursive AI agents and decade long expertise to scale global brands across the Web2 and Web3 ecosystems.",
+        "cta_primary": "Explore Marketing",
+        "cta_secondary": "Web3 Growth"
     },
     "services_section": {
-        "title": "The Growth OS for 2026",
-        "subtitle": "A unified operating system for brand dominance. Whether you need to scale a SaaS unicorn or launch a blue-chip protocol.",
-        "web2_tab": "Web2 Hyper-Growth",
+        "title": "Precision Engineered Growth Solutions",
+        "subtitle": "Our methodology merges traditional marketing rigors with next gen autonomous technology. Whether scaling a 10M+ ARR SaaS or launching a Tier 1 blockchain protocol.",
+        "web2_tab": "Web2 Performance",
         "web3_tab": "Web3 Ecosystems",
         "web2_items": [
             {
-                "title": "Agentic SEO & Content",
-                "description": "Dominate search with AI-driven topic clusters and self-healing content funnels.",
-                "icon": "BarChart3",
-                "image": "/images/blog-funnels.png"
+                "title": "GEO & LLM Optimization",
+                "description": "The next evolution of SEO. We ensure your brand is the primary citation across ChatGPT, Perplexity, and Claude search surfaces.",
+                "icon": "Cpu"
             },
             {
-                "title": "Conversion Rate Optimization",
-                "description": "Neuromarketing meets machine learning to turn traffic into obsessed customers.",
-                "icon": "Megaphone"
+                "title": "Predictive Performance Ads",
+                "description": "AI driven bid management and creative testing that delivers sub dollar CPAs and high intent lead flow at scale.",
+                "icon": "Target"
             },
             {
-                "title": "Predictive Analytics",
-                "description": "Know what your customers want before they do with behavioral forecasting.",
-                "icon": "Layers"
+                "title": "Product Led Growth (PLG)",
+                "description": "Converting users into advocates through optimized onboarding funnels and viral product loops engineered in house.",
+                "icon": "Zap"
             }
         ],
         "web3_items": [
             {
-                "title": "Vampire Attack Architecture",
-                "description": "Ethical liquidity mining strategies to migrate users from competitors to your protocol.",
-                "icon": "Users",
-                "image": "/images/blog-community.png"
+                "title": "Incentive Aligned GTM",
+                "description": "Strategic launch frameworks that synchronize tokenomics, community hype, and real utility to ensure sustainable TVL growth.",
+                "icon": "Rocket"
             },
             {
-                "title": "Tokenomic Engineering",
-                "description": "Designing sustainable economies that pump on utility, not just speculation.",
-                "icon": "Cpu"
+                "title": "Technical Community Moats",
+                "description": "Building self governing Discord and Telegram ecosystems that serve as a protocol's strongest competitive advantage.",
+                "icon": "Users"
             },
             {
-                "title": "Governance Design",
-                "description": "Building DAOs that actually work. High participation, low drama.",
-                "icon": "Globe"
+                "title": "KOL & On Chain PR",
+                "description": "Securing tier 1 coverage and authentic influencer partnerships that build trust and drive high alpha participation.",
+                "icon": "Mic"
             }
         ]
     },
     "bridge_section": {
-        "title": "The Web2.5 Bridge",
-        "subtitle": "We speak fluent Enterprise and Degen. We help traditional brands capture Web3 value without scaring their board members.",
-        "web2_label": "Legacy Scale",
-        "web2_sublabel": "Fortune 500 Infrastructure",
-        "web3_label": "Future Tech",
-        "web3_sublabel": "Blockchain Innovation"
+        "title": "The Web 2.5 Integration Engine",
+        "subtitle": "The future is intersectional. We help Fortune 500 companies capture blockchain value and Web3 native protocols achieve institutional grade scale.",
+        "web2_label": "Institutional Scale",
+        "web2_sublabel": "Enterprise Grade Performance",
+        "web3_label": "Blockchain Native",
+        "web3_sublabel": "Decentralized Innovation"
     },
     "testimonials_section": {
-        "title": "Results, Not Promises",
-        "subtitle": "We let the charts do the talking.",
+        "title": "Proven Excellence",
+        "subtitle": "Delivering measurable impact for the architects of the new economy.",
         "items": [
             {
-                "quote": "Lumina didn't just 'do marketing.' They engineered a movement. Our TVL went from $0 to $50M in 48 hours.",
-                "author": "Alex V.",
-                "role": "Founder, Nova Fi",
-                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop"
+                "quote": "Most agencies talk about AI. Lumina actually built it into our core growth engine. Our customer acquisition cost dropped by 64% within the first quarter.",
+                "author": "Marcus J.",
+                "role": "SVP of Marketing, GlobalStream",
+                "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop"
             },
             {
-                "quote": "The SEO strategy was genius. We own every keyword in our niche now. It's an unfair advantage.",
+                "quote": "Their GTM strategy for our protocol launch was flawless. They understood the nuances of our tokenomics better than our lead investors.",
                 "author": "Sarah Chen",
-                "role": "CMO, ScaleFlow",
+                "role": "Founder, Aether Protocol",
                 "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop"
             },
             {
-                "quote": "They turned our dormant loyalty program into a thriving NFT ecosystem. Our engagement is up 400%.",
-                "author": "Marcus J.",
-                "role": "Dir. of Innovation, LuxeRetail",
-                "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop"
+                "quote": "The SEO transition to GEO (LLM Optimization) saved our organic traffic. We are now the top recommended solution on ChatGPT and Claude.",
+                "author": "Alex V.",
+                "role": "CEO, CloudForge SaaS",
+                "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop"
             }
         ]
     },
     "faq_section": {
-        "title": "Strategic FAQs",
-        "subtitle": "High-level answers for high-stakes decisions.",
+        "title": "High Stakes Inquiries",
+        "subtitle": "Clarity for institutional partners and visionary founders.",
         "items": [
             {
-                "question": "Are you an agency or a tech partner?",
-                "answer": "Both. We believe modern marketing requires engineering. We deploy code as much as we deploy copy. Think of us as Growth Engineers."
+                "question": "How do you integrate AI into marketing workflows?",
+                "answer": "We deploy autonomous agents for content research, technical SEO analysis, and real time ad bidding. This allows us to execute 10x faster with 100% data driven precision."
             },
             {
-                "question": "How fast can we see results?",
-                "answer": "In Web3, hours. In Web2 SEO, months. We build a balanced portfolio of 'quick wins' (paid/social) and 'long moats' (brand/SEO) to ensure immediate traction and long-term dominance."
+                "question": "What is the timeline for seeing measurable growth?",
+                "answer": "Performance ad results are often immediate (within 48 hours). Long term moats like SEO and Community Building typically see significant compounding returns within 3 6 months."
             },
             {
-                "question": "Do you handle equity/token deals?",
-                "answer": "For select partners with high-conviction protocol design, we are open to hybrid cash/token compensation models. We like to have skin in the game."
+                "question": "Do you offer full stack development for marketing assets?",
+                "answer": "Yes. We build high performance landing pages, custom dApp interfaces, and interactive dashboards to ensure every touchpoint is optimized for conversion."
             },
             {
-                "question": "Can you help us pivot from Web2 to Web3?",
-                "answer": "This is our specialty. We identify which parts of your business benefit from decentralization (loyalty, community, settlement) and which should stay centralized. No forced blockchain use cases."
+                "question": "How do you handle Web3 regulatory nuances?",
+                "answer": "We prioritize compliance ready marketing. We avoid hyperbolic 'crypto' language and focus on the technical utility and value proposition of the decentralized technology."
             }
         ]
     },
     "cta_section": {
-        "title": "Ready to Ascend?",
-        "subtitle": "Your competitors are still using ChatGPT for blog posts. We're building autonomous growth engines. Join us.",
-        "button_text": "Book Strategy War Room",
+        "title": "Secure Your Market Advantage",
+        "subtitle": "While your competitors are trying to understand the present, we are building your future. Schedule a confidential strategy audit.",
+        "button_text": "Request Strategy Audit",
         "button_link": "/contact"
     }
 }

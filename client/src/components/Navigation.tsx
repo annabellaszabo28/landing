@@ -16,10 +16,11 @@ export default function Navigation() {
   }, []);
 
   const navLinks = [
-    { name: "Services", href: "/services" },
-    { name: "About", href: "/about" },
-    { name: "Work", href: "/work" },
-    { name: "Insights", href: "/blog" },
+    { name: "Marketing", href: "/marketing" },
+    { name: "Web3", href: "/web3" },
+    { name: "About Us", href: "/about" },
+    { name: "Case Studies", href: "/work" },
+    { name: "Blog", href: "/blog" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -27,11 +28,10 @@ export default function Navigation() {
     <nav
       role="navigation"
       aria-label="Main navigation"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 ${
-        scrolled 
-          ? "bg-white/95 backdrop-blur-xl shadow-lg shadow-slate-900/5" 
-          : "bg-white/80 backdrop-blur-md"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 ${scrolled
+        ? "bg-white/95 backdrop-blur-xl shadow-lg shadow-slate-900/5"
+        : "bg-white/80 backdrop-blur-md"
+        }`}
     >
       <div className="container flex items-center justify-between">
         {/* Desktop Nav - Centered Layout */}
@@ -44,20 +44,23 @@ export default function Navigation() {
 
           {/* Centered Links */}
           <div className="flex items-center gap-8 mx-auto">
-            <Link href="/services">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Services</span>
+            <Link href="/marketing">
+              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Marketing</span>
+            </Link>
+            <Link href="/web3">
+              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Web3</span>
             </Link>
             <Link href="/work">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Work</span>
+              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Case Studies</span>
             </Link>
             <Link href="/about">
               <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors flex items-center gap-2 cursor-pointer">
                 <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
-                Agency
+                About Us
               </span>
             </Link>
             <Link href="/blog">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Insights</span>
+              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Blog</span>
             </Link>
           </div>
 

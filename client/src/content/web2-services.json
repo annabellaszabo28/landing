@@ -1,0 +1,324 @@
+[
+    {
+        "id": "searchengineoptimization",
+        "title": "Search Engine Optimization (SEO)",
+        "slug": "seo",
+        "description": "Dominate search rankings with our AI driven SEO strategies and content clusters.",
+        "longDescription": "Our SEO approach leverages advanced AI analytics to identify high value keywords and optimize your content for maximum visibility. We focus on technical SEO, on page optimization, and authoritative linkbuilding to drive organic traffic that converts.",
+        "features": [
+            "AI Powered Keyword Research",
+            "Technical SEO Audits",
+            "Topic Cluster Strategy",
+            "Algorithm Change Resilience"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Deep Audit",
+                "description": "AI driven analysis of technical hurdles and keyword gaps."
+            },
+            {
+                "step": "02",
+                "title": "Cluster Mapping",
+                "description": "Designing semantic maps to dominate entire topic categories."
+            },
+            {
+                "step": "03",
+                "title": "AI Content Creation",
+                "description": "Generating high quality, high index content at scale."
+            },
+            {
+                "step": "04",
+                "title": "Authoritative Linkbuilding",
+                "description": "Securing tier 1 backlinks to cement your top rankings."
+            }
+        ],
+        "results": [
+            {
+                "label": "Organic Traffic",
+                "value": "+320%"
+            },
+            {
+                "label": "Keywords in Top 3",
+                "value": "1.2k"
+            }
+        ],
+        "icon": "Search"
+    },
+    {
+        "id": "llmoptimization",
+        "title": "LLM Optimization (GEO)",
+        "slug": "llm_optimization",
+        "description": "The future of search is AI. Optimize your brand for Large Language Models.",
+        "longDescription": "Generative Engine Optimization (GEO) is the new SEO. We ensure your brand is the top citation when users ask ChatGPT, Claude, and Perplexity questions about your industry.",
+        "features": [
+            "AI Citation Management",
+            "Sentiment Engineering",
+            "Fact Sheet Optimization",
+            "BGE Ranking Strategies"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Perception Audit",
+                "description": "Analyzing current LLM responses about your brand and niche."
+            },
+            {
+                "step": "02",
+                "title": "Citation Engineering",
+                "description": "Optimizing source data to become the primary cited authority."
+            },
+            {
+                "step": "03",
+                "title": "Sentiment Tuning",
+                "description": "Ensuring AI models interpret your brand values accurately."
+            },
+            {
+                "step": "04",
+                "title": "Continuous Monitoring",
+                "description": "Real time updates as LLM models and weights evolve."
+            }
+        ],
+        "results": [
+            {
+                "label": "AI Recommendation Rate",
+                "value": "85%"
+            },
+            {
+                "label": "Brand Citations",
+                "value": "10x Growth"
+            }
+        ],
+        "icon": "Cpu"
+    },
+    {
+        "id": "payperclick",
+        "title": "PPC & Performance Marketing",
+        "slug": "ppc",
+        "description": "High ROI campaigns across Google, Meta, and LinkedIn with AI bid optimization.",
+        "longDescription": "We manage high performance PPC campaigns with a focus on unit economics. Our AI driven bidding and creative testing ensure that every dollar spent is optimized for lead quality and customer acquisition cost.",
+        "features": [
+            "Google & Meta Ads",
+            "AI Bid Management",
+            "Retargeting Funnels",
+            "Dynamic Creative Testing"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Funnel Design",
+                "description": "Mapping the path from click to conversion with data precision."
+            },
+            {
+                "step": "02",
+                "title": "Creative Testing",
+                "description": "Launching hundreds of AI generated creative variants to find winners."
+            },
+            {
+                "step": "03",
+                "title": "Bid Optimization",
+                "description": "Real time adjustments to ensure the highest possible ROAS."
+            },
+            {
+                "step": "04",
+                "title": "Retention Loops",
+                "description": "Remarketing strategies that turn one time clicks into loyal customers."
+            }
+        ],
+        "results": [
+            {
+                "label": "Avg ROAS",
+                "value": "6.2x"
+            },
+            {
+                "label": "Cost Per Lead",
+                "value": "45% Reduction"
+            }
+        ],
+        "icon": "Target"
+    },
+    {
+        "id": "websitecreation",
+        "title": "Website & Web App Creation",
+        "slug": "web_development",
+        "description": "Premium, high converting websites built with modern stacks (React, Next.js).",
+        "longDescription": "We build websites that aren't just pretty—they're growth engines. Our development team focuses on performance, speed, and conversion architecture to ensure your digital storefront works 24/7.",
+        "features": [
+            "Custom React/Next.js Dev",
+            "High Performance Hosting",
+            "Conversion Focused UI/UX",
+            "Responsive Fluid Design"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "User Flow Mapping",
+                "description": "Defining the optimal psychological path for your visitors."
+            },
+            {
+                "step": "02",
+                "title": "Visual Prototyping",
+                "description": "Crafting premium, high fidelity Figma designs for approval."
+            },
+            {
+                "step": "03",
+                "title": "Next.js Implementation",
+                "description": "Building lightning fast, SEO optimized web architectures."
+            },
+            {
+                "step": "04",
+                "title": "Final QA & Performance Boost",
+                "description": "Rigorous testing and optimization for perfect lighthouse scores."
+            }
+        ],
+        "results": [
+            {
+                "label": "Page Load Speed",
+                "value": "98/100"
+            },
+            {
+                "label": "Conversion Lift",
+                "value": "+120%"
+            }
+        ],
+        "icon": "Code"
+    },
+    {
+        "id": "ecommerce",
+        "title": "eCommerce Solutions",
+        "slug": "ecommerce",
+        "description": "Scale your online store with Shopify, WooCommerce, and headless solutions.",
+        "longDescription": "From inventory management to checkout optimization, we help eCommerce brands scale to 7 and 8 figures. Our data driven approach identifies friction points in the customer journey and eliminates them.",
+        "features": [
+            "Shopify Plus Management",
+            "Inventory Systems Integration",
+            "Conversion Rate Optimization",
+            "Customer Retention Funnels"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Store Audit",
+                "description": "Identifying checkout friction and drop off points."
+            },
+            {
+                "step": "02",
+                "title": "CRO Implementation",
+                "description": "Engineering high converting product and cart pages."
+            },
+            {
+                "step": "03",
+                "title": "Loyalty Integration",
+                "description": "Setting up automated email and SMS retention engines."
+            },
+            {
+                "step": "04",
+                "title": "Scaling Operations",
+                "description": "Managing high volume sales events and seasonal surges."
+            }
+        ],
+        "results": [
+            {
+                "label": "Yearly Revenue Up",
+                "value": "+240%"
+            },
+            {
+                "label": "Cart Abandonment",
+                "value": "32% reduction"
+            }
+        ],
+        "icon": "ShoppingBag"
+    },
+    {
+        "id": "figmadesign",
+        "title": "Figma Design & Prototyping",
+        "slug": "design_figma",
+        "description": "State of the art UI/UX design and interactive Figma prototypes.",
+        "longDescription": "Our design team creates aesthetic, usable interfaces that reflect your brand's premium nature. We deliver pixel perfect Figma files and interactive prototypes that speed up development and wow stakeholders.",
+        "features": [
+            "Interface Design (UI)",
+            "User Experience (UX)",
+            "High Fidelity Prototyping",
+            "Design Systems & Kits"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Moodboarding",
+                "description": "Defining the visual direction and brand aesthetic."
+            },
+            {
+                "step": "02",
+                "title": "Wireframing",
+                "description": "Building the skeleton for optimal user experience."
+            },
+            {
+                "step": "03",
+                "title": "Hi Fidelity Design",
+                "description": "Polishing every pixel to create a premium digital experience."
+            },
+            {
+                "step": "04",
+                "title": "Handover",
+                "description": "Coordinating with developers for seamless implementation."
+            }
+        ],
+        "results": [
+            {
+                "label": "Stakeholder Approval",
+                "value": "100%"
+            },
+            {
+                "label": "Dev Speed Increase",
+                "value": "2x"
+            }
+        ],
+        "icon": "Figma"
+    },
+    {
+        "id": "socialmediamarketing",
+        "title": "Social Media Marketing",
+        "slug": "social_media",
+        "description": "Engagement first social strategies that turn followers into brand advocates.",
+        "longDescription": "We manage your brand's voice across Instagram, TikTok, and X. Our AI enhanced content creation process ensures a consistent flow of high quality visuals and copy that trends.",
+        "features": [
+            "Multi Channel Strategy",
+            "AI Viral Content Engine",
+            "Community Engagement",
+            "Growth Hacking Tactics"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Voice Calibration",
+                "description": "Fine tuning your brand persona for different platforms."
+            },
+            {
+                "step": "02",
+                "title": "Content Engine",
+                "description": "Producing daily AI enhanced visuals and high converting copy."
+            },
+            {
+                "step": "03",
+                "title": "Viral Seeding",
+                "description": "Leveraging influencer networks to boost reach and engagement."
+            },
+            {
+                "step": "04",
+                "title": "Analytics Loop",
+                "description": "Adjusting content strategy based on real time performance data."
+            }
+        ],
+        "results": [
+            {
+                "label": "Weekly Interactions",
+                "value": "150k+"
+            },
+            {
+                "label": "Follower Growth",
+                "value": "+80% MoM"
+            }
+        ],
+        "icon": "Share2"
+    }
+]
