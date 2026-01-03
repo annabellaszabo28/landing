@@ -1,18 +1,18 @@
 ---
-slug: seo-tokenomics-fusion
+slug: seo_tokenomics_fusion
 title: "SEO & Tokenomics: The Hidden Synergy"
-date: 2025-11-15T00:00:00.000Z
+date: 2025/11/15
 author: Elena Kova
 category: Token Economics
-excerpt: "How organic search traffic drives token velocity and creates self-sustaining economic flywheels."
+excerpt: "How organic search traffic drives token velocity and creates self sustaining economic flywheels."
 image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
 ---
 
 Most token economists ignore Google. Most SEOs ignore smart contracts. The alpha lies in the intersection.
 
-## The Traffic-to-Token Pipeline
+## The Traffic to Token Pipeline
 
-Organic traffic is free. Token emissions are expensive. By replacing paid ads with high-intent SEO traffic, you reduce the sell pressure on your treasury. It's simple math that most projects miss.
+Organic traffic is free. Token emissions are expensive. By replacing paid ads with high intent SEO traffic, you reduce the sell pressure on your treasury. It's simple math that most projects miss.
 
 ## Keyword dominance as Authority
 

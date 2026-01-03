@@ -1,7 +1,7 @@
 ---
-slug: high-converting-web2-funnels
-title: "High-Converting Web2 Funnels in a Web3 World"
-date: 2025-12-10T00:00:00.000Z
+slug: high_converting_web2_funnels
+title: "High Converting Web2 Funnels in a Web3 World"
+date: 2025/12/10
 author: Alex Rivera
 category: Growth Strategy
 excerpt: "Why the best crypto projects are adopting traditional SaaS growth mechanics to scale beyond the degen niche."
@@ -12,7 +12,7 @@ The era of "build it and they will airdrop" is dead. As the Web3 market matures,
 
 ## The Hybrid Model
 
-We are seeing a convergence where decentralized infrastructure meets Web2 user acquisition tactics. Use Facebook Ads to drive traffic, but use on-chain data to qualify leads. This is the hybrid model that lowers CAC while increasing LTV.
+We are seeing a convergence where decentralized infrastructure meets Web2 user acquisition tactics. Use Facebook Ads to drive traffic, but use on chain data to qualify leads. This is the hybrid model that lowers CAC while increasing LTV.
 
 ## Frictionless Onboarding
 

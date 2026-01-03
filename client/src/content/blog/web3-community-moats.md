@@ -1,7 +1,7 @@
 ---
-slug: web3-community-moats
+slug: web3_community_moats
 title: "The 7 Moats of Sustainable Web3 Communities"
-date: 2025-11-28T00:00:00.000Z
+date: 2025/11/28
 author: Elena Kova
 category: Community
 excerpt: "Moving beyond mercenary liquidity: How to build tribes that survive the bear market and thrive in the bull."

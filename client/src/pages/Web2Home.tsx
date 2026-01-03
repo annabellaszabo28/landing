@@ -19,7 +19,7 @@ export default function Web2Home() {
         <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
             <Helmet>
                 <title>Lumina Digital | Web2 & Digital Marketing Services</title>
-                <meta name="description" content="Data-driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform." />
+                <meta name="description" content="Data driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform." />
             </Helmet>
             <Navigation />
 

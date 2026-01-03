@@ -26,10 +26,10 @@ export default function GeneralHome() {
                         transition={{ duration: 0.6 }}
                     >
                         <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6 border border-primary/20">
-                            AI-Native Agency • 10+ Years Experience
+                            AI Native Agency • 10+ Years Experience
                         </span>
                         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
-                            Future-Proof<br />Your Growth
+                            Future Proof<br />Your Growth
                         </h1>
                         <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-12">
                             We fuse agentic AI workflows with seasoned marketing expertise to scale ambitious brands in both Web2 and Web3 economies.
@@ -53,7 +53,7 @@ export default function GeneralHome() {
                                 </div>
                                 <h3 className="text-2xl font-bold mb-2">Web2 Marketing</h3>
                                 <p className="text-muted-foreground mb-6">
-                                    Data-driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform.
+                                    Data driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform.
                                 </p>
                                 <Link href="/marketing">
                                     <a className="inline-flex items-center text-primary font-semibold group-hover:translate-x-1 transition-transform">

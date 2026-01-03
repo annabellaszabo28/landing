@@ -1,11 +1,11 @@
 ---
-slug: global-ecommerce-localization
+slug: global_ecommerce_localization
 client: MarketOne
 category: Web2 • Global
-title: "Border-Free Commerce: AI Localization at Scale"
-description: "Using AI agents to instantly translate, culturalize, and deploy e-commerce fronts in 25 new markets simultaneously."
+title: "Border Free Commerce: AI Localization at Scale"
+description: "Using AI agents to instantly translate, culturalize, and deploy ecommerce fronts in 25 new markets simultaneously."
 result: "25 New Markets"
-tags: ["AI Localization", "E-commerce", "Global Growth"]
+tags: ["AI Localization", "Ecommerce", "Global Growth"]
 image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop"
 color: "from-cyan-400 to-blue-500"
 ---
@@ -16,7 +16,7 @@ MarketOne wanted to expand globally, but traditional translation agencies were t
 
 ## The Solution
 
-We deployed an agentic workflow for real-time localization.
+We deployed an agentic workflow for real time localization.
 
 *   **Cultural Adaptation:** AI didn't just translate text; it swapped images and idioms to match local culture.
 *   **Dynamic Pricing:** Agents adjusted pricing based on local purchasing power parity.
