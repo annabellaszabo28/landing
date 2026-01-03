@@ -1,6 +1,6 @@
 ---
-slug: test-blog-post
-title: "Test Blog Post - Admin működik!"
+slug: test_blog_post
+title: "Test Blog Post: Admin működik!"
 date: 2025-12-10T17:00:00.000Z
 author: Norbert
 category: Test
@@ -15,7 +15,7 @@ Ezt a cikket a **localhost admin panelből** hoztam létre.
 ## Hogyan működik?
 
 1. Létrehozod a cikket az admin panelben
-2. Az admin elmenti a fájlt: `client/src/content/blog/test-blog-post.md`
+2. Az admin elmenti a fájlt: `client/src/content/blog/test_blog_post.md`
 3. Git commit + push
 4. Netlify automatikusan rebuild-eli a site-ot
 5. **Az új cikk megjelenik a live site-on!**

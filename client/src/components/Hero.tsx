@@ -40,7 +40,7 @@ export default function Hero({ content }: HeroProps) {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 backdrop-blur-md mb-6">
             <span className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse" />
             <span className="text-xs font-bold text-indigo-600 uppercase tracking-widest">
-              AI-Native Agency • 10+ Years Experience
+              AI Native Agency • 10+ Years Experience
             </span>
           </div>
 
@@ -75,7 +75,7 @@ export default function Hero({ content }: HeroProps) {
               </div>
               <h3 className="text-3xl font-bold mb-4">Web2 Marketing</h3>
               <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-                Data-driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform the competition.
+                Data driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform the competition.
               </p>
               <Link href="/marketing">
                 <a className="inline-flex items-center text-indigo-600 font-bold text-lg group-hover:translate-x-1 transition-transform">
