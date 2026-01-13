@@ -207,7 +207,10 @@ export async function getPageContent<T>(pageName: string): Promise<T> {
     const lang = i18n.language.split('-')[0];
     const targetFile = lang === 'hu' ? `${pageName}_hu.json` : `${pageName}.json`;
 
-    const globs = import.meta.glob("../content/pages/*.json", { eager: true });
+    // Check both pages subfolder and content root for JSON files
+    const pagesGlobs = import.meta.glob("../content/pages/*.json", { eager: true });
+    const rootGlobs = import.meta.glob("../content/*.json", { eager: true });
+    const globs = { ...pagesGlobs, ...rootGlobs };
 
     let foundPath = Object.keys(globs).find(path => path.endsWith(targetFile));
 
