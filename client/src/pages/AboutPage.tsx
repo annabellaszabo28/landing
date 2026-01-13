@@ -6,25 +6,27 @@ import { motion } from "framer-motion";
 import { getPageContent } from "@/lib/content";
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
-import type { AboutContent, TeamMember } from "@/types";
+import type { AboutContent } from "@/types";
+import { useTranslation } from "react-i18next";
 
 export default function AboutPage() {
+  const { t, i18n } = useTranslation();
   const [content, setContent] = useState<AboutContent | null>(null);
 
   useEffect(() => {
     getPageContent<AboutContent>("about").then(setContent);
-  }, []);
+  }, [i18n.language]);
 
   if (!content) return <LoadingSpinner />;
 
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>About Us | Lumina Digital – AI & Web3 Agency</title>
-        <meta name="description" content="Meet the team behind Lumina Digital. We're AI native marketers and Web3 pioneers on a mission to future proof brands." />
-        <link rel="canonical" href="https://luminadigital.com/about" />
-        <meta property="og:title" content="About Us | Lumina Digital" />
-        <meta property="og:url" content="https://luminadigital.com/about" />
+        <title>{t("about_seo.title")}</title>
+        <meta name="description" content={t("about_seo.description")} />
+        <link rel="canonical" href="https://blockmarketing.digital/about" />
+        <meta property="og:title" content={t("about_seo.title")} />
+        <meta property="og:url" content="https://blockmarketing.digital/about" />
       </Helmet>
       <Navigation />
 
@@ -65,32 +67,16 @@ export default function AboutPage() {
               </motion.div>
             </div>
 
-            <h2 className="text-3xl font-bold mb-12 text-center">{content.team.title}</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {content.team.members.map((member: TeamMember, index: number) => (
-                <motion.div
-                  key={member.name}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
-                  className="group"
-                >
-                  <div className="mb-6 overflow-hidden rounded-2xl aspect-[3/4]">
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold mb-1">{member.name}</h3>
-                  <p className="text-primary font-medium mb-3">{member.role}</p>
-                  <p className="text-sm text-slate-600 leading-relaxed">
-                    {member.bio}
-                  </p>
-                </motion.div>
-              ))}
-            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center max-w-2xl mx-auto py-12"
+            >
+              <p className="text-xl font-medium text-slate-800 leading-relaxed italic">
+                "We are marketers, coders, strategists and product designers. We know our shit and have been in the industry for 10+ years."
+              </p>
+            </motion.div>
           </div>
         </section>
       </main>

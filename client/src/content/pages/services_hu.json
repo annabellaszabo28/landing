@@ -1,0 +1,63 @@
+{
+    "header": {
+        "title": "Szakértelmünk",
+        "subtitle": "Átfogó digitális megoldások, amelyek áthidalják a szakadékot a hagyományos üzlet és a decentralizált jövő között."
+    },
+    "services_list": [
+        {
+            "category": "Web2 Növekedés",
+            "items": [
+                {
+                    "title": "AI Teljesítmény Marketing",
+                    "description": "Maximalizálja ROI-ját gépi tanulási algoritmusokkal, amelyek valós időben optimalizálják a hirdetési kiadásokat a Google, Meta és TikTok felületein.",
+                    "icon": "BarChart3"
+                },
+                {
+                    "title": "Márkastratégia és identitás",
+                    "description": "Emberközpontú narratívák kialakítása, amelyek rezonálnak a digitális világban. Olyan márkákat építünk, amelyek kiállják az idő próbáját.",
+                    "icon": "Megaphone"
+                },
+                {
+                    "title": "Tartalomgyártás",
+                    "description": "Nagy volumenű, kiváló minőségű tartalomkészítés generatív AI eszközök segítségével, emberi szerkesztők által finomítva.",
+                    "icon": "Layers"
+                },
+                {
+                    "title": "Egyedi webfejlesztés",
+                    "description": "Rendkívül gyors, SEO optimalizált weboldalak modern keretrendszerekkel, mint a React és a Next.js.",
+                    "icon": "Code"
+                }
+            ]
+        },
+        {
+            "category": "Web3 Innováció",
+            "items": [
+                {
+                    "title": "Közösségi architektúra",
+                    "description": "Elkötelezett közösségek építése és kezelése Discord és Telegram felületeken. A felhasználókat a márka elkötelezett híveivé alakítjuk.",
+                    "icon": "Users"
+                },
+                {
+                    "title": "Tokenomika és stratégia",
+                    "description": "Fenntartható gazdasági modellek tervezése tokenindításhoz. Kiegyensúlyozzuk az ösztönzőket a hosszú távú növekedés érdekében.",
+                    "icon": "Cpu"
+                },
+                {
+                    "title": "DeFi Marketing",
+                    "description": "Navigálás a komplex szabályozási környezetben, miközben növeljük a TVL-t és a felhasználói elköteleződést a decentralizált protokolloknál.",
+                    "icon": "Globe"
+                },
+                {
+                    "title": "Smart Contract Auditálás",
+                    "description": "Biztosítjuk a protokoll biztonságát az indulás előtt. Elsőrangú auditáló cégekkel működünk együtt a teljes körű biztonság érdekében.",
+                    "icon": "ShieldCheck"
+                }
+            ]
+        }
+    ],
+    "cta": {
+        "title": "Nem tudja, hol kezdje?",
+        "subtitle": "Hibrid auditot kínálunk, hogy azonosítsuk a legjobb lehetőségeket márkája számára mind a Web2, mind a Web3 területén.",
+        "button_text": "Kérjen egyedi ajánlatot"
+    }
+}

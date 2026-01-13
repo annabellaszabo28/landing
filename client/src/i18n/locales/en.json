@@ -1,0 +1,52 @@
+{
+    "nav": {
+        "home": "Home",
+        "marketing": "Marketing",
+        "web3": "Web3",
+        "about": "About",
+        "work": "Work",
+        "blog": "Blog",
+        "contact": "Contact",
+        "agency_name": "BlockMarketing Digital"
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
+    "common": {
+        "read_more": "Read More",
+        "view_all": "View All",
+        "loading": "Loading..."
+    },
+    "home_seo": {
+        "title": "BlockMarketing Digital | AI & Web3 Marketing Agency",
+        "description": "We're an AI native digital agency helping brands scale with cutting edge AI marketing, Web3 community building, and generative content strategies."
+    },
+    "about_seo": {
+        "title": "About Us | BlockMarketing Digital | AI and Web3 Agency",
+        "description": "Meet the team behind BlockMarketing Digital. We're AI native marketers and Web3 pioneers on a mission to future proof brands."
+    },
+    "contact": {
+        "title": "Contact Us",
+        "description": "Ready to future proof your brand? Get in touch with BlockMarketing Digital. We help brands scale with AI marketing and Web3 strategies.",
+        "header_title": "Let's Talk",
+        "header_subtitle": "Ready to future proof your brand? Tell us about your project.",
+        "form_title": "Get in Touch",
+        "email_label": "Email Us",
+        "email_sub": "For general inquiries and new business.",
+        "call_label": "Call Us",
+        "call_sub": "Mon to Fri from 9am to 6pm EST.",
+        "visit_label": "Visit Us",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send Message",
+        "sending": "Sending...",
+        "success_title": "Message Sent!",
+        "success_msg": "Thank you for reaching out. We'll get back to you within 24 hours.",
+        "send_another": "Send Another Message"
+    }
+}

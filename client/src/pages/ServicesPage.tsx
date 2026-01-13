@@ -8,25 +8,27 @@ import type { LucideIcon } from "lucide-react";
 import { getPageContent } from "@/lib/content";
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 import type { ServicesContent, ServicesCategory, ServicesListItem } from "@/types";
 
 export default function ServicesPage() {
+  const { t, i18n } = useTranslation();
   const [content, setContent] = useState<ServicesContent | null>(null);
 
   useEffect(() => {
     getPageContent<ServicesContent>("services").then(setContent);
-  }, []);
+  }, [i18n.language]);
 
   if (!content) return <LoadingSpinner />;
 
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>AI & Web3 Marketing Services | Lumina Digital</title>
+        <title>AI & Web3 Marketing Services | {t("nav.agency_name")}</title>
         <meta name="description" content="Full-service AI marketing, Web3 community building, generative content, and growth strategy. Discover our comprehensive digital services." />
-        <link rel="canonical" href="https://luminadigital.com/services" />
-        <meta property="og:title" content="AI & Web3 Marketing Services | Lumina Digital" />
-        <meta property="og:url" content="https://luminadigital.com/services" />
+        <link rel="canonical" href="https://blockmarketing.digital/services" />
+        <meta property="og:title" content={`AI & Web3 Marketing Services | ${t("nav.agency_name")}`} />
+        <meta property="og:url" content="https://blockmarketing.digital/services" />
       </Helmet>
       <Navigation />
 

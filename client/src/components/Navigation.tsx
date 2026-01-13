@@ -2,8 +2,11 @@ import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navigation() {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -16,12 +19,12 @@ export default function Navigation() {
   }, []);
 
   const navLinks = [
-    { name: "Marketing", href: "/marketing" },
-    { name: "Web3", href: "/web3" },
-    { name: "About Us", href: "/about" },
-    { name: "Case Studies", href: "/work" },
-    { name: "Blog", href: "/blog" },
-    { name: "Contact", href: "/contact" },
+    { name: t("nav.marketing"), href: "/marketing" },
+    { name: t("nav.web3"), href: "/web3" },
+    { name: t("nav.about"), href: "/about" },
+    { name: t("nav.work"), href: "/work" },
+    { name: t("nav.blog"), href: "/blog" },
+    { name: t("nav.contact"), href: "/contact" },
   ];
 
   return (
@@ -39,42 +42,45 @@ export default function Navigation() {
 
           {/* Logo */}
           <Link href="/" className="text-xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-800 to-primary cursor-pointer whitespace-nowrap">
-            Lumina Digital
+            {t("nav.agency_name")}
           </Link>
 
           {/* Centered Links */}
           <div className="flex items-center gap-8 mx-auto">
             <Link href="/marketing">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Marketing</span>
+              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.marketing")}</span>
             </Link>
             <Link href="/web3">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Web3</span>
+              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.web3")}</span>
             </Link>
             <Link href="/work">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Case Studies</span>
+              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.work")}</span>
             </Link>
             <Link href="/about">
               <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors flex items-center gap-2 cursor-pointer">
                 <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
-                About Us
+                {t("nav.about")}
               </span>
             </Link>
             <Link href="/blog">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">Blog</span>
+              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.blog")}</span>
             </Link>
           </div>
 
-          {/* CTA */}
-          <Link href="/contact">
-            <Button size="sm" className="bg-primary text-white hover:bg-primary/90 rounded-full px-6 font-bold text-sm shadow-md shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/30">
-              Book Call
-            </Button>
-          </Link>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
+            {/* CTA */}
+            <Link href="/contact">
+              <Button size="sm" className="bg-primary text-white hover:bg-primary/90 rounded-full px-6 font-bold text-sm shadow-md shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/30">
+                {t("nav.contact")}
+              </Button>
+            </Link>
+          </div>
         </div>
 
         {/* Mobile: Logo on left */}
         <Link href="/" className="md:hidden text-xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-800 to-primary cursor-pointer whitespace-nowrap">
-          Lumina Digital
+          {t("nav.agency_name")}
         </Link>
 
         {/* Mobile Menu Toggle */}
@@ -108,9 +114,12 @@ export default function Navigation() {
           ))}
           <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
             <Button className="w-full bg-primary hover:bg-primary/90 text-white rounded-full shadow-lg shadow-primary/25 font-bold">
-              Book Consultation
+              {t("nav.contact")}
             </Button>
           </Link>
+          <div className="flex justify-center pt-2">
+            <LanguageSwitcher />
+          </div>
         </div>
       )}
     </nav>

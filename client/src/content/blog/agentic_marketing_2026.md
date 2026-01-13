@@ -2,7 +2,7 @@
 slug: agentic_marketing_2026
 title: "Agentic Marketing: The 2026 Playbook"
 date: 2025/10/30
-author: Marcus Thorne
+author: BlockMarketing Digital
 category: AI Marketing
 excerpt: "Prepare for a world where AI agents are your primary marketing team, executing autonomous campaigns at scale."
 image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop"

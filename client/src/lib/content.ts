@@ -101,42 +101,109 @@ async function loadMarkdownContent<T>(globs: Record<string, () => Promise<unknow
     return Promise.all(contentPromises);
 }
 
+import i18n from '../i18n';
+
+// ... (previous interfaces and helper functions)
+
 // Blog Posts
 export async function getAllBlogPosts(): Promise<BlogPost[]> {
-    const globs = import.meta.glob("../content/blog/*.md", { query: "?raw", import: "default" });
+    const lang = i18n.language.split('-')[0];
+    const isHu = lang === 'hu';
+
+    let globs;
+    if (isHu) {
+        globs = import.meta.glob("../content/blog/*.hu.md", { query: "?raw", import: "default" });
+    } else {
+        globs = import.meta.glob("../content/blog/*.md", { query: "?raw", import: "default" });
+        // Filter out .hu.md files from the default glob if any
+        const filteredGlobs: Record<string, () => Promise<unknown>> = {};
+        for (const [path, resolver] of Object.entries(globs)) {
+            if (!path.endsWith('.hu.md')) {
+                filteredGlobs[path] = resolver;
+            }
+        }
+        globs = filteredGlobs;
+    }
+
     const posts = await loadMarkdownContent<BlogPost>(globs);
+
+    // If Hungarian is requested but no posts found, fallback to English
+    if (isHu && posts.length === 0) {
+        const enGlobs = import.meta.glob("../content/blog/*.md", { query: "?raw", import: "default" });
+        const filteredEnGlobs: Record<string, () => Promise<unknown>> = {};
+        for (const [path, resolver] of Object.entries(enGlobs)) {
+            if (!path.endsWith('.hu.md')) {
+                filteredEnGlobs[path] = resolver;
+            }
+        }
+        return (await loadMarkdownContent<BlogPost>(filteredEnGlobs)).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    }
+
     return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
 export async function getBlogPost(slug: string): Promise<BlogPost | undefined> {
     const posts = await getAllBlogPosts();
-    return posts.find((p) => p.slug === slug);
+    return posts.find((p) => p.slug === slug || p.slug.replace('.hu', '') === slug);
 }
 
 // Case Studies
 export async function getAllCaseStudies(): Promise<CaseStudy[]> {
-    const globs = import.meta.glob("../content/work/*.md", { query: "?raw", import: "default" });
-    return loadMarkdownContent<CaseStudy>(globs);
+    const lang = i18n.language.split('-')[0];
+    const isHu = lang === 'hu';
+
+    let globs;
+    if (isHu) {
+        globs = import.meta.glob("../content/work/*.hu.md", { query: "?raw", import: "default" });
+    } else {
+        globs = import.meta.glob("../content/work/*.md", { query: "?raw", import: "default" });
+        const filteredGlobs: Record<string, () => Promise<unknown>> = {};
+        for (const [path, resolver] of Object.entries(globs)) {
+            if (!path.endsWith('.hu.md')) {
+                filteredGlobs[path] = resolver;
+            }
+        }
+        globs = filteredGlobs;
+    }
+
+    const studies = await loadMarkdownContent<CaseStudy>(globs);
+
+    if (isHu && studies.length === 0) {
+        const enGlobs = import.meta.glob("../content/work/*.md", { query: "?raw", import: "default" });
+        const filteredEnGlobs: Record<string, () => Promise<unknown>> = {};
+        for (const [path, resolver] of Object.entries(enGlobs)) {
+            if (!path.endsWith('.hu.md')) {
+                filteredEnGlobs[path] = resolver;
+            }
+        }
+        return loadMarkdownContent<CaseStudy>(filteredEnGlobs);
+    }
+
+    return studies;
 }
 
 export async function getCaseStudy(slug: string): Promise<CaseStudy | undefined> {
     const studies = await getAllCaseStudies();
-    return studies.find((s) => s.slug === slug);
+    return studies.find((s) => s.slug === slug || s.slug.replace('.hu', '') === slug);
 }
 
 // Static Pages
 export async function getPageContent<T>(pageName: string): Promise<T> {
-    // Use a switch or specific globs because dynamic import with variable is tricky in Vite/Rollup
-    // but we can glob all json files in content/pages
+    const lang = i18n.language.split('-')[0];
+    const targetFile = lang === 'hu' ? `${pageName}_hu.json` : `${pageName}.json`;
+
     const globs = import.meta.glob("../content/pages/*.json", { eager: true });
 
-    // Find the matching file
-    const foundPath = Object.keys(globs).find(path => path.includes(`${pageName}.json`));
+    let foundPath = Object.keys(globs).find(path => path.endsWith(targetFile));
+
+    // Fallback to English if Hungarian file not found
+    if (!foundPath && lang === 'hu') {
+        foundPath = Object.keys(globs).find(path => path.endsWith(`${pageName}.json`));
+    }
 
     if (!foundPath) {
         throw new Error(`Content for page ${pageName} not found`);
     }
 
-    // Eager imports return the module
     return (globs[foundPath] as any).default || (globs[foundPath] as T);
 }

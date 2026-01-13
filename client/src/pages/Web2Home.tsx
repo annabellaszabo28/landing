@@ -4,7 +4,9 @@ import { Link } from "wouter";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2, Search, Target, Share2, FileText, Zap } from "lucide-react";
-import web2Services from "@/content/web2-services.json";
+import { getPageContent } from "@/lib/content";
+import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 // Map icon strings to components
 const iconMap: Record<string, any> = {
@@ -15,10 +17,16 @@ const iconMap: Record<string, any> = {
 };
 
 export default function Web2Home() {
+    const { t, i18n } = useTranslation();
+    const [services, setServices] = useState<any[]>([]);
+
+    useEffect(() => {
+        getPageContent<any[]>("web2-services").then(setServices);
+    }, [i18n.language]);
     return (
         <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
             <Helmet>
-                <title>Lumina Digital | Web2 & Digital Marketing Services</title>
+                <title>{t("nav.agency_name")} | Marketing</title>
                 <meta name="description" content="Data driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform." />
             </Helmet>
             <Navigation />
@@ -42,7 +50,7 @@ export default function Web2Home() {
 
                     {/* Services Grid */}
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-                        {web2Services.map((service, index) => {
+                        {services.map((service, index) => {
                             const Icon = iconMap[service.icon] || Zap;
 
                             return (

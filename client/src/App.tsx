@@ -21,6 +21,11 @@ const BlogPage = lazy(() => import("./pages/BlogPage"));
 const BlogPostDetail = lazy(() => import("./pages/BlogPostDetail"));
 const CaseStudyDetail = lazy(() => import("./pages/CaseStudyDetail"));
 const NotFound = lazy(() => import("./pages/NotFound"));
+const PPCAdsPage = lazy(() => import("./pages/PPCAdsPage"));
+const AISearchPage = lazy(() => import("./pages/AISearchPage"));
+const TermsPage = lazy(() => import("./pages/TermsPage"));
+const PrivacyPage = lazy(() => import("./pages/PrivacyPage"));
+const CookiesPage = lazy(() => import("./pages/CookiesPage"));
 
 function Routes() {
   return (
@@ -45,6 +50,16 @@ function Routes() {
       <Route path="/blog" component={BlogPage} />
       <Route path="/blog/:slug" component={BlogPostDetail} />
       <Route path="/contact" component={ContactPage} />
+
+      {/* Landing Pages */}
+      <Route path="/ppc/performance_marketing" component={PPCAdsPage} />
+      <Route path="/ai_search/growth" component={AISearchPage} />
+
+      {/* Legal */}
+      <Route path="/terms" component={TermsPage} />
+      <Route path="/privacy" component={PrivacyPage} />
+      <Route path="/cookies" component={CookiesPage} />
+
       <Route path="/404" component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

@@ -7,22 +7,24 @@ import { getAllBlogPosts, BlogPost } from "@/lib/content";
 import { Calendar, User, ArrowRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function BlogPage() {
+  const { t, i18n } = useTranslation();
   const [posts, setPosts] = useState<BlogPost[]>([]);
 
   useEffect(() => {
     getAllBlogPosts().then(setPosts);
-  }, []);
+  }, [i18n.language]);
 
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>Insights | AI & Web3 Marketing Blog | Lumina Digital</title>
+        <title>Insights | Blog | BlockMarketing Digital</title>
         <meta name="description" content="Thoughts on the convergence of AI, Web3, and digital culture. Stay ahead of the curve with insights from industry experts." />
-        <link rel="canonical" href="https://luminadigital.com/blog" />
-        <meta property="og:title" content="Insights | Lumina Digital" />
-        <meta property="og:url" content="https://luminadigital.com/blog" />
+        <link rel="canonical" href="https://blockmarketing.digital/blog" />
+        <meta property="og:title" content={`Insights | ${t("nav.agency_name")}`} />
+        <meta property="og:url" content="https://blockmarketing.digital/blog" />
       </Helmet>
       <Navigation />
 
@@ -77,7 +79,7 @@ export default function BlogPage() {
                         {post.author}
                       </div>
                       <span className="text-primary font-bold flex items-center gap-1 text-sm group-hover:gap-2 transition-all">
-                        Read More <ArrowRight size={16} />
+                        {t("common.read_more")} <ArrowRight size={16} />
                       </span>
                     </div>
                   </motion.article>

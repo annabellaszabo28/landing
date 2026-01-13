@@ -1,0 +1,278 @@
+[
+    {
+        "id": "gotomarketstrategy",
+        "title": "GTM stratégia és piacra lépés",
+        "slug": "gtm",
+        "description": "A sikeres Web3 indulás tervrajza. A tokenomikától a felhasználószerzésig.",
+        "longDescription": "Egyedi piacra lépési stratégiákat készítünk blokklánc protokollok és dApp ok számára. Adatvezérelt megközelítésünk biztosítja, hogy elérje célközönségét és a likviditásszolgáltatókat az indulás minden fázisában.",
+        "features": [
+            "Indítási tervezés és ütemezés",
+            "Tokenomikai tanácsadás",
+            "Ösztönző rendszer tervezés",
+            "Partneri ökoszisztémák"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Ösztönző modellezés",
+                "description": "Tokenomika szimuláció a hosszú távú fenntarthatóság érdekében."
+            },
+            {
+                "step": "02",
+                "title": "Alpha magvetés",
+                "description": "Korai befogadók és likviditásszolgáltatók körének építése."
+            },
+            {
+                "step": "03",
+                "title": "Mainnet indulás",
+                "description": "Nagy hatású közösségi és likviditási események szervezése."
+            },
+            {
+                "step": "04",
+                "title": "Indítás utáni növekedés",
+                "description": "Adopció skálázása ökoszisztéma támogatásokkal és jutalmakkal."
+            }
+        ],
+        "results": [
+            {
+                "label": "Elért TVL",
+                "value": "$120M+"
+            },
+            {
+                "label": "Indítási részvétel",
+                "value": "25k+ felhasználó"
+            }
+        ],
+        "icon": "Rocket"
+    },
+    {
+        "id": "communitybuilding",
+        "title": "Közösségépítés és kezelés",
+        "slug": "community",
+        "description": "Hozzon létre egy lojális követőtábort Discord, Telegram és Lens felületeken.",
+        "longDescription": "Az erős közösség a Web3 alapköve. Speciális közösségépítési és kezelési megoldásokat kínálunk a megtartásra és a technikai támogatásra összpontosítva. Valódi emberek, botok nélkül, AI alapú biztonsági felügyelettel.",
+        "features": [
+            "Discord és Telegram architektúra",
+            "24/7 globális moderáció",
+            "Elköteleződés és eseménykezelés",
+            "Szemlélet és egészség analitika"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Kultúra tervezés",
+                "description": "Értékrend alapú közösségi normák és háttértörténet kialakítása."
+            },
+            {
+                "step": "02",
+                "title": "Eszközök beállítása",
+                "description": "Botellenes intézkedések és gamifikált jutalmazási rendszerek."
+            },
+            {
+                "step": "03",
+                "title": "Aktív moderáció",
+                "description": "24/7 globális támogatás és elköteleződés natív Web3 szakértőktől."
+            },
+            {
+                "step": "04",
+                "title": "Konverzió",
+                "description": "A passzív tagok aktív protokoll résztvevőkké alakítása."
+            }
+        ],
+        "results": [
+            {
+                "label": "Discord aktív arány",
+                "value": "42%"
+            },
+            {
+                "label": "Közösség mérete",
+                "value": "50k+ valódi felhasználó"
+            }
+        ],
+        "icon": "Users"
+    },
+    {
+        "id": "publicrelationsweb3",
+        "title": "Public Relations (PR)",
+        "slug": "pr",
+        "description": "Globális sajtómegjelenések a vezető blokklánc és technológiai lapokban.",
+        "longDescription": "Elmeséljük történetét a világnak. PR csapatunk közvetlen kapcsolatban áll a Cointelegraph, Blockworks és TechCrunch újságíróival, biztosítva a maximális hatást.",
+        "features": [
+            "Stratégiai történetmesélés",
+            "Média kapcsolatok (Tier 1)",
+            "Szakértői tartalomgyártás",
+            "Krízis kommunikáció"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Narratíva építés",
+                "description": "Meggyőző irányvonal kialakítása intézményi és lakossági célközönségnek."
+            },
+            {
+                "step": "02",
+                "title": "Média megkeresések",
+                "description": "Közvetlen kapcsolatfelvétel a vezető újságírókkal globális hálózatunkban."
+            },
+            {
+                "step": "03",
+                "title": "Szindikálás",
+                "description": "Biztosítjuk a hírek terjedését a másodlagos és technikai csatornákon is."
+            },
+            {
+                "step": "04",
+                "title": "Márka védelem",
+                "description": "Folyamatos szakértői jelenlét az iparági vezető szerep megerősítéséhez."
+            }
+        ],
+        "results": [
+            {
+                "label": "Tier 1 megjelenések",
+                "value": "15+ havonta"
+            },
+            {
+                "label": "Média érték",
+                "value": "$500k+"
+            }
+        ],
+        "icon": "Newspaper"
+    },
+    {
+        "id": "growthmarketingweb3",
+        "title": "Web3 növekedési marketing",
+        "slug": "growth",
+        "description": "Teljes tölcsér stratégiák a decentralizált felhasználói útra szabva.",
+        "longDescription": "A Web3 növekedés egyedi megközelítést igényel a felhasználói attribúció és az ösztönzők terén. Saját adatkezelő eszközeinkkel követjük az on chain és off chain viselkedést.",
+        "features": [
+            "Quest és airdrop stratégia",
+            "Ajánlói program tervezés",
+            "Megtartási mérnökösködés",
+            "On chain analitika"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "On Chain elemzés",
+                "description": "Nagy értékű felhasználói profilok azonosítása tárca viselkedés alapján."
+            },
+            {
+                "step": "02",
+                "title": "Ösztönző tölcsérek",
+                "description": "Küldetés alapú onboarding tervezése a valós protokoll használatért."
+            },
+            {
+                "step": "03",
+                "title": "Megtartási hurkok",
+                "description": "Irányítási és közösségi rétegek használata a felhasználók megtartására."
+            },
+            {
+                "step": "04",
+                "title": "TVL optimalizálás",
+                "description": "Likviditási ösztönzők finomhangolása a maximális tőkehatékonyságért."
+            }
+        ],
+        "results": [
+            {
+                "label": "Aktív tárcák növekedése",
+                "value": "120% QoQ"
+            },
+            {
+                "label": "Airdrop hatékonyság",
+                "value": "3.5x ROI"
+            }
+        ],
+        "icon": "TrendingUp"
+    },
+    {
+        "id": "ppcredditnative",
+        "title": "Célzott PPC (Reddit és natív)",
+        "slug": "ppc_native",
+        "description": "PPC a Reddit, Twitter és a főbb blokklánc natív hirdetési hálózatokon.",
+        "longDescription": "Érje el célközönségét ott, ahol idejüket töltik. Magas teljesítményű kampányokat kezelünk a Redditen, X en és a Coingecko hoz hasonló natív hálózatokon.",
+        "features": [
+            "Reddit hirdetési kampányok",
+            "Blokklánc natív hirdetések",
+            "Twitter és X hirdetéskezelés",
+            "Magas szándékú célzás"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Közönség szegmentálás",
+                "description": "Csoportosítás subreddit, közösség és on chain aktivitás alapján."
+            },
+            {
+                "step": "02",
+                "title": "Natív tartalom dizájn",
+                "description": "A közösségi kultúrába illeszkedő hirdetési kreatívok készítése."
+            },
+            {
+                "step": "03",
+                "title": "Licit mérnökség",
+                "description": "Optimalizálás az alacsony CPA elérésére a drága Web3 résekben."
+            },
+            {
+                "step": "04",
+                "title": "Konverzió követés",
+                "description": "Egyedi megoldások a tárcacsatlakozások követésére fizetett forgalomból."
+            }
+        ],
+        "results": [
+            {
+                "label": "CPC csökkenés",
+                "value": "50% csökkenés"
+            },
+            {
+                "label": "Tárcacsatlakozási arány",
+                "value": "+28%"
+            }
+        ],
+        "icon": "Target"
+    },
+    {
+        "id": "kolinfluencermarketing",
+        "title": "KOL és Influencer marketing",
+        "slug": "kol",
+        "description": "Partneri kapcsolat a Web3 ökoszisztéma leghitelesebb hangjaival.",
+        "longDescription": "Lépjen kapcsolatba azokkal a véleményvezérekkel (KOL), akik hitelesen tudják népszerűsíteni projektjét. Kezeljük a kiválasztást, tárgyalást és a teljesítmény mérést.",
+        "features": [
+            "Tier 1 KOL azonosítás",
+            "Kampány koordináció",
+            "Tárgyalás és szerződéskötés",
+            "Attribúció követés"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Átvilágítás",
+                "description": "Valódi elköteleződéssel bíró véleményvezérek kiválasztása."
+            },
+            {
+                "step": "02",
+                "title": "Instruálás",
+                "description": "Biztosítjuk, hogy az üzenet hiteles maradjon a főbb értékek mellett."
+            },
+            {
+                "step": "03",
+                "title": "Indítási fázis",
+                "description": "Egyidejű megjelenések koordinálása a maximális elérés érdekében."
+            },
+            {
+                "step": "04",
+                "title": "Teljesítmény mérés",
+                "description": "Részletes riportok az elérésről, elköteleződésről és konverzióról."
+            }
+        ],
+        "results": [
+            {
+                "label": "Összes impresszió",
+                "value": "2M+"
+            },
+            {
+                "label": "Bizalmi mutató",
+                "value": "Nagyon magas"
+            }
+        ],
+        "icon": "Mic"
+    }
+]

@@ -9,20 +9,21 @@ import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
 export default function WorkPage() {
+  const { t, i18n } = useTranslation();
   const [projects, setProjects] = useState<CaseStudy[]>([]);
 
   useEffect(() => {
     getAllCaseStudies().then(setProjects);
-  }, []);
+  }, [i18n.language]);
 
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>Our Work | AI & Web3 Case Studies | Lumina Digital</title>
+        <title>Our Work | Case Studies | {t("nav.agency_name")}</title>
         <meta name="description" content="A showcase of our impact across industries. See how we help brands grow with AI marketing, Web3 communities, and generative strategies." />
-        <link rel="canonical" href="https://luminadigital.com/work" />
-        <meta property="og:title" content="Our Work | Lumina Digital" />
-        <meta property="og:url" content="https://luminadigital.com/work" />
+        <link rel="canonical" href="https://blockmarketing.digital/work" />
+        <meta property="og:title" content={`Our Work | ${t("nav.agency_name")}`} />
+        <meta property="og:url" content="https://blockmarketing.digital/work" />
       </Helmet>
       <Navigation />
 

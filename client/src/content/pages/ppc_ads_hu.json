@@ -1,0 +1,50 @@
+{
+    "header": {
+        "title": "Skálázható teljesítmény alapú marketing professzionális márkáknak",
+        "subtitle": "Hagyja abba a találgatást. Kezdjen el növekedni. AI natív hirdetéskezelésünk kiszámítható eredményeket és prémium minőségű teljesítményt nyújt a kereső és közösségi felületeken."
+    },
+    "challenges": {
+        "title": "A növekedési nehézségek",
+        "items": [
+            "Pazarló hirdetési kiadások és gyenge minőségű forgalom",
+            "Kimerülő kreatívok, amelyek lassítják a konverziót",
+            "Komplex adathalmazok, amelyeket lehetetlen manuálisan kezelni",
+            "Emelkedő ügyfélszerzési költségek, amelyek felemésztik a profitot"
+        ]
+    },
+    "solutions": {
+        "title": "A BlockMarketing megoldás",
+        "items": [
+            {
+                "title": "Profit fókuszú optimalizálás",
+                "description": "Mi a profitra optimalizálunk, nem csak a kattintásokra. Minden kampányt az Ön üzleti eredményeit szem előtt tartva tervezünk meg.",
+                "icon": "Target"
+            },
+            {
+                "title": "AI alapú licitkezelés",
+                "description": "Rekurzív algoritmusaink valós időben módosítják a liciteket, hogy elkapják a legértékesebb forgalmat a lehető legalacsonyabb költségen.",
+                "icon": "Cpu"
+            },
+            {
+                "title": "Kreatív kiválóság",
+                "description": "Az adatvezérelt kreatív tesztelés biztosítja, hogy üzenete célba érjen és kitűnjön a versenytársak közül.",
+                "icon": "Zap"
+            },
+            {
+                "title": "Prediktív skálázás",
+                "description": "Korán azonosítjuk a nyertes hirdetéseket és skálázzuk őket, mielőtt a piac telítődne, megvédve az Ön profitját.",
+                "icon": "TrendingUp"
+            }
+        ]
+    },
+    "social_proof": {
+        "title": "Piacvezető márkák bizalma",
+        "stat_1": "64% átlagos CPA csökkenés",
+        "stat_2": "6.2x átlagos hirdetési megtérülés"
+    },
+    "cta": {
+        "title": "Készen áll a lead forgalom skálázására?",
+        "subtitle": "Kérjen hirdetési auditot és nézzük meg, hogyan tudjuk optimalizálni jelenlegi kampányait. Kötelezettség nélkül, csak az adatokra fókuszálva.",
+        "button_text": "Hirdetési audit kérése"
+    }
+}

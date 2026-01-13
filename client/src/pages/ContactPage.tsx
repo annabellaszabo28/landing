@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { Mail, MapPin, Phone, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { useState, useCallback, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 // reCAPTCHA site key - replace with your actual key
 const RECAPTCHA_SITE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY || "";
@@ -32,6 +33,7 @@ interface FormData {
 type FormStatus = "idle" | "loading" | "success" | "error";
 
 export default function ContactPage() {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState<FormData>({
     firstName: "",
     lastName: "",
@@ -107,18 +109,18 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>Contact Us | Lumina Digital – AI & Web3 Agency</title>
-        <meta name="description" content="Ready to future-proof your brand? Get in touch with Lumina Digital. We help brands scale with AI marketing and Web3 strategies." />
-        <link rel="canonical" href="https://luminadigital.com/contact" />
-        <meta property="og:title" content="Contact Us | Lumina Digital" />
-        <meta property="og:url" content="https://luminadigital.com/contact" />
+        <title>{t("contact.title")} | {t("nav.agency_name")}</title>
+        <meta name="description" content={t("contact.description")} />
+        <link rel="canonical" href="https://blockmarketing.digital/contact" />
+        <meta property="og:title" content={`${t("contact.title")} | ${t("nav.agency_name")}`} />
+        <meta property="og:url" content="https://blockmarketing.digital/contact" />
       </Helmet>
       <Navigation />
 
       <main className="flex-grow">
         <PageHeader
-          title="Let's Talk"
-          subtitle="Ready to future-proof your brand? Tell us about your project."
+          title={t("contact.header_title")}
+          subtitle={t("contact.header_subtitle")}
           gradient="from-orange-400 to-rose-400"
         />
 
@@ -131,17 +133,17 @@ export default function ContactPage() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
               >
-                <h2 className="text-2xl font-bold mb-8">Get in Touch</h2>
+                <h2 className="text-2xl font-bold mb-8">{t("contact.form_title")}</h2>
                 <div className="space-y-8">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
                       <Mail size={20} />
                     </div>
                     <div>
-                      <h3 className="font-bold text-lg mb-1">Email Us</h3>
-                      <p className="text-slate-600 mb-2">For general inquiries and new business.</p>
-                      <a href="mailto:hello@lumina.digital" className="text-primary font-medium hover:underline">
-                        hello@lumina.digital
+                      <h3 className="font-bold text-lg mb-1">{t("contact.email_label")}</h3>
+                      <p className="text-slate-600 mb-2">{t("contact.email_sub")}</p>
+                      <a href="mailto:hello@blockmarketing.digital" className="text-primary font-medium hover:underline">
+                        hello@blockmarketing.digital
                       </a>
                     </div>
                   </div>
@@ -151,8 +153,8 @@ export default function ContactPage() {
                       <Phone size={20} />
                     </div>
                     <div>
-                      <h3 className="font-bold text-lg mb-1">Call Us</h3>
-                      <p className="text-slate-600 mb-2">Mon-Fri from 9am to 6pm EST.</p>
+                      <h3 className="font-bold text-lg mb-1">{t("contact.call_label")}</h3>
+                      <p className="text-slate-600 mb-2">{t("contact.call_sub")}</p>
                       <a href="tel:+15550000000" className="text-primary font-medium hover:underline">
                         +1 (555) 000-0000
                       </a>
@@ -164,7 +166,7 @@ export default function ContactPage() {
                       <MapPin size={20} />
                     </div>
                     <div>
-                      <h3 className="font-bold text-lg mb-1">Visit Us</h3>
+                      <h3 className="font-bold text-lg mb-1">{t("contact.visit_label")}</h3>
                       <p className="text-slate-600">
                         123 Innovation Drive, Suite 400<br />
                         San Francisco, CA 94103
@@ -194,10 +196,10 @@ export default function ContactPage() {
                 {status === "success" ? (
                   <div className="flex flex-col items-center justify-center py-12 text-center">
                     <CheckCircle size={64} className="text-green-500 mb-4" />
-                    <h3 className="text-2xl font-bold mb-2">Message Sent!</h3>
-                    <p className="text-slate-600 mb-6">Thank you for reaching out. We'll get back to you within 24 hours.</p>
+                    <h3 className="text-2xl font-bold mb-2">{t("contact.success_title")}</h3>
+                    <p className="text-slate-600 mb-6">{t("contact.success_msg")}</p>
                     <Button onClick={() => setStatus("idle")} variant="outline">
-                      Send Another Message
+                      {t("contact.send_another")}
                     </Button>
                   </div>
                 ) : (
@@ -211,7 +213,7 @@ export default function ContactPage() {
 
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-2">
-                        <label htmlFor="first-name" className="text-sm font-medium text-slate-700">First Name</label>
+                        <label htmlFor="first-name" className="text-sm font-medium text-slate-700">{t("contact.first_name")}</label>
                         <Input
                           id="first-name"
                           placeholder="Jane"
@@ -223,7 +225,7 @@ export default function ContactPage() {
                         />
                       </div>
                       <div className="space-y-2">
-                        <label htmlFor="last-name" className="text-sm font-medium text-slate-700">Last Name</label>
+                        <label htmlFor="last-name" className="text-sm font-medium text-slate-700">{t("contact.last_name")}</label>
                         <Input
                           id="last-name"
                           placeholder="Doe"
@@ -237,7 +239,7 @@ export default function ContactPage() {
                     </div>
 
                     <div className="space-y-2">
-                      <label htmlFor="email" className="text-sm font-medium text-slate-700">Email</label>
+                      <label htmlFor="email" className="text-sm font-medium text-slate-700">{t("contact.email")}</label>
                       <Input
                         id="email"
                         type="email"
@@ -251,7 +253,7 @@ export default function ContactPage() {
                     </div>
 
                     <div className="space-y-2">
-                      <label htmlFor="subject" className="text-sm font-medium text-slate-700">Subject</label>
+                      <label htmlFor="subject" className="text-sm font-medium text-slate-700">{t("contact.subject")}</label>
                       <Input
                         id="subject"
                         placeholder="Project Inquiry"
@@ -264,7 +266,7 @@ export default function ContactPage() {
                     </div>
 
                     <div className="space-y-2">
-                      <label htmlFor="message" className="text-sm font-medium text-slate-700">Message</label>
+                      <label htmlFor="message" className="text-sm font-medium text-slate-700">{t("contact.message")}</label>
                       <Textarea
                         id="message"
                         placeholder="Tell us about your project goals, timeline, and budget..."
@@ -284,10 +286,10 @@ export default function ContactPage() {
                       {status === "loading" ? (
                         <>
                           <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-                          Sending...
+                          {t("contact.sending")}
                         </>
                       ) : (
-                        "Send Message"
+                        t("contact.send")
                       )}
                     </Button>
 

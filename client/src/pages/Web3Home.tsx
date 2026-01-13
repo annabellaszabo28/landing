@@ -4,7 +4,9 @@ import { Link } from "wouter";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2, Users, Rocket, Mic, Newspaper, Zap } from "lucide-react";
-import web3Services from "@/content/web3-services.json";
+import { getPageContent } from "@/lib/content";
+import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 // Map icon strings to components
 const iconMap: Record<string, any> = {
@@ -15,10 +17,16 @@ const iconMap: Record<string, any> = {
 };
 
 export default function Web3Home() {
+    const { t, i18n } = useTranslation();
+    const [services, setServices] = useState<any[]>([]);
+
+    useEffect(() => {
+        getPageContent<any[]>("web3-services").then(setServices);
+    }, [i18n.language]);
     return (
         <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
             <Helmet>
-                <title>Lumina Digital | Web3 Growth & Community Strategies</title>
+                <title>{t("nav.agency_name")} | Web3</title>
                 <meta name="description" content="Decentralized community building and GTM strategies. We help blockchain protocols and dApps scale with authenticity." />
             </Helmet>
             <Navigation />
@@ -42,7 +50,7 @@ export default function Web3Home() {
 
                     {/* Services Grid */}
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-                        {web3Services.map((service, index) => {
+                        {services.map((service, index) => {
                             const Icon = iconMap[service.icon] || Zap;
 
                             return (

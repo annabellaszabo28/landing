@@ -12,25 +12,27 @@ import { getPageContent } from "@/lib/content";
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import type { HomeContent } from "@/types";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t, i18n } = useTranslation();
   const [content, setContent] = useState<HomeContent | null>(null);
 
   useEffect(() => {
     getPageContent<HomeContent>("home").then(setContent);
-  }, []);
+  }, [i18n.language]);
 
   if (!content) return <LoadingSpinner />;
 
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>Lumina Digital | AI & Web3 Marketing Agency – Scale Your Brand</title>
-        <meta name="description" content="We're an AI-native digital agency helping brands scale with cutting-edge AI marketing, Web3 community building, and generative content strategies." />
-        <link rel="canonical" href="https://luminadigital.com/" />
-        <meta property="og:title" content="Lumina Digital | AI & Web3 Marketing Agency" />
-        <meta property="og:description" content="We're an AI-native digital agency helping brands scale with cutting-edge AI marketing, Web3 community building, and generative content strategies." />
-        <meta property="og:url" content="https://luminadigital.com/" />
+        <title>{t("home_seo.title")}</title>
+        <meta name="description" content={t("home_seo.description")} />
+        <link rel="canonical" href="https://blockmarketing.digital/" />
+        <meta property="og:title" content={t("home_seo.title")} />
+        <meta property="og:description" content={t("home_seo.description")} />
+        <meta property="og:url" content="https://blockmarketing.digital/" />
       </Helmet>
       <Navigation />
 

@@ -1,0 +1,50 @@
+{
+    "header": {
+        "title": "Scalable Performance Marketing for Professional Brands",
+        "subtitle": "Stop guessing. Start growing. Our AI native ad management delivers predictable results and institutional grade performance across search and social."
+    },
+    "challenges": {
+        "title": "The Growth Problem",
+        "items": [
+            "Wasted ad spend on low intent traffic",
+            "Creative fatigue slowing down conversions",
+            "Complex data sets that are impossible to optimize manually",
+            "Rising customer acquisition costs eating your margins"
+        ]
+    },
+    "solutions": {
+        "title": "The BlockMarketing Solution",
+        "items": [
+            {
+                "title": "Unit Economic Focus",
+                "description": "We optimize for profit, not just clicks. Every campaign is designed with your bottom line in mind.",
+                "icon": "Target"
+            },
+            {
+                "title": "AI Bid Management",
+                "description": "Our rekurzive algorithms adjust bids in real time to capture high intent traffic at the lowest possible cost.",
+                "icon": "Cpu"
+            },
+            {
+                "title": "Creative Excellence",
+                "description": "Data driven creative testing ensures your message resonates with your audience and outshines competitors.",
+                "icon": "Zap"
+            },
+            {
+                "title": "Predictive Scaling",
+                "description": "We identify winners early and scale them before the market saturates, keeping your margins healthy.",
+                "icon": "TrendingUp"
+            }
+        ]
+    },
+    "social_proof": {
+        "title": "Trusted by Market Leaders",
+        "stat_1": "64% Average CPA Reduction",
+        "stat_2": "6.2x Average Return on Ad Spend"
+    },
+    "cta": {
+        "title": "Ready to scale your lead flow?",
+        "subtitle": "Request a performance audit and see how we can optimize your current campaigns. No obligation, just data.",
+        "button_text": "Request Performance Audit"
+    }
+}

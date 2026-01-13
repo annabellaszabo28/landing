@@ -2,7 +2,7 @@
 slug: web3_community_moats
 title: "The 7 Moats of Sustainable Web3 Communities"
 date: 2025/11/28
-author: Elena Kova
+author: BlockMarketing Digital
 category: Community
 excerpt: "Moving beyond mercenary liquidity: How to build tribes that survive the bear market and thrive in the bull."
 image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2832&auto=format&fit=crop"

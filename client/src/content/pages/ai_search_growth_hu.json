@@ -1,0 +1,45 @@
+{
+    "header": {
+        "title": "Megérkezett az AI alapú keresés korszaka. Ön szerepel benne?",
+        "subtitle": "A hagyományos SEO átalakul GEO-vá (Generatív Kereső Optimalizálás). Biztosítjuk, hogy márkája legyen az elsődleges hivatkozás a ChatGPT, Perplexity és Claude felületein."
+    },
+    "challenges": {
+        "title": "A megváltozott keresési környezet",
+        "items": [
+            "A felhasználók a keresőktől az AI csevegőfelületek felé mozdulnak",
+            "A hagyományos linképítés már nem garantálja az AI hivatkozásokat",
+            "Az online adathibák AI hallucinációkhoz vezethetnek az Ön márkájával kapcsolatban",
+            "A versenytársak már most építik jelenlétüket az LLM modellekben"
+        ]
+    },
+    "solutions": {
+        "title": "Tegye jövőbiztossá keresési láthatóságát",
+        "items": [
+            {
+                "title": "Tudásgráf integritás",
+                "description": "Úgy strukturáljuk adatait, hogy az LLM modellek megértsék és elismerjék az Ön szakértelmét.",
+                "icon": "Cpu"
+            },
+            {
+                "title": "Hivatkozás tervezés",
+                "description": "Stratégiánk lényege, hogy az Ön márka legyen a hiteles forrás a generatív válaszokhoz az iparágában.",
+                "icon": "Search"
+            },
+            {
+                "title": "Szemlélet kezelés",
+                "description": "Monitorozzuk és befolyásoljuk, hogyan látják és írják le az AI modellek az Ön márkáját.",
+                "icon": "Target"
+            },
+            {
+                "title": "Technikai szaktekintély",
+                "description": "Biztosítjuk, hogy weboldala architektúrája optimalizált legyen a generatív keresők robotjai számára.",
+                "icon": "Zap"
+            }
+        ]
+    },
+    "cta": {
+        "title": "Ne maradjon le az AI keresési forradalomról.",
+        "subtitle": "Kérjen GEO felkészültségi auditot és biztosítsa márkája jelenlétét a jövő keresőiben. Emelkedjen ki minden AI alapú beszélgetésből.",
+        "button_text": "GEO audit kérése"
+    }
+}
