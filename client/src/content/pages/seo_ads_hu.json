@@ -1,0 +1,51 @@
+{
+    "header": {
+        "title": "Uralja a keresési rangsorokat mesterséges intelligenciával",
+        "subtitle": "Ne veszítsen több ügyfelet a versenytársak javára. AI alapú SEO stratégiáink mérhető organikus növekedést és konvertáló top helyezéseket hoznak."
+    },
+    "challenges": {
+        "title": "Ismerős helyzet?",
+        "items": [
+            "Versenytársai megelőzik Önt a kulcsfontosságú keresésekben",
+            "Az organikus forgalom megakadt az erőfeszítései ellenére",
+            "Az algoritmus frissítések folyamatosan rontják a helyezéseit",
+            "Olyan tartalmakra költ, amelyek nem rangsorolnak",
+            "Technikai SEO problémák hátráltatják a webhelyét"
+        ]
+    },
+    "solutions": {
+        "title": "AI SEO Megközelítésünk",
+        "items": [
+            {
+                "title": "AI Kulcsszó Intelligencia",
+                "description": "Saját fejlesztésű AI azonosítja azokat a magas potenciálú kulcsszavakat, amelyeket a versenytársak elmulasztanak, a vásárlói szándékra és konverziós potenciálra fókuszálva.",
+                "icon": "Brain"
+            },
+            {
+                "title": "Technikai SEO Mesterség",
+                "description": "Mélyreható webhely auditok, amelyek javítják a bejárhatóságot, sebességet és Core Web Vitals problémákat.",
+                "icon": "Settings"
+            },
+            {
+                "title": "Tartalom Klaszterek",
+                "description": "Stratégiai témakörök, amelyek megalapozzák a tematikus tekintélyt és uralják a teljes keresési kategóriákat.",
+                "icon": "Network"
+            },
+            {
+                "title": "Tekintélyes Linképítés",
+                "description": "Fehér kalapos backlink szerezés első osztályú publikációkból, amelyek megszilárdítják a domain tekintélyét.",
+                "icon": "Link"
+            }
+        ]
+    },
+    "social_proof": {
+        "title": "Eredmények, amelyek magukért beszélnek",
+        "stat_1": "+320% Átlagos organikus forgalom növekedés",
+        "stat_2": "1200+ Kulcsszó a Top 3 pozícióban"
+    },
+    "cta": {
+        "title": "Készen áll a versenytársak megelőzésére?",
+        "subtitle": "Kérjen ingyenes SEO auditot és fedezze fel azokat a rejtett lehetőségeket, amelyeket versenytársai kihasználnak.",
+        "button_text": "Ingyenes SEO Audit Kérése"
+    }
+}

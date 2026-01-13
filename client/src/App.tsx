@@ -23,6 +23,7 @@ const CaseStudyDetail = lazy(() => import("./pages/CaseStudyDetail"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const PPCAdsPage = lazy(() => import("./pages/PPCAdsPage"));
 const AISearchPage = lazy(() => import("./pages/AISearchPage"));
+const SEOAdsPage = lazy(() => import("./pages/SEOAdsPage"));
 const TermsPage = lazy(() => import("./pages/TermsPage"));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage"));
 const CookiesPage = lazy(() => import("./pages/CookiesPage"));
@@ -54,6 +55,7 @@ function Routes() {
       {/* Landing Pages */}
       <Route path="/ppc/performance_marketing" component={PPCAdsPage} />
       <Route path="/ai_search/growth" component={AISearchPage} />
+      <Route path="/seo/organic_growth" component={SEOAdsPage} />
 
       {/* Legal */}
       <Route path="/terms" component={TermsPage} />

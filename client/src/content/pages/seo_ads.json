@@ -1,0 +1,51 @@
+{
+    "header": {
+        "title": "Dominate Search Rankings with AI Powered SEO",
+        "subtitle": "Stop losing customers to competitors. Our AI driven SEO strategies deliver measurable organic growth and top rankings that convert."
+    },
+    "challenges": {
+        "title": "Sound Familiar?",
+        "items": [
+            "Your competitors outrank you for high value keywords",
+            "Organic traffic has plateaued despite your efforts",
+            "Algorithm updates keep hurting your rankings",
+            "You're spending on content that doesn't rank",
+            "Technical SEO issues are holding your site back"
+        ]
+    },
+    "solutions": {
+        "title": "Our AI SEO Approach",
+        "items": [
+            {
+                "title": "AI Keyword Intelligence",
+                "description": "Proprietary AI identifies high opportunity keywords your competitors miss, focusing on buyer intent and conversion potential.",
+                "icon": "Brain"
+            },
+            {
+                "title": "Technical SEO Mastery",
+                "description": "Deep site audits that fix crawlability, speed, and Core Web Vitals issues that block your rankings.",
+                "icon": "Settings"
+            },
+            {
+                "title": "Content Clusters",
+                "description": "Strategic topic clusters that establish topical authority and dominate entire search categories.",
+                "icon": "Network"
+            },
+            {
+                "title": "Authority Linkbuilding",
+                "description": "White hat backlink acquisition from tier 1 publications that cement your domain authority.",
+                "icon": "Link"
+            }
+        ]
+    },
+    "social_proof": {
+        "title": "Results That Speak",
+        "stat_1": "+320% Average Organic Traffic Growth",
+        "stat_2": "1,200+ Keywords in Top 3 Positions"
+    },
+    "cta": {
+        "title": "Ready to Outrank Your Competition?",
+        "subtitle": "Book a free SEO audit and discover the hidden opportunities your competitors are exploiting.",
+        "button_text": "Get Your Free SEO Audit"
+    }
+}
