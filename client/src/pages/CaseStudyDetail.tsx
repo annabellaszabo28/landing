@@ -35,7 +35,7 @@ export default function CaseStudyDetail() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>{project.title} | Lumina - Case Study</title>
+        <title>{project.title} | BlockMarketing Digital</title>
         <meta name="description" content={project.description} />
       </Helmet>
       <Navigation />

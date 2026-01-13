@@ -1,11 +1,11 @@
-# Lumina Digital - robots.txt
-# https://luminadigital.com/robots.txt
+# BlockMarketing Digital - robots.txt
+# https://blockmarketing.digital/robots.txt
 
 User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://luminadigital.com/sitemap.xml
+Sitemap: https://blockmarketing.digital/sitemap.xml
 
 # Crawl-delay (optional, for politeness)
 Crawl-delay: 1

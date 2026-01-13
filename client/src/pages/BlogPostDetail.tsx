@@ -35,7 +35,7 @@ export default function BlogPostDetail() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>{post.title} | Lumina - AI & Web3 Agency</title>
+        <title>{post.title} | BlockMarketing Digital</title>
         <meta name="description" content={post.excerpt} />
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.excerpt} />

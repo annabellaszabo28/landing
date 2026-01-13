@@ -15,17 +15,6 @@ export default function Footer() {
             <p className="text-slate-500 max-w-sm mb-8">
               Intelligent growth for the modern web. We build the bridge between traditional business and the decentralized future.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-primary hover:text-white transition-colors">
-                <Twitter size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-primary hover:text-white transition-colors">
-                <Linkedin size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-primary hover:text-white transition-colors">
-                <Github size={18} />
-              </a>
-            </div>
           </div>
 
           <div>

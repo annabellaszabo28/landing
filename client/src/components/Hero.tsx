@@ -40,7 +40,7 @@ export default function Hero({ content }: HeroProps) {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 backdrop-blur-md mb-6">
             <span className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse" />
             <span className="text-xs font-bold text-indigo-600 uppercase tracking-widest">
-              AI Native Agency • 10+ Years Experience
+              AI native marketing agency • 10+ Years Experience
             </span>
           </div>
 

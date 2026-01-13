@@ -7,6 +7,7 @@ import { Link } from "wouter";
 import { getAllCaseStudies, CaseStudy } from "@/lib/content";
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 
 export default function WorkPage() {
   const { t, i18n } = useTranslation();

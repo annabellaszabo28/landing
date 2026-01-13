@@ -70,11 +70,11 @@ export default function Navigation() {
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
             {/* CTA */}
-            <Link href="/contact">
+            <a href="https://calendly.com/annabella-szabo" target="_blank" rel="noopener noreferrer">
               <Button size="sm" className="bg-primary text-white hover:bg-primary/90 rounded-full px-6 font-bold text-sm shadow-md shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/30">
-                {t("nav.contact")}
+                Book a Call
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -112,11 +112,14 @@ export default function Navigation() {
               {link.name}
             </Link>
           ))}
-          <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
+          <a href="mailto:hello@blockmarketingconsulting.com" className="text-lg font-medium text-primary hover:underline transition-colors" onClick={() => setMobileMenuOpen(false)}>
+            hello@blockmarketingconsulting.com
+          </a>
+          <a href="https://calendly.com/annabella-szabo" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
             <Button className="w-full bg-primary hover:bg-primary/90 text-white rounded-full shadow-lg shadow-primary/25 font-bold">
-              {t("nav.contact")}
+              Book a Call
             </Button>
-          </Link>
+          </a>
           <div className="flex justify-center pt-2">
             <LanguageSwitcher />
           </div>

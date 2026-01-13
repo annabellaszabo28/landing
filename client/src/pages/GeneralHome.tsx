@@ -9,8 +9,8 @@ export default function GeneralHome() {
     return (
         <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
             <Helmet>
-                <title>Lumina Digital | AI-Native Marketing Agency</title>
-                <meta name="description" content="Lumina Digital is an AI-native marketing agency with 10+ years of experience, bridging the gap between Web2 growth and Web3 innovation." />
+                <title>BlockMarketing Digital | AI native marketing agency</title>
+                <meta name="description" content="BlockMarketing Digital is an AI native marketing agency with 10+ years of experience, bridging the gap between Web2 growth and Web3 innovation." />
             </Helmet>
             <Navigation />
 
@@ -26,7 +26,7 @@ export default function GeneralHome() {
                         transition={{ duration: 0.6 }}
                     >
                         <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6 border border-primary/20">
-                            AI Native Agency • 10+ Years Experience
+                            AI native marketing agency • 10+ Years Experience
                         </span>
                         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
                             Future Proof<br />Your Growth

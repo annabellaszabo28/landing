@@ -3,62 +3,97 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
+import * as Icons from "lucide-react";
 import {
-    ArrowLeft, CheckCircle2, Search, Target, Share2, FileText,
-    Users, Rocket, Mic, Newspaper, Zap
+    ArrowLeft, CheckCircle2, Zap
 } from "lucide-react";
 import web2Services from "@/content/web2-services.json";
 import web3Services from "@/content/web3-services.json";
 import { ServiceDetail as ServiceDetailType } from "@/types";
 
-const AIEngineVisual = ({ type }: { type: string }) => {
+const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, label?: string }) => {
     const isWeb3 = type === "web3";
+    // @ts-ignore
+    const Icon = Icons[icon] || Zap;
+
     return (
         <div className="relative w-full h-[500px] flex items-center justify-center">
             {/* Background Glow */}
-            <div className={`absolute inset-0 bg-gradient-to-br ${isWeb3 ? 'from-purple-500/20 to-pink-500/10' : 'from-indigo-500/20 to-blue-500/10'} rounded-3xl blur-3xl`} />
+            <div className={`absolute inset-0 bg-gradient-to-br ${isWeb3 ? 'from-purple-500/20 to-pink-500/10' : 'from-indigo-500/20 to-blue-500/10'} rounded-3xl blur-3xl opacity-30`} />
 
-            {/* Core Orb */}
+            {/* Orbiting Elements */}
+            {[...Array(3)].map((_, i) => (
+                <motion.div
+                    key={i}
+                    animate={{
+                        rotate: 360,
+                    }}
+                    transition={{
+                        duration: 10 + i * 5,
+                        repeat: Infinity,
+                        ease: "linear",
+                    }}
+                    className="absolute inset-0 flex items-center justify-center"
+                >
+                    <div
+                        className={`w-[${300 + i * 80}px] h-[${300 + i * 80}px] rounded-full border border-slate-200/20`}
+                        style={{ width: 300 + i * 80, height: 300 + i * 80 }}
+                    />
+                </motion.div>
+            ))}
+
+            {/* Core Box */}
             <motion.div
-                animate={{
-                    scale: [1, 1.1, 1],
-                    rotate: [0, 90, 180, 270, 360],
-                }}
-                transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                className="relative w-64 h-64"
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                whileHover={{ scale: 1.05 }}
+                className="relative z-10 w-64 h-64 flex flex-col items-center justify-center"
             >
-                <div className={`absolute inset-0 rounded-full border border-white/20 backdrop-blur-3xl shadow-[0_0_50px_rgba(99,102,241,0.3)] bg-white/5`} />
-                <div className={`absolute inset-4 rounded-full border border-white/10 animate-pulse`} />
-                <div className={`absolute inset-10 rounded-full border-t-2 ${isWeb3 ? 'border-pink-500/50' : 'border-indigo-500/50'} animate-spin`} style={{ animationDuration: '3s' }} />
-                <div className={`absolute inset-16 rounded-full border-b-2 ${isWeb3 ? 'border-purple-500/50' : 'border-blue-500/50'} animate-spin`} style={{ animationDuration: '5s', animationDirection: 'reverse' }} />
-
-                <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-white/50">
-                        AI
-                    </span>
+                <div className={`absolute inset-0 rounded-[2.5rem] border border-white/20 backdrop-blur-3xl shadow-2xl bg-white/5 overflow-hidden`}>
+                    <div className={`absolute inset-0 bg-gradient-to-br ${isWeb3 ? 'from-purple-500/10 to-pink-500/10' : 'from-indigo-500/10 to-blue-500/10'}`} />
                 </div>
+
+                <motion.div
+                    animate={{ y: [0, -10, 0] }}
+                    transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                    className="relative z-20 flex flex-col items-center"
+                >
+                    <div className={`p-6 rounded-3xl bg-white/10 border border-white/20 mb-6 shadow-xl`}>
+                        <Icon size={48} className={isWeb3 ? 'text-pink-500' : 'text-indigo-500'} />
+                    </div>
+                    <span className="text-sm font-bold tracking-widest text-white/80 uppercase">
+                        {label?.split(' ')[0]} Engine
+                    </span>
+                </motion.div>
+
+                {/* Scanning Line */}
+                <motion.div
+                    animate={{ top: ['0%', '100%', '0%'] }}
+                    transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+                    className="absolute left-0 right-0 h-1 bg-gradient-to-r from-transparent via-white/20 to-transparent z-10"
+                />
             </motion.div>
 
-            {/* Floating Data Points */}
-            {[...Array(6)].map((_, i) => (
+            {/* Floating Data Nodes */}
+            {[...Array(8)].map((_, i) => (
                 <motion.div
                     key={i}
                     animate={{
                         y: [-20, 20, -20],
-                        opacity: [0.3, 0.7, 0.3],
+                        opacity: [0.3, 0.8, 0.3],
                     }}
                     transition={{
-                        duration: 3 + i,
+                        duration: 4 + Math.random() * 2,
                         repeat: Infinity,
-                        delay: i * 0.5,
+                        delay: i * 0.4,
                     }}
-                    className={`absolute w-16 h-8 bg-white/10 backdrop-blur-md border border-white/20 rounded-lg flex items-center justify-center text-[10px] font-mono text-white/60`}
+                    className={`absolute px-3 py-1 bg-white/5 backdrop-blur-md border border-white/10 rounded-full text-[9px] font-mono text-white/50 whitespace-nowrap`}
                     style={{
-                        top: `${20 + i * 12}%`,
-                        left: i % 2 === 0 ? '10%' : '75%',
+                        top: `${15 + Math.random() * 70}%`,
+                        left: `${10 + Math.random() * 80}%`,
                     }}
                 >
-                    {isWeb3 ? '0x' + (Math.random() * 1000).toString(16).slice(0, 4) : 'DATA_' + (i * 128)}
+                    {isWeb3 ? `0x${(i * 1234).toString(16)}` : `NODE_${i * 1024}`}
                 </motion.div>
             ))}
         </div>
@@ -90,7 +125,7 @@ export default function ServiceDetail({ type }: ServiceDetailProps) {
     return (
         <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
             <Helmet>
-                <title>{service.title} | Lumina Digital</title>
+                <title>{service.title} | BlockMarketing Digital</title>
                 <meta name="description" content={service.description} />
             </Helmet>
             <Navigation />
@@ -151,7 +186,7 @@ export default function ServiceDetail({ type }: ServiceDetailProps) {
                             transition={{ duration: 0.8 }}
                             className="relative"
                         >
-                            <AIEngineVisual type={type} />
+                            <AIEngineVisual type={type} icon={service.icon} label={service.title} />
 
                             {/* Proven Results Stats */}
                             {service.results && (

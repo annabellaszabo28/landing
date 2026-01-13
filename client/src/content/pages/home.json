@@ -1,7 +1,7 @@
 {
     "hero": {
-        "title": "AI Native Growth Agency: 10+ Years of Market Dominance",
-        "subtitle": "We don't just follow trends—we engineer them. Leveraging recursive AI agents and decade long expertise to scale global brands across the Web2 and Web3 ecosystems.",
+        "title": "AI native marketing agency: 10+ Years Professional Experience",
+        "subtitle": "We don't just follow trends, we engineer them. Leveraging recursive AI agents and decade long expertise to scale global brands across the Web2 and Web3 ecosystems.",
         "cta_primary": "Explore Marketing",
         "cta_secondary": "Web3 Growth"
     },
@@ -82,20 +82,24 @@
         "subtitle": "Clarity for institutional partners and visionary founders.",
         "items": [
             {
-                "question": "How do you integrate AI into marketing workflows?",
-                "answer": "We deploy autonomous agents for content research, technical SEO analysis, and real time ad bidding. This allows us to execute 10x faster with 100% data driven precision."
+                "question": "How can I get in touch?",
+                "answer": "You can reach us through our contact form, email at hello@blockmarketingconsulting.com, or directly book a strategy session via our Calendly. We respond to all inquiries within 24 hours."
             },
             {
-                "question": "What is the timeline for seeing measurable growth?",
-                "answer": "Performance ad results are often immediate (within 48 hours). Long term moats like SEO and Community Building typically see significant compounding returns within 3 6 months."
+                "question": "How can I book a meeting?",
+                "answer": "The fastest way is to use our Calendly link (https://calendly.com/annabella-szabo) to pick a time that works for you. These discovery calls are free and focused on understanding your specific growth needs."
             },
             {
-                "question": "Do you offer full stack development for marketing assets?",
-                "answer": "Yes. We build high performance landing pages, custom dApp interfaces, and interactive dashboards to ensure every touchpoint is optimized for conversion."
+                "question": "Why should I work with you?",
+                "answer": "Unlike traditional agencies, we are AI native and data driven. We don't just guess; we engineer results using proprietary agentic workflows and have over 10 years of experience in both Web2 and Web3 ecosystems."
             },
             {
-                "question": "How do you handle Web3 regulatory nuances?",
-                "answer": "We prioritize compliance ready marketing. We avoid hyperbolic 'crypto' language and focus on the technical utility and value proposition of the decentralized technology."
+                "question": "How long is the setup process?",
+                "answer": "Initial audits and strategy onboarding usually take 5–7 business days. We can launch your first optimized campaigns or content engines within two weeks of our discovery call."
+            },
+            {
+                "question": "How soon can you get back to me?",
+                "answer": "We pride ourselves on institutional grade speed. You will receive a response to your inquiry within 24 hours, and once onboarded, you'll have a dedicated account lead available for real time communication."
             }
         ]
     },

@@ -110,33 +110,48 @@ export async function getAllBlogPosts(): Promise<BlogPost[]> {
     const lang = i18n.language.split('-')[0];
     const isHu = lang === 'hu';
 
-    let globs;
-    if (isHu) {
-        globs = import.meta.glob("../content/blog/*.hu.md", { query: "?raw", import: "default" });
-    } else {
-        globs = import.meta.glob("../content/blog/*.md", { query: "?raw", import: "default" });
-        // Filter out .hu.md files from the default glob if any
-        const filteredGlobs: Record<string, () => Promise<unknown>> = {};
-        for (const [path, resolver] of Object.entries(globs)) {
-            if (!path.endsWith('.hu.md')) {
-                filteredGlobs[path] = resolver;
-            }
+    // Get all markdown files in the blog directory
+    const allGlobs = import.meta.glob("../content/blog/*.md", { query: "?raw", import: "default" });
+
+    // Group them by base filename (without .hu)
+    const postGroups: Record<string, { en?: string; hu?: string; pathEn?: string; pathHu?: string }> = {};
+
+    for (const [path, resolver] of Object.entries(allGlobs)) {
+        const parts = path.split('/');
+        const filename = parts[parts.length - 1];
+        const isHungarianFile = filename.endsWith('.hu.md');
+        const baseSlug = isHungarianFile ? filename.replace('.hu.md', '') : filename.replace('.md', '');
+
+        if (!postGroups[baseSlug]) {
+            postGroups[baseSlug] = {};
         }
-        globs = filteredGlobs;
+
+        if (isHungarianFile) {
+            postGroups[baseSlug].pathHu = path;
+            // @ts-ignore
+            postGroups[baseSlug].huResolver = resolver;
+        } else {
+            postGroups[baseSlug].pathEn = path;
+            // @ts-ignore
+            postGroups[baseSlug].enResolver = resolver;
+        }
     }
 
-    const posts = await loadMarkdownContent<BlogPost>(globs);
+    const posts: BlogPost[] = [];
 
-    // If Hungarian is requested but no posts found, fallback to English
-    if (isHu && posts.length === 0) {
-        const enGlobs = import.meta.glob("../content/blog/*.md", { query: "?raw", import: "default" });
-        const filteredEnGlobs: Record<string, () => Promise<unknown>> = {};
-        for (const [path, resolver] of Object.entries(enGlobs)) {
-            if (!path.endsWith('.hu.md')) {
-                filteredEnGlobs[path] = resolver;
-            }
-        }
-        return (await loadMarkdownContent<BlogPost>(filteredEnGlobs)).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    for (const [slug, group] of Object.entries(postGroups)) {
+        // @ts-ignore
+        const finalResolver = (isHu && group.huResolver) ? group.huResolver : group.enResolver;
+        if (!finalResolver) continue;
+
+        const fileContent = (await finalResolver()) as string;
+        const { data, content } = parseFrontmatter(fileContent);
+
+        posts.push({
+            ...data,
+            slug: (isHu && group.huResolver) ? `${slug}.hu` : slug,
+            content
+        } as BlogPost);
     }
 
     return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());

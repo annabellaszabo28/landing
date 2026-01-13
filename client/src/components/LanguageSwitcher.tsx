@@ -1,26 +1,35 @@
 import { useTranslation } from 'react-i18next';
-import { Button } from './ui/button';
-import { Languages } from 'lucide-react';
 
 export default function LanguageSwitcher() {
     const { i18n } = useTranslation();
 
-    const toggleLanguage = () => {
-        const newLang = i18n.language === 'en' ? 'hu' : 'en';
-        i18n.changeLanguage(newLang);
-        localStorage.setItem('i18nextLng', newLang);
+    const changeLanguage = (lang: string) => {
+        i18n.changeLanguage(lang);
+        localStorage.setItem('i18nextLng', lang);
     };
 
+    const currentLang = i18n.language.split('-')[0];
+
     return (
-        <Button
-            variant="ghost"
-            size="sm"
-            onClick={toggleLanguage}
-            className="flex items-center gap-2 text-slate-600 hover:text-primary transition-colors rounded-full px-3"
-            aria-label="Toggle language"
-        >
-            <Languages size={18} />
-            <span className="text-xs font-bold uppercase">{i18n.language.split('-')[0]}</span>
-        </Button>
+        <div className="flex p-1 bg-slate-100/50 backdrop-blur-md rounded-full border border-slate-200 shadow-inner">
+            <button
+                onClick={() => changeLanguage('en')}
+                className={`px-3 py-1 rounded-full text-[10px] font-bold tracking-wider transition-all duration-300 ${currentLang === 'en'
+                    ? 'bg-white text-primary shadow-sm'
+                    : 'text-slate-500 hover:text-slate-700'
+                    }`}
+            >
+                EN
+            </button>
+            <button
+                onClick={() => changeLanguage('hu')}
+                className={`px-3 py-1 rounded-full text-[10px] font-bold tracking-wider transition-all duration-300 ${currentLang === 'hu'
+                    ? 'bg-white text-primary shadow-sm'
+                    : 'text-slate-500 hover:text-slate-700'
+                    }`}
+            >
+                HU
+            </button>
+        </div>
     );
 }

@@ -6,7 +6,7 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://luminadigital.com/</loc>
+    <loc>https://blockmarketing.digital/</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
   
   <!-- Services -->
   <url>
-    <loc>https://luminadigital.com/services</loc>
+    <loc>https://blockmarketing.digital/services</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -22,7 +22,7 @@
   
   <!-- Work / Portfolio -->
   <url>
-    <loc>https://luminadigital.com/work</loc>
+    <loc>https://blockmarketing.digital/work</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -30,7 +30,7 @@
   
   <!-- About -->
   <url>
-    <loc>https://luminadigital.com/about</loc>
+    <loc>https://blockmarketing.digital/about</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -38,7 +38,7 @@
   
   <!-- Blog / Insights -->
   <url>
-    <loc>https://luminadigital.com/blog</loc>
+    <loc>https://blockmarketing.digital/blog</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -46,7 +46,7 @@
   
   <!-- Contact -->
   <url>
-    <loc>https://luminadigital.com/contact</loc>
+    <loc>https://blockmarketing.digital/contact</loc>
     <lastmod>2024-12-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
