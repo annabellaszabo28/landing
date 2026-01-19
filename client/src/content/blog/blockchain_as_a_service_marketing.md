@@ -14,7 +14,7 @@ Our [Web3 innovation services](/web3) are designed to help protocols achieve ins
 
 ## The Institutional Narrative
 
-When speaking to a Fortune 500 company, they don't care about "moon shots." They care about:
+When speaking to a high-growth enterprise, they don't care about "moon shots." They care about:
 
 *   **Data Provenance**: How the blockchain ensures a single source of truth.
 *   **Operational Efficiency**: The cost savings of decentralized settlement.
