@@ -8,6 +8,7 @@ import { Calendar, User, ArrowRight } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import BrandedBlogCard from "@/components/BrandedBlogCard";
 
 export default function BlogPage() {
   const { t, i18n } = useTranslation();
@@ -48,12 +49,8 @@ export default function BlogPage() {
                       transition={{ delay: index * 0.1 }}
                       className="flex flex-col h-full"
                     >
-                      <div className="rounded-2xl overflow-hidden aspect-[16/10] mb-6 shadow-lg">
-                        <img
-                          src={post.image}
-                          alt={post.title}
-                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        />
+                      <div className="rounded-2xl overflow-hidden aspect-[16/10] mb-6 shadow-lg border border-slate-100 group-hover:border-indigo-100 transition-colors">
+                        <BrandedBlogCard title={post.title} category={post.category} className="w-full h-full transition-transform duration-500 group-hover:scale-105" />
                       </div>
 
                       <div className="flex items-center gap-4 text-sm text-slate-500 mb-4">

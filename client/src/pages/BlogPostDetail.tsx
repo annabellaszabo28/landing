@@ -8,6 +8,7 @@ import NotFound from "./NotFound";
 import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { Helmet } from "react-helmet-async";
+import BrandedBlogCard from "@/components/BrandedBlogCard";
 
 export default function BlogPostDetail() {
   const [, params] = useRoute("/blog/:slug");
@@ -99,13 +100,9 @@ export default function BlogPostDetail() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
-            className="rounded-3xl overflow-hidden shadow-2xl mb-16 aspect-video"
+            className="rounded-3xl overflow-hidden shadow-2xl mb-16 aspect-video border border-slate-100"
           >
-            <img
-              src={post.image}
-              alt={post.title}
-              className="w-full h-full object-cover"
-            />
+            <BrandedBlogCard title={post.title} category={post.category} className="w-full h-full" />
           </motion.div>
 
           <div className="grid lg:grid-cols-12 gap-12">
