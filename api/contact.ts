@@ -52,13 +52,13 @@ export default async function handler(req: any, res: any) {
           ${message.replace(/\n/g, "<br>")}
         </div>
         <hr style="border: 1px solid #e2e8f0; margin-top: 24px;">
-        <p style="color: #64748b; font-size: 12px;">Sent from Blockmarketing Site</p>
+        <p style="color: #64748b; font-size: 12px;">Sent from BlockMarketing Consulting Site</p>
       </div>
     `;
 
         // Send Email
         await resend.emails.send({
-            from: 'Lumina Digital <onboarding@resend.dev>',
+            from: 'BlockMarketing Consulting <onboarding@resend.dev>',
             to: 'annabellaszabo28@gmail.com',
             replyTo: email,
             subject: `[Contact Form] ${subject}`,
