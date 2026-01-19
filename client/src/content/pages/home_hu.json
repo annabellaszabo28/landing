@@ -1,76 +1,114 @@
 {
     "hero": {
-        "title": "AI natív marketingügynökség: 10+ év szakmai tapasztalat",
-        "subtitle": "Mi nem csak követjük a trendeket, mi mérnöki precizitással alkotjuk meg őket. Rekurzív AI ágenseket és évtizedes szakértelmet használunk globális márkák skálázásához a Web2 és Web3 ökoszisztémákban.",
-        "cta_primary": "Marketing felfedezése",
+        "title": "AI-natív marketingügynökség: 10+ év szakmai tapasztalat",
+        "subtitle": "Nem csak követjük a trendeket, mi diktáljuk őket. A hagyományos marketing szakértelmet a legmodernebb AI technológiával ötvözzük, hogy globális márkákat emeljünk piacvezető pozícióba a Web2 és Web3 térben.",
+        "cta_primary": "Szolgáltatásaink",
         "cta_secondary": "Web3 növekedés"
     },
+    "work_together_section": {
+        "title": "Dolgozzunk együtt",
+        "subtitle": "Személyre szabott marketing tervet készítünk vállalkozásod számára, és összehozunk célközönségeddel.",
+        "items": [
+            {
+                "title": "10+ év tapasztalat",
+                "icon": "Lightbulb"
+            },
+            {
+                "title": "Hazai és globális piacismeret",
+                "icon": "Globe"
+            },
+            {
+                "title": "Technikai támogatás",
+                "icon": "HeartHandshake"
+            }
+        ],
+        "cta_text": "Érdekel"
+    },
+    "who_we_help_section": {
+        "title": "Akiknek segíteni tudunk",
+        "subtitle": "Személyre szabott marketing tervet készítünk vállalkozásod számára, és összehozunk célközönségeddel.",
+        "items": [
+            {
+                "title": "KKV cégek",
+                "icon": "Building2"
+            },
+            {
+                "title": "Startupok",
+                "icon": "Rocket"
+            },
+            {
+                "title": "Egyéni vállalkozók",
+                "icon": "UserSquare2"
+            }
+        ],
+        "cta_text": "Érdekel"
+    },
     "services_section": {
-        "title": "Precíziós növekedési megoldások",
-        "subtitle": "Módszertanunk egyesíti a hagyományos marketing szigort a következő generációs autonóm technológiával. Legyen szó egy 10M+ ARR SaaS skálázásáról vagy egy Tier 1 blockchain protokoll elindításáról.",
-        "web2_tab": "Web2 teljesítmény",
-        "web3_tab": "Web3 ökoszisztémák",
+        "title": "Adatvezérelt növekedési megoldások",
+        "subtitle": "Stratégiánk a klasszikus marketing alappilléreit ötvözi a jövő autonóm technológiáival. Legyen szó egy 10M+ ARR SaaS skálázásáról vagy egy Tier 1 blockchain protokoll indításáról.",
+        "web2_tab": "Web2 Eredmények",
+        "web3_tab": "Web3 Ökoszisztémák",
         "web2_items": [
             {
                 "title": "GEO & LLM Optimalizálás",
-                "description": "A SEO következő evolúciója. Biztosítjuk, hogy márkája legyen az elsődleges hivatkozás a ChatGPT, Perplexity és Claude keresési felületein.",
+                "description": "A SEO új generációja. Biztosítjuk, hogy márkája legyen az elsődleges, hiteles forrás a ChatGPT, Perplexity és Claude válaszaiban.",
                 "icon": "Cpu"
             },
             {
-                "title": "Prediktív teljesítmény alapú hirdetések",
-                "description": "AI vezérelt licitkezelés és kreatív tesztelés, amely alacsony CPA-t és magas minőségű lead-folyamot biztosít skálázható módon.",
+                "title": "Prediktív performance marketing",
+                "description": "AI-vezérelt licitkezelés és kreatív tesztelés, amely alacsony CPA-t és releváns lead-folyamot garantál, skálázható módon.",
                 "icon": "Target"
             },
             {
                 "title": "Termékvezérelt növekedés (PLG)",
-                "description": "Felhasználók elkötelezett hívekké alakítása optimalizált onboarding folyamatokkal és házon belül tervezett virális termékhurkokkal.",
+                "description": "Felhasználók átalakítása elkötelezett ügyfelekké: optimalizált onboarding és virális termék-mechanizmusok tervezése.",
                 "icon": "Zap"
             }
         ],
         "web3_items": [
             {
-                "title": "Ösztönző alapú piaci bevezetés",
-                "description": "Stratégiai piaci bevezetési keretrendszerek, amelyek szinkronizálják a tokenomikát, a közösségi figyelmet és a valós hasznosságot a fenntartható növekedés érdekében.",
+                "title": "Piacra lépési stratégia (GTM)",
+                "description": "Átfogó keretrendszerek, amelyek összehangolják a tokenomikát, a közösségi figyelmet és a valós hasznosságot a fenntartható növekedésért.",
                 "icon": "Rocket"
             },
             {
-                "title": "Technikai közösségi védelem",
-                "description": "Önkormányzó Discord és Telegram ökoszisztémák építése, amelyek a protokoll legerősebb versenyelőnyeként szolgálnak.",
+                "title": "Közösségépítés és védelem",
+                "description": "Önjáró Discord és Telegram ökoszisztémák építése, amelyek a protokoll legerősebb versenyelőnyévé válnak.",
                 "icon": "Users"
             },
             {
-                "title": "PR és On Chain kommunikáció",
-                "description": "Kiemelt megjelenések és hiteles szakértői partnerségek biztosítása, amelyek bizalmat építenek és növelik az elköteleződést.",
+                "title": "PR és On-Chain kommunikáció",
+                "description": "Top-tier megjelenések és hiteles szakértői partnerségek, amelyek bizalmat építenek és növelik az elköteleződést.",
                 "icon": "Mic"
             }
         ]
     },
     "bridge_section": {
         "title": "A Web 2.5 integrációs motor",
-        "subtitle": "A jövő az interszekcionalitásról szól. Segítünk a Fortune 500 vállalatoknak kiaknázni a blockchain lehetőségeit, a Web3 natív protokolloknak pedig elérni az intézményi szintű skálázódást.",
+        "subtitle": "A jövő a technológiák keresztezésében rejlik. Segítünk a Fortune 500 vállalatoknak kiaknázni a blokkláncban rejlő erőt, a Web3 protokolloknak pedig elérni az intézményi szintű adoptációt.",
         "web2_label": "Intézményi skálázódás",
-        "web2_sublabel": "Vállalati szintű teljesítmény",
+        "web2_sublabel": "Nagyvállalati teljesítmény",
         "web3_label": "Blockchain natív",
         "web3_sublabel": "Decentralizált innováció"
     },
     "testimonials_section": {
-        "title": "Bizonyított kiválóság",
+        "title": "Bizonyított eredmények",
         "subtitle": "Mérhető hatás az új gazdaság építői számára.",
         "items": [
             {
-                "quote": "A legtöbb ügynökség csak beszél az AI-ról. A BlockMarketing ténylegesen beépítette a növekedési motorunkba. Az ügyfélszerzési költségünk 64%-kal csökkent az első negyedévben.",
+                "quote": "Sokan csak beszélnek az AI-ról. A BlockMarketing ténylegesen beépítette a növekedési motorunkba. Az ügyfélszerzési költségünk 64%-kal csökkent már az első negyedévben.",
                 "author": "Marcus J.",
-                "role": "Marketing alelnök, GlobalStream",
+                "role": "Marketing Igazgató, GlobalStream",
                 "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop"
             },
             {
-                "quote": "A protokoll indulásakor alkalmazott GTM stratégiájuk hibátlan volt. Jobban értették a tokenomikánk árnyalatait, mint a vezető befektetőink.",
+                "quote": "A GTM stratégiájuk hibátlan volt a protokoll indításakor. Jobban értették a tokenomikánk finomságait, mint a vezető befektetőink.",
                 "author": "Sarah Chen",
                 "role": "Alapító, Aether Protocol",
                 "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop"
             },
             {
-                "quote": "A SEO átállás GEO-ra (LLM Optimalizálás) megmentette az organikus forgalmunkat. Most mi vagyunk a leginkább ajánlott megoldás a ChatGPT-n és a Claude-on.",
+                "quote": "A SEO váltás GEO-ra (LLM optimalizálás) megmentette az organikus forgalmunkat. Ma már mi vagyunk az elsődleges ajánlás a ChatGPT-n és a Claude-on.",
                 "author": "Alex V.",
                 "role": "CEO, CloudForge SaaS",
                 "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop"
@@ -79,33 +117,33 @@
     },
     "faq_section": {
         "title": "Gyakori kérdések",
-        "subtitle": "Tisztánlátás az intézményi partnerek és látnok alapítók számára.",
+        "subtitle": "Átláthatóság partnereink számára.",
         "items": [
             {
-                "question": "Hogyan tudok kapcsolatba lépni önökkel?",
-                "answer": "Elérhet minket a kapcsolatfelvételi űrlapunkon, e-mailben a hello@blockmarketingconsulting.com címen, vagy közvetlenül foglalhat időpontot egy stratégiai megbeszélésre a Calendly-nken keresztül. Minden megkeresésre 24 órán belül válaszolunk."
+                "question": "Hogyan tudok kapcsolatba lépni Önökkel?",
+                "answer": "Elérhet minket kapcsolati űrlapunkon, emailben a hello@blockmarketingconsulting.com címen, vagy foglalhat időpontot közvetlenül egy stratégiai egyeztetésre a Calendly felületünkön. Minden megkeresésre 24 órán belül válaszolunk."
             },
             {
                 "question": "Hogyan tudok időpontot foglalni?",
-                "answer": "A leggyorsabb módja, ha a Calendly linkünket (https://calendly.com/annabella-szabo) használja, és kiválaszt egy Önnek megfelelő időpontot. Ezek a felfedező hívások ingyenesek, és a konkrét növekedési igényei megértésére összpontosítanak."
+                "answer": "A leggyorsabb módja, ha a Calendly linkünket (https://calendly.com/annabella-szabo) használja, és kiválaszt egy megfelelő időpontot. Ezek a felfedező hívások díjmentesek, céljuk a növekedési lehetőségek feltérképezése."
             },
             {
-                "question": "Miért érdemes önökkel dolgozni?",
-                "answer": "A hagyományos ügynökségekkel ellentétben mi AI natívak és adatvezéreltek vagyunk. Nem csak találgatunk; eredményeket mérünk saját fejlesztésű ágens alapú munkafolyamatainkkal, és több mint 10 éves tapasztalattal rendelkezünk mind a Web2, mind a Web3 ökoszisztémákban."
+                "question": "Miért érdemes Önökkel dolgozni?",
+                "answer": "A hagyományos ügynökségekkel ellentétben mi AI-natív és adatvezérelt megközelítést alkalmazunk. Nem találgatunk: saját fejlesztésű ágens-rendszereinkkel mérjük az eredményeket, és több mint 10 éves tapasztalattal rendelkezünk mind a Web2, mind a Web3 világában."
             },
             {
-                "question": "Mennyi ideig tart a beállítási folyamat?",
-                "answer": "A kezdeti auditok és a stratégiai felkészítés általában 5 és 7 munkanapot vesz igénybe. Az első optimalizált kampányokat vagy tartalommotorokat a felfedező hívásunkat követő két héten belül el tudjuk indítani."
+                "question": "Mennyi ideig tart a rendszer kiépítése?",
+                "answer": "A kezdeti audit és stratégiai tervezés általában 5-7 munkanapot vesz igénybe. Az első optimalizált kampányokat vagy tartalom-rendszereket a konzultációt követő két héten belül elindítjuk."
             },
             {
                 "question": "Milyen gyorsan válaszolnak?",
-                "answer": "Büszkék vagyunk az intézményi szintű sebességünkre. Megkeresésére 24 órán belül választ kap, és az együttműködés megkezdése után saját kapcsolattartója lesz a valós idejű kommunikáció érdekében."
+                "answer": "Büszkék vagyunk gyorsaságunkra. Megkeresésére legkésőbb 24 órán belül választ kap, a közös munka során pedig dedikált kapcsolattartó biztosítja a folyamatos, valós idejű kommunikációt."
             }
         ]
     },
     "cta_section": {
         "title": "Biztosítsa piaci előnyét",
-        "subtitle": "Amíg versenytársai csak próbálják megérteni a jelent, mi már az Ön jövőjét építjük. Kérjen bizalmas stratégiai auditot.",
+        "subtitle": "Amíg a versenytársak a jelent próbálják megérteni, mi már az Ön jövőjét építjük. Kérjen bizalmas stratégiai auditot.",
         "button_text": "Stratégiai audit kérése",
         "button_link": "/contact"
     }

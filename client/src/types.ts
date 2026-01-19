@@ -64,6 +64,30 @@ export interface CTASectionContent {
     button_link: string;
 }
 
+export interface WorkTogetherItem {
+    title: string;
+    icon: string;
+}
+
+export interface WorkTogetherSectionContent {
+    title: string;
+    subtitle: string;
+    items: WorkTogetherItem[];
+    cta_text: string;
+}
+
+export interface WhoWeHelpItem {
+    title: string;
+    icon: string;
+}
+
+export interface WhoWeHelpSectionContent {
+    title: string;
+    subtitle: string;
+    items: WhoWeHelpItem[];
+    cta_text: string;
+}
+
 export interface HomeContent {
     hero: HeroContent;
     services_section: ServicesSectionContent;
@@ -71,6 +95,8 @@ export interface HomeContent {
     testimonials_section: TestimonialsSectionContent;
     faq_section: FAQSectionContent;
     cta_section: CTASectionContent;
+    work_together_section: WorkTogetherSectionContent;
+    who_we_help_section: WhoWeHelpSectionContent;
 }
 
 // ============ SERVICES PAGE ============

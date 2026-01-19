@@ -1,51 +1,82 @@
 {
     "header": {
-        "title": "Uralja a keresési rangsorokat mesterséges intelligenciával",
-        "subtitle": "Ne veszítsen több ügyfelet a versenytársak javára. AI alapú SEO stratégiáink mérhető organikus növekedést és konvertáló top helyezéseket hoznak."
+        "title": "SEO, Ami Valódi Üzleti Növekedést Hoz",
+        "subtitle": "Segítünk vállalkozásoknak növelni az organikus láthatóságot és minősített forgalmat vonzani stratégiai, adatvezérelt keresőoptimalizálással."
     },
     "challenges": {
-        "title": "Ismerős helyzet?",
+        "title": "Gyakori SEO Kihívások, Amelyeket Megoldunk",
         "items": [
-            "Versenytársai megelőzik Önt a kulcsfontosságú keresésekben",
-            "Az organikus forgalom megakadt az erőfeszítései ellenére",
-            "Az algoritmus frissítések folyamatosan rontják a helyezéseit",
-            "Olyan tartalmakra költ, amelyek nem rangsorolnak",
-            "Technikai SEO problémák hátráltatják a webhelyét"
+            "Nehézségek a vállalkozásod számára fontos kulcsszavakkal való rangsorolásban",
+            "Az organikus forgalom megtorpant a folyamatos tartalomkészítési erőfeszítések ellenére",
+            "Technikai problémák hátráltatják a weboldalad teljesítményét",
+            "A korábbi SEO erőfeszítések nem hoztak mérhető megtérülést",
+            "Az algoritmus frissítések folyamatosan befolyásolják a rangsorolást"
         ]
     },
-    "solutions": {
-        "title": "AI SEO Megközelítésünk",
+    "approach": {
+        "title": "SEO Módszertanunk",
+        "description": "Stratégiai, átlátható megközelítést alkalmazunk a SEO terén, amely a fenntartható növekedésre összpontosít a gyors megoldások helyett. Minden döntést adatok támasztanak alá és az üzleti céljaidhoz igazodnak.",
         "items": [
             {
-                "title": "AI Kulcsszó Intelligencia",
-                "description": "Saját fejlesztésű AI azonosítja azokat a magas potenciálú kulcsszavakat, amelyeket a versenytársak elmulasztanak, a vásárlói szándékra és konverziós potenciálra fókuszálva.",
-                "icon": "Brain"
-            },
-            {
-                "title": "Technikai SEO Mesterség",
-                "description": "Mélyreható webhely auditok, amelyek javítják a bejárhatóságot, sebességet és Core Web Vitals problémákat.",
+                "title": "Technikai Alapok",
+                "description": "Átfogó audittal kezdjük a weboldalad technikai állapotáról, javítjuk a bejárhatósági problémákat, növeljük az oldalsebességet és biztosítjuk, hogy a keresőmotorok megfelelően indexeljék a tartalmat.",
                 "icon": "Settings"
             },
             {
-                "title": "Tartalom Klaszterek",
-                "description": "Stratégiai témakörök, amelyek megalapozzák a tematikus tekintélyt és uralják a teljes keresési kategóriákat.",
-                "icon": "Network"
+                "title": "Kulcsszó Stratégia",
+                "description": "Kutatjuk és prioritizáljuk a kulcsszavakat a keresési volumen, a verseny és a vásárlói szándék alapján, olyan kifejezésekre összpontosítva, amelyek minősített forgalmat és konverziókat hoznak.",
+                "icon": "Search"
             },
             {
-                "title": "Tekintélyes Linképítés",
-                "description": "Fehér kalapos backlink szerezés első osztályú publikációkból, amelyek megszilárdítják a domain tekintélyét.",
+                "title": "Tartalom Optimalizálás",
+                "description": "Optimalizáljuk a meglévő tartalmakat és új oldalakat fejlesztünk, amelyek válaszolnak a közönséged kérdéseire, megalapozzák a tematikus tekintélyt és idővel organikus láthatóságot szereznek.",
+                "icon": "FileText"
+            },
+            {
+                "title": "Linképítés",
+                "description": "Magas minőségű backlinkeket építünk valódi kapcsolatépítésen és tartalmi partnerségeken keresztül, erősítve a domain tekintélyedet és versenypozíciódat.",
                 "icon": "Link"
             }
         ]
     },
-    "social_proof": {
-        "title": "Eredmények, amelyek magukért beszélnek",
-        "stat_1": "+320% Átlagos organikus forgalom növekedés",
-        "stat_2": "1200+ Kulcsszó a Top 3 pozícióban"
+    "process": {
+        "title": "Hogyan Dolgozunk Együtt",
+        "steps": [
+            {
+                "step": "01",
+                "title": "Felfedező Beszélgetés",
+                "description": "Megismerjük a vállalkozásodat, céljaidat és a jelenlegi SEO helyzetedet, hogy megértsük, jó partnerek lehetünk e."
+            },
+            {
+                "step": "02",
+                "title": "Audit és Stratégia",
+                "description": "Alapos SEO auditot végzünk és egyedi stratégiát készítünk egyértelmű prioritásokkal és ütemezéssel."
+            },
+            {
+                "step": "03",
+                "title": "Megvalósítás",
+                "description": "Csapatunk végrehajtja a stratégiát, kezelve a technikai javításokat, tartalom optimalizálást és linképítést."
+            },
+            {
+                "step": "04",
+                "title": "Jelentéskészítés és Finomítás",
+                "description": "Rendszeres jelentéseket kapsz gyakorlati betekintésekkel, és folyamatosan finomítjuk a megközelítésünket az eredmények alapján."
+            }
+        ]
+    },
+    "differentiators": {
+        "title": "Miért Velünk Dolgozz",
+        "items": [
+            "Átlátható jelentéskészítés egyértelmű, mérhető KPI mutatókkal",
+            "Nincsenek hosszú távú szerződések. Havonta bizonyítjuk az értékünket.",
+            "Dedikált stratéga, aki ismeri a vállalkozásodat",
+            "10+ év tapasztalat különböző iparágakban",
+            "Valós eredményekre fókuszálunk, nem hiúsági mutatókra"
+        ]
     },
     "cta": {
-        "title": "Készen áll a versenytársak megelőzésére?",
-        "subtitle": "Kérjen ingyenes SEO auditot és fedezze fel azokat a rejtett lehetőségeket, amelyeket versenytársai kihasználnak.",
-        "button_text": "Ingyenes SEO Audit Kérése"
+        "title": "Készen Állsz Az Organikus Láthatóságod Javítására?",
+        "subtitle": "Foglalj ingyenes 30 perces felfedező beszélgetést. Megbeszéljük a céljaidat és megosztjuk az első meglátásainkat arról, hogyan tudunk segíteni.",
+        "button_text": "Ingyenes Beszélgetés Foglalása"
     }
 }

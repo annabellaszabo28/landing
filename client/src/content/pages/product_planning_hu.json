@@ -1,0 +1,40 @@
+{
+    "header": {
+        "title": "Terméktervezés és Építés",
+        "subtitle": "Az ötlettől a piacra lépésig: MVP fejlesztés, UX/UI tervezés és teljes körű termékmenedzsment."
+    },
+    "hero": {
+        "title": "Váltsa Valóra Elképzeléseit",
+        "subtitle": "Stratégiai terméktervezés és szakértő fejlesztési kivitelezés startupok és nagyvállalatok számára.",
+        "cta_primary": "Tervezés Indítása",
+        "cta_secondary": "Folyamatunk"
+    },
+    "features": [
+        "Piackutatás",
+        "MVP Stratégia",
+        "Felhasználói Élmény (UX) Tervezés",
+        "Agilis Fejlesztés"
+    ],
+    "process": [
+        {
+            "step": "01",
+            "title": "Stratégia",
+            "description": "A termékvízió és az ütemterv meghatározása."
+        },
+        {
+            "step": "02",
+            "title": "Prototípus",
+            "description": "Ötletek validálása kattintható prototípusokkal."
+        },
+        {
+            "step": "03",
+            "title": "Építés",
+            "description": "Iteratív fejlesztés a központi értékre fókuszálva."
+        },
+        {
+            "step": "04",
+            "title": "Skálázás",
+            "description": "Optimalizálás a növekedésre és a felhasználómegtartásra."
+        }
+    ]
+}

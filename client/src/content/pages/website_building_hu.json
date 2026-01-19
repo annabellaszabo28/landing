@@ -1,0 +1,40 @@
+{
+    "header": {
+        "title": "Weboldal Készítés",
+        "subtitle": "Prémium megjelenésű, konverzióra optimalizált weboldalak, amelyek hitelességet adnak vállalkozásának."
+    },
+    "hero": {
+        "title": "Weboldalak, Amelyek Önnek Dolgoznak",
+        "subtitle": "Gyors, biztonságos és esztétikus weboldalakat készítünk, amelyek tökéletesen illeszkednek márkájához.",
+        "cta_primary": "Ajánlatkérés",
+        "cta_secondary": "Referenciák"
+    },
+    "features": [
+        "Reszponzív Design",
+        "Keresőoptimalizálás (SEO)",
+        "Gyors Betöltés",
+        "Tartalomkezelő Rendszer (CMS)"
+    ],
+    "process": [
+        {
+            "step": "01",
+            "title": "Felfedezés",
+            "description": "Megismerjük üzleti céljait és célközönségét."
+        },
+        {
+            "step": "02",
+            "title": "Tervezés",
+            "description": "Látványterveket és prototípusokat készítünk jóváhagyásra."
+        },
+        {
+            "step": "03",
+            "title": "Fejlesztés",
+            "description": "A legújabb webes technológiákkal építjük fel oldalát."
+        },
+        {
+            "step": "04",
+            "title": "Indítás",
+            "description": "Élesítjük weboldalát és biztosítjuk a zavartalan működést."
+        }
+    ]
+}

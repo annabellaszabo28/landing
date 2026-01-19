@@ -38,6 +38,8 @@ export default function Home() {
 
       <main className="flex-grow">
         <Hero content={content.hero} />
+        <WorkTogetherSection content={content.work_together_section} />
+        <WhoWeHelpSection content={content.who_we_help_section} />
         <Services content={content.services_section} />
         <Bridge content={content.bridge_section} />
         <CaseStudies />

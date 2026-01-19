@@ -1,9 +1,47 @@
 {
     "hero": {
-        "title": "AI native marketing agency: 10+ Years Professional Experience",
-        "subtitle": "We don't just follow trends, we engineer them. Leveraging recursive AI agents and decade long expertise to scale global brands across the Web2 and Web3 ecosystems.",
-        "cta_primary": "Explore Marketing",
+        "title": "AI Native Marketing: 10+ Years of Expertise",
+        "subtitle": "We don’t just follow trends; we engineer them. Combining recursive AI agents with a decade of expertise to scale global brands across Web2 and Web3 ecosystems.",
+        "cta_primary": "Explore Services",
         "cta_secondary": "Web3 Growth"
+    },
+    "work_together_section": {
+        "title": "Let's Work Together",
+        "subtitle": "We create personalized marketing plans for your business and connect you with your target audience.",
+        "items": [
+            {
+                "title": "10+ Years Experience",
+                "icon": "Lightbulb"
+            },
+            {
+                "title": "Local & Global Insight",
+                "icon": "Globe"
+            },
+            {
+                "title": "Technical Support",
+                "icon": "HeartHandshake"
+            }
+        ],
+        "cta_text": "I'm Interested"
+    },
+    "who_we_help_section": {
+        "title": "Who We Can Help",
+        "subtitle": "We create personalized marketing plans for your business and connect you with your target audience.",
+        "items": [
+            {
+                "title": "SMEs",
+                "icon": "Building2"
+            },
+            {
+                "title": "Startups",
+                "icon": "Rocket"
+            },
+            {
+                "title": "Entrepreneurs",
+                "icon": "UserSquare2"
+            }
+        ],
+        "cta_text": "I'm Interested"
     },
     "services_section": {
         "title": "Precision Engineered Growth Solutions",
@@ -78,28 +116,40 @@
         ]
     },
     "faq_section": {
-        "title": "High Stakes Inquiries",
-        "subtitle": "Clarity for institutional partners and visionary founders.",
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know before we start working together.",
         "items": [
             {
-                "question": "How can I get in touch?",
-                "answer": "You can reach us through our contact form, email at hello@blockmarketingconsulting.com, or directly book a strategy session via our Calendly. We respond to all inquiries within 24 hours."
+                "question": "What services do you offer?",
+                "answer": "We provide full spectrum digital marketing including SEO, LLM/GEO optimization, PPC advertising, social media management, web development, and content marketing. For Web3 projects, we offer community building, GTM strategy, tokenomics advisory, PR, and KOL management."
             },
             {
-                "question": "How can I book a meeting?",
-                "answer": "The fastest way is to use our Calendly link (https://calendly.com/annabella-szabo) to pick a time that works for you. These discovery calls are free and focused on understanding your specific growth needs."
+                "question": "How do I get started working with you?",
+                "answer": "The first step is booking a free discovery call where we learn about your business, goals, and challenges. From there, we create a tailored proposal with strategy recommendations and pricing. If it's a fit, we begin onboarding within days."
             },
             {
-                "question": "Why should I work with you?",
-                "answer": "Unlike traditional agencies, we are AI native and data driven. We don't just guess; we engineer results using proprietary agentic workflows and have over 10 years of experience in both Web2 and Web3 ecosystems."
+                "question": "What is your pricing structure?",
+                "answer": "Our pricing varies based on scope, industry, and goals. We offer monthly retainers for ongoing partnerships and project based pricing for specific deliverables. During our discovery call, we'll discuss your budget and create a proposal that delivers maximum value."
             },
             {
-                "question": "How long is the setup process?",
-                "answer": "Initial audits and strategy onboarding usually take 5–7 business days. We can launch your first optimized campaigns or content engines within two weeks of our discovery call."
+                "question": "How long before I see results?",
+                "answer": "Timeline depends on the service. PPC campaigns can generate leads within days of launch. SEO typically shows meaningful improvements in 3 to 6 months. Community building and brand awareness are ongoing efforts with compounding returns over time."
             },
             {
-                "question": "How soon can you get back to me?",
-                "answer": "We pride ourselves on institutional grade speed. You will receive a response to your inquiry within 24 hours, and once onboarded, you'll have a dedicated account lead available for real time communication."
+                "question": "Do you work with small businesses or only enterprise clients?",
+                "answer": "We work with businesses of all sizes, from funded startups to established enterprises. What matters most is alignment on goals and a commitment to growth. Our strategies scale to match your budget and ambitions."
+            },
+            {
+                "question": "How do you measure and report on results?",
+                "answer": "Transparency is core to how we work. You'll receive regular reports with clear KPIs, insights, and recommendations. We use data dashboards so you can track performance in real time, and we schedule review calls to discuss progress and next steps."
+            },
+            {
+                "question": "What makes you different from other agencies?",
+                "answer": "We combine over a decade of marketing experience with modern AI workflows that increase speed and precision. We're hands on, accountable, and treat your growth like our own. Our team has worked with both Fortune 500 brands and leading blockchain protocols."
+            },
+            {
+                "question": "Can I book a call to discuss my project?",
+                "answer": "Absolutely. We offer free 30 minute discovery calls to understand your needs and explore how we can help. You can book directly through our calendar or reach out via the contact form on this site."
             }
         ]
     },

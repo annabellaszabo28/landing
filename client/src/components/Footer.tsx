@@ -7,9 +7,9 @@ export default function Footer() {
   return (
     <footer className="bg-white pt-20 pb-10 border-t border-slate-100">
       <div className="container">
-        <div className="grid md:grid-cols-4 gap-12 mb-16">
+        <div className="grid md:grid-cols-3 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
-            <a href="/" className="text-2xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary mb-6 inline-block">
+            <a href="/" className="text-2xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-800 to-primary mb-6 inline-block">
               {t("nav.agency_name")}
             </a>
             <p className="text-slate-500 max-w-sm mb-8">
@@ -17,15 +17,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div>
-            <h4 className="font-bold text-slate-900 mb-6">Services</h4>
-            <ul className="space-y-4 text-slate-600">
-              <li><Link href="/services" className="hover:text-primary transition-colors">AI Analytics</Link></li>
-              <li><Link href="/services" className="hover:text-primary transition-colors">Brand Strategy</Link></li>
-              <li><Link href="/services" className="hover:text-primary transition-colors">Web3 Community</Link></li>
-              <li><Link href="/services" className="hover:text-primary transition-colors">Tokenomics</Link></li>
-            </ul>
-          </div>
+
 
           <div>
             <h4 className="font-bold text-slate-900 mb-6">Company</h4>

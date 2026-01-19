@@ -1,0 +1,96 @@
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import PageHeader from "@/components/PageHeader";
+import LoadingSpinner from "@/components/LoadingSpinner";
+import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
+import { getPageContent } from "@/lib/content";
+import { Helmet } from "react-helmet-async";
+import { motion } from "framer-motion";
+import { CheckCircle2, ArrowRight } from "lucide-react";
+import { Link } from "wouter";
+
+interface PageContent {
+    header: { title: string; subtitle: string; };
+    hero: { title: string; subtitle: string; cta_primary: string; cta_secondary: string; };
+    features: string[];
+    process: { step: string; title: string; description: string; }[];
+}
+
+export default function WebsiteBuildingPage() {
+    const { t, i18n } = useTranslation();
+    const [content, setContent] = useState<PageContent | null>(null);
+
+    useEffect(() => {
+        getPageContent<PageContent>("website_building").then(setContent);
+    }, [i18n.language]);
+
+    if (!content) return <LoadingSpinner />;
+
+    return (
+        <div className="min-h-screen flex flex-col font-sans bg-background">
+            <Helmet>
+                <title>{content.hero.title} | {t("nav.agency_name")}</title>
+                <meta name="description" content={content.hero.subtitle} />
+            </Helmet>
+            <Navigation />
+
+            <main className="flex-grow pt-24">
+                <PageHeader title={content.header.title} subtitle={content.header.subtitle} />
+
+                <section className="py-24 container">
+                    <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
+                        <div>
+                            <h2 className="text-4xl font-bold mb-6">{content.hero.title}</h2>
+                            <p className="text-lg text-slate-600 mb-8">{content.hero.subtitle}</p>
+                            <div className="flex gap-4">
+                                <Link href="/contact">
+                                    <button className="bg-primary text-white px-8 py-3 rounded-full font-medium hover:bg-primary/90 transition-colors">
+                                        {content.hero.cta_primary}
+                                    </button>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="bg-slate-100 rounded-3xl h-[400px] flex items-center justify-center">
+                            {/* Placeholder for illustration */}
+                            <div className="text-slate-400">Illustration Placeholder</div>
+                        </div>
+                    </div>
+
+                    <div className="mb-24">
+                        <h3 className="text-2xl font-bold mb-8 text-center">Features</h3>
+                        <div className="grid md:grid-cols-4 gap-6">
+                            {content.features.map((feature, idx) => (
+                                <motion.div
+                                    key={idx}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: idx * 0.1 }}
+                                    className="p-6 bg-white border border-slate-100 rounded-xl shadow-sm flex items-start gap-3"
+                                >
+                                    <CheckCircle2 className="text-primary shrink-0" />
+                                    <span className="font-medium">{feature}</span>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 className="text-2xl font-bold mb-12 text-center">Our Process</h3>
+                        <div className="grid md:grid-cols-4 gap-8">
+                            {content.process.map((step, idx) => (
+                                <div key={idx} className="relative">
+                                    <div className="text-6xl font-black text-slate-100 mb-4">{step.step}</div>
+                                    <h4 className="text-xl font-bold mb-2">{step.title}</h4>
+                                    <p className="text-slate-600">{step.description}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <Footer />
+        </div>
+    );
+}

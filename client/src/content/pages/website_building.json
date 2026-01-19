@@ -1,0 +1,40 @@
+{
+    "header": {
+        "title": "Website Building",
+        "subtitle": "Premium, conversion-optimized websites that establish credibility and drive business growth."
+    },
+    "hero": {
+        "title": "Websites That Work For You",
+        "subtitle": "We build fast, secure, and beautiful websites tailored to your brand's needs.",
+        "cta_primary": "Get a Quote",
+        "cta_secondary": "View Portfolio"
+    },
+    "features": [
+        "Responsive Design",
+        "SEO Optimization",
+        "Fast Performance",
+        "CMS Integration"
+    ],
+    "process": [
+        {
+            "step": "01",
+            "title": "Discovery",
+            "description": "We learn about your business goals and target audience."
+        },
+        {
+            "step": "02",
+            "title": "Design",
+            "description": "We create visual mockups and prototypes for your approval."
+        },
+        {
+            "step": "03",
+            "title": "Development",
+            "description": "We build your site using the latest web technologies."
+        },
+        {
+            "step": "04",
+            "title": "Launch",
+            "description": "We deploy your site and ensure everything runs smoothly."
+        }
+    ]
+}

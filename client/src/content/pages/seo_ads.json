@@ -1,51 +1,82 @@
 {
     "header": {
-        "title": "Dominate Search Rankings with AI Powered SEO",
-        "subtitle": "Stop losing customers to competitors. Our AI driven SEO strategies deliver measurable organic growth and top rankings that convert."
+        "title": "SEO That Actually Drives Business Growth",
+        "subtitle": "We help businesses increase organic visibility and attract qualified traffic through strategic, data driven search engine optimization."
     },
     "challenges": {
-        "title": "Sound Familiar?",
+        "title": "Common SEO Challenges We Solve",
         "items": [
-            "Your competitors outrank you for high value keywords",
-            "Organic traffic has plateaued despite your efforts",
-            "Algorithm updates keep hurting your rankings",
-            "You're spending on content that doesn't rank",
-            "Technical SEO issues are holding your site back"
+            "Struggling to rank for keywords that matter to your business",
+            "Organic traffic has plateaued despite ongoing content efforts",
+            "Technical issues are holding back your site's performance",
+            "Previous SEO efforts haven't delivered measurable ROI",
+            "Algorithm updates keep affecting your rankings"
         ]
     },
-    "solutions": {
-        "title": "Our AI SEO Approach",
+    "approach": {
+        "title": "Our SEO Methodology",
+        "description": "We take a strategic, transparent approach to SEO that focuses on sustainable growth rather than quick fixes. Every decision is backed by data and aligned with your business goals.",
         "items": [
             {
-                "title": "AI Keyword Intelligence",
-                "description": "Proprietary AI identifies high opportunity keywords your competitors miss, focusing on buyer intent and conversion potential.",
-                "icon": "Brain"
-            },
-            {
-                "title": "Technical SEO Mastery",
-                "description": "Deep site audits that fix crawlability, speed, and Core Web Vitals issues that block your rankings.",
+                "title": "Technical Foundation",
+                "description": "We start with a comprehensive audit of your site's technical health, fixing crawlability issues, improving page speed, and ensuring search engines can properly index your content.",
                 "icon": "Settings"
             },
             {
-                "title": "Content Clusters",
-                "description": "Strategic topic clusters that establish topical authority and dominate entire search categories.",
-                "icon": "Network"
+                "title": "Keyword Strategy",
+                "description": "We research and prioritize keywords based on search volume, competition, and buyer intent, focusing on terms that drive qualified traffic and conversions.",
+                "icon": "Search"
             },
             {
-                "title": "Authority Linkbuilding",
-                "description": "White hat backlink acquisition from tier 1 publications that cement your domain authority.",
+                "title": "Content Optimization",
+                "description": "We optimize existing content and develop new pages that answer your audience's questions, establish topical authority, and earn organic visibility over time.",
+                "icon": "FileText"
+            },
+            {
+                "title": "Link Building",
+                "description": "We build high quality backlinks through genuine outreach and content partnerships, strengthening your domain authority and competitive position.",
                 "icon": "Link"
             }
         ]
     },
-    "social_proof": {
-        "title": "Results That Speak",
-        "stat_1": "+320% Average Organic Traffic Growth",
-        "stat_2": "1,200+ Keywords in Top 3 Positions"
+    "process": {
+        "title": "How We Work Together",
+        "steps": [
+            {
+                "step": "01",
+                "title": "Discovery Call",
+                "description": "We learn about your business, goals, and current SEO situation to understand if we're a good fit."
+            },
+            {
+                "step": "02",
+                "title": "Audit & Strategy",
+                "description": "We conduct a thorough SEO audit and develop a custom strategy with clear priorities and timelines."
+            },
+            {
+                "step": "03",
+                "title": "Implementation",
+                "description": "Our team executes the strategy, handling technical fixes, content optimization, and link building."
+            },
+            {
+                "step": "04",
+                "title": "Reporting & Iteration",
+                "description": "You receive regular reports with actionable insights, and we continuously refine our approach based on results."
+            }
+        ]
+    },
+    "differentiators": {
+        "title": "Why Work With Us",
+        "items": [
+            "Transparent reporting with clear, measurable KPIs",
+            "No long term contracts. We earn your business monthly.",
+            "Dedicated strategist who knows your business",
+            "10+ years experience across industries",
+            "Real results focused, not vanity metrics"
+        ]
     },
     "cta": {
-        "title": "Ready to Outrank Your Competition?",
-        "subtitle": "Book a free SEO audit and discover the hidden opportunities your competitors are exploiting.",
-        "button_text": "Get Your Free SEO Audit"
+        "title": "Ready to Improve Your Organic Visibility?",
+        "subtitle": "Book a free 30 minute discovery call. We'll discuss your goals and share initial insights on how we can help.",
+        "button_text": "Book a Free Call"
     }
 }

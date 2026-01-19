@@ -1,0 +1,40 @@
+{
+    "header": {
+        "title": "Product Planning & Building",
+        "subtitle": "From idea to market: MVP development, UX/UI design, and full-cycle product management."
+    },
+    "hero": {
+        "title": "Turn Your Vision Into Reality",
+        "subtitle": "Strategic product planning and expert development execution for startups and enterprises.",
+        "cta_primary": "Start Planning",
+        "cta_secondary": "Our Process"
+    },
+    "features": [
+        "Market Research",
+        "MVP Strategy",
+        "User Experience Design",
+        "Agile Development"
+    ],
+    "process": [
+        {
+            "step": "01",
+            "title": "Strategy",
+            "description": "Defining the product vision and roadmap."
+        },
+        {
+            "step": "02",
+            "title": "Prototyping",
+            "description": "Validating ideas with clickable prototypes."
+        },
+        {
+            "step": "03",
+            "title": "Building",
+            "description": "Iterative development focused on core value."
+        },
+        {
+            "step": "04",
+            "title": "Scaling",
+            "description": "Optimizing for growth and user retention."
+        }
+    ]
+}

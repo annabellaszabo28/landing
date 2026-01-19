@@ -1,0 +1,40 @@
+{
+    "header": {
+        "title": "App Building",
+        "subtitle": "Native iOS and Android apps, as well as cross-platform solutions that deliver outstanding user experiences."
+    },
+    "hero": {
+        "title": "Mobile Apps That Engage",
+        "subtitle": "Create powerful mobile experiences that connect with your users on any device.",
+        "cta_primary": "Build Your App",
+        "cta_secondary": "Learn More"
+    },
+    "features": [
+        "Native iOS & Android",
+        "Cross-Platform (React Native/Flutter)",
+        "App Store Optimization",
+        "Maintenance & Support"
+    ],
+    "process": [
+        {
+            "step": "01",
+            "title": "Concept",
+            "description": "Refining your app idea and features."
+        },
+        {
+            "step": "02",
+            "title": "UI/UX",
+            "description": "Designing intuitive and engaging interfaces."
+        },
+        {
+            "step": "03",
+            "title": "Development",
+            "description": "Coding robust and scalable mobile applications."
+        },
+        {
+            "step": "04",
+            "title": "Deployment",
+            "description": "Publishing to App Store and Google Play."
+        }
+    ]
+}

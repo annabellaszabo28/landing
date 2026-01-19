@@ -1,6 +1,6 @@
 {
     "header": {
-        "title": "Szakértelmünk",
+        "title": "Szolgáltatásaink",
         "subtitle": "Átfogó digitális megoldások, amelyek áthidalják a szakadékot a hagyományos üzlet és a decentralizált jövő között."
     },
     "services_list": [
@@ -8,24 +8,39 @@
             "category": "Web2 Növekedés",
             "items": [
                 {
-                    "title": "AI Teljesítmény Marketing",
-                    "description": "Maximalizálja ROI-ját gépi tanulási algoritmusokkal, amelyek valós időben optimalizálják a hirdetési kiadásokat a Google, Meta és TikTok felületein.",
+                    "title": "AI Performance Marketing",
+                    "description": "Maximalizálja a megtérülést (ROI) gépi tanulási algoritmusokkal, amelyek valós időben optimalizálják a hirdetési kereteket Google, Meta és TikTok felületeken.",
                     "icon": "BarChart3"
                 },
                 {
-                    "title": "Márkastratégia és identitás",
-                    "description": "Emberközpontú narratívák kialakítása, amelyek rezonálnak a digitális világban. Olyan márkákat építünk, amelyek kiállják az idő próbáját.",
+                    "title": "Márkastratégia és Arculat",
+                    "description": "Emberközpontú narratívák és vizuális világ, amely rezonál a digitális térben. Időtálló márkákat építünk.",
                     "icon": "Megaphone"
                 },
                 {
                     "title": "Tartalomgyártás",
-                    "description": "Nagy volumenű, kiváló minőségű tartalomkészítés generatív AI eszközök segítségével, emberi szerkesztők által finomítva.",
+                    "description": "Nagy volumenű, prémium minőségű tartalomkészítés generatív AI eszközökkel, szakértő szerkesztők felügyeletével.",
                     "icon": "Layers"
                 },
                 {
                     "title": "Egyedi webfejlesztés",
-                    "description": "Rendkívül gyors, SEO optimalizált weboldalak modern keretrendszerekkel, mint a React és a Next.js.",
+                    "description": "Villámgyors, SEO-optimalizált weboldalak modern technológiákkal (React, Next.js).",
                     "icon": "Code"
+                },
+                {
+                    "title": "Weboldal készítés",
+                    "description": "Prémium megjelenésű, konverzióra optimalizált weboldalak, amelyek hitelességet adnak vállalkozásának.",
+                    "icon": "Layout"
+                },
+                {
+                    "title": "Terméktervezés és építés",
+                    "description": "Az ötlettől a piacra lépésig: MVP fejlesztés, UX/UI tervezés és teljes körű termékmenedzsment.",
+                    "icon": "PenTool"
+                },
+                {
+                    "title": "Applikáció fejlesztés",
+                    "description": "Natív iOS és Android alkalmazások, valamint cross-platform megoldások, amelyek kiemelkedő felhasználói élményt nyújtanak.",
+                    "icon": "Smartphone"
                 }
             ]
         },
@@ -34,22 +49,22 @@
             "items": [
                 {
                     "title": "Közösségi architektúra",
-                    "description": "Elkötelezett közösségek építése és kezelése Discord és Telegram felületeken. A felhasználókat a márka elkötelezett híveivé alakítjuk.",
+                    "description": "Elkötelezett közösségek építése és menedzselése Discord és Telegram platformokon. A felhasználókból márkanagyköveteket faragunk.",
                     "icon": "Users"
                 },
                 {
                     "title": "Tokenomika és stratégia",
-                    "description": "Fenntartható gazdasági modellek tervezése tokenindításhoz. Kiegyensúlyozzuk az ösztönzőket a hosszú távú növekedés érdekében.",
+                    "description": "Fenntartható gazdasági modellek tervezése tokenkibocsátáshoz. Kiegyensúlyozott ösztönzők a hosszú távú növekedésért.",
                     "icon": "Cpu"
                 },
                 {
                     "title": "DeFi Marketing",
-                    "description": "Navigálás a komplex szabályozási környezetben, miközben növeljük a TVL-t és a felhasználói elköteleződést a decentralizált protokolloknál.",
+                    "description": "Navigálás a komplex szabályozási környezetben, TVL növelés és felhasználói aktiváció decentralizált protokollok számára.",
                     "icon": "Globe"
                 },
                 {
                     "title": "Smart Contract Auditálás",
-                    "description": "Biztosítjuk a protokoll biztonságát az indulás előtt. Elsőrangú auditáló cégekkel működünk együtt a teljes körű biztonság érdekében.",
+                    "description": "Garantáljuk a protokoll biztonságát indulás előtt. Piacvezető auditáló cégekkel működünk együtt a teljes védelemért.",
                     "icon": "ShieldCheck"
                 }
             ]

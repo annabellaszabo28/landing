@@ -147,32 +147,6 @@ export default function ContactPage() {
                       </a>
                     </div>
                   </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
-                      <Phone size={20} />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-lg mb-1">{t("contact.call_label")}</h3>
-                      <p className="text-slate-600 mb-2">{t("contact.call_sub")}</p>
-                      <a href="tel:+15550000000" className="text-primary font-medium hover:underline">
-                        +1 (555) 000-0000
-                      </a>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
-                      <MapPin size={20} />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-lg mb-1">{t("contact.visit_label")}</h3>
-                      <p className="text-slate-600">
-                        123 Innovation Drive, Suite 400<br />
-                        San Francisco, CA 94103
-                      </p>
-                    </div>
-                  </div>
                 </div>
 
                 <div className="mt-12 p-8 bg-slate-50 rounded-2xl border border-slate-100">

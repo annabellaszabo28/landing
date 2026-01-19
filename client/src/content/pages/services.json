@@ -26,6 +26,21 @@
                     "title": "Custom Web Development",
                     "description": "Blazing fast, SEO optimized websites built with modern frameworks like React and Next.js.",
                     "icon": "Code"
+                },
+                {
+                    "title": "Website Building",
+                    "description": "Premium, conversion-optimized websites that establish credibility for your business.",
+                    "icon": "Layout"
+                },
+                {
+                    "title": "Product Planning & Building",
+                    "description": "From idea to market: MVP development, UX/UI design, and full-cycle product management.",
+                    "icon": "PenTool"
+                },
+                {
+                    "title": "App Building",
+                    "description": "Native iOS and Android apps, as well as cross-platform solutions that deliver outstanding user experiences.",
+                    "icon": "Smartphone"
                 }
             ]
         },

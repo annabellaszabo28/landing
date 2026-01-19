@@ -27,6 +27,9 @@ const SEOAdsPage = lazy(() => import("./pages/SEOAdsPage"));
 const TermsPage = lazy(() => import("./pages/TermsPage"));
 const PrivacyPage = lazy(() => import("./pages/PrivacyPage"));
 const CookiesPage = lazy(() => import("./pages/CookiesPage"));
+const WebsiteBuildingPage = lazy(() => import("./pages/WebsiteBuildingPage"));
+const ProductPlanningPage = lazy(() => import("./pages/ProductPlanningPage"));
+const AppBuildingPage = lazy(() => import("./pages/AppBuildingPage"));
 
 function Routes() {
   return (
@@ -56,6 +59,9 @@ function Routes() {
       <Route path="/ppc/performance_marketing" component={PPCAdsPage} />
       <Route path="/ai_search/growth" component={AISearchPage} />
       <Route path="/seo/organic_growth" component={SEOAdsPage} />
+      <Route path="/services/website-building" component={WebsiteBuildingPage} />
+      <Route path="/services/product-planning" component={ProductPlanningPage} />
+      <Route path="/services/app-building" component={AppBuildingPage} />
 
       {/* Legal */}
       <Route path="/terms" component={TermsPage} />

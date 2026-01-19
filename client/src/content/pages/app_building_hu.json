@@ -1,0 +1,40 @@
+{
+    "header": {
+        "title": "Applikáció Fejlesztés",
+        "subtitle": "Natív iOS és Android alkalmazások, valamint cross-platform megoldások, amelyek kiemelkedő felhasználói élményt nyújtanak."
+    },
+    "hero": {
+        "title": "Mobilalkalmazások, Amelyek Megragadnak",
+        "subtitle": "Hozzon létre erőteljes mobilélményeket, amelyek bármely eszközön összekötik felhasználóival.",
+        "cta_primary": "App Fejlesztés",
+        "cta_secondary": "Tudjon Meg Többet"
+    },
+    "features": [
+        "Natív iOS és Android",
+        "Cross-Platform (React Native/Flutter)",
+        "App Store Optimalizálás (ASO)",
+        "Karbantartás és Támogatás"
+    ],
+    "process": [
+        {
+            "step": "01",
+            "title": "Koncepció",
+            "description": "Az alkalmazás ötletének és funkcióinak finomítása."
+        },
+        {
+            "step": "02",
+            "title": "UI/UX",
+            "description": "Intuitív és vonzó felületek tervezése."
+        },
+        {
+            "step": "03",
+            "title": "Fejlesztés",
+            "description": "Stabil és skálázható mobilalkalmazások kódolása."
+        },
+        {
+            "step": "04",
+            "title": "Publikálás",
+            "description": "Megjelenés az App Store-ban és a Google Play-en."
+        }
+    ]
+}
