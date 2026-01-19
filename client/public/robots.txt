@@ -1,11 +1,11 @@
-# BlockMarketing Digital - robots.txt
-# https://blockmarketing.digital/robots.txt
+# BlockMarketing Consulting - robots.txt
+# https://blockmarketingconsulting.com/robots.txt
 
 User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://blockmarketing.digital/sitemap.xml
+Sitemap: https://blockmarketingconsulting.com/sitemap.xml
 
 # Crawl-delay (optional, for politeness)
 Crawl-delay: 1
