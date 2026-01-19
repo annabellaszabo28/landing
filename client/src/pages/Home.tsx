@@ -30,6 +30,7 @@ export default function Home() {
       <Helmet>
         <title>{t("home_seo.title")}</title>
         <meta name="description" content={t("home_seo.description")} />
+        <meta name="keywords" content="AI marketing agency, Web3 marketing, digital agency, AI content, blockchain marketing, DAO community, generative AI, SEO agency, growth marketing" />
         <link rel="canonical" href="https://blockmarketing.digital/" />
         <meta property="og:title" content={t("home_seo.title")} />
         <meta property="og:description" content={t("home_seo.description")} />

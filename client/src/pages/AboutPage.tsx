@@ -24,8 +24,10 @@ export default function AboutPage() {
       <Helmet>
         <title>{t("about_seo.title")}</title>
         <meta name="description" content={t("about_seo.description")} />
+        <meta name="keywords" content="about blockmarketing, marketing team, AI agency experts, web3 specialists, digital agency san francisco" />
         <link rel="canonical" href="https://blockmarketing.digital/about" />
         <meta property="og:title" content={t("about_seo.title")} />
+        <meta property="og:description" content={t("about_seo.description")} />
         <meta property="og:url" content="https://blockmarketing.digital/about" />
       </Helmet>
       <Navigation />

@@ -111,8 +111,10 @@ export default function ContactPage() {
       <Helmet>
         <title>{t("contact.title")} | {t("nav.agency_name")}</title>
         <meta name="description" content={t("contact.description")} />
+        <meta name="keywords" content="contact marketing agency, hire marketing team, book discovery call, AI marketing consultation" />
         <link rel="canonical" href="https://blockmarketing.digital/contact" />
         <meta property="og:title" content={`${t("contact.title")} | ${t("nav.agency_name")}`} />
+        <meta property="og:description" content={t("contact.description")} />
         <meta property="og:url" content="https://blockmarketing.digital/contact" />
       </Helmet>
       <Navigation />

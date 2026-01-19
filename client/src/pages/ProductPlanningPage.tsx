@@ -32,6 +32,7 @@ export default function ProductPlanningPage() {
             <Helmet>
                 <title>{content.hero.title} | {t("nav.agency_name")}</title>
                 <meta name="description" content={content.hero.subtitle} />
+                <meta name="keywords" content="product planning, MVP development, product strategy, go-to-market planning, product roadmap" />
             </Helmet>
             <Navigation />
 

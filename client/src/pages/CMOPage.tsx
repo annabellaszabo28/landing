@@ -16,6 +16,10 @@ export default function CMOPage() {
             <Helmet>
                 <title>Fractional CMO Services for Web3 & AI | BlockMarketing</title>
                 <meta name="description" content="Expert Fractional CMO services. Scale your Web3 or AI startup with a dedicated marketing leadership team. We replace an entire department for the cost of one hire." />
+                <meta name="keywords" content="fractional CMO, marketing leadership, Web3 CMO, AI marketing director, startup marketing help, growth executive" />
+                <meta property="og:title" content="Fractional CMO Services for Web3 & AI | BlockMarketing" />
+                <meta property="og:description" content="Expert Fractional CMO services. Scale your Web3 or AI startup with a dedicated marketing leadership team." />
+                <meta property="og:url" content="https://blockmarketing.digital/cmo" />
             </Helmet>
             <Navigation />
 

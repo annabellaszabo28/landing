@@ -22,8 +22,10 @@ export default function WorkPage() {
       <Helmet>
         <title>Our Work | Case Studies | {t("nav.agency_name")}</title>
         <meta name="description" content="A showcase of our impact across industries. See how we help brands grow with AI marketing, Web3 communities, and generative strategies." />
+        <meta name="keywords" content="marketing case studies, web3 success stories, AI marketing results, crypto marketing portfolio, SaaS growth studies" />
         <link rel="canonical" href="https://blockmarketing.digital/work" />
         <meta property="og:title" content={`Our Work | ${t("nav.agency_name")}`} />
+        <meta property="og:description" content="A showcase of our impact across industries. See how we help brands grow with AI marketing, Web3 communities, and generative strategies." />
         <meta property="og:url" content="https://blockmarketing.digital/work" />
       </Helmet>
       <Navigation />

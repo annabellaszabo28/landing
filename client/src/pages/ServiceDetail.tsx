@@ -127,6 +127,9 @@ export default function ServiceDetail({ type }: ServiceDetailProps) {
             <Helmet>
                 <title>{service.title} | BlockMarketing Digital</title>
                 <meta name="description" content={service.description} />
+                <meta name="keywords" content={`${service.title}, ${type} marketing, blockmarketing services`} />
+                <meta property="og:title" content={`${service.title} | BlockMarketing Digital`} />
+                <meta property="og:description" content={service.description} />
             </Helmet>
             <Navigation />
 

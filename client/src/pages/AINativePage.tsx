@@ -10,6 +10,10 @@ export default function AINativePage() {
             <Helmet>
                 <title>AI Native | We Ship AI | BlockMarketing Digital</title>
                 <meta name="description" content="Most agencies talk about AI. We ship AI. Native integration of LLMs, agentic workflows, and predictive growth models." />
+                <meta name="keywords" content="AI marketing agency, agentic workflows, LLM integration, predictive growth, AI native marketing, generative AI strategies" />
+                <meta property="og:title" content="AI Native | We Ship AI | BlockMarketing Digital" />
+                <meta property="og:description" content="Most agencies talk about AI. We ship AI. Native integration of LLMs, agentic workflows, and predictive growth models." />
+                <meta property="og:url" content="https://blockmarketing.digital/ai-native" />
             </Helmet>
             <Navigation />
 

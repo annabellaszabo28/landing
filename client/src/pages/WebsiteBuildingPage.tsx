@@ -32,6 +32,7 @@ export default function WebsiteBuildingPage() {
             <Helmet>
                 <title>{content.hero.title} | {t("nav.agency_name")}</title>
                 <meta name="description" content={content.hero.subtitle} />
+                <meta name="keywords" content="website building, web development, custom websites, high converting websites, landing page design, react development" />
             </Helmet>
             <Navigation />
 

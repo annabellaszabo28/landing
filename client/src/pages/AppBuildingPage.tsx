@@ -32,6 +32,7 @@ export default function AppBuildingPage() {
             <Helmet>
                 <title>{content.hero.title} | {t("nav.agency_name")}</title>
                 <meta name="description" content={content.hero.subtitle} />
+                <meta name="keywords" content="mobile app development, iOS app, android app, cross-platform apps, app building services" />
             </Helmet>
             <Navigation />
 
