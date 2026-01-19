@@ -46,19 +46,17 @@ export default function Home() {
         <Services content={content.services_section} />
         <Bridge content={content.bridge_section} />
 
-        <section className="py-32 w-full relative overflow-hidden bg-brand-dark border-t border-white/5">
-          {/* Retired Glow Effects */}
-
+        <section className="py-32 w-full relative overflow-hidden bg-primary border-t border-white/5">
           <div className="container relative z-10 text-center">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-4xl md:text-6xl font-heading font-bold mb-8 text-white tracking-tight leading-tight">
+              <h2 className="text-5xl md:text-8xl font-heading font-black mb-8 text-white tracking-tighter leading-tight">
                 {content.cta_section.title}
               </h2>
-              <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto leading-relaxed font-bold">
                 {content.cta_section.subtitle}
               </p>
               <Link href={content.cta_section.button_link}>
-                <button className="bg-white text-slate-900 px-12 py-5 rounded-full text-lg font-bold hover:bg-white hover:text-primary hover:scale-105 shadow-xl transition-all duration-300">
+                <button className="bg-white text-primary px-12 py-5 rounded-full text-xl font-black hover:bg-brand-mint hover:text-primary hover:scale-105 shadow-2xl transition-all duration-300 tracking-tight">
                   {content.cta_section.button_text}
                 </button>
               </Link>

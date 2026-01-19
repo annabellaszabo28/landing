@@ -88,10 +88,9 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
 // Main Component
 export default function TrustedBy() {
     return (
-        <section className="py-16 border-y border-white/5 bg-[#020420] overflow-hidden relative">
-            {/* Retired Glow Effects */}
-            <div className="container mb-16 text-center">
-                <p className="text-sm font-bold text-white/20 uppercase tracking-[0.2em]">Trusted By Innovative Teams</p>
+        <section className="py-20 border-y border-white/5 bg-primary overflow-hidden relative">
+            <div className="container mb-2 text-center">
+                <p className="text-xs font-black text-brand-mint/60 uppercase tracking-[0.4em]">Trusted By Innovative Teams</p>
             </div>
 
             <div className="relative flex overflow-x-hidden group">

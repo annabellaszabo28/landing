@@ -133,28 +133,17 @@
 }
 
 /* Global Heading Styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-heading), sans-serif;
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  color: var(--foreground);
-}
+@layer base {
 
-h1 {
-  @apply text-slate-900;
-}
-
-h2 {
-  @apply text-slate-900;
-}
-
-h3 {
-  @apply text-slate-900;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading tracking-tight;
+    color: inherit;
+  }
 }
 
 @layer components {
@@ -219,14 +208,16 @@ h3 {
   /* Brand Dark Theme */
   .bg-brand-dark {
     background-color: var(--primary);
-    color: white;
+    color: oklch(1 0 0);
+    /* Pure white */
   }
 
   .bg-brand-dark h1,
   .bg-brand-dark h2,
   .bg-brand-dark h3,
-  .bg-brand-dark h4 {
-    color: white;
+  .bg-brand-dark h4,
+  .bg-brand-dark p {
+    color: oklch(1 0 0);
   }
 
   .text-brand-mint {

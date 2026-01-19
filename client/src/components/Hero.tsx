@@ -46,7 +46,7 @@ export default function Hero({ content }: HeroProps) {
 
           <h1 className="text-5xl md:text-8xl font-bold tracking-tight text-slate-900 mb-6 max-w-5xl mx-auto leading-tight">
             {content.title.split(':').map((part, i) => (
-              <span key={i} className={i === 1 ? "block bg-gradient-to-r from-primary via-brand-mint to-brand-mint bg-clip-text text-transparent pb-4" : "block mb-2"}>
+              <span key={i} className={i === 1 ? "block text-brand-mint pb-4" : "block mb-2"}>
                 {part}
               </span>
             ))}

@@ -61,25 +61,25 @@ export default function BlogPostDetail() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <div className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full font-medium mb-6">
+            <div className="inline-block px-6 py-2 bg-brand-mint text-primary rounded-full font-black text-xs uppercase tracking-[0.2em] mb-8 shadow-xl shadow-brand-mint/20">
               {post.category}
             </div>
-            <h1 className="text-3xl md:text-5xl font-bold mb-8 leading-tight">
+            <h1 className="text-4xl md:text-7xl font-black mb-8 leading-[1.1] tracking-tighter text-slate-900">
               {post.title}
             </h1>
 
             <div className="flex flex-wrap items-center justify-center gap-6 text-slate-600">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-slate-100 overflow-hidden border border-slate-200">
+                <div className="w-10 h-10 rounded-full bg-white overflow-hidden border border-slate-200 shadow-sm">
                   <img
-                    src="/brand_logo_blue.png"
+                    src="/brand_logo_new.png"
                     alt="BlockMarketing Consulting"
-                    className="w-full h-full object-contain p-1"
+                    className="w-full h-full object-contain p-1.5"
                   />
                 </div>
                 <div className="text-left">
-                  <div className="text-sm font-bold text-slate-900">BlockMarketing Consulting</div>
-                  <div className="text-xs">Agency Team</div>
+                  <div className="text-sm font-black text-slate-900 uppercase tracking-tight">BlockMarketing Consulting</div>
+                  <div className="text-xs font-bold text-slate-400">Design Powerhouse</div>
                 </div>
               </div>
 
@@ -142,23 +142,23 @@ export default function BlogPostDetail() {
           </div>
         </article>
 
-        {/* Newsletter CTA */}
-        <section className="mt-24 bg-primary py-20">
-          <div className="container max-w-4xl text-center text-white">
-            <h2 className="text-3xl font-bold mb-4">Stay ahead of the curve</h2>
-            <p className="text-slate-300 mb-8 max-w-xl mx-auto">
-              Join 10,000+ strategists receiving our weekly insights on AI and Web3.
+        {/* Ready to Scale Section - High Conversion */}
+        <section className="mt-24 bg-primary py-24 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-mint/5 rounded-full blur-3xl" />
+          <div className="container max-w-4xl text-center text-white relative z-10">
+            <h2 className="text-5xl md:text-7xl font-black mb-8 tracking-tighter text-white leading-none">
+              Ready to <span className="text-brand-mint">Scale?</span>
+            </h2>
+            <p className="text-xl md:text-2xl text-white mb-12 max-w-xl mx-auto font-bold">
+              Stop guessing. Start growing. Book your strategy session with our design experts today.
             </p>
-            <form className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-grow px-6 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary"
-              />
-              <button className="px-8 py-3 rounded-full bg-primary font-bold hover:bg-primary/90 transition-colors">
-                Subscribe
-              </button>
-            </form>
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+              <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                <button className="px-12 py-5 rounded-full bg-brand-mint text-primary font-black text-xl hover:scale-105 transition-all shadow-2xl shadow-brand-mint/20 tracking-tight">
+                  Book a Strategy Call
+                </button>
+              </a>
+            </div>
           </div>
         </section>
       </main>

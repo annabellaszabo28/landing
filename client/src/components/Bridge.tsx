@@ -50,8 +50,8 @@ export default function Bridge({ content }: BridgeProps) {
           {/* Content Container */}
           {/* Energy Flow */}
           <div className="absolute top-1/2 left-0 w-full h-px overflow-hidden pointer-events-none">
-            <div className="absolute top-0 left-[-200px] w-[200px] h-[2px] bg-gradient-to-r from-transparent via-brand-mint to-transparent animate-slide-beam" />
-            <div className="absolute top-0 left-[-400px] w-[300px] h-[3px] bg-gradient-to-r from-transparent via-brand-mint/50 to-transparent animate-slide-beam" style={{ animationDelay: '1s' }} />
+            <div className="absolute top-0 left-[-200px] w-[200px] h-[2px] bg-brand-mint animate-slide-beam" />
+            <div className="absolute top-0 left-[-400px] w-[300px] h-[3px] bg-brand-mint/50 animate-slide-beam" style={{ animationDelay: '1s' }} />
           </div>
 
           <div className="w-full relative z-10">

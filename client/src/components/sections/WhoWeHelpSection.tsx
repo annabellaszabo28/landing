@@ -43,7 +43,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                     <h2 className="text-5xl md:text-8xl font-heading font-black mb-8 text-white tracking-tighter leading-[1.1]">
                         {content.title}
                     </h2>
-                    <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed font-medium">
+                    <p className="text-xl md:text-2xl text-white max-w-2xl mx-auto leading-relaxed font-black">
                         {content.subtitle}
                     </p>
                 </div>

@@ -55,10 +55,10 @@ export default function BlogPage() {
                       </div>
 
                       <div className="flex items-center gap-4 text-xs font-black uppercase tracking-widest text-slate-500 mb-4">
-                        <span className="px-4 py-1.5 bg-brand-mint text-primary rounded-full shadow-sm">
+                        <span className="px-5 py-2 bg-brand-mint text-primary rounded-full shadow-lg shadow-brand-mint/20">
                           {post.category}
                         </span>
-                        <div className="flex items-center gap-1.5">
+                        <div className="flex items-center gap-1.5 font-bold">
                           <Calendar size={14} className="text-brand-mint" strokeWidth={3} />
                           {new Date(post.date).toLocaleDateString()}
                         </div>
@@ -73,11 +73,11 @@ export default function BlogPage() {
                       </p>
 
                       <div className="flex items-center justify-between mt-auto pt-6 border-t border-slate-100">
-                        <div className="flex items-center gap-2 text-sm font-black text-slate-900 uppercase tracking-tight">
+                        <div className="flex items-center gap-2 text-sm font-black text-primary uppercase tracking-tight">
                           <img src="/brand_logo_new.png" alt="Author" className="w-6 h-6 object-contain" />
                           {post.author}
                         </div>
-                        <span className="text-primary font-black flex items-center gap-1 text-sm group-hover:text-brand-mint group-hover:gap-2 transition-all uppercase tracking-widest">
+                        <span className="text-primary font-black flex items-center gap-2 text-sm group-hover:text-brand-mint transition-all uppercase tracking-widest">
                           {t("common.read_more")} <ArrowRight size={18} strokeWidth={3} />
                         </span>
                       </div>
