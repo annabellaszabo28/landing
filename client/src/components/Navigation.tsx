@@ -43,8 +43,10 @@ export default function Navigation() {
         <div className="w-full hidden md:flex items-center justify-between px-6 py-2.5 rounded-full border border-slate-200/60 bg-white/70 backdrop-blur-xl shadow-sm">
 
           {/* Logo */}
-          <Link href="/" className="cursor-pointer">
-            <img src="/logo.png" alt={t("nav.agency_name")} className="h-10 w-auto" />
+          <Link href="/" className="cursor-pointer group flex items-center gap-2">
+            <span className="text-xl font-bold font-heading tracking-tight text-slate-900 group-hover:text-primary transition-colors">
+              BlockMarketing <span className="text-primary group-hover:text-slate-900 transition-colors">Consulting</span>
+            </span>
           </Link>
 
           {/* Centered Links */}
@@ -81,8 +83,10 @@ export default function Navigation() {
         </div>
 
         {/* Mobile: Logo on left */}
-        <Link href="/" className="md:hidden cursor-pointer">
-          <img src="/logo.png" alt={t("nav.agency_name")} className="h-8 w-auto" />
+        <Link href="/" className="md:hidden cursor-pointer group flex items-center">
+          <span className="text-lg font-bold font-heading tracking-tight text-slate-900">
+            BlockMarketing <span className="text-primary">Consulting</span>
+          </span>
         </Link>
 
         {/* Mobile Menu Toggle */}
