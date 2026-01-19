@@ -43,39 +43,39 @@ export default function Navigation() {
         <div className="w-full hidden md:flex items-center justify-between px-6 py-2.5 rounded-full border border-slate-200/60 bg-white/70 backdrop-blur-xl shadow-sm">
 
           {/* Logo */}
-          <Link href="/" className="cursor-pointer group flex items-center gap-2">
-            <img src="/brand_logo_blue.png" alt="BlockMarketing Consulting" className="h-10 w-auto" />
-            <span className="text-xl font-bold font-heading tracking-tight text-slate-900 group-hover:text-primary transition-colors">
-              BlockMarketing Consulting
+          <Link href="/" className="cursor-pointer group flex items-center gap-3">
+            <img src="/brand_logo_new.png" alt="BlockMarketing Consulting" className="h-12 w-auto drop-shadow-sm group-hover:scale-110 transition-transform duration-300" />
+            <span className="text-xl font-black font-heading tracking-tighter text-slate-900">
+              BlockMarketing <span className="text-brand-mint">Consulting</span>
             </span>
           </Link>
 
           {/* Centered Links */}
           <div className="flex items-center gap-8 mx-auto">
             <Link href="/marketing">
-              <a className="text-sm font-bold text-slate-800 hover:text-primary-light transition-colors cursor-pointer">{t("nav.marketing")}</a>
+              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors cursor-pointer">{t("nav.marketing")}</a>
             </Link>
             <Link href="/web3">
-              <a className="text-sm font-bold text-slate-800 hover:text-primary-light transition-colors cursor-pointer">{t("nav.web3")}</a>
+              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors cursor-pointer">{t("nav.web3")}</a>
             </Link>
             <Link href="/cmo">
-              <a className="text-sm font-bold text-slate-800 hover:text-primary-light transition-colors cursor-pointer">CMO as a Service</a>
+              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors cursor-pointer">CMO as a Service</a>
             </Link>
             <Link href="/about">
-              <a className="text-sm font-bold text-slate-800 hover:text-primary-light transition-colors flex items-center gap-2 cursor-pointer">
-                <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
+              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors flex items-center gap-2 cursor-pointer">
+                <span className="w-2 h-2 bg-brand-mint rounded-full animate-pulse shadow-[0_0_8px_var(--brand-mint)]"></span>
                 {t("nav.about")}
               </a>
             </Link>
             <Link href="/blog">
-              <a className="text-sm font-bold text-slate-800 hover:text-primary-light transition-colors cursor-pointer">{t("nav.blog")}</a>
+              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors cursor-pointer">{t("nav.blog")}</a>
             </Link>
           </div>
 
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
             <Link href="/contact">
-              <Button className="rounded-full px-6 bg-primary hover:bg-primary-light transition-colors font-bold shadow-md shadow-primary/20">
+              <Button className="rounded-full px-8 h-12 bg-primary hover:bg-brand-mint transition-all font-black uppercase tracking-widest text-xs shadow-xl shadow-primary/20 hover:shadow-brand-mint/40 hover:-translate-y-0.5">
                 {t("nav.contact")}
               </Button>
             </Link>

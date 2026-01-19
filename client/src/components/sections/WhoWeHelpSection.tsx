@@ -37,33 +37,33 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
 
             <div className="container pt-32">
                 <div className="text-center max-w-3xl mx-auto mb-24">
-                    <p className="text-sm font-bold tracking-[0.25em] text-primary-light uppercase mb-4 text-center">
+                    <p className="text-sm font-black tracking-[0.4em] text-brand-mint uppercase mb-6 text-center">
                         {content.section_title}
                     </p>
-                    <h2 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-white tracking-tight leading-tight">
+                    <h2 className="text-5xl md:text-8xl font-heading font-black mb-8 text-white tracking-tighter leading-[1.1]">
                         {content.title}
                     </h2>
-                    <p className="text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
+                    <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed font-medium">
                         {content.subtitle}
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8 mb-20 max-w-5xl mx-auto">
+                <div className="grid md:grid-cols-3 gap-12 mb-20 max-w-6xl mx-auto">
                     {content.items.map((item, index) => {
                         const Icon = iconMap[item.icon] || Rocket;
                         return (
                             <motion.div
                                 key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 viewport={{ once: true }}
-                                className="flex flex-col items-center text-center group"
+                                className="flex flex-col items-center text-center group cursor-default"
                             >
-                                <div className="mb-8 text-primary-light p-8 rounded-full border border-white/10 bg-white/5 group-hover:border-primary-light/50 group-hover:bg-primary/20 transition-all duration-500">
-                                    <Icon size={64} strokeWidth={1.5} />
+                                <div className="mb-10 text-brand-mint p-10 rounded-[2.5rem] border border-white/10 bg-white/5 group-hover:border-brand-mint group-hover:bg-brand-mint/10 group-hover:shadow-[0_0_30px_rgba(165,243,200,0.3)] transition-all duration-500 group-hover:scale-105">
+                                    <Icon size={80} strokeWidth={1} />
                                 </div>
-                                <h3 className="text-2xl font-bold text-primary-light mb-2 font-heading tracking-wide">
+                                <h3 className="text-3xl font-black text-white group-hover:text-brand-mint transition-colors tracking-tight">
                                     {item.title}
                                 </h3>
                             </motion.div>

@@ -9,10 +9,10 @@ export default function Footer() {
       <div className="container">
         <div className="grid md:grid-cols-3 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
-            <a href="/" className="mb-6 inline-flex items-center gap-2 group">
-              <img src="/brand_logo_blue.png" alt="BlockMarketing Consulting" className="h-10 w-auto" />
-              <span className="text-xl font-bold font-heading tracking-tight text-slate-900 group-hover:text-primary transition-colors">
-                BlockMarketing Consulting
+            <a href="/" className="mb-6 inline-flex items-center gap-3 group">
+              <img src="/brand_logo_new.png" alt="BlockMarketing Consulting" className="h-12 w-auto group-hover:scale-110 transition-transform duration-300" />
+              <span className="text-xl font-black font-heading tracking-tighter text-slate-900">
+                BlockMarketing <span className="text-brand-mint">Consulting</span>
               </span>
             </a>
             <p className="text-slate-500 max-w-sm mb-8">

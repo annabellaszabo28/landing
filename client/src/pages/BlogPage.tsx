@@ -54,31 +54,31 @@ export default function BlogPage() {
                         <BrandedBlogCard title={post.title} category={post.category} className="w-full h-full transition-transform duration-500 group-hover:scale-105" />
                       </div>
 
-                      <div className="flex items-center gap-4 text-sm text-slate-500 mb-4">
-                        <span className="px-3 py-1 bg-primary-light/10 text-primary-light rounded-full font-bold">
+                      <div className="flex items-center gap-4 text-xs font-black uppercase tracking-widest text-slate-500 mb-4">
+                        <span className="px-4 py-1.5 bg-brand-mint text-primary rounded-full shadow-sm">
                           {post.category}
                         </span>
-                        <div className="flex items-center gap-1 font-medium italic">
-                          <Calendar size={14} className="text-primary-light/60" />
+                        <div className="flex items-center gap-1.5">
+                          <Calendar size={14} className="text-brand-mint" strokeWidth={3} />
                           {new Date(post.date).toLocaleDateString()}
                         </div>
                       </div>
 
-                      <h2 className="text-xl font-bold mb-3 group-hover:text-primary-light transition-colors line-clamp-2">
+                      <h2 className="text-2xl font-black mb-3 group-hover:text-brand-mint transition-colors line-clamp-2 tracking-tight">
                         {post.title}
                       </h2>
 
-                      <p className="text-slate-600 mb-6 line-clamp-3 flex-grow font-light leading-relaxed">
+                      <p className="text-slate-700 mb-6 line-clamp-3 flex-grow font-medium leading-relaxed">
                         {post.excerpt}
                       </p>
 
                       <div className="flex items-center justify-between mt-auto pt-6 border-t border-slate-100">
-                        <div className="flex items-center gap-2 text-sm font-bold text-slate-800">
-                          <img src="/brand_logo_blue.png" alt="Author" className="w-5 h-5 rounded-full object-contain" />
+                        <div className="flex items-center gap-2 text-sm font-black text-slate-900 uppercase tracking-tight">
+                          <img src="/brand_logo_new.png" alt="Author" className="w-6 h-6 object-contain" />
                           {post.author}
                         </div>
-                        <span className="text-primary-light font-bold flex items-center gap-1 text-sm group-hover:gap-2 transition-all">
-                          {t("common.read_more")} <ArrowRight size={16} />
+                        <span className="text-primary font-black flex items-center gap-1 text-sm group-hover:text-brand-mint group-hover:gap-2 transition-all uppercase tracking-widest">
+                          {t("common.read_more")} <ArrowRight size={18} strokeWidth={3} />
                         </span>
                       </div>
                     </motion.article>

@@ -28,10 +28,11 @@ export default function GeneralHome() {
                         <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6 border border-primary/20">
                             AI native marketing agency • 10+ Years Experience
                         </span>
-                        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-foreground">
-                            Future Proof<br />Your Growth
+                        <h1 className="text-5xl md:text-8xl font-black tracking-tighter mb-8 text-slate-900 leading-[1.05]">
+                            Future Proof<br />
+                            <span className="text-brand-mint uppercase tracking-tight">Your Growth</span>
                         </h1>
-                        <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-12">
+                        <p className="text-xl md:text-2xl text-slate-700 max-w-3xl mx-auto mb-16 font-medium leading-relaxed">
                             We fuse agentic AI workflows with seasoned marketing expertise to scale ambitious brands in both Web2 and Web3 economies.
                         </p>
                     </motion.div>

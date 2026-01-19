@@ -44,7 +44,7 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
             href={`https://${company.domain}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-8 transition-transform hover:scale-105 flex items-center justify-center h-20 w-40 relative group"
+            className="mx-24 transition-transform hover:scale-105 flex items-center justify-center h-20 w-52 relative group"
         >
             {/* Tooltip for the company name */}
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-white text-slate-900 text-sm font-bold py-1 px-3 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
@@ -52,7 +52,7 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
             </div>
 
             {stats === 'text' ? (
-                <span className="text-lg font-bold text-white/80 font-heading">{company.name}</span>
+                <span className="text-lg font-bold text-white/90 font-heading">{company.name}</span>
             ) : (
                 <img
                     src={company.domain === 'near.org'
@@ -62,10 +62,10 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
                             : `https://www.google.com/s2/favicons?domain=${company.domain}&sz=128`)
                     }
                     alt={company.name}
-                    className={`max-h-16 w-auto max-w-[160px] object-contain transition-all duration-300 
+                    className={`max-h-10 w-auto max-w-[180px] object-contain transition-all duration-500
                         ${company.domain === 'near.org'
-                            ? 'brightness-200 contrast-125 opacity-100'
-                            : 'brightness-200 contrast-125 hover:brightness-100 hover:contrast-100'
+                            ? 'opacity-70 group-hover:opacity-100 filter brightness-200'
+                            : 'opacity-40 grayscale group-hover:opacity-100 group-hover:grayscale-0'
                         }`}
                     onError={(e) => {
                         const target = e.target as HTMLImageElement;

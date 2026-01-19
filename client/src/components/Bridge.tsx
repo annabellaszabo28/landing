@@ -34,10 +34,10 @@ export default function Bridge({ content }: BridgeProps) {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-6xl font-heading font-bold mb-8 text-primary-light tracking-tight">
+          <h2 className="text-4xl md:text-8xl font-heading font-black mb-8 text-primary tracking-tighter leading-tight">
             {content.title}
           </h2>
-          <p className="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto mb-20 leading-relaxed font-light">
+          <p className="text-xl md:text-2xl text-slate-700 max-w-3xl mx-auto mb-20 leading-relaxed font-bold">
             {content.subtitle}
           </p>
         </motion.div>
@@ -50,8 +50,8 @@ export default function Bridge({ content }: BridgeProps) {
           {/* Content Container */}
           {/* Energy Flow */}
           <div className="absolute top-1/2 left-0 w-full h-px overflow-hidden pointer-events-none">
-            <div className="absolute top-0 left-[-200px] w-[200px] h-[2px] bg-gradient-to-r from-transparent via-primary to-transparent animate-slide-beam" />
-            <div className="absolute top-0 left-[-400px] w-[300px] h-[3px] bg-gradient-to-r from-transparent via-primary-light/50 to-transparent animate-slide-beam" style={{ animationDelay: '1s' }} />
+            <div className="absolute top-0 left-[-200px] w-[200px] h-[2px] bg-gradient-to-r from-transparent via-brand-mint to-transparent animate-slide-beam" />
+            <div className="absolute top-0 left-[-400px] w-[300px] h-[3px] bg-gradient-to-r from-transparent via-brand-mint/50 to-transparent animate-slide-beam" style={{ animationDelay: '1s' }} />
           </div>
 
           <div className="w-full relative z-10">
@@ -59,34 +59,34 @@ export default function Bridge({ content }: BridgeProps) {
             <div className="flex justify-between items-center relative px-4 md:px-12">
               {/* Web2 Side */}
               <motion.div
-                className="text-left cursor-default p-8 rounded-3xl border border-slate-200 bg-white/70 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-primary-light/50 transition-all duration-500"
-                whileHover={{ x: 5 }}
+                className="text-left cursor-default p-10 rounded-[2.5rem] border border-slate-200 bg-white shadow-2xl hover:shadow-brand-mint/20 hover:border-brand-mint transition-all duration-500"
+                whileHover={{ x: 5, scale: 1.02 }}
               >
-                <div className="text-2xl font-bold text-primary-light mb-2 font-heading tracking-wide uppercase text-sm">{content.web2_label}</div>
-                <div className="text-sm text-slate-400 font-medium">{content.web2_sublabel}</div>
+                <div className="text-sm font-black text-brand-mint mb-2 uppercase tracking-[0.2em]">{content.web2_label}</div>
+                <div className="text-lg text-primary font-black tracking-tight">{content.web2_sublabel}</div>
               </motion.div>
 
               {/* Central Node */}
               <div className="relative z-20 mx-4">
                 <motion.div
-                  className="w-24 h-24 bg-white rounded-full border border-slate-100 flex items-center justify-center shadow-xl relative"
+                  className="w-24 h-24 bg-primary rounded-full border-4 border-white flex items-center justify-center shadow-2xl relative"
                   animate={{
-                    scale: [1, 1.05, 1],
+                    scale: [1, 1.1, 1],
+                    boxShadow: ["0 0 20px rgba(0,0,0,0.1)", "0 0 40px rgba(165,243,200,0.4)", "0 0 20px rgba(0,0,0,0.1)"]
                   }}
                   transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 >
-                  <div className="absolute inset-0 rounded-full border border-primary/10 opacity-50" />
-                  <span className="text-4xl text-primary relative z-10 font-bold">∞</span>
+                  <span className="text-4xl text-brand-mint relative z-10 font-black">BM</span>
                 </motion.div>
               </div>
 
               {/* Web3 Side */}
               <motion.div
-                className="text-right cursor-default p-8 rounded-3xl border border-slate-200 bg-white/70 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-primary-light/50 transition-all duration-500"
-                whileHover={{ x: -5 }}
+                className="text-right cursor-default p-10 rounded-[2.5rem] border border-slate-200 bg-white shadow-2xl hover:shadow-brand-mint/20 hover:border-brand-mint transition-all duration-500"
+                whileHover={{ x: -5, scale: 1.02 }}
               >
-                <div className="text-2xl font-bold text-primary-light mb-2 font-heading tracking-wide uppercase text-sm">{content.web3_label}</div>
-                <div className="text-sm text-slate-400 font-medium">{content.web3_sublabel}</div>
+                <div className="text-sm font-black text-brand-mint mb-2 uppercase tracking-[0.2em]">{content.web3_label}</div>
+                <div className="text-lg text-primary font-black tracking-tight">{content.web3_sublabel}</div>
               </motion.div>
             </div>
           </div>

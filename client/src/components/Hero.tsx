@@ -37,22 +37,22 @@ export default function Hero({ content }: HeroProps) {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-50 border border-slate-200 mb-6 shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-primary" />
-            <span className="text-xs font-bold text-primary-light uppercase tracking-widest">
-              AI native marketing agency • 10+ Years of Expertise
+          <div className="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-primary/5 border border-primary/10 mb-8 shadow-sm">
+            <span className="w-2.5 h-2.5 rounded-full bg-brand-mint animate-pulse" />
+            <span className="text-[13px] font-black text-primary uppercase tracking-[0.3em]">
+              AI native marketing agency • <span className="text-brand-mint font-black">10+ Years of Expertise</span>
             </span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 mb-6 max-w-4xl mx-auto leading-tight">
+          <h1 className="text-5xl md:text-8xl font-bold tracking-tight text-slate-900 mb-6 max-w-5xl mx-auto leading-tight">
             {content.title.split(':').map((part, i) => (
-              <span key={i} className={i === 1 ? "block text-slate-900" : ""}>
+              <span key={i} className={i === 1 ? "block bg-gradient-to-r from-primary via-brand-mint to-brand-mint bg-clip-text text-transparent pb-4" : "block mb-2"}>
                 {part}
               </span>
             ))}
           </h1>
 
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto font-light leading-relaxed">
+          <p className="text-xl md:text-2xl text-slate-700 max-w-3xl mx-auto font-medium leading-relaxed">
             {content.subtitle}
           </p>
         </motion.div>
@@ -70,16 +70,16 @@ export default function Hero({ content }: HeroProps) {
               <Layers size={200} />
             </div>
             <div className="relative z-10">
-              <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8 group-hover:scale-110 transition-transform">
-                <Layers size={28} />
+              <div className="w-14 h-14 bg-brand-mint/10 rounded-2xl flex items-center justify-center text-brand-mint mb-8 group-hover:bg-brand-mint/20 transition-all duration-500">
+                <Layers size={28} strokeWidth={2.5} />
               </div>
-              <h3 className="text-3xl font-bold mb-4 text-primary-light">Web2 Marketing</h3>
-              <p className="text-slate-600 text-lg mb-8 leading-relaxed">
+              <h3 className="text-3xl font-black mb-4 text-primary tracking-tight">Web2 <span className="text-brand-mint">Marketing</span></h3>
+              <p className="text-slate-600 text-lg mb-8 leading-relaxed font-medium">
                 Data driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform the competition.
               </p>
               <Link href="/marketing">
-                <a className="inline-flex items-center text-primary-light font-bold text-lg group-hover:text-primary transition-colors group-hover:translate-x-1">
-                  Explore Services <ArrowRight size={20} className="ml-2" />
+                <a className="inline-flex items-center text-primary font-black text-lg group-hover:text-brand-mint transition-colors group-hover:translate-x-2 duration-300">
+                  Explore Services <ArrowRight size={22} className="ml-2" strokeWidth={3} />
                 </a>
               </Link>
             </div>
@@ -96,16 +96,16 @@ export default function Hero({ content }: HeroProps) {
               <Box size={200} />
             </div>
             <div className="relative z-10">
-              <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8 group-hover:scale-110 transition-transform">
-                <Box size={28} />
+              <div className="w-14 h-14 bg-brand-mint/10 rounded-2xl flex items-center justify-center text-brand-mint mb-8 group-hover:bg-brand-mint/20 transition-all duration-500">
+                <Box size={28} strokeWidth={2.5} />
               </div>
-              <h3 className="text-3xl font-bold mb-4 text-primary-light">Web3 Growth</h3>
-              <p className="text-slate-600 text-lg mb-8 leading-relaxed">
+              <h3 className="text-3xl font-black mb-4 text-primary tracking-tight">Web3 <span className="text-brand-mint">Growth</span></h3>
+              <p className="text-slate-600 text-lg mb-8 leading-relaxed font-medium">
                 Decentralized community building and GTM strategies for the next generation of the internet. Built for scale.
               </p>
               <Link href="/web3">
-                <a className="inline-flex items-center text-primary-light font-bold text-lg group-hover:text-primary transition-colors group-hover:translate-x-1">
-                  Explore Solutions <ArrowRight size={20} className="ml-2" />
+                <a className="inline-flex items-center text-primary font-black text-lg group-hover:text-brand-mint transition-colors group-hover:translate-x-2 duration-300">
+                  Explore Solutions <ArrowRight size={22} className="ml-2" strokeWidth={3} />
                 </a>
               </Link>
             </div>
