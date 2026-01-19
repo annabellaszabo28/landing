@@ -22,7 +22,6 @@ export default function Navigation() {
     { name: t("nav.marketing"), href: "/marketing" },
     { name: t("nav.web3"), href: "/web3" },
     { name: t("nav.about"), href: "/about" },
-    { name: t("nav.work"), href: "/work" },
     { name: t("nav.blog"), href: "/blog" },
     { name: t("nav.contact"), href: "/contact" },
   ];
@@ -52,9 +51,6 @@ export default function Navigation() {
             </Link>
             <Link href="/web3">
               <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.web3")}</span>
-            </Link>
-            <Link href="/work">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.work")}</span>
             </Link>
             <Link href="/about">
               <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors flex items-center gap-2 cursor-pointer">

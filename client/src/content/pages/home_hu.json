@@ -63,6 +63,21 @@
                 "title": "Termékvezérelt növekedés (PLG)",
                 "description": "Felhasználók átalakítása elkötelezett ügyfelekké: optimalizált onboarding és virális termék-mechanizmusok tervezése.",
                 "icon": "Zap"
+            },
+            {
+                "title": "Weboldal készítés",
+                "description": "Prémium, konverzióra optimalizált weboldalak, amelyek hitelességet biztosítanak vállalkozása számára.",
+                "icon": "Layout"
+            },
+            {
+                "title": "Terméktervezés és fejlesztés",
+                "description": "Az ötlettől a piacra lépésig: MVP fejlesztés, UX/UI tervezés és teljes körű termékmenedzsment.",
+                "icon": "PenTool"
+            },
+            {
+                "title": "Applikáció fejlesztés",
+                "description": "Natív iOS és Android alkalmazások, valamint keresztplatformos megoldások, amelyek kivételes felhasználói élményt nyújtanak.",
+                "icon": "Smartphone"
             }
         ],
         "web3_items": [

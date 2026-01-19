@@ -63,6 +63,21 @@
                 "title": "Product Led Growth (PLG)",
                 "description": "Converting users into advocates through optimized onboarding funnels and viral product loops engineered in house.",
                 "icon": "Zap"
+            },
+            {
+                "title": "Website Building",
+                "description": "Premium, conversion-optimized websites that establish credibility for your business.",
+                "icon": "Layout"
+            },
+            {
+                "title": "Product Planning & Building",
+                "description": "From idea to market: MVP development, UX/UI design, and full-cycle product management.",
+                "icon": "PenTool"
+            },
+            {
+                "title": "App Building",
+                "description": "Native iOS and Android apps, as well as cross-platform solutions that deliver outstanding user experiences.",
+                "icon": "Smartphone"
             }
         ],
         "web3_items": [
