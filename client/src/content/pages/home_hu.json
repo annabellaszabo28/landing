@@ -1,6 +1,6 @@
 {
     "hero": {
-        "title": "AI-natív marketingügynökség: 10+ év szakmai tapasztalat",
+        "title": "AI Natív Marketing: 10+ Év Szakmai Tapasztalat",
         "subtitle": "Nem csak követjük a trendeket, mi diktáljuk őket. A hagyományos marketing szakértelmet a legmodernebb AI technológiával ötvözzük, hogy globális márkákat emeljünk piacvezető pozícióba a Web2 és Web3 térben.",
         "cta_primary": "Szolgáltatásaink",
         "cta_secondary": "Web3 növekedés"
@@ -58,7 +58,7 @@
             },
             {
                 "title": "Prediktív performance marketing",
-                "description": "AI-vezérelt licitkezelés és kreatív tesztelés, amely alacsony CPA-t és releváns lead-folyamot garantál, skálázható módon.",
+                "description": "AI vezérelt licitkezelés és kreatív tesztelés, amely alacsony CPA-t és releváns lead-folyamot garantál, skálázható módon.",
                 "icon": "Target"
             },
             {
@@ -85,7 +85,7 @@
         "web3_items": [
             {
                 "title": "Web3 PPC & Hirdetések",
-                "description": "Célzott forgalomterelés kripto-specifikus hálózatokon és szabálykövető Web2 csatornákon a felhasználóbázis növeléséhez.",
+                "description": "Célzott forgalomterelés kripto specifikus hálózatokon és szabálykövető Web2 csatornákon a felhasználóbázis növeléséhez.",
                 "icon": "Target"
             },
             {
@@ -109,7 +109,7 @@
                 "icon": "Code"
             },
             {
-                "title": "PR és On-Chain kommunikáció",
+                "title": "PR és On Chain kommunikáció",
                 "description": "Top-tier megjelenések és hiteles szakértői partnerségek, amelyek bizalmat építenek és növelik az elköteleződést.",
                 "icon": "Mic"
             }
