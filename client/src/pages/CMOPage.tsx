@@ -120,6 +120,22 @@ export default function CMOPage() {
                     </div>
                 </section>
 
+                {/* Interactive Calculator Section */}
+                <section className="py-24 bg-slate-900 text-white overflow-hidden relative">
+                    <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-primary/10 blur-[120px] rounded-full" />
+
+                    <div className="container px-4 relative z-10">
+                        <div className="max-w-4xl mx-auto">
+                            <div className="text-center mb-12">
+                                <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-sm mb-4 block">ROI Calculator</span>
+                                <h1 className="text-3xl md:text-6xl font-black font-heading mb-6 text-white tracking-tighter">Calculate Your Potential Impact</h1>
+                                <p className="text-white/70 text-lg font-medium">See what our AI-driven performance engine can deliver for your budget.</p>
+                            </div>
+
+                            <div className="bg-white/10 backdrop-blur-xl border border-white/10 rounded-3xl p-8 md:p-12 shadow-2xl">
+                                <div className="mb-12">
+                                    <div className="flex justify-between items-end mb-6">
+                                        <label className="text-slate-300 font-medium">Monthly Marketing Budget</label>
                                         <div className="text-3xl font-bold font-heading text-white">€{budget.toLocaleString()}</div>
                                     </div>
                                     <input
@@ -135,9 +151,9 @@ export default function CMOPage() {
                                         <span>€2,500</span>
                                         <span>€100,000+</span>
                                     </div>
-                                </div >
+                                </div>
 
-                                 <div className="grid md:grid-cols-3 gap-8">
+                                <div className="grid md:grid-cols-3 gap-8">
                                     <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center group hover:bg-white/10 transition-all duration-500 shadow-xl">
                                         <div className="flex justify-center mb-6 text-brand-mint drop-shadow-[0_0_10px_rgba(165,243,200,0.4)]"><TrendingUp size={40} /></div>
                                         <div className="text-xs text-white/50 uppercase tracking-widest font-black mb-2">Est. Impressions</div>
@@ -158,90 +174,88 @@ export default function CMOPage() {
                                     </div>
                                 </div>
                                 <p className="text-xs text-slate-500 mt-8 text-center italic">*Estimates based on aggregated performance data from our Web3 & SaaS client portfolio.</p>
-                            </div >
-                        </div >
-                    </div >
-                </section >
-
-        {/* Pricing Section */ }
-        < section id = "pricing" className = "py-24 bg-slate-50" >
-            <div className="container px-4">
-                <div className="text-center mb-16">
-                    <span className="text-primary font-bold tracking-widest uppercase text-sm mb-4 block">Transparent Pricing</span>
-                    <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6">Choose Your Growth Engine</h2>
-                </div>
-
-                <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                    {/* Starter */}
-                    <div className="p-8 rounded-3xl bg-white border border-slate-200 flex flex-col hover:shadow-xl transition-all hover:-translate-y-1">
-                        <h3 className="text-xl font-bold text-slate-900 mb-2">Startup</h3>
-                        <div className="text-4xl font-bold text-slate-900 mb-6">€2,500<span className="text-lg text-slate-500 font-normal">/mo</span></div>
-                        <p className="text-slate-500 mb-8 border-b border-slate-100 pb-8">Perfect for early stage validation and initial traction.</p>
-                        <ul className="space-y-4 mb-8 flex-grow text-slate-600 font-medium">
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> AI Marketing Setup</li>
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> 1 Campaign Manager</li>
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> Weekly Reporting</li>
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> Typeform/CRM Setup</li>
-                        </ul>
-                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                            <button className="w-full py-4 rounded-xl border border-primary/20 text-primary font-bold hover:bg-primary/5 transition-all">Get Started</button>
-                        </a>
+                            </div>
+                        </div>
                     </div>
+                </section>
 
-                    {/* Scale - Highlighted */}
-                    <div className="p-8 rounded-3xl bg-white border-2 border-primary flex flex-col relative shadow-2xl shadow-primary/10 scale-105 z-10">
-                        <div className="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-4 py-1.5 rounded-bl-xl rounded-tr-xl">MOST POPULAR</div>
-                        <h3 className="text-xl font-bold text-slate-900 mb-2">Scale</h3>
-                        <div className="text-4xl font-bold text-slate-900 mb-6">€4,500<span className="text-lg text-slate-500 font-normal">/mo</span></div>
-                        <p className="text-slate-500 mb-8 border-b border-slate-100 pb-8">For growing teams ready to dominate their niche.</p>
-                        <ul className="space-y-4 mb-8 flex-grow text-slate-700 font-bold">
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> Full Fractional CMO</li>
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> 2 Senior Marketers</li>
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> Omni-channel Growth</li>
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> Premium Content Engine</li>
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> 24/7 Slack Access</li>
-                        </ul>
-                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                            <button className="w-full py-4 rounded-xl bg-primary text-white font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/25 transform hover:-translate-y-0.5">Scale Now</button>
-                        </a>
+                {/* Pricing Section */}
+                <section id="pricing" className="py-24 bg-slate-50">
+                    <div className="container px-4">
+                        <div className="text-center mb-16">
+                            <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-sm mb-4 block">Transparent Pricing</span>
+                            <h2 className="text-4xl md:text-7xl font-black font-heading mb-6 tracking-tighter">Choose Your Growth Engine</h2>
+                        </div>
+
+                        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                            {/* Starter */}
+                            <div className="p-8 rounded-[2rem] bg-white border border-slate-200 flex flex-col hover:shadow-2xl transition-all hover:-translate-y-2">
+                                <h3 className="text-2xl font-black text-slate-900 mb-2 uppercase tracking-tight">Startup</h3>
+                                <div className="text-5xl font-black text-primary mb-6">€2,500<span className="text-lg text-slate-400 font-bold tracking-widest">/mo</span></div>
+                                <p className="text-slate-600 mb-8 border-b border-slate-100 pb-8 font-medium">Perfect for early stage validation and initial traction.</p>
+                                <ul className="space-y-4 mb-8 flex-grow text-slate-700 font-bold">
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> AI Marketing Setup</li>
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> 1 Campaign Manager</li>
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Weekly Reporting</li>
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Typeform/CRM Setup</li>
+                                </ul>
+                                <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                                    <button className="w-full py-5 rounded-2xl border-2 border-primary/10 text-primary font-black uppercase tracking-widest text-sm hover:bg-primary hover:text-white transition-all">Get Started</button>
+                                </a>
+                            </div>
+
+                            {/* Scale - Highlighted */}
+                            <div className="p-10 rounded-[2.5rem] bg-white border-4 border-brand-mint flex flex-col relative shadow-2xl shadow-brand-mint/10 md:scale-110 z-10">
+                                <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-brand-mint text-primary text-[10px] font-black px-6 py-2 rounded-full tracking-[0.2em] uppercase shadow-lg shadow-brand-mint/30">MOST POPULAR</div>
+                                <h3 className="text-2xl font-black text-slate-900 mb-2 uppercase tracking-tight">Scale</h3>
+                                <div className="text-5xl font-black text-primary mb-6">€4,500<span className="text-lg text-slate-400 font-bold tracking-widest">/mo</span></div>
+                                <p className="text-slate-600 mb-8 border-b border-slate-100 pb-8 font-medium">For growing teams ready to dominate their niche.</p>
+                                <ul className="space-y-4 mb-8 flex-grow text-primary font-black">
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Full Fractional CMO</li>
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> 2 Senior Marketers</li>
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Omni-channel Growth</li>
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Premium Content Engine</li>
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> 24/7 Slack Access</li>
+                                </ul>
+                                <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                                    <button className="w-full py-5 rounded-2xl bg-primary text-white font-black uppercase tracking-widest text-sm hover:bg-brand-mint hover:text-primary transition-all shadow-xl shadow-primary/20 transform hover:-translate-y-1">Scale Now</button>
+                                </a>
+                            </div>
+
+                            {/* Enterprise */}
+                            <div className="p-8 rounded-[2rem] bg-white border border-slate-200 flex flex-col hover:shadow-2xl transition-all hover:-translate-y-2">
+                                <h3 className="text-2xl font-black text-slate-900 mb-2 uppercase tracking-tight">Enterprise</h3>
+                                <div className="text-5xl font-black text-primary mb-6">€7,000<span className="text-lg text-slate-400 font-bold tracking-widest">/mo</span></div>
+                                <p className="text-slate-600 mb-8 border-b border-slate-100 pb-8 font-medium">Full department replacement for established orgs.</p>
+                                <ul className="space-y-4 mb-8 flex-grow text-slate-700 font-bold">
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Dedicated Growth Squad</li>
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Custom AI Agents</li>
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Unlimited Revisions</li>
+                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Priority Support</li>
+                                </ul>
+                                <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                                    <button className="w-full py-5 rounded-2xl border-2 border-primary/10 text-primary font-black uppercase tracking-widest text-sm hover:bg-primary hover:text-white transition-all">Contact Sales</button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
+                </section>
 
-                    {/* Enterprise */}
-                    <div className="p-8 rounded-3xl bg-white border border-slate-200 flex flex-col hover:shadow-xl transition-all hover:-translate-y-1">
-                        <h3 className="text-xl font-bold text-slate-900 mb-2">Enterprise</h3>
-                        <div className="text-4xl font-bold text-slate-900 mb-6">€7,000<span className="text-lg text-slate-500 font-normal">/mo</span></div>
-                        <p className="text-slate-500 mb-8 border-b border-slate-100 pb-8">Full department replacement for established orgs.</p>
-                        <ul className="space-y-4 mb-8 flex-grow text-slate-600 font-medium">
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> Dedicated Growth Squad</li>
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> Custom AI Agents</li>
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> Unlimited Revisions</li>
-                            <li className="flex gap-3"><CheckCircle2 className="text-primary" size={20} /> Priority Support</li>
-                        </ul>
-                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                            <button className="w-full py-4 rounded-xl border border-slate-200 text-slate-600 font-bold hover:bg-slate-50 transition-all">Contact Sales</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-                </section >
-
-        {/* Final CTA */ }
-        < section id = "contact" className = "py-24 bg-brand-dark relative overflow-hidden w-full border-t border-white/5" >
-            {/* Retired Glow Effects */ }
-            < div className = "container px-4 text-center relative z-10" >
-                        <h2 className="text-4xl md:text-7xl font-bold font-heading mb-6 tracking-tight text-white leading-tight">Ready to lead the market?</h2>
-                        <p className="text-xl text-white/80 mb-12 max-w-2xl mx-auto leading-relaxed">Stop guessing. Start growing. Book your strategy session today.</p>
+                {/* Final CTA */}
+                <section id="contact" className="py-24 bg-brand-dark relative overflow-hidden w-full border-t border-white/5">
+                    <div className="container px-4 text-center relative z-10">
+                        <h2 className="text-5xl md:text-8xl font-black font-heading mb-6 tracking-tighter text-white leading-none">Ready to lead the market?</h2>
+                        <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-2xl mx-auto leading-relaxed font-medium">Stop guessing. Start growing. Book your strategy session today.</p>
 
                         <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                            <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-primary-light hover:text-white transition-all transform hover:scale-105 shadow-2xl shadow-white/20">
+                            <button className="px-12 py-5 bg-white text-slate-900 font-black text-xl rounded-full hover:bg-brand-mint transition-all transform hover:scale-105 shadow-2xl shadow-white/10 tracking-tight">
                                 Book a Call Now
                             </button>
                         </a>
-                    </div >
-                </section >
-
-            </main >
-        <Footer />
-        </div >
+                    </div>
+                </section>
+            </main>
+            <Footer />
+        </div>
     );
 }
