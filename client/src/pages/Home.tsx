@@ -59,7 +59,7 @@ export default function Home() {
                 {content.cta_section.subtitle}
               </p>
               <Link href={content.cta_section.button_link}>
-                <button className="bg-white text-slate-900 px-12 py-5 rounded-full text-lg font-bold hover:bg-indigo-50 hover:text-indigo-700 shadow-[0_0_20px_rgba(255,255,255,0.2)] transition-all transform hover:-translate-y-1 hover:shadow-[0_0_40px_rgba(255,255,255,0.3)]">
+                <button className="bg-white text-slate-900 px-12 py-5 rounded-full text-lg font-bold hover:bg-indigo-600 hover:text-white shadow-[0_0_20px_rgba(255,255,255,0.2)] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-[0_0_40px_rgba(79,70,229,0.4)]">
                   {content.cta_section.button_text}
                 </button>
               </Link>
