@@ -53,33 +53,32 @@ export default function Navigation() {
           {/* Centered Links */}
           <div className="flex items-center gap-8 mx-auto">
             <Link href="/marketing">
-              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.marketing")}</a>
+              <a className="text-sm font-bold text-slate-800 hover:text-primary-light transition-colors cursor-pointer">{t("nav.marketing")}</a>
             </Link>
             <Link href="/web3">
-              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.web3")}</a>
+              <a className="text-sm font-bold text-slate-800 hover:text-primary-light transition-colors cursor-pointer">{t("nav.web3")}</a>
             </Link>
             <Link href="/cmo">
-              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">CMO as a Service</a>
+              <a className="text-sm font-bold text-slate-800 hover:text-primary-light transition-colors cursor-pointer">CMO as a Service</a>
             </Link>
             <Link href="/about">
-              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors flex items-center gap-2 cursor-pointer">
+              <a className="text-sm font-bold text-slate-800 hover:text-primary-light transition-colors flex items-center gap-2 cursor-pointer">
                 <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
                 {t("nav.about")}
               </a>
             </Link>
             <Link href="/blog">
-              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.blog")}</a>
+              <a className="text-sm font-bold text-slate-800 hover:text-primary-light transition-colors cursor-pointer">{t("nav.blog")}</a>
             </Link>
           </div>
 
           <div className="flex items-center gap-4">
-            {/* <LanguageSwitcher /> */}
-            {/* CTA */}
-            <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-              <Button size="sm" className="bg-primary text-white hover:bg-primary/90 rounded-full px-6 font-bold text-sm shadow-md shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/30">
-                Book a Call
+            <LanguageSwitcher />
+            <Link href="/contact">
+              <Button className="rounded-full px-6 bg-primary hover:bg-primary-light transition-colors font-bold shadow-md shadow-primary/20">
+                {t("nav.contact")}
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
 

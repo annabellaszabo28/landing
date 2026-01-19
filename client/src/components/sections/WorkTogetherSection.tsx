@@ -32,7 +32,7 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
                         {content.section_title}
                     </p>
                     <h2 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-slate-900 tracking-tight leading-tight">
-                        {content.title}
+                        Built for Performance
                     </h2>
                     <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
                         {content.subtitle}
@@ -57,7 +57,7 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
                                         <div className="mb-8 text-primary p-5 bg-primary/5 rounded-2xl group-hover:scale-110 transition-all duration-300">
                                             <Icon size={52} strokeWidth={1.5} />
                                         </div>
-                                        <h3 className="text-2xl font-bold text-slate-800 font-heading">
+                                        <h3 className="text-2xl font-bold text-primary-light font-heading">
                                             {item.title}
                                         </h3>
                                     </div>

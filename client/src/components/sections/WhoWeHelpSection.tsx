@@ -37,7 +37,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
 
             <div className="container pt-32">
                 <div className="text-center max-w-3xl mx-auto mb-24">
-                    <p className="text-sm font-bold tracking-[0.25em] text-primary/60 uppercase mb-4">
+                    <p className="text-sm font-bold tracking-[0.25em] text-primary-light uppercase mb-4 text-center">
                         {content.section_title}
                     </p>
                     <h2 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-white tracking-tight leading-tight">
@@ -60,10 +60,10 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                                 viewport={{ once: true }}
                                 className="flex flex-col items-center text-center group"
                             >
-                                <div className="mb-8 text-primary/60 p-8 rounded-full border border-white/10 bg-white/5 group-hover:border-primary/50 group-hover:bg-primary/10 transition-all duration-500">
-                                    <Icon size={64} strokeWidth={1} />
+                                <div className="mb-8 text-primary-light p-8 rounded-full border border-white/10 bg-white/5 group-hover:border-primary-light/50 group-hover:bg-primary/20 transition-all duration-500">
+                                    <Icon size={64} strokeWidth={1.5} />
                                 </div>
-                                <h3 className="text-2xl font-bold text-white mb-2 font-heading tracking-wide">
+                                <h3 className="text-2xl font-bold text-primary-light mb-2 font-heading tracking-wide">
                                     {item.title}
                                 </h3>
                             </motion.div>
@@ -82,6 +82,6 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                     </a>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }

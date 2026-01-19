@@ -22,6 +22,8 @@
   --color-popover-foreground: var(--popover-foreground);
 
   --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-extra-light: var(--primary-extra-light);
   --color-primary-foreground: var(--primary-foreground);
 
   --color-secondary: var(--secondary);
@@ -56,6 +58,8 @@
 
   /* Primary: Signature Deep Blue (#0a1157) */
   --primary: oklch(0.25 0.1 260);
+  --primary-light: oklch(0.45 0.18 260);
+  --primary-extra-light: oklch(0.65 0.15 260);
   --primary-foreground: oklch(0.98 0 0);
 
   /* Secondary: Soft Coral/Peach */

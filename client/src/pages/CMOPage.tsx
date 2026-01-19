@@ -57,7 +57,7 @@ export default function CMOPage() {
                             </div>
                             <h1 className="text-5xl md:text-7xl font-bold font-heading tracking-tight mb-8 leading-[1.1] text-slate-900">
                                 The Impact of a CMO.<br />
-                                <span className="text-primary">Without the Equity.</span>
+                                <span className="text-primary-light">Without the Equity.</span>
                             </h1>
                             <p className="text-xl md:text-2xl text-slate-600 max-w-2xl mb-12 leading-relaxed">
                                 Expert Fractional CMO services for ambitious Web3 & AI startups. We replace an entire marketing department with one integrated growth engine.
@@ -79,7 +79,7 @@ export default function CMOPage() {
 
                         <div className="grid md:grid-cols-2 gap-6 max-w-4xl">
                             <div className="p-8 rounded-3xl bg-white border border-slate-100 shadow-xl shadow-slate-200/50">
-                                <h3 className="text-2xl font-bold text-slate-900 mb-2">Why Fractional?</h3>
+                                <h3 className="text-2xl font-bold text-primary-light mb-2">Why Fractional?</h3>
                                 <p className="text-slate-500 leading-relaxed">Top-tier CMOs cost $250k/year + equity. We deliver the same strategic leadership and execution for a flat monthly fee. No equity, no onboarding time.</p>
                             </div>
                             <div className="p-8 rounded-3xl bg-primary text-white shadow-xl shadow-primary/20">
@@ -110,9 +110,9 @@ export default function CMOPage() {
                                 { step: "03", title: "Creative Sprint", desc: "High-velocity production of ad creatives, landing pages, and copy." },
                                 { step: "04", title: "Scale & Optimize", desc: "Real-time performance tracking and automated budget allocation." }
                             ].map((item) => (
-                                <div key={item.step} className="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:border-primary/20 hover:shadow-lg transition-all group">
-                                    <div className="text-5xl font-black text-slate-200 mb-6 group-hover:text-primary/5 transition-colors">{item.step}</div>
-                                    <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
+                                <div key={item.step} className="p-8 rounded-3xl bg-white border border-slate-100 hover:border-primary-light/50 hover:shadow-lg transition-all group">
+                                    <div className="text-5xl font-black text-slate-100 mb-6 group-hover:text-primary-light/10 transition-colors">{item.step}</div>
+                                    <h3 className="text-xl font-bold text-primary-light mb-3">{item.title}</h3>
                                     <p className="text-slate-500 text-sm leading-relaxed">{item.desc}</p>
                                 </div>
                             ))}
@@ -155,15 +155,15 @@ export default function CMOPage() {
 
                                 <div className="grid md:grid-cols-3 gap-8">
                                     <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center group hover:bg-white/10 transition-colors">
-                                        <div className="flex justify-center mb-4 text-primary"><TrendingUp size={32} /></div>
+                                        <div className="flex justify-center mb-4 text-primary-light"><TrendingUp size={32} /></div>
                                         <div className="text-sm text-slate-400 mb-1">Est. Impressions</div>
-                                        <div className="text-3xl font-bold text-white tracking-tight">{potentialImpressions.toLocaleString()}</div>
+                                        <div className="text-3xl font-bold text-primary-extra-light tracking-tight">{potentialImpressions.toLocaleString()}</div>
                                         <div className="text-xs text-slate-500 mt-2">@ {ctr * 100}% Avg. CTR</div>
                                     </div>
                                     <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center group hover:bg-white/10 transition-colors">
-                                        <div className="flex justify-center mb-4 text-primary"><Users size={32} /></div>
+                                        <div className="flex justify-center mb-4 text-primary-light"><Users size={32} /></div>
                                         <div className="text-sm text-slate-400 mb-1">Potential Clicks</div>
-                                        <div className="text-3xl font-bold text-white tracking-tight">~{potentialClicks.toLocaleString()}</div>
+                                        <div className="text-3xl font-bold text-primary-extra-light tracking-tight">~{potentialClicks.toLocaleString()}</div>
                                         <div className="text-xs text-slate-500 mt-2">@ €{avgCPC.toFixed(2)} Target CPC</div>
                                     </div>
                                     <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center group hover:bg-white/10 transition-colors">

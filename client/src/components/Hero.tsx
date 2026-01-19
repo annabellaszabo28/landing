@@ -39,8 +39,8 @@ export default function Hero({ content }: HeroProps) {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-50 border border-slate-200 mb-6 shadow-sm">
             <span className="w-2 h-2 rounded-full bg-primary" />
-            <span className="text-xs font-bold text-slate-700 uppercase tracking-widest">
-              AI native marketing agency • 10+ Years Experience
+            <span className="text-xs font-bold text-primary-light uppercase tracking-widest">
+              AI native marketing agency • 10+ Years of Expertise
             </span>
           </div>
 
@@ -73,12 +73,12 @@ export default function Hero({ content }: HeroProps) {
               <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8 group-hover:scale-110 transition-transform">
                 <Layers size={28} />
               </div>
-              <h3 className="text-3xl font-bold mb-4">Web2 Marketing</h3>
+              <h3 className="text-3xl font-bold mb-4 text-primary-light">Web2 Marketing</h3>
               <p className="text-slate-600 text-lg mb-8 leading-relaxed">
                 Data driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform the competition.
               </p>
               <Link href="/marketing">
-                <a className="inline-flex items-center text-primary font-bold text-lg group-hover:translate-x-1 transition-transform">
+                <a className="inline-flex items-center text-primary-light font-bold text-lg group-hover:text-primary transition-colors group-hover:translate-x-1">
                   Explore Services <ArrowRight size={20} className="ml-2" />
                 </a>
               </Link>
@@ -99,12 +99,12 @@ export default function Hero({ content }: HeroProps) {
               <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8 group-hover:scale-110 transition-transform">
                 <Box size={28} />
               </div>
-              <h3 className="text-3xl font-bold mb-4">Web3 Growth</h3>
+              <h3 className="text-3xl font-bold mb-4 text-primary-light">Web3 Growth</h3>
               <p className="text-slate-600 text-lg mb-8 leading-relaxed">
                 Decentralized community building and GTM strategies for the next generation of the internet. Built for scale.
               </p>
               <Link href="/web3">
-                <a className="inline-flex items-center text-primary font-bold text-lg group-hover:translate-x-1 transition-transform">
+                <a className="inline-flex items-center text-primary-light font-bold text-lg group-hover:text-primary transition-colors group-hover:translate-x-1">
                   Explore Solutions <ArrowRight size={20} className="ml-2" />
                 </a>
               </Link>
