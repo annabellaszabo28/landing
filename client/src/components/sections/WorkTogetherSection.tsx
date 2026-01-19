@@ -24,7 +24,7 @@ interface WorkTogetherProps {
 
 export default function WorkTogetherSection({ content }: WorkTogetherProps) {
     return (
-        <section className="py-24 bg-gradient-to-b from-white to-[#FFF5F0]">
+        <section className="py-24 bg-gradient-to-b from-white to-slate-50">
             <div className="container">
                 <div className="text-center max-w-3xl mx-auto mb-20">
                     <p className="text-sm font-bold tracking-[0.25em] text-orange-600 uppercase mb-4">
@@ -38,7 +38,7 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8 mb-20 max-w-6xl mx-auto">
+                <div className="grid md:grid-cols-3 gap-8 mb-20 max-w-5xl mx-auto">
                     {content.items.map((item, index) => {
                         const Icon = iconMap[item.icon] || Lightbulb;
                         return (
@@ -48,9 +48,9 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 viewport={{ once: true }}
-                                className="bg-white p-12 rounded-[2rem] shadow-xl shadow-orange-900/5 hover:shadow-2xl hover:shadow-orange-900/10 transition-all duration-300 flex flex-col items-center text-center h-[340px] justify-center group border border-orange-50/50"
+                                className="bg-white p-12 rounded-[2rem] shadow-xl shadow-slate-200/50 hover:shadow-2xl hover:shadow-slate-200 transition-all duration-300 flex flex-col items-center text-center h-[340px] justify-center group border border-slate-100"
                             >
-                                <div className="mb-8 text-orange-500 p-5 bg-orange-50 rounded-2xl group-hover:scale-110 group-hover:bg-orange-100 transition-all duration-300">
+                                <div className="mb-8 text-orange-600 p-5 bg-orange-500/10 rounded-2xl group-hover:scale-110 transition-all duration-300">
                                     <Icon size={52} strokeWidth={1.5} />
                                 </div>
                                 <h3 className="text-2xl font-bold text-slate-800 font-heading">
