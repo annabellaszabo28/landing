@@ -84,7 +84,7 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
                         href="https://cal.com/annabella-szabo-marketing/30min"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-primary text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-primary/90 hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-primary/25"
+                        className="inline-block bg-brand-mint text-primary px-12 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all transform hover:-translate-y-1 shadow-xl shadow-brand-mint/20"
                     >
                         Book a Call
                     </a>

@@ -6,6 +6,7 @@ import { CheckCircle2, Zap, Rocket, BarChart3, Calculator, TrendingUp, Users } f
 import { useState } from "react";
 import { Link } from "wouter";
 import heroBgLight from "@/assets/hero-bg-light.png";
+import { useTranslation } from "react-i18next";
 import {
     Accordion,
     AccordionContent,
@@ -14,6 +15,7 @@ import {
 } from "@/components/ui/accordion";
 
 export default function CMOPage() {
+    const { t } = useTranslation();
     const [budget, setBudget] = useState(5000);
 
     // Calculator metrics based on budget

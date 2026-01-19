@@ -73,8 +73,8 @@ export default function Services({ content }: ServicesProps) {
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                   className="glass-card rounded-2xl p-8 flex flex-col h-full group"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
-                    <Icon size={24} />
+                  <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-brand-mint mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-primary/20">
+                    <Icon size={24} strokeWidth={2} />
                   </div>
 
                   <h3 className="text-2xl font-black mb-3 text-primary tracking-tight">{service.title}</h3>
