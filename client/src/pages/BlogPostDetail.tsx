@@ -46,7 +46,7 @@ export default function BlogPostDetail() {
       <main className="flex-grow pt-32 pb-24">
         <article className="container max-w-4xl">
           <Link href="/blog" className="inline-flex items-center gap-2 text-slate-500 hover:text-primary transition-colors mb-8">
-            <ArrowLeft size={20} /> Back to Insights
+            <ArrowLeft size={20} /> Back to Blog
           </Link>
 
           <motion.div
@@ -64,12 +64,18 @@ export default function BlogPostDetail() {
 
             <div className="flex flex-wrap items-center justify-center gap-6 text-slate-600">
               <div className="flex items-center gap-2">
-                <div className="w-10 h-10 rounded-full bg-slate-200 overflow-hidden">
-                  <img
-                    src={`https://ui-avatars.com/api/?name=${post.author}&background=random`}
-                    alt={post.author}
-                    className="w-full h-full object-cover"
-                  />
+                <div className="flex items-center gap-2">
+                  <div className="w-10 h-10 rounded-full bg-slate-100 overflow-hidden border border-slate-200">
+                    <img
+                      src="/logo-author.png"
+                      alt={post.author}
+                      className="w-full h-full object-contain p-1"
+                    />
+                  </div>
+                  <div className="text-left">
+                    <div className="text-sm font-bold text-slate-900">{post.author}</div>
+                    <div className="text-xs">Author</div>
+                  </div>
                 </div>
                 <div className="text-left">
                   <div className="text-sm font-bold text-slate-900">{post.author}</div>
