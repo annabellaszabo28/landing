@@ -171,11 +171,14 @@ export default function ServiceDetail({ type }: ServiceDetailProps) {
                             </div>
 
                             <div className="flex flex-col sm:flex-row gap-4">
-                                <Link href="/contact">
-                                    <button className="bg-primary text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-primary/90 transition-all shadow-xl shadow-primary/20 hover:-translate-y-1">
-                                        Estimate Project Growth
-                                    </button>
-                                </Link>
+                                <a
+                                    href="https://cal.com/annabella-szabo-marketing/30min"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-primary text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-primary/90 transition-all shadow-xl shadow-primary/20 hover:-translate-y-1 inline-block text-center"
+                                >
+                                    Book a Discovery Call
+                                </a>
                             </div>
                         </motion.div>
 

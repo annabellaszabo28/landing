@@ -91,52 +91,7 @@
         ],
         "icon": "PenTool"
     },
-    {
-        "id": "devrel",
-        "title": "DevRel",
-        "slug": "devrel",
-        "description": "Developer relations strategies to attract and retain the best technical talent for your ecosystem.",
-        "longDescription": "For Web3 and tech protocols, developers are the new customers. We build robust DevRel programs including hackathons, documentation, and technical content to grow your builder community.",
-        "features": [
-            "Hackathon Management",
-            "Technical Documentation",
-            "Developer Grants",
-            "SDK Adoption"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Outreach",
-                "description": "Connecting with builder communities."
-            },
-            {
-                "step": "02",
-                "title": "Education",
-                "description": "Creating tutorials and docs."
-            },
-            {
-                "step": "03",
-                "title": "Incentivize",
-                "description": "Structuring grant programs."
-            },
-            {
-                "step": "04",
-                "title": "Support",
-                "description": "Ongoing technical assistance."
-            }
-        ],
-        "results": [
-            {
-                "label": "Active Devs",
-                "value": "+500"
-            },
-            {
-                "label": "Dapps Built",
-                "value": "50+"
-            }
-        ],
-        "icon": "Code"
-    },
+    ,
     {
         "id": "paid_marketing",
         "title": "Paid Marketing and Influencers",

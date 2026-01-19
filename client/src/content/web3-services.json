@@ -274,5 +274,51 @@
             }
         ],
         "icon": "Mic"
+    },
+    {
+        "id": "devrel_web3",
+        "title": "Developer Relations (DevRel)",
+        "slug": "devrel",
+        "description": "Developer relations strategies to attract and retain the best technical talent for your ecosystem.",
+        "longDescription": "In the decentralized economy, developers are your most valuable customers. If no one builds on your chain, your TVL is zero. We architect robust DevRel ecosystems that attract, educate, and retain top-tier engineering talent. We don't just run hackathons; we build developer liquidity.",
+        "features": [
+            "Hackathon Management",
+            "Technical Documentation",
+            "Developer Grants Program",
+            "SDK & Tooling Adoption"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Developer Outreach",
+                "description": "Identifying and engaging high-quality engineering communities across GitHub and Discord."
+            },
+            {
+                "step": "02",
+                "title": "Education & Docs",
+                "description": "Creating frictionless entry points with world-class documentation and tutorials."
+            },
+            {
+                "step": "03",
+                "title": "Incentivization",
+                "description": "Structuring grant programs and hackathon bounties that drive actual mainnet deployments."
+            },
+            {
+                "step": "04",
+                "title": "Ecosystem Support",
+                "description": "Providing ongoing technical support and resources to ensure projects scale."
+            }
+        ],
+        "results": [
+            {
+                "label": "Active Developers",
+                "value": "500+"
+            },
+            {
+                "label": "dApps Deployed",
+                "value": "50+"
+            }
+        ],
+        "icon": "Code"
     }
 ]
