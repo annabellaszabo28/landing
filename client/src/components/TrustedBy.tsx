@@ -56,7 +56,7 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
             ) : (
                 <img
                     src={company.domain === 'near.org'
-                        ? 'https://logo.clearbit.com/near.org'
+                        ? '/near-logo.png'
                         : (stats === 'clearbit'
                             ? `https://logo.clearbit.com/${company.domain}`
                             : `https://www.google.com/s2/favicons?domain=${company.domain}&sz=128`)
@@ -65,13 +65,7 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
                     className={`max-h-14 w-auto max-w-[220px] object-contain transition-all duration-500 opacity-100 grayscale-0 group-hover:scale-110 shadow-sm`}
                     onError={(e) => {
                         const target = e.target as HTMLImageElement;
-                        if (company.domain === 'near.org') {
-                            // Fallback if local image fails, though it shouldn't
-                            target.src = `https://logo.clearbit.com/${company.domain}`;
-                            setStatus('clearbit');
-                            return;
-                        }
-
+                        // Fallback logic
                         if (stats === 'clearbit') setStatus('google');
                         else setStatus('text');
                     }}
@@ -86,7 +80,7 @@ export default function TrustedBy() {
     return (
         <section className="py-20 border-y border-white/5 bg-primary overflow-hidden relative">
             <div className="container mb-2 text-center">
-                <p className="text-xs font-black text-brand-mint/60 uppercase tracking-[0.4em]">Trusted By Innovative Teams</p>
+                <p className="text-xs font-black text-brand-mint uppercase tracking-[0.4em]">Trusted By Innovative Teams</p>
             </div>
 
             <div className="relative flex overflow-x-hidden group">
