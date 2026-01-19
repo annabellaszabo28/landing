@@ -64,23 +64,17 @@ export default function BlogPostDetail() {
             </h1>
 
             <div className="flex flex-wrap items-center justify-center gap-6 text-slate-600">
-              <div className="flex items-center gap-2">
-                <div className="flex items-center gap-2">
-                  <div className="w-10 h-10 rounded-full bg-slate-100 overflow-hidden border border-slate-200">
-                    <img
-                      src="/logo-author.png"
-                      alt={post.author}
-                      className="w-full h-full object-contain p-1"
-                    />
-                  </div>
-                  <div className="text-left">
-                    <div className="text-sm font-bold text-slate-900">{post.author}</div>
-                    <div className="text-xs">Author</div>
-                  </div>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-slate-100 overflow-hidden border border-slate-200">
+                  <img
+                    src="/favicon.png"
+                    alt="BlockMarketing"
+                    className="w-full h-full object-contain p-1"
+                  />
                 </div>
                 <div className="text-left">
-                  <div className="text-sm font-bold text-slate-900">{post.author}</div>
-                  <div className="text-xs">Author</div>
+                  <div className="text-sm font-bold text-slate-900">BlockMarketing</div>
+                  <div className="text-xs">Company Profile</div>
                 </div>
               </div>
 
