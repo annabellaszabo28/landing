@@ -55,17 +55,27 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
                 <span className="text-lg font-bold text-white/80 font-heading">{company.name}</span>
             ) : (
                 <img
-                    src={stats === 'clearbit'
-                        ? `https://logo.clearbit.com/${company.domain}`
-                        : `https://www.google.com/s2/favicons?domain=${company.domain}&sz=128`
+                    src={company.domain === 'near.org'
+                        ? '/logos/near.png'
+                        : (stats === 'clearbit'
+                            ? `https://logo.clearbit.com/${company.domain}`
+                            : `https://www.google.com/s2/favicons?domain=${company.domain}&sz=128`)
                     }
                     alt={company.name}
                     className={`max-h-16 w-auto max-w-[160px] object-contain transition-all duration-300 
                         ${company.domain === 'near.org'
-                            ? 'brightness-0 invert opacity-80 hover:opacity-100'
+                            ? 'brightness-200 contrast-125 opacity-100'
                             : 'brightness-200 contrast-125 hover:brightness-100 hover:contrast-100'
                         }`}
-                    onError={() => {
+                    onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        if (company.domain === 'near.org') {
+                            // Fallback if local image fails, though it shouldn't
+                            target.src = `https://logo.clearbit.com/${company.domain}`;
+                            setStatus('clearbit');
+                            return;
+                        }
+
                         if (stats === 'clearbit') setStatus('google');
                         else setStatus('text');
                     }}
@@ -78,7 +88,9 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
 // Main Component
 export default function TrustedBy() {
     return (
-        <section className="py-16 border-y border-slate-900 bg-slate-950 overflow-hidden">
+        <section className="py-16 border-y border-white/5 bg-brand-dark overflow-hidden relative">
+            <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
+            <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
             <div className="container mb-16 text-center">
                 <p className="text-sm font-bold text-white/40 uppercase tracking-[0.2em]">Trusted By Innovative Teams</p>
             </div>

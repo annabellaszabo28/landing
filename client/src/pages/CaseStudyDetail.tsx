@@ -8,11 +8,14 @@ import NotFound from "./NotFound";
 import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 
 export default function CaseStudyDetail() {
   const [, params] = useRoute("/work/:slug");
   const slug = params?.slug;
   const [project, setProject] = useState<CaseStudy | null | undefined>(undefined);
+  const { t } = useTranslation();
+  const currentUrl = `https://blockmarketingconsulting.com/work/${slug}`;
 
   useEffect(() => {
     if (slug) {
@@ -35,8 +38,12 @@ export default function CaseStudyDetail() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>{project.title} | BlockMarketing Digital</title>
+        <title>{project.title} | {t("nav.agency_name")}</title>
         <meta name="description" content={project.description} />
+        <link rel="canonical" href={currentUrl} />
+        <meta property="og:title" content={`${project.title} | ${t("nav.agency_name")}`} />
+        <meta property="og:description" content={project.description} />
+        <meta property="og:url" content={currentUrl} />
       </Helmet>
       <Navigation />
 
@@ -52,7 +59,7 @@ export default function CaseStudyDetail() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className={`w-16 h-2 mb-6 bg-gradient-to-r ${project.color} rounded-full`} />
+            <div className="w-16 h-2 mb-6 bg-slate-900 rounded-full" />
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               {project.title}
             </h1>

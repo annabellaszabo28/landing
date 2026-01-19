@@ -2,13 +2,13 @@
 slug: mastering_geo_2025_11_27
 title: "Mastering GEO for November 2025 Businesses"
 date: 2025/11/27
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: AI Search
 excerpt: "Insights and strategy for AI Search in the modern economy."
 image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=2000&auto=format&fit=crop"
 ---
 
-The landscape of AI Search is evolving at a rekurzive pace. In recent months, we have seen a significant shift in how AI Search influences the broader digital economy. At BlockMarketing Digital, we are committed to engineering the future of these technologies.
+The landscape of AI Search is evolving at a rekurzive pace. In recent months, we have seen a significant shift in how AI Search influences the broader digital economy. At BlockMarketing Consulting, we are committed to engineering the future of these technologies.
 
 ## Core Pillars of Success
 

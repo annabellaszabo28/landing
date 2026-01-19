@@ -2,13 +2,13 @@
 slug: blockchain_utility_2025_11_21
 title: "Blockchain Utility: Focus on November 2025"
 date: 2025/11/21
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: Blockchain
 excerpt: "Insights and strategy for Blockchain in the modern economy."
 image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?q=80&w=2000&auto=format&fit=crop"
 ---
 
-The landscape of Blockchain is evolving at a rekurzive pace. In recent months, we have seen a significant shift in how Blockchain influences the broader digital economy. At BlockMarketing Digital, we are committed to engineering the future of these technologies.
+The landscape of Blockchain is evolving at a rekurzive pace. In recent months, we have seen a significant shift in how Blockchain influences the broader digital economy. At BlockMarketing Consulting, we are committed to engineering the future of these technologies.
 
 ## Core Pillars of Success
 

@@ -2,7 +2,7 @@
 slug: high_converting_web2_funnels
 title: "Magasan konvertáló Web2 tölcsérek a Web3 világában"
 date: 2025/12/10
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: Növekedési stratégia
 excerpt: "Miért alkalmazzák a legjobb kripto projektek a hagyományos SaaS növekedési mechanizmusokat a rétegpiacon túli skálázódáshoz."
 image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"

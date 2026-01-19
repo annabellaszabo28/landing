@@ -25,7 +25,7 @@ interface WorkTogetherProps {
 
 export default function WorkTogetherSection({ content }: WorkTogetherProps) {
     return (
-        <section className="py-24 bg-gradient-to-b from-white to-slate-50">
+        <section className="py-24 bg-slate-50">
             <div className="container">
                 <div className="text-center max-w-3xl mx-auto mb-20">
                     <p className="text-sm font-bold tracking-[0.25em] text-indigo-600 uppercase mb-4">

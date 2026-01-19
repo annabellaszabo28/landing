@@ -12,7 +12,7 @@ export default function CookiesPage() {
             <Helmet>
                 <title>Cookie Policy | {t("nav.agency_name")}</title>
                 <meta name="description" content={`Cookie Policy for ${t("nav.agency_name")}.`} />
-                <link rel="canonical" href="https://blockmarketing.digital/cookies" />
+                <link rel="canonical" href="https://blockmarketingconsulting.com/cookies" />
             </Helmet>
             <Navigation />
 

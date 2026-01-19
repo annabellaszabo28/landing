@@ -8,12 +8,15 @@ import NotFound from "./NotFound";
 import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 import BrandedBlogCard from "@/components/BrandedBlogCard";
 
 export default function BlogPostDetail() {
   const [, params] = useRoute("/blog/:slug");
   const slug = params?.slug;
   const [post, setPost] = useState<BlogPost | null | undefined>(undefined);
+  const { t } = useTranslation();
+  const currentUrl = `https://blockmarketingconsulting.com/blog/${slug}`;
 
   useEffect(() => {
     if (slug) {
@@ -36,11 +39,13 @@ export default function BlogPostDetail() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>{post.title} | BlockMarketing Digital</title>
+        <title>{post.title} | {t("nav.agency_name")}</title>
         <meta name="description" content={post.excerpt} />
+        <link rel="canonical" href={currentUrl} />
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.excerpt} />
         <meta property="og:image" content={post.image} />
+        <meta property="og:url" content={currentUrl} />
       </Helmet>
       <Navigation />
 

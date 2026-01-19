@@ -27,10 +27,10 @@ export default function ServicesPage() {
         <title>AI & Web3 Marketing Services | {t("nav.agency_name")}</title>
         <meta name="description" content="Full-service AI marketing, Web3 community building, generative content, and growth strategy. Discover our comprehensive digital services." />
         <meta name="keywords" content="AI marketing services, Web3 marketing, community building, SEO, PPC, branding, social media management, blockchain marketing" />
-        <link rel="canonical" href="https://blockmarketing.digital/services" />
+        <link rel="canonical" href="https://blockmarketingconsulting.com/services" />
         <meta property="og:title" content={`AI & Web3 Marketing Services | ${t("nav.agency_name")}`} />
         <meta property="og:description" content="Full-service AI marketing, Web3 community building, generative content, and growth strategy." />
-        <meta property="og:url" content="https://blockmarketing.digital/services" />
+        <meta property="og:url" content="https://blockmarketingconsulting.com/services" />
       </Helmet>
       <Navigation />
 

@@ -134,6 +134,19 @@ h6 {
   font-family: var(--font-heading), sans-serif;
   font-weight: 700;
   letter-spacing: -0.025em;
+  color: var(--foreground);
+}
+
+h1 {
+  @apply text-slate-900;
+}
+
+h2 {
+  @apply text-slate-900;
+}
+
+h3 {
+  @apply text-slate-900;
 }
 
 @layer components {
@@ -194,6 +207,28 @@ h6 {
   .glass-nav {
     @apply bg-white/30 backdrop-blur-lg border-b border-white/20;
   }
+
+  /* Brand Dark Theme */
+  .bg-brand-dark {
+    background-color: #0b0c14;
+    color: white;
+  }
+
+  .bg-brand-dark h1,
+  .bg-brand-dark h2,
+  .bg-brand-dark h3,
+  .bg-brand-dark h4 {
+    color: white;
+  }
+
+  /* Branding Glows */
+  .glow-indigo {
+    @apply absolute w-[500px] h-[500px] bg-indigo-500/10 blur-[120px] rounded-full pointer-events-none;
+  }
+
+  .glow-blue {
+    @apply absolute w-[500px] h-[500px] bg-blue-600/5 blur-[120px] rounded-full pointer-events-none;
+  }
 }
 
 @keyframes spin {
@@ -231,7 +266,7 @@ h6 {
   0% {
     transform: translateX(0);
     opacity: 0;
-    background: linear-gradient(90deg, transparent, #818cf8, transparent);
+    background: transparent;
   }
 
   5% {
@@ -239,26 +274,26 @@ h6 {
   }
 
   25% {
-    background: linear-gradient(90deg, transparent, #8b7ff5, transparent);
+    background: #8b7ff5;
   }
 
   50% {
-    background: linear-gradient(90deg, transparent, #a78bfa, transparent);
+    background: #a78bfa;
   }
 
   75% {
-    background: linear-gradient(90deg, transparent, #d580dc, transparent);
+    background: #d580dc;
   }
 
   95% {
     opacity: 1;
-    background: linear-gradient(90deg, transparent, #f472b6, transparent);
+    background: #f472b6;
   }
 
   100% {
     transform: translateX(800px);
     opacity: 0;
-    background: linear-gradient(90deg, transparent, #f472b6, transparent);
+    background: #f472b6;
   }
 }
 

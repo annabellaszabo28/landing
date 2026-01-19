@@ -23,10 +23,10 @@ export default function WorkPage() {
         <title>Our Work | Case Studies | {t("nav.agency_name")}</title>
         <meta name="description" content="A showcase of our impact across industries. See how we help brands grow with AI marketing, Web3 communities, and generative strategies." />
         <meta name="keywords" content="marketing case studies, web3 success stories, AI marketing results, crypto marketing portfolio, SaaS growth studies" />
-        <link rel="canonical" href="https://blockmarketing.digital/work" />
+        <link rel="canonical" href="https://blockmarketingconsulting.com/work" />
         <meta property="og:title" content={`Our Work | ${t("nav.agency_name")}`} />
         <meta property="og:description" content="A showcase of our impact across industries. See how we help brands grow with AI marketing, Web3 communities, and generative strategies." />
-        <meta property="og:url" content="https://blockmarketing.digital/work" />
+        <meta property="og:url" content="https://blockmarketingconsulting.com/work" />
       </Helmet>
       <Navigation />
 
@@ -34,7 +34,6 @@ export default function WorkPage() {
         <PageHeader
           title="Selected Work"
           subtitle="A showcase of our impact across industries. From high-fashion to high-finance."
-          gradient="from-purple-500 to-pink-500"
         />
 
         <section className="pb-24">
@@ -58,7 +57,7 @@ export default function WorkPage() {
                   </Link>
 
                   <div className={index % 2 === 1 ? 'md:order-1' : ''}>
-                    <div className={`w-12 h-1 mb-6 bg-gradient-to-r ${project.color}`} />
+                    <div className="w-12 h-1 mb-6 bg-indigo-500" />
                     <div className="text-sm font-medium text-slate-500 mb-2 uppercase tracking-wider">
                       {project.category}
                     </div>

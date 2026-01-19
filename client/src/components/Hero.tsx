@@ -17,16 +17,16 @@ export default function Hero({ content }: HeroProps) {
   if (!content) return null;
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden bg-gradient-to-b from-white via-slate-50 to-slate-100 text-slate-900 px-4 pt-32 pb-20">
+    <section className="relative min-h-screen flex flex-col justify-center items-center overflow-hidden bg-slate-50 text-slate-900 px-4 pt-32 pb-20">
 
       {/* Light Background Image */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
           src={heroBgLight}
           alt="Abstract Light Background"
-          className="w-full h-full object-cover opacity-60 scale-105"
+          className="w-full h-full object-cover opacity-60 scale-105 transition-transform duration-1000"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-transparent to-white/40" />
+        <div className="absolute inset-0 bg-white/40" />
       </div>
 
       <div className="container relative z-10 flex flex-col items-center">
@@ -46,7 +46,7 @@ export default function Hero({ content }: HeroProps) {
 
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-slate-900 mb-6 max-w-4xl mx-auto leading-tight">
             {content.title.split(':').map((part, i) => (
-              <span key={i} className={i === 1 ? "text-transparent bg-clip-text bg-gradient-to-r from-slate-700 via-indigo-600 to-indigo-500 block" : ""}>
+              <span key={i} className={i === 1 ? "block text-slate-900" : ""}>
                 {part}
               </span>
             ))}

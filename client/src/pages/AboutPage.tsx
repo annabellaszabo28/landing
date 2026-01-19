@@ -25,10 +25,10 @@ export default function AboutPage() {
         <title>{t("about_seo.title")}</title>
         <meta name="description" content={t("about_seo.description")} />
         <meta name="keywords" content="about blockmarketing, marketing team, AI agency experts, web3 specialists, digital agency san francisco" />
-        <link rel="canonical" href="https://blockmarketing.digital/about" />
+        <link rel="canonical" href="https://blockmarketingconsulting.com/about" />
         <meta property="og:title" content={t("about_seo.title")} />
         <meta property="og:description" content={t("about_seo.description")} />
-        <meta property="og:url" content="https://blockmarketing.digital/about" />
+        <meta property="og:url" content="https://blockmarketingconsulting.com/about" />
       </Helmet>
       <Navigation />
 
@@ -90,7 +90,21 @@ export default function AboutPage() {
             </div>
 
           </div>
-        </section>
+
+          {/* Brand Dark CTA */}
+          <section className="py-24 bg-brand-dark relative overflow-hidden mt-32">
+            <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
+            <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
+            <div className="container px-4 text-center relative z-10">
+              <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-white uppercase tracking-tight">Let's build the future together.</h2>
+              <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">Whether you're a high-growth SME or a Web3 native protocol, we have the engine to scale your vision.</p>
+              <Link href="/contact">
+                <button className="bg-white text-slate-900 px-10 py-4 rounded-full text-lg font-bold hover:bg-white hover:text-indigo-600 hover:scale-105 transition-all shadow-xl shadow-white/10">
+                  Book a Strategy Call
+                </button>
+              </Link>
+            </div>
+          </section>
       </main>
 
       <Footer />

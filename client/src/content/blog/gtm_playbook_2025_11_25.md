@@ -2,13 +2,13 @@
 slug: gtm_playbook_2025_11_25
 title: "GTM Playbook: November 2025 Edition"
 date: 2025/11/25
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: Strategy
 excerpt: "Insights and strategy for Strategy in the modern economy."
 image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2000&auto=format&fit=crop"
 ---
 
-The landscape of Strategy is evolving at a rekurzive pace. In recent months, we have seen a significant shift in how Strategy influences the broader digital economy. At BlockMarketing Digital, we are committed to engineering the future of these technologies.
+The landscape of Strategy is evolving at a rekurzive pace. In recent months, we have seen a significant shift in how Strategy influences the broader digital economy. At BlockMarketing Consulting, we are committed to engineering the future of these technologies.
 
 ## Core Pillars of Success
 

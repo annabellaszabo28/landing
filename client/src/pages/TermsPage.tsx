@@ -12,7 +12,7 @@ export default function TermsPage() {
             <Helmet>
                 <title>{t("footer.terms")} | {t("nav.agency_name")}</title>
                 <meta name="description" content={`Terms of Use for ${t("nav.agency_name")}.`} />
-                <link rel="canonical" href="https://blockmarketing.digital/terms" />
+                <link rel="canonical" href="https://blockmarketingconsulting.com/terms" />
             </Helmet>
             <Navigation />
 
@@ -36,7 +36,7 @@ export default function TermsPage() {
                             <p>You must be at least 18 years of age to use our services.</p>
 
                             <h3>3. Marketing Services</h3>
-                            <p>BlockMarketing Digital provides a range of digital marketing services. While we strive for excellence, we do not guarantee specific ROI or results due to the dynamic nature of digital platforms.</p>
+                            <p>BlockMarketing Consulting provides a range of digital marketing services. While we strive for excellence, we do not guarantee specific ROI or results due to the dynamic nature of digital platforms.</p>
                             <ul>
                                 <li><strong>Intellectual Property:</strong> Materials created for clients remain our property until full payment is received, at which point ownership transfers.</li>
                                 <li><strong>Compliance:</strong> We effort to comply with platform policies (Google, Meta, etc.) but are not liable for platform side rejections or account suspensions.</li>
@@ -49,13 +49,13 @@ export default function TermsPage() {
                             <p>We comply with GDPR and other relevant data protection regulations. Please refer to our Privacy Policy for more details.</p>
 
                             <h3>6. Limitation of Liability</h3>
-                            <p>BlockMarketing Digital shall not be liable for any incidental or consequential damages arising from the use of our services or website.</p>
+                            <p>BlockMarketing Consulting shall not be liable for any incidental or consequential damages arising from the use of our services or website.</p>
 
                             <h3>7. Law & Jurisdiction</h3>
                             <p>These terms are governed by the laws of Hungary and the European Union. Any disputes will be settled in the competent courts of Hungary.</p>
 
                             <h3>8. Contact Information</h3>
-                            <p>If you have any questions about these Terms, please contact us at hello@blockmarketing.digital.</p>
+                            <p>If you have any questions about these Terms, please contact us at hello@blockmarketingconsulting.com.</p>
                         </motion.div>
                     </div>
                 </section>

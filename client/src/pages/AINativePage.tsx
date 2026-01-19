@@ -8,12 +8,12 @@ export default function AINativePage() {
     return (
         <div className="min-h-screen flex flex-col font-sans text-slate-900 bg-white selection:bg-black/10">
             <Helmet>
-                <title>AI Native | We Ship AI | BlockMarketing Digital</title>
+                <title>AI Native | We Ship AI | BlockMarketing Consulting</title>
                 <meta name="description" content="Most agencies talk about AI. We ship AI. Native integration of LLMs, agentic workflows, and predictive growth models." />
                 <meta name="keywords" content="AI marketing agency, agentic workflows, LLM integration, predictive growth, AI native marketing, generative AI strategies" />
-                <meta property="og:title" content="AI Native | We Ship AI | BlockMarketing Digital" />
+                <meta property="og:title" content="AI Native | We Ship AI | BlockMarketing Consulting" />
                 <meta property="og:description" content="Most agencies talk about AI. We ship AI. Native integration of LLMs, agentic workflows, and predictive growth models." />
-                <meta property="og:url" content="https://blockmarketing.digital/ai-native" />
+                <meta property="og:url" content="https://blockmarketingconsulting.com/ai-native" />
             </Helmet>
             <Navigation />
 
@@ -105,8 +105,22 @@ export default function AINativePage() {
                     </div>
                 </section>
 
-            </main>
-            <Footer />
+                {/* Brand Dark CTA */}
+                <section className="py-24 bg-brand-dark relative overflow-hidden mt-32">
+                    <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
+                    <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
+                    <div className="container px-4 text-center relative z-10">
+                        <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight text-white">Ready for AI-Native growth?</h2>
+                        <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto">Let's build your next-gen marketing engine together. We ship solutions, not just slide decks.</p>
+
+                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                            <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-white/90 transition-all transform hover:scale-105 shadow-xl shadow-white/10">
+                                Book a Strategy Call
+                            </button>
+                        </a>
+                    </div>
+                </section>
+                <Footer />
         </div>
     );
 }

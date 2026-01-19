@@ -16,7 +16,7 @@ export default function CaseStudies() {
   if (featuredCases.length === 0) return null;
 
   return (
-    <section id="work" className="py-24 relative">
+    <section id="work" className="py-24 relative bg-slate-50 border-t border-slate-100">
       <div className="container">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
           <div>
@@ -50,11 +50,11 @@ export default function CaseStudies() {
                 </div>
 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-black/60 group-hover:bg-black/80 transition-colors duration-300" />
 
                 {/* Content */}
                 <div className="absolute inset-0 p-8 flex flex-col justify-end text-white">
-                  <div className={`w-12 h-1 mb-6 bg-gradient-to-r ${item.color}`} />
+                  <div className="w-12 h-1 mb-6 bg-white" />
 
                   <div className="text-sm font-medium text-white/80 mb-2 uppercase tracking-wider">
                     {item.category}

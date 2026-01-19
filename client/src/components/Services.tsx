@@ -87,7 +87,7 @@ export default function Services({ content }: ServicesProps) {
                         alt={service.title}
                         className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-white/80 to-transparent" />
+                      <div className="absolute inset-0 bg-black/20" />
                     </div>
                   )}
                 </motion.div>
@@ -98,7 +98,7 @@ export default function Services({ content }: ServicesProps) {
       </div>
 
       {/* Background Decor */}
-      <div className="absolute top-1/2 left-0 w-full h-full -z-10 bg-gradient-to-b from-transparent to-white/80 pointer-events-none" />
+      <div className="absolute top-1/2 left-0 w-full h-full -z-10 bg-slate-50/50 pointer-events-none" />
     </section>
   );
 }

@@ -2,7 +2,7 @@
 slug: decentralized_loyalty_web3_marketing
 title: "Decentralized Loyalty: The New Frontier of Web3 Marketing"
 date: 2026/01/07
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: Web3
 excerpt: "How tokenized rewards and on chain activity are replacing traditional email loyalty programs."
 image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2832&auto=format&fit=crop"

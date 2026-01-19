@@ -2,13 +2,13 @@
 slug: ppc_strategies_2025_12_22
 title: "PPC Strategies for December 2025 Markets"
 date: 2025/12/22
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: PPC
 excerpt: "Insights and strategy for PPC in the modern economy."
 image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2000&auto=format&fit=crop"
 ---
 
-The landscape of PPC is evolving at a rekurzive pace. In recent months, we have seen a significant shift in how PPC influences the broader digital economy. At BlockMarketing Digital, we are committed to engineering the future of these technologies.
+The landscape of PPC is evolving at a rekurzive pace. In recent months, we have seen a significant shift in how PPC influences the broader digital economy. At BlockMarketing Consulting, we are committed to engineering the future of these technologies.
 
 ## Core Pillars of Success
 

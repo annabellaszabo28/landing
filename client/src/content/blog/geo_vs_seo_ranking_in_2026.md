@@ -2,7 +2,7 @@
 slug: geo_vs_seo_ranking_in_2026
 title: "GEO vs SEO: Ranking in the Age of Generative AI"
 date: 2026/01/08
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: AI Search
 excerpt: "Why traditional keyword stuffing is dead and how to optimize for the conversational web."
 image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop"

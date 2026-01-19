@@ -2,7 +2,7 @@
 slug: high_converting_web2_funnels
 title: "High Converting Web2 Funnels in a Web3 World"
 date: 2025/12/10
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: Growth Strategy
 excerpt: "Why the best crypto projects are adopting traditional SaaS growth mechanics to scale beyond the degen niche."
 image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"

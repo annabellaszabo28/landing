@@ -112,10 +112,10 @@ export default function ContactPage() {
         <title>{t("contact.title")} | {t("nav.agency_name")}</title>
         <meta name="description" content={t("contact.description")} />
         <meta name="keywords" content="contact marketing agency, hire marketing team, book discovery call, AI marketing consultation" />
-        <link rel="canonical" href="https://blockmarketing.digital/contact" />
+        <link rel="canonical" href="https://blockmarketingconsulting.com/contact" />
         <meta property="og:title" content={`${t("contact.title")} | ${t("nav.agency_name")}`} />
         <meta property="og:description" content={t("contact.description")} />
-        <meta property="og:url" content="https://blockmarketing.digital/contact" />
+        <meta property="og:url" content="https://blockmarketingconsulting.com/contact" />
       </Helmet>
       <Navigation />
 
@@ -144,8 +144,8 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-bold text-lg mb-1">{t("contact.email_label")}</h3>
                       <p className="text-slate-600 mb-2">Ready to scale? Connect with our team directly.</p>
-                      <a href="mailto:hello@blockmarketing.digital" className="text-primary font-medium hover:underline">
-                        hello@blockmarketing.digital
+                      <a href="mailto:hello@blockmarketingconsulting.com" className="text-primary font-medium hover:underline">
+                        hello@blockmarketingconsulting.com
                       </a>
                     </div>
                   </div>

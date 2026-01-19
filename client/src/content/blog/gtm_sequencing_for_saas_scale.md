@@ -2,7 +2,7 @@
 slug: gtm_sequencing_for_saas_scale
 title: "GTM Sequencing: Scaling Your SaaS to 10M+ ARR"
 date: 2026/01/06
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: Strategy
 excerpt: "The specific milestones and marketing shifts required to break through the scaleup ceiling."
 image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
@@ -10,7 +10,7 @@ image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015
 
 Scaling a SaaS brand from 1M to 10M in annual recurring revenue (ARR) requires a fundamental shift in your Go To Market (GTM) strategy. What got you here won't get you there. In 2026, this transition must be engineered with predictive precision.
 
-At BlockMarketing Digital, we've helped dozens of [SaaS founders](/marketing) navigate this scaling phase through our high stakes strategy audits.
+At BlockMarketing Consulting, we've helped dozens of [SaaS founders](/marketing) navigate this scaling phase through our high stakes strategy audits.
 
 ## Phase 1: From Product Led to Market Led
 

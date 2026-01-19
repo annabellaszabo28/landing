@@ -12,7 +12,7 @@ export default function PrivacyPage() {
             <Helmet>
                 <title>{t("footer.privacy")} | {t("nav.agency_name")}</title>
                 <meta name="description" content={`Privacy Policy for ${t("nav.agency_name")}.`} />
-                <link rel="canonical" href="https://blockmarketing.digital/privacy" />
+                <link rel="canonical" href="https://blockmarketingconsulting.com/privacy" />
             </Helmet>
             <Navigation />
 
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
                             className="prose prose-slate lg:prose-xl max-w-none"
                         >
                             <h3>1. Data Controller</h3>
-                            <p>BlockMarketing Digital is the data controller for the information collected on this website. You can reach us at hello@blockmarketing.digital.</p>
+                            <p>BlockMarketing Consulting is the data controller for the information collected on this website. You can reach us at hello@blockmarketingconsulting.com.</p>
 
                             <h3>2. Information We Collect</h3>
                             <p>We only collect information that you voluntarily provide to us via our contact form, such as your name, email address, and project details.</p>

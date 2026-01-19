@@ -16,7 +16,7 @@ export default function Bridge({ content }: BridgeProps) {
   if (!content) return null;
 
   return (
-    <section className="py-32 relative overflow-hidden bg-gradient-to-b from-white via-slate-50 to-slate-100 text-slate-900">
+    <section className="py-32 relative overflow-hidden bg-slate-50 text-slate-900">
       {/* Light Background Image (Matching Hero) */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <img

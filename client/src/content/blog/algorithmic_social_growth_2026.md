@@ -2,7 +2,7 @@
 slug: algorithmic_social_growth_2026
 title: "Algorithmic Dominance: Social Media Growth in 2026"
 date: 2026/01/10
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: Social Media
 excerpt: "Beyond follower counts: How to engineer communities that drive actual business revenue."
 image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop"
@@ -10,7 +10,7 @@ image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974
 
 The era of "vanity metrics" is officially over. In 2026, social media success isn't defined by how many followers you have, but by the depth of your community's elköteleződés (engagement) and the direct impact on your revenue. 
 
-At BlockMarketing Digital, we've developed an [AI enhanced social strategy](/marketing/social_media) that doesn't just chase trends—it creates them.
+At BlockMarketing Consulting, we've developed an [AI enhanced social strategy](/marketing/social_media) that doesn't just chase trends—it creates them.
 
 ## The Shift to Niche Communities
 

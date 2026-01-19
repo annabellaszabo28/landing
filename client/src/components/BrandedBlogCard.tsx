@@ -11,8 +11,7 @@ export default function BrandedBlogCard({ title, category, className = "" }: Bra
         <div className={`relative w-full aspect-[16/10] overflow-hidden bg-[#0a0a0a] text-white flex flex-col p-8 border border-slate-800 ${className}`}>
             {/* Background Pattern - Hex/Grid Tech Look */}
             <div className="absolute inset-0 opacity-20">
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
-                <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-slate-900" />
             </div>
 
             {/* Decorative Glows */}
@@ -26,7 +25,7 @@ export default function BrandedBlogCard({ title, category, className = "" }: Bra
                     <div className="w-3 h-3 rounded-full border border-white/30" />
                 </div>
                 <div className="text-xs font-bold tracking-widest uppercase text-slate-500">
-                    BlockMarketing Digital
+                    BlockMarketing Consulting
                 </div>
                 <div className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse" />
             </div>
@@ -35,14 +34,14 @@ export default function BrandedBlogCard({ title, category, className = "" }: Bra
             <div className="relative z-10 flex items-center justify-center flex-grow w-full my-4">
                 <div className="relative group w-full max-w-lg">
                     {/* Outer Glow */}
-                    <div className="absolute -inset-1 bg-gradient-to-r from-indigo-500/20 to-indigo-500/20 rounded-2xl blur opacity-0 group-hover:opacity-100 transition duration-500" />
+                    <div className="absolute -inset-1 bg-indigo-500/20 rounded-2xl blur opacity-0 group-hover:opacity-100 transition duration-500" />
 
                     {/* Main Pill Container */}
                     <div className="relative bg-[#111] bg-opacity-80 backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8 text-center shadow-2xl">
                         <div className="text-xs font-mono text-indigo-400 mb-2 uppercase tracking-wide">
                // {category}
                         </div>
-                        <h3 className="text-lg md:text-2xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-400">
+                        <h3 className="text-lg md:text-2xl font-bold leading-tight text-white/90">
                             {title}
                         </h3>
                     </div>

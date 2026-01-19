@@ -24,7 +24,11 @@ interface WhoWeHelpProps {
 
 export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
     return (
-        <section className="relative bg-slate-950 text-white pb-32 overflow-hidden">
+        <section className="relative bg-brand-dark pb-32 overflow-hidden">
+            {/* Branding Glows */}
+            <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
+            <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
+
             {/* Top wave divider connecting to previous section */}
             <div className="absolute top-0 left-0 w-full overflow-hidden leading-none rotate-180">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className="relative block h-[80px] w-[calc(100%+1.3px)] fill-slate-50">
@@ -73,7 +77,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                         href="https://cal.com/annabella-szabo-marketing/30min"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-primary text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-primary/90 hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-primary/25"
+                        className="inline-block bg-white text-slate-900 px-12 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-indigo-600 hover:scale-105 transition-all shadow-xl shadow-white/10"
                     >
                         Book a Call
                     </a>

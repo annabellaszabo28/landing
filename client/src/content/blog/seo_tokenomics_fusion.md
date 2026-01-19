@@ -2,7 +2,7 @@
 slug: seo_tokenomics_fusion
 title: "SEO & Tokenomics: The Hidden Synergy"
 date: 2025/11/15
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: Token Economics
 excerpt: "How organic search traffic drives token velocity and creates self sustaining economic flywheels."
 image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"

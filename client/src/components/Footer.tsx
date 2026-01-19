@@ -9,8 +9,8 @@ export default function Footer() {
       <div className="container">
         <div className="grid md:grid-cols-3 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
-            <a href="/" className="text-2xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-800 to-primary mb-6 inline-block">
-              {t("nav.agency_name")}
+            <a href="/" className="mb-6 inline-block">
+              <img src="/logo.png" alt={t("nav.agency_name")} className="h-10 w-auto" />
             </a>
             <p className="text-slate-500 max-w-sm mb-8">
               Intelligent growth for the modern web. We build the bridge between traditional business and the decentralized future.

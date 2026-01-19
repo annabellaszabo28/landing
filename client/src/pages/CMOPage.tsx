@@ -19,7 +19,7 @@ export default function CMOPage() {
                 <meta name="keywords" content="fractional CMO, marketing leadership, Web3 CMO, AI marketing director, startup marketing help, growth executive" />
                 <meta property="og:title" content="Fractional CMO Services for Web3 & AI | BlockMarketing" />
                 <meta property="og:description" content="Expert Fractional CMO services. Scale your Web3 or AI startup with a dedicated marketing leadership team." />
-                <meta property="og:url" content="https://blockmarketing.digital/cmo" />
+                <meta property="og:url" content="https://blockmarketingconsulting.com/cmo" />
             </Helmet>
             <Navigation />
 
@@ -40,9 +40,9 @@ export default function CMOPage() {
                             <span className="inline-block py-1 px-3 rounded-full bg-indigo-100 text-indigo-700 text-sm font-bold mb-6 tracking-wide uppercase">
                                 Leadership as a Service
                             </span>
-                            <h1 className="text-5xl md:text-7xl font-bold font-heading tracking-tight mb-8 leading-[1.1]">
+                            <h1 className="text-5xl md:text-7xl font-bold font-heading tracking-tight mb-8 leading-[1.1] text-slate-900">
                                 The Impact of a CMO.<br />
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-blue-500">Without the Equity.</span>
+                                <span className="text-indigo-600">Without the Equity.</span>
                             </h1>
                             <p className="text-xl md:text-2xl text-slate-600 max-w-2xl mb-12 leading-relaxed">
                                 Expert Fractional CMO services for ambitious Web3 & AI startups. We replace an entire marketing department with one integrated growth engine.
@@ -67,7 +67,7 @@ export default function CMOPage() {
                                 <h3 className="text-2xl font-bold text-slate-900 mb-2">Why Fractional?</h3>
                                 <p className="text-slate-500 leading-relaxed">Top-tier CMOs cost $250k/year + equity. We deliver the same strategic leadership and execution for a flat monthly fee. No equity, no onboarding time.</p>
                             </div>
-                            <div className="p-8 rounded-3xl bg-gradient-to-br from-indigo-600 to-blue-600 text-white shadow-xl shadow-indigo-500/20">
+                            <div className="p-8 rounded-3xl bg-indigo-600 text-white shadow-xl shadow-indigo-500/20">
                                 <h3 className="text-2xl font-bold mb-2">The AI Advantage</h3>
                                 <p className="text-indigo-100 leading-relaxed">We don't just hire people; we deploy agents. Our AI-native stack allows us to execute 10x faster than traditional agencies.</p>
                             </div>
@@ -227,13 +227,15 @@ export default function CMOPage() {
                 </section>
 
                 {/* Final CTA */}
-                <section id="contact" className="py-24 bg-white border-t border-slate-100">
-                    <div className="container px-4 text-center">
-                        <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight">Ready to lead the market?</h2>
-                        <p className="text-xl text-slate-600 mb-12 max-w-2xl mx-auto">Stop guessing. Start growing. Book your strategy session today.</p>
+                <section id="contact" className="py-24 bg-brand-dark relative overflow-hidden">
+                    <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
+                    <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
+                    <div className="container px-4 text-center relative z-10">
+                        <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight text-white">Ready to lead the market?</h2>
+                        <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto">Stop guessing. Start growing. Book your strategy session today.</p>
 
                         <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                            <button className="px-12 py-5 bg-primary text-white font-bold text-xl rounded-full hover:bg-primary/90 transition-all transform hover:scale-105 shadow-xl shadow-indigo-500/30">
+                            <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-indigo-600 hover:text-white transition-all transform hover:scale-105 shadow-xl shadow-white/10">
                                 Book a Call Now
                             </button>
                         </a>
@@ -242,6 +244,6 @@ export default function CMOPage() {
 
             </main>
             <Footer />
-        </div>
+        </div >
     );
 }

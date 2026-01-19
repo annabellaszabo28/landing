@@ -7,7 +7,7 @@
         "work": "Work",
         "blog": "Blog",
         "contact": "Contact",
-        "agency_name": "BlockMarketing Digital"
+        "agency_name": "BlockMarketing Consulting"
     },
     "footer": {
         "rights": "All rights reserved.",
@@ -20,16 +20,16 @@
         "loading": "Loading..."
     },
     "home_seo": {
-        "title": "BlockMarketing Digital | AI native marketing agency",
+        "title": "BlockMarketing Consulting | AI native marketing agency",
         "description": "We're an AI native marketing agency helping brands scale with cutting edge AI marketing, Web3 community building, and generative content strategies."
     },
     "about_seo": {
-        "title": "About Us | BlockMarketing Digital | AI and Web3 Marketing Agency",
-        "description": "Meet the team behind BlockMarketing Digital. We're an AI native marketing agency and Web3 pioneers on a mission to future proof brands."
+        "title": "About Us | BlockMarketing Consulting | AI and Web3 Marketing Agency",
+        "description": "Meet the team behind BlockMarketing Consulting. We're an AI native marketing agency and Web3 pioneers on a mission to future proof brands."
     },
     "contact": {
         "title": "Contact Us",
-        "description": "Ready to future proof your brand? Get in touch with BlockMarketing Digital. We help brands scale with AI marketing and Web3 strategies.",
+        "description": "Ready to future proof your brand? Get in touch with BlockMarketing Consulting. We help brands scale with AI marketing and Web3 strategies.",
         "header_title": "Let's Talk",
         "header_subtitle": "Ready to future proof your brand? Tell us about your project.",
         "form_title": "Get in Touch",

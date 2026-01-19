@@ -11,6 +11,8 @@ import web2Services from "@/content/web2-services.json";
 import web3Services from "@/content/web3-services.json";
 import { ServiceDetail as ServiceDetailType } from "@/types";
 
+import { useTranslation } from "react-i18next";
+
 const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, label?: string }) => {
     const isWeb3 = type === "web3";
     // @ts-ignore
@@ -19,7 +21,7 @@ const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, la
     return (
         <div className="relative w-full h-[500px] flex items-center justify-center">
             {/* Background Glow */}
-            <div className={`absolute inset-0 bg-gradient-to-br ${isWeb3 ? 'from-purple-500/20 to-pink-500/10' : 'from-indigo-500/20 to-blue-500/10'} rounded-3xl blur-3xl opacity-30`} />
+            <div className={`absolute inset-0 ${isWeb3 ? 'bg-purple-900/10' : 'bg-indigo-900/10'} rounded-3xl blur-3xl opacity-30`} />
 
             {/* Orbiting Elements */}
             {[...Array(3)].map((_, i) => (
@@ -50,7 +52,7 @@ const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, la
                 className="relative z-10 w-64 h-64 flex flex-col items-center justify-center"
             >
                 <div className={`absolute inset-0 rounded-[2.5rem] border border-white/20 backdrop-blur-3xl shadow-2xl bg-white/5 overflow-hidden`}>
-                    <div className={`absolute inset-0 bg-gradient-to-br ${isWeb3 ? 'from-purple-500/10 to-pink-500/10' : 'from-indigo-500/10 to-blue-500/10'}`} />
+                    <div className={`absolute inset-0 ${isWeb3 ? 'bg-purple-500/10' : 'bg-indigo-500/10'}`} />
                 </div>
 
                 <motion.div
@@ -61,7 +63,7 @@ const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, la
                     <div className={`p-6 rounded-3xl bg-white/10 border border-white/20 mb-6 shadow-xl`}>
                         <Icon size={48} className={isWeb3 ? 'text-pink-500' : 'text-indigo-500'} />
                     </div>
-                    <span className="text-sm font-bold tracking-widest text-white/80 uppercase">
+                    <span className="text-sm font-bold tracking-widest text-slate-500 uppercase">
                         {label?.split(' ')[0]} Engine
                     </span>
                 </motion.div>
@@ -70,7 +72,7 @@ const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, la
                 <motion.div
                     animate={{ top: ['0%', '100%', '0%'] }}
                     transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
-                    className="absolute left-0 right-0 h-1 bg-gradient-to-r from-transparent via-white/20 to-transparent z-10"
+                    className="absolute left-0 right-0 h-1 bg-white/20 z-10"
                 />
             </motion.div>
 
@@ -102,9 +104,11 @@ const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, la
 
 export default function ServiceDetail({ type }: ServiceDetailProps) {
     const { slug } = useParams();
+    const { t } = useTranslation();
 
     const services = type === "web2" ? web2Services : web3Services;
     const service = services.find(s => s.slug === slug) as ServiceDetailType | undefined;
+    const currentUrl = `https://blockmarketingconsulting.com/${type === "web2" ? "marketing" : "web3"}/${slug}`;
 
     if (!service) {
         return (
@@ -125,11 +129,13 @@ export default function ServiceDetail({ type }: ServiceDetailProps) {
     return (
         <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
             <Helmet>
-                <title>{service.title} | BlockMarketing Digital</title>
+                <title>{service.title} | {t("nav.agency_name")}</title>
                 <meta name="description" content={service.description} />
                 <meta name="keywords" content={`${service.title}, ${type} marketing, blockmarketing services`} />
-                <meta property="og:title" content={`${service.title} | BlockMarketing Digital`} />
+                <link rel="canonical" href={currentUrl} />
+                <meta property="og:title" content={`${service.title} | ${t("nav.agency_name")}`} />
                 <meta property="og:description" content={service.description} />
+                <meta property="og:url" content={currentUrl} />
             </Helmet>
             <Navigation />
 
@@ -178,7 +184,7 @@ export default function ServiceDetail({ type }: ServiceDetailProps) {
                                     href="https://cal.com/annabella-szabo-marketing/30min"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="bg-primary text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-primary/90 transition-all shadow-xl shadow-primary/20 hover:-translate-y-1 inline-block text-center"
+                                    className="bg-indigo-600 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-slate-900 transition-all shadow-xl shadow-indigo-500/20 hover:-translate-y-1 inline-block text-center"
                                 >
                                     Book a Discovery Call
                                 </a>
@@ -243,6 +249,22 @@ export default function ServiceDetail({ type }: ServiceDetailProps) {
                         </motion.section>
                     )}
                 </div>
+
+                {/* Final CTA - Brand Dark */}
+                <section className="mt-32 py-24 bg-brand-dark relative overflow-hidden">
+                    <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
+                    <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
+                    <div className="container px-4 text-center relative z-10">
+                        <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight text-white">Scale with precision.</h2>
+                        <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto">Let's build a data-driven growth engine for your business. Book your session today.</p>
+
+                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                            <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-white/90 transition-all transform hover:scale-105 shadow-xl shadow-white/10">
+                                Book a Call Now
+                            </button>
+                        </a>
+                    </div>
+                </section>
             </main>
 
             <Footer />

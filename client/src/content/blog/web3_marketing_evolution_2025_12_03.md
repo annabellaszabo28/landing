@@ -2,13 +2,13 @@
 slug: web3_marketing_evolution_2025_12_03
 title: "The Evolution of Web3 Marketing in December 2025"
 date: 2025/12/03
-author: BlockMarketing Digital
+author: BlockMarketing Consulting
 category: Web3
 excerpt: "Insights and strategy for Web3 in the modern economy."
 image: "https://images.unsplash.com/photo-1545235617-946f723c784e?q=80&w=2000&auto=format&fit=crop"
 ---
 
-The landscape of Web3 is evolving at a rekurzive pace. In recent months, we have seen a significant shift in how Web3 influences the broader digital economy. At BlockMarketing Digital, we are committed to engineering the future of these technologies.
+The landscape of Web3 is evolving at a rekurzive pace. In recent months, we have seen a significant shift in how Web3 influences the broader digital economy. At BlockMarketing Consulting, we are committed to engineering the future of these technologies.
 
 ## Core Pillars of Success
 

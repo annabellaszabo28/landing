@@ -9,15 +9,15 @@ export default function GeneralHome() {
     return (
         <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
             <Helmet>
-                <title>BlockMarketing Digital | AI native marketing agency</title>
-                <meta name="description" content="BlockMarketing Digital is an AI native marketing agency with 10+ years of experience, bridging the gap between Web2 growth and Web3 innovation." />
+                <title>BlockMarketing Consulting | AI native marketing agency</title>
+                <meta name="description" content="BlockMarketing Consulting is an AI native marketing agency with 10+ years of experience, bridging the gap between Web2 growth and Web3 innovation." />
             </Helmet>
             <Navigation />
 
             <main className="flex-grow flex flex-col justify-center items-center relative overflow-hidden pt-20 pb-20">
 
                 {/* Background Elements */}
-                <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-background to-background -z-10" />
+                <div className="absolute top-0 left-0 w-full h-full bg-slate-50 -z-10" />
 
                 <div className="container px-4 text-center z-10">
                     <motion.div
@@ -28,7 +28,7 @@ export default function GeneralHome() {
                         <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-semibold mb-6 border border-primary/20">
                             AI native marketing agency • 10+ Years Experience
                         </span>
-                        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
+                        <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 text-foreground">
                             Future Proof<br />Your Growth
                         </h1>
                         <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-12">
