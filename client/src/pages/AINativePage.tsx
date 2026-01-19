@@ -2,118 +2,154 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
-import { ArrowRight, Cpu, Database, Network } from "lucide-react";
+import { Cpu, Sparkles, Bot, Zap, Network, Database } from "lucide-react";
 
 export default function AINativePage() {
+    const aiTools = [
+        "OpenAI", "Anthropic", "Google Gemini", "Cursor", "Lovable",
+        "n8n", "Make", "Langchain", "OpenRouter", "Perplexity",
+        "Midjourney", "ElevenLabs", "Replicate", "Hugging Face", "StackBlitz"
+    ];
+
     return (
-        <div className="min-h-screen flex flex-col font-sans text-slate-900 bg-white selection:bg-black/10">
+        <div className="min-h-screen flex flex-col font-sans text-slate-900 bg-background selection:bg-primary/20">
             <Helmet>
-                <title>AI Native | We Ship AI | BlockMarketing Consulting</title>
-                <meta name="description" content="Most agencies talk about AI. We ship AI. Native integration of LLMs, agentic workflows, and predictive growth models." />
-                <meta name="keywords" content="AI marketing agency, agentic workflows, LLM integration, predictive growth, AI native marketing, generative AI strategies" />
-                <meta property="og:title" content="AI Native | We Ship AI | BlockMarketing Consulting" />
-                <meta property="og:description" content="Most agencies talk about AI. We ship AI. Native integration of LLMs, agentic workflows, and predictive growth models." />
+                <title>AI Native Agency | Agentic Workflows & LLM Integration | BlockMarketing Consulting</title>
+                <meta name="description" content="We build and deploy AI systems that drive real business results. Agentic workflows, LLM integration, predictive analytics, and intelligent automation at scale." />
+                <meta name="keywords" content="AI marketing agency, agentic workflows, LLM integration, AI automation, generative AI, predictive analytics, intelligent automation, AI consulting" />
+                <link rel="canonical" href="https://blockmarketingconsulting.com/ai-native" />
+                <meta property="og:title" content="AI Native Agency | Agentic Workflows & LLM Integration | BlockMarketing Consulting" />
+                <meta property="og:description" content="We build and deploy AI systems that drive real business results. Agentic workflows, LLM integration, predictive analytics, and intelligent automation at scale." />
                 <meta property="og:url" content="https://blockmarketingconsulting.com/ai-native" />
             </Helmet>
             <Navigation />
 
-            <main className="flex-grow pt-32 pb-20">
+            <main className="flex-grow">
 
                 {/* Hero Section */}
-                <section className="container px-4 mb-32">
-                    <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8 }}
-                        className="max-w-6xl"
-                    >
-                        <h1 className="text-6xl md:text-9xl font-bold font-heading tracking-tighter mb-16 leading-[0.9]">
-                            Most Agencies <br />
-                            Talk About AI. <br />
-                            We Ship AI.
-                        </h1>
+                <section className="pt-40 pb-24 relative overflow-hidden bg-slate-50">
+                    <div className="container px-4 relative z-10">
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            className="max-w-5xl"
+                        >
+                            <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-sm mb-6 block">Our Technology</span>
+                            <h1 className="text-5xl md:text-8xl font-black font-heading tracking-tighter mb-10 leading-[0.95] text-primary">
+                                Most Agencies<br />
+                                Talk About AI.<br />
+                                <span className="text-brand-mint">We Ship It.</span>
+                            </h1>
 
-                        <div className="max-w-3xl">
-                            <h2 className="text-2xl font-bold mb-6">What does AI-Native Mean?</h2>
-                            <p className="text-xl text-slate-600 leading-relaxed max-w-2xl">
-                                As a marketing agency positioned at the forefront of disruptive technology, we consistently integrate AI frameworks, machine learning models, and automation tools into our strategic workflows. By leveraging advanced data analytics, predictive modeling, and AI-driven content optimization, we ensure our campaigns are performance-driven, scalable, and tailored to maximize ROI for each client.
-                            </p>
-                        </div>
-                    </motion.div>
+                            <div className="max-w-3xl">
+                                <p className="text-xl md:text-2xl text-slate-700 leading-relaxed font-medium">
+                                    AI is not a buzzword for us. It's the foundation of everything we build. From recursive agentic workflows to custom LLM integrations, we architect intelligent systems that automate, optimize, and scale your operations.
+                                </p>
+                            </div>
+                        </motion.div>
+                    </div>
+                    <div className="absolute top-0 left-0 w-full h-full opacity-[0.03] pointer-events-none"
+                        style={{ backgroundImage: 'radial-gradient(circle at 1px 1px, var(--primary) 1px, transparent 0)', backgroundSize: '40px 40px' }} />
                 </section>
 
                 {/* Tools Section */}
-                <section className="container px-4 mb-32">
-                    <h3 className="text-2xl font-bold mb-12 border-b-2 border-black pb-4 inline-block">Tools which we are utilizing.</h3>
-
-                    <div className="grid grid-cols-2 md:grid-cols-5 border-t border-b border-slate-200 divide-x divide-slate-200">
-                        {["Lovable", "OpenRouter", "CURSOR", "n8n", "StackBlitz"].map((tool) => (
-                            <div key={tool} className="aspect-square md:aspect-[4/3] flex items-center justify-center p-8 grayscale hover:grayscale-0 transition-all hover:bg-slate-50">
-                                <span className="font-bold text-xl">{tool}</span>
-                            </div>
-                        ))}
-                    </div>
-                </section>
-
-                {/* Overview Section */}
-                <section className="container px-4">
-                    <div className="grid lg:grid-cols-12 gap-16">
-                        <div className="lg:col-span-5">
-                            <motion.h2
-                                initial={{ opacity: 0, x: -20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                className="text-7xl md:text-9xl font-bold font-heading tracking-tighter sticky top-32"
-                            >
-                                Overview.
-                            </motion.h2>
-
-                            <div className="mt-16 text-slate-600 space-y-8 sticky top-[400px]">
-                                <p>AI is evolving at an unprecedented pace, and at BlockMarketing, we remain at the forefront by integrating and automating workflows with large language models (LLMs).</p>
-                                <p>Our campaigns leverage the capabilities of LLMs to enhance audience targeting, data processing, creative-direction, guerrilla marketing and strategic decision-making across our work.</p>
-                                <ArrowRight className="w-8 h-8 text-black" />
-                            </div>
+                <section className="py-24 bg-white">
+                    <div className="container px-4">
+                        <div className="text-center mb-16">
+                            <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-sm mb-4 block">Our Stack</span>
+                            <h2 className="text-4xl md:text-6xl font-black font-heading tracking-tighter text-primary mb-6">
+                                Powered by <span className="text-brand-mint">Leading AI</span>
+                            </h2>
+                            <p className="text-slate-600 text-lg max-w-2xl mx-auto">
+                                We leverage the best AI tools and frameworks to build solutions that deliver real results.
+                            </p>
                         </div>
 
-                        <div className="lg:col-span-7 space-y-16 pt-8">
-                            {[
-                                {
-                                    id: "01",
-                                    title: "Agentic Workflows",
-                                    desc: "Agentic AI workflows that drive intelligent automation across operations, streamline business processes, enhance product showcasing, and maintain real-time data sync. Whether it's building dynamic content pipelines or running predictive growth models, our frameworks reduce manual overhead, accelerate go-to-market strategies, and scale products."
-                                },
-                                {
-                                    id: "02",
-                                    title: "Data-Driven Audience Targeting & Campaign Optimization",
-                                    desc: "We enable agents to ingest, analyze, and act on live audience data, refining targeting, optimizing spend, and ensuring hyper-relevant targeting content delivery. This level of precision not only minimizes wasted budget but continuously enhances campaign performance through real-time feedback loops, improving key metrics such as engagement, CTRs, and conversion rates."
-                                },
-                                {
-                                    id: "03",
-                                    title: "AI Integration for Scalable Growth",
-                                    desc: "We architect long-term AI strategies that align with their growth objectives. From building proprietary agents for internal use to designing modular AI workflows that can adapt across departments and campaigns, we guide clients in transforming their operations through intelligent systems."
-                                }
-                            ].map((item) => (
-                                <div key={item.id} className="border-t border-slate-200 pt-8 group hover:bg-slate-50 transition-colors p-8 rounded-3xl">
-                                    <div className="flex justify-between items-start mb-4">
-                                        <span className="text-sm font-mono border border-black rounded-full w-8 h-8 flex items-center justify-center">{item.id}</span>
-                                        <div className="w-2 h-2 bg-red-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
-                                    </div>
-                                    <h3 className="text-2xl md:text-3xl font-bold mb-6">{item.title}</h3>
-                                    <p className="text-slate-600 leading-relaxed text-lg">{item.desc}</p>
+                        <div className="grid grid-cols-3 md:grid-cols-5 gap-4 max-w-5xl mx-auto">
+                            {aiTools.map((tool) => (
+                                <div key={tool} className="bg-slate-50 border border-slate-100 rounded-2xl p-6 flex items-center justify-center hover:bg-primary hover:text-white hover:border-primary transition-all duration-300 group">
+                                    <span className="font-bold text-sm md:text-base text-center">{tool}</span>
                                 </div>
                             ))}
                         </div>
                     </div>
                 </section>
 
+                {/* Capabilities Section */}
+                <section className="py-24 bg-slate-50">
+                    <div className="container px-4">
+                        <div className="mb-16">
+                            <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-sm mb-4 block">Capabilities</span>
+                            <h2 className="text-4xl md:text-7xl font-black font-heading tracking-tighter text-primary">
+                                What We <span className="text-brand-mint">Build</span>
+                            </h2>
+                        </div>
+
+                        <div className="grid md:grid-cols-3 gap-8">
+                            {[
+                                {
+                                    icon: Bot,
+                                    title: "Agentic Workflows",
+                                    desc: "Autonomous AI agents that execute complex tasks independently. From content generation pipelines to automated customer interactions, we build systems that work while you sleep."
+                                },
+                                {
+                                    icon: Network,
+                                    title: "LLM Integration",
+                                    desc: "Custom integrations with OpenAI, Anthropic, and open source models. We build intelligent systems that understand context, generate insights, and drive decisions."
+                                },
+                                {
+                                    icon: Database,
+                                    title: "Predictive Analytics",
+                                    desc: "Data driven forecasting and optimization. We build models that predict customer behavior, optimize spend, and identify growth opportunities before your competitors."
+                                },
+                                {
+                                    icon: Zap,
+                                    title: "Intelligent Automation",
+                                    desc: "End to end workflow automation that eliminates manual overhead. From lead scoring to content distribution, we automate the repetitive so you can focus on strategy."
+                                },
+                                {
+                                    icon: Sparkles,
+                                    title: "Generative AI",
+                                    desc: "Production ready generative systems for content, design, and code. We build AI that creates at scale while maintaining your brand voice and quality standards."
+                                },
+                                {
+                                    icon: Cpu,
+                                    title: "Custom AI Products",
+                                    desc: "Bespoke AI solutions built for your specific needs. From internal tools to customer facing products, we architect and ship AI that gives you a competitive edge."
+                                }
+                            ].map((item, index) => (
+                                <motion.div
+                                    key={item.title}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                                    viewport={{ once: true }}
+                                    className="bg-white p-10 rounded-[2rem] border border-slate-100 hover:border-brand-mint hover:shadow-2xl transition-all duration-500 group"
+                                >
+                                    <div className="w-14 h-14 bg-primary rounded-2xl flex items-center justify-center text-brand-mint mb-8 group-hover:scale-110 transition-transform duration-300">
+                                        <item.icon size={28} strokeWidth={2} />
+                                    </div>
+                                    <h3 className="text-2xl font-black text-primary mb-4 tracking-tight">{item.title}</h3>
+                                    <p className="text-slate-600 leading-relaxed">{item.desc}</p>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+
                 {/* Brand Dark CTA */}
-                <section className="py-24 bg-brand-dark relative overflow-hidden mt-32">
-                    {/* Retired Glow Effects */}
+                <section className="py-32 bg-primary relative overflow-hidden">
                     <div className="container px-4 text-center relative z-10">
-                        <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight text-white">Ready for AI-Native growth?</h2>
-                        <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto">Let's build your next-gen marketing engine together. We ship solutions, not just slide decks.</p>
+                        <h2 className="text-5xl md:text-8xl font-black font-heading mb-8 tracking-tighter text-white leading-none">
+                            Ready for <span className="text-brand-mint">AI Native</span> Growth?
+                        </h2>
+                        <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto font-bold leading-relaxed">
+                            We ship solutions, not slide decks. Let's build your next gen marketing engine together.
+                        </p>
 
                         <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                            <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-primary hover:text-white transition-all transform hover:scale-105 shadow-xl shadow-white/10">
+                            <button className="px-12 py-5 bg-white text-primary font-black text-xl rounded-full hover:bg-brand-mint hover:text-primary transition-all transform hover:scale-105 shadow-2xl shadow-white/10 tracking-tight uppercase">
                                 Book a Strategy Call
                             </button>
                         </a>
