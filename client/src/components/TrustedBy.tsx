@@ -60,7 +60,7 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
                         : `https://www.google.com/s2/favicons?domain=${company.domain}&sz=128`
                     }
                     alt={company.name}
-                    className="max-h-16 w-auto max-w-[160px] object-contain transition-all duration-300 brightness-200 contrast-125 hover:brightness-100 hover:contrast-100"
+                    className={`max-h-16 w-auto max-w-[160px] object-contain transition-all duration-300 brightness-200 contrast-125 hover:brightness-100 hover:contrast-100 ${company.domain === 'near.org' ? 'invert hue-rotate-180' : ''}`}
                     onError={() => {
                         if (stats === 'clearbit') setStatus('google');
                         else setStatus('text');
