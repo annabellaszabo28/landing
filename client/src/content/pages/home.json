@@ -68,24 +68,24 @@
             },
             {
                 "title": "Website Building",
-                "description": "Premium, conversion-optimized websites that establish credibility for your business.",
+                "description": "Premium, conversion optimized websites that establish credibility for your business.",
                 "icon": "Layout"
             },
             {
                 "title": "Product Planning & Building",
-                "description": "From idea to market: MVP development, UX/UI design, and full-cycle product management.",
+                "description": "From idea to market: MVP development, UX/UI design, and full cycle product management.",
                 "icon": "PenTool"
             },
             {
                 "title": "App Building",
-                "description": "Native iOS and Android apps, as well as cross-platform solutions that deliver outstanding user experiences.",
+                "description": "Native iOS and Android apps, as well as cross platform solutions that deliver outstanding user experiences.",
                 "icon": "Smartphone"
             }
         ],
         "web3_items": [
             {
                 "title": "Web3 PPC & Ad Networks",
-                "description": "High-intent traffic acquisition through crypto native ad networks and compliant Web2 channels to scale user base.",
+                "description": "High intent traffic acquisition through crypto native ad networks and compliant Web2 channels to scale user base.",
                 "icon": "Target"
             },
             {
@@ -187,7 +187,7 @@
     },
     "cta_section": {
         "title": "Ready to Scale?",
-        "subtitle": "Stop guessing and start growing. Let's build a data-driven marketing engine for your business.",
+        "subtitle": "Stop guessing and start growing. Let's build a data driven marketing engine for your business.",
         "button_text": "Book a Discovery Call",
         "button_link": "/contact"
     }
