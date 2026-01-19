@@ -44,7 +44,7 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
             href={`https://${company.domain}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-24 transition-transform hover:scale-105 flex items-center justify-center h-20 w-52 relative group"
+            className="mx-16 transition-transform hover:scale-110 flex items-center justify-center h-28 w-64 relative group"
         >
             {/* Tooltip for the company name */}
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-white text-slate-900 text-sm font-bold py-1 px-3 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
@@ -56,17 +56,13 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
             ) : (
                 <img
                     src={company.domain === 'near.org'
-                        ? '/logos/near.png'
+                        ? 'https://logo.clearbit.com/near.org'
                         : (stats === 'clearbit'
                             ? `https://logo.clearbit.com/${company.domain}`
                             : `https://www.google.com/s2/favicons?domain=${company.domain}&sz=128`)
                     }
                     alt={company.name}
-                    className={`max-h-10 w-auto max-w-[180px] object-contain transition-all duration-500
-                        ${company.domain === 'near.org'
-                            ? 'opacity-70 group-hover:opacity-100 filter brightness-200'
-                            : 'opacity-40 grayscale group-hover:opacity-100 group-hover:grayscale-0'
-                        }`}
+                    className={`max-h-14 w-auto max-w-[220px] object-contain transition-all duration-500 opacity-100 grayscale-0 group-hover:scale-110 shadow-sm`}
                     onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         if (company.domain === 'near.org') {

@@ -35,7 +35,12 @@ export default function AboutPage() {
 
       <main className="flex-grow">
         <PageHeader
-          title={content.header.title}
+          title={
+            <>
+              About BlockMarketing <br />
+              <span className="text-brand-mint italic">Consulting</span>
+            </>
+          }
           subtitle={content.header.subtitle}
         />
 
@@ -69,22 +74,23 @@ export default function AboutPage() {
               </motion.div>
             </div>
 
-            {/* Partners Section */}
-            <div className="mb-24">
-              <h3 className="text-2xl font-bold text-center mb-12">{content.partners?.title}</h3>
-              <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
-                {content.partners?.items.map((partner, i) => (
-                  <span key={i} className="text-2xl font-heading font-bold text-slate-400 hover:text-primary transition-colors cursor-default">{partner}</span>
-                ))}
-              </div>
+            {/* Impact Quote / Sub-CTA */}
+            <div className="mb-24 text-center">
+              <span className="text-brand-mint font-black tracking-[0.4em] uppercase text-xs mb-6 block">Our Impact</span>
+              <h2 className="text-4xl md:text-7xl font-black font-heading mb-8 tracking-tighter text-slate-900 leading-[1.1]">
+                Bridging the Gap Between <span className="text-brand-mint">Insight</span> and <span className="text-brand-mint">Execution</span>.
+              </h2>
             </div>
 
             {/* Expertise Section */}
             <div className="grid md:grid-cols-3 gap-8">
               {content.expertise?.items.map((item, i) => (
-                <div key={i} className="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-lg transition-shadow duration-300">
-                  <h4 className="text-xl font-bold mb-4 text-primary font-heading">{item.title}</h4>
-                  <p className="text-slate-600 leading-relaxed">{item.description}</p>
+                <div key={i} className="bg-white p-10 rounded-[2rem] border border-slate-100 hover:border-brand-mint hover:shadow-2xl transition-all duration-500 group">
+                  <div className="w-12 h-12 bg-brand-mint/10 rounded-2xl flex items-center justify-center text-brand-mint mb-8 group-hover:bg-brand-mint transition-all duration-500 group-hover:text-primary">
+                    <span className="font-black text-xl">{i + 1}</span>
+                  </div>
+                  <h4 className="text-2xl font-black mb-4 text-primary font-heading tracking-tight">{item.title}</h4>
+                  <p className="text-slate-600 leading-relaxed font-medium">{item.description}</p>
                 </div>
               ))}
             </div>
@@ -93,16 +99,15 @@ export default function AboutPage() {
         </section>
 
         {/* Brand Dark CTA */}
-        <section className="py-24 bg-brand-dark relative overflow-hidden">
-          {/* Retired Glow Effects */}
+        <section className="py-32 bg-primary relative overflow-hidden">
           <div className="container px-4 text-center relative z-10">
-            <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-white uppercase tracking-tight">Let's build the future together.</h2>
-            <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">Whether you're a high-growth SME or a Web3 native protocol, we have the engine to scale your vision.</p>
-            <Link href="/contact">
-              <button className="bg-white text-slate-900 px-10 py-4 rounded-full text-lg font-bold hover:bg-primary hover:text-white hover:scale-105 transition-all shadow-xl shadow-white/10">
+            <h2 className="text-5xl md:text-8xl font-black font-heading mb-8 text-white tracking-tighter leading-none">Ready to lead the <span className="text-brand-mint">Market?</span></h2>
+            <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto font-bold leading-relaxed">Whether you're a high-growth scale-up or a Web3 native protocol, we have the engine to scale your vision.</p>
+            <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+              <button className="bg-white text-primary px-12 py-5 rounded-full text-xl font-black hover:bg-brand-mint hover:text-primary hover:scale-105 transition-all shadow-2xl shadow-brand-mint/20 tracking-tight uppercase">
                 Book a Strategy Call
               </button>
-            </Link>
+            </a>
           </div>
         </section>
       </main>

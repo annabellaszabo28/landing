@@ -33,8 +33,8 @@ export default function BlogPage() {
 
       <main className="flex-grow">
         <PageHeader
-          title="Blog"
-          subtitle="Everything Product Marketing, Web2 and Web3. Insights on the convergence of AI, blockchain, and digital growth."
+          title={<span className="text-slate-900 leading-none block">Insights & <span className="text-brand-mint">Growth Strategy</span></span>}
+          subtitle="Everything Product Marketing, Web2 and Web3. High-impact insights on the convergence of AI, blockchain, and digital scale."
         />
 
         <section className="pb-24">
@@ -64,7 +64,7 @@ export default function BlogPage() {
                         </div>
                       </div>
 
-                      <h2 className="text-2xl font-black mb-3 group-hover:text-brand-mint transition-colors line-clamp-2 tracking-tight">
+                      <h2 className="text-2xl font-black mb-3 group-hover:text-brand-mint transition-colors line-clamp-2 tracking-tight text-slate-900 leading-tight">
                         {post.title}
                       </h2>
 

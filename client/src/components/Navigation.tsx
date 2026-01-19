@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "./LanguageSwitcher";
+// Language switcher removed as per user request
 
 export default function Navigation() {
   const { t } = useTranslation();
@@ -73,7 +73,7 @@ export default function Navigation() {
           </div>
 
           <div className="flex items-center gap-4">
-            <LanguageSwitcher />
+            {/* Language switcher removed */}
             <Link href="/contact">
               <Button className="rounded-full px-8 h-12 bg-primary hover:bg-brand-mint transition-all font-black uppercase tracking-widest text-xs shadow-xl shadow-primary/20 hover:shadow-brand-mint/40 hover:-translate-y-0.5">
                 {t("nav.contact")}
@@ -127,7 +127,6 @@ export default function Navigation() {
             </Button>
           </a>
           <div className="flex justify-center pt-2">
-            {/* <LanguageSwitcher /> */}
           </div>
         </div>
       )}

@@ -137,22 +137,27 @@ export async function getAllBlogPosts(): Promise<BlogPost[]> {
         }
     }
 
-    const posts: BlogPost[] = [];
+    const posts: BlogPost[] = await Promise.all(
+        Object.entries(postGroups).map(async ([slug, group]) => {
+            try {
+                // @ts-ignore
+                const finalResolver = (isHu && group.huResolver) ? group.huResolver : group.enResolver;
+                if (!finalResolver) return null;
 
-    for (const [slug, group] of Object.entries(postGroups)) {
-        // @ts-ignore
-        const finalResolver = (isHu && group.huResolver) ? group.huResolver : group.enResolver;
-        if (!finalResolver) continue;
+                const fileContent = (await finalResolver()) as string;
+                const { data, content } = parseFrontmatter(fileContent);
 
-        const fileContent = (await finalResolver()) as string;
-        const { data, content } = parseFrontmatter(fileContent);
-
-        posts.push({
-            ...data,
-            slug: (isHu && group.huResolver) ? `${slug}.hu` : slug,
-            content
-        } as BlogPost);
-    }
+                return {
+                    ...data,
+                    slug: (isHu && group.huResolver) ? `${slug}.hu` : slug,
+                    content
+                } as BlogPost;
+            } catch (err) {
+                console.error(`Error loading blog post ${slug}:`, err);
+                return null;
+            }
+        })
+    ).then(results => results.filter((p): p is BlogPost => p !== null));
 
     return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
