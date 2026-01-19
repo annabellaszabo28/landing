@@ -45,7 +45,7 @@ export default function Home() {
         <Services content={content.services_section} />
         <Bridge content={content.bridge_section} />
 
-        <section className="py-32 w-full relative overflow-hidden bg-gradient-to-br from-slate-900 via-[#1E1E1E] to-slate-900 border-t border-slate-800">
+        <section className="py-32 w-full relative overflow-hidden bg-slate-950 border-t border-slate-800">
           {/* Background Effects */}
           <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-indigo-500/10 blur-[120px] rounded-full -translate-y-1/2 translate-x-1/2" />
           <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-indigo-600/5 blur-[120px] rounded-full translate-y-1/2 -translate-x-1/2" />

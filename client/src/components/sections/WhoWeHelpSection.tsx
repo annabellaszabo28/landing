@@ -24,7 +24,7 @@ interface WhoWeHelpProps {
 
 export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
     return (
-        <section className="relative bg-black text-white pb-32 overflow-hidden">
+        <section className="relative bg-slate-950 text-white pb-32 overflow-hidden">
             {/* Top wave divider connecting to previous section */}
             <div className="absolute top-0 left-0 w-full overflow-hidden leading-none rotate-180">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className="relative block h-[80px] w-[calc(100%+1.3px)] fill-slate-50">
