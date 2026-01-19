@@ -73,7 +73,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                         href="https://cal.com/annabella-szabo-marketing/30min"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-indigo-600 text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-indigo-700 hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-indigo-900/20"
+                        className="inline-block bg-primary text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-primary/90 hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-primary/25"
                     >
                         Book a Call
                     </a>
