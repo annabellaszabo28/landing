@@ -200,8 +200,8 @@ export default function CMOPage() {
                         <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
                             {/* Foundation */}
                             <div className="p-8 rounded-[2rem] bg-slate-900 border border-slate-800 flex flex-col hover:shadow-2xl transition-all hover:-translate-y-2 text-white">
-                                <h3 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Foundation</h3>
-                                {/* <div className="text-4xl font-black text-brand-mint mb-6">Contact for Pricing</div> */}
+                                <h3 className="text-2xl font-black text-white mb-2 uppercase tracking-tight">Foundation</h3>
+                                <div className="text-4xl font-black text-brand-mint mb-6">€2,500<span className="text-lg text-slate-500">/mo</span></div>
                                 <p className="text-slate-400 mb-8 border-b border-slate-800 pb-8 font-medium h-20">Your steady engine for visibility consistent posting, smart SEO, and end-to-end content flow.</p>
 
                                 <div className="mb-4">
@@ -234,8 +234,8 @@ export default function CMOPage() {
                             {/* Attention - Highlighted */}
                             <div className="p-10 rounded-[2.5rem] bg-slate-900 border-4 border-brand-mint flex flex-col relative shadow-2xl shadow-brand-mint/10 md:scale-105 z-10 text-white">
                                 <div className="absolute -top-5 right-10 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-[12px] font-black px-6 py-2 rounded-lg tracking-[0.1em] uppercase shadow-lg">★ POPULAR</div>
-                                <h3 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Attention</h3>
-                                {/* <div className="text-4xl font-black text-brand-mint mb-6">Contact for Pricing</div> */}
+                                <h3 className="text-2xl font-black text-white mb-2 uppercase tracking-tight">Attention</h3>
+                                <div className="text-4xl font-black text-brand-mint mb-6">€4,500<span className="text-lg text-white/50">/mo</span></div>
                                 <p className="text-slate-300 mb-8 border-b border-slate-700 pb-8 font-medium h-20">Your visibility multiplier scale your content and engagement across every platform.</p>
 
                                 <div className="mb-4">
@@ -256,7 +256,11 @@ export default function CMOPage() {
                                         <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Multiple SEO Optimized Articles</span></div>
                                     </li>
                                     <li>
-                                        <div className="font-bold text-brand-mint mb-1">Design Template Playbook Included</div>
+                                        <div className="font-bold text-brand-mint mb-1">Paid Ads Management</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>One Channel</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-brand-mint mb-1">Design Template Playbook</div>
                                         <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Included</span></div>
                                     </li>
                                 </ul>
@@ -267,8 +271,8 @@ export default function CMOPage() {
 
                             {/* Accelerator */}
                             <div className="p-8 rounded-[2rem] bg-slate-900 border border-slate-800 flex flex-col hover:shadow-2xl transition-all hover:-translate-y-2 text-white">
-                                <h3 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Accelerator</h3>
-                                {/* <div className="text-4xl font-black text-brand-mint mb-6">Contact for Pricing</div> */}
+                                <h3 className="text-2xl font-black text-white mb-2 uppercase tracking-tight">Accelerator</h3>
+                                <div className="text-4xl font-black text-brand-mint mb-6">€7,000<span className="text-lg text-slate-500">/mo</span></div>
                                 <p className="text-slate-400 mb-8 border-b border-slate-800 pb-8 font-medium h-20">Dominate your niche with maximum output and precision execution at scale.</p>
 
                                 <div className="mb-4">
@@ -289,7 +293,11 @@ export default function CMOPage() {
                                         <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>High Velocity Content Production</span></div>
                                     </li>
                                     <li>
-                                        <div className="font-bold text-white mb-1">Design Template Playbook Included</div>
+                                        <div className="font-bold text-white mb-1">Paid Ads Management</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>3 Channels</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Design Template Playbook</div>
                                         <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Included</span></div>
                                     </li>
                                 </ul>
