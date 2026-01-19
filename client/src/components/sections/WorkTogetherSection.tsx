@@ -17,6 +17,7 @@ interface WorkTogetherProps {
         items: {
             title: string;
             icon: string;
+            description?: string;
         }[];
         cta_text: string;
     };
@@ -42,31 +43,48 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
                     {content.items.map((item, index) => {
                         const Icon = iconMap[item.icon] || Lightbulb;
                         return (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.5, delay: index * 0.1 }}
-                                viewport={{ once: true }}
-                                className="bg-white p-12 rounded-[2rem] shadow-xl shadow-slate-200/50 hover:shadow-2xl hover:shadow-indigo-900/10 transition-all duration-300 flex flex-col items-center text-center h-[340px] justify-center group border border-slate-100"
-                            >
-                                <div className="mb-8 text-indigo-600 p-5 bg-indigo-50 rounded-2xl group-hover:scale-110 transition-all duration-300">
-                                    <Icon size={52} strokeWidth={1.5} />
-                                </div>
-                                <h3 className="text-2xl font-bold text-slate-800 font-heading">
-                                    {item.title}
-                                </h3>
-                            </motion.div>
+                            <div key={index} className="group h-[340px] perspective-1000">
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                                    viewport={{ once: true }}
+                                    className="relative w-full h-full transition-all duration-700 transform-style-3d group-hover:rotate-y-180 shadow-xl shadow-slate-200/50 rounded-[2rem]"
+                                >
+                                    {/* Front Face */}
+                                    <div className="absolute w-full h-full backface-hidden bg-white p-12 rounded-[2rem] flex flex-col items-center justify-center border border-slate-100">
+                                        <div className="mb-8 text-indigo-600 p-5 bg-indigo-50 rounded-2xl group-hover:scale-110 transition-all duration-300">
+                                            <Icon size={52} strokeWidth={1.5} />
+                                        </div>
+                                        <h3 className="text-2xl font-bold text-slate-800 font-heading">
+                                            {item.title}
+                                        </h3>
+                                    </div>
+
+                                    {/* Back Face */}
+                                    <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-indigo-600 p-8 rounded-[2rem] flex flex-col items-center justify-center text-center text-white">
+                                        <h3 className="text-xl font-bold mb-4 font-heading">
+                                            {item.title}
+                                        </h3>
+                                        <p className="text-lg leading-relaxed text-indigo-100">
+                                            {item.description || "Building superior systems for scale."}
+                                        </p>
+                                    </div>
+                                </motion.div>
+                            </div>
                         );
                     })}
                 </div>
 
                 <div className="text-center">
-                    <Link href="/contact">
-                        <button className="bg-indigo-600 text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-indigo-700 hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-indigo-900/20">
-                            {content.cta_text}
-                        </button>
-                    </Link>
+                    <a
+                        href="https://cal.com/annabella-szabo-marketing/30min"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-indigo-600 text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-indigo-700 hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-indigo-900/20"
+                    >
+                        Book a Call
+                    </a>
                 </div>
             </div>
         </section>

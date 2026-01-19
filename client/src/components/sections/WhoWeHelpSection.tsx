@@ -69,11 +69,14 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                 </div>
 
                 <div className="text-center">
-                    <Link href="/contact">
-                        <button className="bg-indigo-600 text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-indigo-700 hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-indigo-900/20">
-                            {content.cta_text}
-                        </button>
-                    </Link>
+                    <a
+                        href="https://cal.com/annabella-szabo-marketing/30min"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-indigo-600 text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-indigo-700 hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-indigo-900/20"
+                    >
+                        Book a Call
+                    </a>
                 </div>
             </div>
         </section>

@@ -12,18 +12,21 @@
         "items": [
             {
                 "title": "Decade of Expertise",
-                "icon": "Lightbulb"
+                "icon": "Lightbulb",
+                "description": "Navigating market cycles since 2016. We bring battle-tested strategies that have survived the toughest bear markets."
             },
             {
                 "title": "Global Intelligence",
-                "icon": "Globe"
+                "icon": "Globe",
+                "description": "A decentralized team spanning 3 continents, ensuring your brand resonates in every key market."
             },
             {
                 "title": "Technical Excellence",
-                "icon": "HeartHandshake"
+                "icon": "HeartHandshake",
+                "description": "We don't just market; we build. From Solidity smart contracts to high-performance React applications."
             }
         ],
-        "cta_text": "I'm Interested"
+        "cta_text": "Book a Call"
     },
     "who_we_help_section": {
         "section_title": "SCALABLE ARCHITECTURE",
