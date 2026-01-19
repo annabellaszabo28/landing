@@ -6,40 +6,40 @@
         "cta_secondary": "Web3 növekedés"
     },
     "work_together_section": {
-        "section_title": "MIÉRT VÁLASSZ MINKET",
-        "title": "Dolgozzunk együtt",
-        "subtitle": "Személyre szabott marketing tervet készítünk vállalkozásod számára, és összehozunk célközönségeddel.",
+        "section_title": "MIÉRT PARTNERKÉNT",
+        "title": "Teljesítményre Tervezve",
+        "subtitle": "A több évtizedes szakértelmet ötvözzük autonóm AI ágensekkel. Olyan rendszereket építünk, amelyek nem csak működnek, hanem skálázódnak.",
         "items": [
             {
-                "title": "10+ év tapasztalat",
+                "title": "Évtizedes Szakértelem",
                 "icon": "Lightbulb"
             },
             {
-                "title": "Hazai és globális piacismeret",
+                "title": "Globális Intelligencia",
                 "icon": "Globe"
             },
             {
-                "title": "Technikai támogatás",
+                "title": "Technikai Kiválóság",
                 "icon": "HeartHandshake"
             }
         ],
         "cta_text": "Érdekel"
     },
     "who_we_help_section": {
-        "section_title": "TÁMOGATUNK CÉLJAID ELÉRÉSÉBEN",
-        "title": "Akiknek segíteni tudunk",
-        "subtitle": "Személyre szabott marketing tervet készítünk vállalkozásod számára, és összehozunk célközönségeddel.",
+        "section_title": "SKÁLÁZHATÓ ARCHITEKTÚRA",
+        "title": "Víziók Felgyorsítása",
+        "subtitle": "A validálástól a dominanciáig. Infrastruktúránk pontosan illeszkedik a növekedési fázisodhoz.",
         "items": [
             {
-                "title": "KKV cégek",
+                "title": "Dinamikus KKV szektor",
                 "icon": "Building2"
             },
             {
-                "title": "Startupok",
+                "title": "Törekvő Startupok",
                 "icon": "Rocket"
             },
             {
-                "title": "Egyéni vállalkozók",
+                "title": "Vízionárius Alapítók",
                 "icon": "UserSquare2"
             }
         ],

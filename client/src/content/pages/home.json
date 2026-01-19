@@ -6,40 +6,40 @@
         "cta_secondary": "Web3 Growth"
     },
     "work_together_section": {
-        "section_title": "WHY CHOOSE US",
-        "title": "Let's Work Together",
-        "subtitle": "We create personalized marketing plans for your business and connect you with your target audience.",
+        "section_title": "WHY PARTNER WITH US",
+        "title": "Built for Performance",
+        "subtitle": "We fuse decade long expertise with autonomous AI agents to build marketing systems that don't just run—they scale.",
         "items": [
             {
-                "title": "10+ Years Experience",
+                "title": "Decade of Expertise",
                 "icon": "Lightbulb"
             },
             {
-                "title": "Local & Global Insight",
+                "title": "Global Intelligence",
                 "icon": "Globe"
             },
             {
-                "title": "Technical Support",
+                "title": "Technical Excellence",
                 "icon": "HeartHandshake"
             }
         ],
         "cta_text": "I'm Interested"
     },
     "who_we_help_section": {
-        "section_title": "WE SUPPORT YOUR GOALS",
-        "title": "Who We Can Help",
-        "subtitle": "We create personalized marketing plans for your business and connect you with your target audience.",
+        "section_title": "SCALABLE ARCHITECTURE",
+        "title": "Accelerating Visionaries",
+        "subtitle": "From validation to domination. Our infrastructure adapts to your specific growth stage.",
         "items": [
             {
-                "title": "SMEs",
+                "title": "High Growth SMEs",
                 "icon": "Building2"
             },
             {
-                "title": "Startups",
+                "title": "Ambitious Startups",
                 "icon": "Rocket"
             },
             {
-                "title": "Entrepreneurs",
+                "title": "Visionary Founders",
                 "icon": "UserSquare2"
             }
         ],
