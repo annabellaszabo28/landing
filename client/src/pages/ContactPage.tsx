@@ -121,7 +121,7 @@ export default function ContactPage() {
         <PageHeader
           title={t("contact.header_title")}
           subtitle={t("contact.header_subtitle")}
-          gradient="from-orange-400 to-rose-400"
+          gradient="from-primary to-primary"
         />
 
         <section className="pb-24">
@@ -141,7 +141,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-lg mb-1">{t("contact.email_label")}</h3>
-                      <p className="text-slate-600 mb-2">{t("contact.email_sub")}</p>
+                      <p className="text-slate-600 mb-2">Ready to scale? Connect with our team directly.</p>
                       <a href="mailto:hello@blockmarketing.digital" className="text-primary font-medium hover:underline">
                         hello@blockmarketing.digital
                       </a>
