@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import type { AboutContent } from "@/types";
 import { useTranslation } from "react-i18next";
+import { Link } from "wouter";
 
 export default function AboutPage() {
   const { t, i18n } = useTranslation();
