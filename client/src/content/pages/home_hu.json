@@ -84,14 +84,29 @@
         ],
         "web3_items": [
             {
+                "title": "Web3 PPC & Hirdetések",
+                "description": "Célzott forgalomterelés kripto-specifikus hálózatokon és szabálykövető Web2 csatornákon a felhasználóbázis növeléséhez.",
+                "icon": "Target"
+            },
+            {
+                "title": "Web3 SEO & Tartalom",
+                "description": "A keresési találatok dominálása token szimbólumokra és protokoll kulcsszavakra az organikus felfedezés érdekében.",
+                "icon": "Search"
+            },
+            {
+                "title": "Social Media Menedzsment",
+                "description": "Közösségépítés a nulláról, valós interakciókkal és organikus növekedéssel X-en, LinkedIn-en és Farcaster-en.",
+                "icon": "MessageCircle"
+            },
+            {
                 "title": "Piacra lépési stratégia (GTM)",
-                "description": "Átfogó keretrendszerek, amelyek összehangolják a tokenomikát, a közösségi figyelmet és a valós hasznosságot a fenntartható növekedésért.",
+                "description": "Átfogó keretrendszerek, amelyek összehangolják a tokenomikát, a közösségi figyelmet és a valós hasznosságot.",
                 "icon": "Rocket"
             },
             {
-                "title": "Közösségépítés és védelem",
-                "description": "Önjáró Discord és Telegram ökoszisztémák építése, amelyek a protokoll legerősebb versenyelőnyévé válnak.",
-                "icon": "Users"
+                "title": "DApp & Termékfejlesztés",
+                "description": "Teljes körű fejlesztés decentralizált alkalmazásokhoz, okosszerződésekhez és token igénylő felületekhez.",
+                "icon": "Code"
             },
             {
                 "title": "PR és On-Chain kommunikáció",

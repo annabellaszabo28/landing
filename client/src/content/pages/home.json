@@ -84,14 +84,29 @@
         ],
         "web3_items": [
             {
+                "title": "Web3 PPC & Ad Networks",
+                "description": "High-intent traffic acquisition through crypto-native ad networks and compliant Web2 channels to scale user base.",
+                "icon": "Target"
+            },
+            {
+                "title": "Web3 SEO & Content",
+                "description": "Dominating search results for token tickers and protocol keywords to drive organic discovery and education.",
+                "icon": "Search"
+            },
+            {
+                "title": "Social Media Management",
+                "description": "Zero-to-one growth with real engagement from new accounts across X, LinkedIn, and Farcaster.",
+                "icon": "MessageCircle"
+            },
+            {
                 "title": "Incentive Aligned GTM",
                 "description": "Strategic launch frameworks that synchronize tokenomics, community hype, and real utility to ensure sustainable TVL growth.",
                 "icon": "Rocket"
             },
             {
-                "title": "Technical Community Moats",
-                "description": "Building self governing Discord and Telegram ecosystems that serve as a protocol's strongest competitive advantage.",
-                "icon": "Users"
+                "title": "DApp & Product Creation",
+                "description": "Full-stack engineering for decentralized applications, smart contracts, and claiming interfaces.",
+                "icon": "Code"
             },
             {
                 "title": "KOL & On Chain PR",
