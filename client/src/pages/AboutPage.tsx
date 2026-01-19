@@ -102,7 +102,7 @@ export default function AboutPage() {
         <section className="py-32 bg-primary relative overflow-hidden">
           <div className="container px-4 text-center relative z-10">
             <h2 className="text-5xl md:text-8xl font-black font-heading mb-8 text-white tracking-tighter leading-none">Ready to lead the <span className="text-brand-mint">Market?</span></h2>
-            <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto font-bold leading-relaxed">Whether you're a high-growth scale-up or a Web3 native protocol, we have the engine to scale your vision.</p>
+            <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto font-bold leading-relaxed">High-growth scale-ups and Web3 native protocols rely on our engine to scale their vision.</p>
             <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
               <button className="bg-white text-primary px-12 py-5 rounded-full text-xl font-black hover:bg-brand-mint hover:text-primary hover:scale-105 transition-all shadow-2xl shadow-brand-mint/20 tracking-tight uppercase">
                 Book a Strategy Call

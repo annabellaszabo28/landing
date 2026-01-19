@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Bridge from "@/components/Bridge";
 import Footer from "@/components/Footer";
-import FAQ from "@/components/FAQ";
 import LoadingSpinner from "@/components/LoadingSpinner";
 import WorkTogetherSection from "@/components/sections/WorkTogetherSection";
 import WhoWeHelpSection from "@/components/sections/WhoWeHelpSection";
@@ -46,25 +45,24 @@ export default function Home() {
         <Services content={content.services_section} />
         <Bridge content={content.bridge_section} />
 
-        <section className="py-32 w-full relative overflow-hidden bg-primary border-t border-white/5">
+        <section className="py-32 w-full relative overflow-hidden bg-primary">
           <div className="container relative z-10 text-center">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-5xl md:text-8xl font-heading font-black mb-8 text-white tracking-tighter leading-tight">
-                {content.cta_section.title}
+              <h2 className="text-6xl md:text-9xl font-heading font-black mb-10 text-white tracking-tighter leading-[0.9]">
+                Ready to <span className="text-brand-mint italic">Scale?</span>
               </h2>
-              <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto leading-relaxed font-bold">
+              <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-2xl mx-auto leading-relaxed font-bold">
                 {content.cta_section.subtitle}
               </p>
-              <Link href={content.cta_section.button_link}>
-                <button className="bg-white text-primary px-12 py-5 rounded-full text-xl font-black hover:bg-brand-mint hover:text-primary hover:scale-105 shadow-2xl transition-all duration-300 tracking-tight">
-                  {content.cta_section.button_text}
+              <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                <button className="bg-white text-primary px-12 py-5 rounded-full text-xl font-black hover:bg-brand-mint hover:text-primary hover:scale-105 shadow-2xl transition-all duration-300 tracking-tight uppercase">
+                  Book a Strategy Session
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </section>
 
-        <FAQ content={content.faq_section} />
       </main>
 
       <Footer />

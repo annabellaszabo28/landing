@@ -6,6 +6,12 @@ import { CheckCircle2, Zap, Rocket, BarChart3, Calculator, TrendingUp, Users } f
 import { useState } from "react";
 import { Link } from "wouter";
 import heroBgLight from "@/assets/hero-bg-light.png";
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function CMOPage() {
     const [budget, setBudget] = useState(5000);
@@ -185,7 +191,8 @@ export default function CMOPage() {
                     <div className="container px-4">
                         <div className="text-center mb-16">
                             <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-sm mb-4 block">Transparent Pricing</span>
-                            <h2 className="text-4xl md:text-7xl font-black font-heading mb-6 tracking-tighter">Choose Your Growth Engine</h2>
+                            <h2 className="text-4xl md:text-7xl font-black font-heading tracking-tighter">Choose Your Growth Engine</h2>
+                            <p className="text-2xl font-bold text-slate-700 mt-6 max-w-3xl mx-auto leading-tight">From validation to domination. Our infrastructure adapts to your specific growth stage.</p>
                         </div>
 
                         <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
@@ -289,6 +296,89 @@ export default function CMOPage() {
                                 </a>
                             </div>
                         </div>
+                    </div>
+                </section>
+
+                {/* FAQ Section */}
+                <section className="py-24 bg-slate-900 border-t border-slate-800">
+                    <div className="container px-4 max-w-4xl">
+                        <div className="mb-16">
+                            <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-sm mb-4 block">Common Questions</span>
+                            <h2 className="text-4xl md:text-6xl font-black font-heading mb-6 tracking-tighter text-white">
+                                Frequently<br />
+                                <span className="text-slate-500">Asked Questions</span>
+                            </h2>
+                        </div>
+
+                        <Accordion type="single" collapsible className="w-full space-y-4">
+                            {[
+                                {
+                                    q: "How quickly can we get started?",
+                                    a: "We activate your entire marketing engine in under 48 hours. After a short onboarding call, everything runs automatically without any technical setup on your side."
+                                },
+                                {
+                                    q: "Can I cancel or change packages?",
+                                    a: "Yes. All plans renew monthly and you can upgrade or downgrade at any time."
+                                },
+                                {
+                                    q: "How does pricing work?",
+                                    a: "You select a package and optionally add influencer and paid ad budgets. Your total monthly cost is always fully transparent before activation."
+                                },
+                                {
+                                    q: "How do influencers and paid ads fit into the system?",
+                                    a: "You set the budgets and we handle sourcing, outreach, negotiation, posting, tracking and reporting."
+                                },
+                                {
+                                    q: "Do you guarantee performance?",
+                                    a: "We guarantee full delivery, fast activation, daily communication and weekly analytics. Results depend on your product, niche and budget, but our systems are built on real data from over 200 million impressions."
+                                },
+                                {
+                                    q: "Do you create all the content or do we need to provide anything?",
+                                    a: "We handle everything including writing, design, posting and distribution. You only provide your brand assets and updates."
+                                },
+                                {
+                                    q: "Is this suitable for pre launch startups?",
+                                    a: "Yes. Many teams use this to build awareness, credibility and community before launch so they start strong from day one."
+                                },
+                                {
+                                    q: "Do you post from our official profiles?",
+                                    a: "Yes. We manage your accounts directly to keep everything consistent, timely and authentic."
+                                },
+                                {
+                                    q: "Is the content human reviewed?",
+                                    a: "Yes. All AI generated content is reviewed, edited and aligned with your brand voice by our team before it is published."
+                                },
+                                {
+                                    q: "How do you handle brand tone of voice?",
+                                    a: "We model your voice based on your guidelines, past communications and industry standards, and we refine it continuously through the workflow."
+                                },
+                                {
+                                    q: "Can you work with sensitive or regulated industries?",
+                                    a: "Yes. We already work with Fintech, infrastructure and blockchain clients that have compliance requirements and we adhere to them."
+                                },
+                                {
+                                    q: "What happens after we fill out the form?",
+                                    a: "Our team reaches out within a few hours. We define the time for a kickoff call, understand your product, retrieve all the assets and we start the work."
+                                },
+                                {
+                                    q: "Do you offer custom workflows or private automations?",
+                                    a: "Yes. For clients with specific needs, we build custom agent workflows, distribution systems and internal automations."
+                                },
+                                {
+                                    q: "Who will we communicate with on your side?",
+                                    a: "You will have direct daily communication with your account lead and access to the full team as needed."
+                                }
+                            ].map((faq, index) => (
+                                <AccordionItem key={index} value={`item-${index}`} className="border-b border-slate-800 px-0">
+                                    <AccordionTrigger className="text-left text-lg md:text-xl font-bold text-white hover:text-brand-mint hover:no-underline py-6">
+                                        {faq.q}
+                                    </AccordionTrigger>
+                                    <AccordionContent className="text-slate-400 text-lg leading-relaxed pb-6">
+                                        {faq.a}
+                                    </AccordionContent>
+                                </AccordionItem>
+                            ))}
+                        </Accordion>
                     </div>
                 </section>
 

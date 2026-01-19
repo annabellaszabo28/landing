@@ -1,0 +1,40 @@
+{
+    "faq_section": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know before we start working together.",
+        "items": [
+            {
+                "question": "What services do you offer?",
+                "answer": "We provide elite growth solutions across the entire digital stack. Our core expertise includes **GEO & LLM Optimization** (AI Search Visibility), **Predictive Performance Ads** (AI PPC), and **Product Led Growth** (PLG). We also provide full cycle **Product Building** (Websites, Apps, SaaS), **Web3 Engineering** (dApps, Smart Contracts), and **CMO as a Service** for strategic high level guidance. Every solution is supercharged by our **AI Native** recursive agents for maximum efficiency."
+            },
+            {
+                "question": "How do I get started working with you?",
+                "answer": "The process begins with a 30 minute discovery call where we audit your current growth architecture and identify leakage points. From there, we deliver a custom strategy roadmap. If aligned, we can begin high impact execution within 72 hours."
+            },
+            {
+                "question": "What is your pricing structure?",
+                "answer": "We offer performance aligned models and monthly strategic retainers. Our pricing is reflective of the institutional grade rigor we bring to every project. We'll discuss specific budget alignment during our roadmap session to ensure maximum ROI for your growth stage."
+            },
+            {
+                "question": "How long before I see results?",
+                "answer": "Timeline depends on the service. PPC campaigns can generate leads within days. With our new LLM optimization and GEO strategies, clients typically see meaningful results in just 3-4 weeks, much faster than traditional SEO. Community building is an ongoing effort with compounding returns."
+            },
+            {
+                "question": "Do you work with small businesses or only enterprise clients?",
+                "answer": "We work with businesses of all sizes, from funded startups to established enterprises. What matters most is alignment on goals and a commitment to growth. Our strategies scale to match your budget and ambitions."
+            },
+            {
+                "question": "How do you measure and report on results?",
+                "answer": "Transparency is core to how we work. You'll receive regular reports with clear KPIs, insights, and recommendations. We use data dashboards so you can track performance in real time, and we schedule review calls to discuss progress and next steps."
+            },
+            {
+                "question": "What makes you different from other agencies?",
+                "answer": "We combine over a decade of marketing experience with modern AI workflows that increase speed and precision. We're hands on, accountable, and treat your growth like our own. Our team has worked with high-growth startups and leading blockchain protocols."
+            },
+            {
+                "question": "Can I book a call to discuss my project?",
+                "answer": "Absolutely. We offer free 30 minute discovery calls to understand your needs and explore how we can help. You can book directly through our calendar or reach out via the contact form on this site."
+            }
+        ]
+    }
+}

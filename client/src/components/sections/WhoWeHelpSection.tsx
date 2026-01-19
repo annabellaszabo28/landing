@@ -43,7 +43,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                     <h2 className="text-5xl md:text-8xl font-heading font-black mb-8 text-white tracking-tighter leading-[1.1]">
                         {content.title}
                     </h2>
-                    <p className="text-xl md:text-2xl text-white max-w-2xl mx-auto leading-relaxed font-black">
+                    <p className="text-xl md:text-2xl text-white max-w-2xl mx-auto leading-relaxed font-bold">
                         {content.subtitle}
                     </p>
                 </div>
@@ -76,7 +76,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                         href="https://cal.com/annabella-szabo-marketing/30min"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-white text-slate-900 px-12 py-5 rounded-full font-bold text-lg hover:bg-primary hover:text-white hover:scale-105 transition-all shadow-xl shadow-white/10"
+                        className="inline-block bg-white text-slate-900 px-12 py-5 rounded-full font-bold text-lg hover:bg-brand-mint hover:text-slate-900 hover:scale-105 transition-all shadow-xl shadow-white/10"
                     >
                         Book a Call
                     </a>

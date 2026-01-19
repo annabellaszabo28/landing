@@ -147,7 +147,7 @@ export default function BlogPostDetail() {
           <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-mint/5 rounded-full blur-3xl" />
           <div className="container max-w-4xl text-center text-white relative z-10">
             <h2 className="text-5xl md:text-7xl font-black mb-8 tracking-tighter text-white leading-none">
-              Ready to <span className="text-brand-mint">Scale?</span>
+              Ready to <span className="text-brand-mint italic">Scale?</span>
             </h2>
             <p className="text-xl md:text-2xl text-white mb-12 max-w-xl mx-auto font-bold">
               Stop guessing. Start growing. Book your strategy session with our design experts today.

@@ -77,7 +77,7 @@ export default function Services({ content }: ServicesProps) {
                     <Icon size={24} />
                   </div>
 
-                  <h3 className="text-xl font-bold mb-3 text-primary-light">{service.title}</h3>
+                  <h3 className="text-2xl font-black mb-3 text-primary tracking-tight">{service.title}</h3>
                   <p className="text-slate-600 mb-6 flex-grow">{service.description}</p>
 
                   {service.image && (

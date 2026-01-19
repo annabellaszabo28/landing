@@ -20,7 +20,7 @@ export default function PageHeader({
           className="max-w-5xl mx-auto"
         >
           <div className="w-20 h-1 bg-brand-mint mx-auto mb-10 rounded-full" />
-          <h1 className="text-5xl md:text-9xl font-heading font-black mb-10 text-slate-900 tracking-tighter leading-[0.9]">
+          <h1 className="text-5xl md:text-7xl font-heading font-black mb-10 text-slate-900 tracking-tighter leading-[0.9]">
             {title}
           </h1>
           <p className="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-bold">

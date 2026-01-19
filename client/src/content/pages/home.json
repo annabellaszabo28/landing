@@ -13,17 +13,17 @@
             {
                 "title": "Decade of Expertise",
                 "icon": "Lightbulb",
-                "description": "Navigating market cycles since 2016. We bring battle-tested strategies that have survived the toughest bear markets."
+                "description": "Founded in 2016, we have successfully navigated 3 full market cycles. Our strategies are battle-tested against volatility and designed for long-term compound growth."
             },
             {
                 "title": "Global Intelligence",
                 "icon": "Globe",
-                "description": "A decentralized team spanning 3 continents, ensuring your brand resonates in every key market."
+                "description": "With active teams in New York, London, and Singapore, we provide 24/7 market coverage and culturally consistent messaging across all key jurisdictions."
             },
             {
                 "title": "Technical Excellence",
                 "icon": "HeartHandshake",
-                "description": "We don't just market; we build. From Solidity smart contracts to high-performance React applications."
+                "description": "We bridge the gap between marketing and dev. Our in-house engineering team builds custom dApps, authorized smart contracts, and high-conversion web platforms."
             }
         ],
         "cta_text": "Book a Call"
@@ -150,47 +150,9 @@
             }
         ]
     },
-    "faq_section": {
-        "title": "Frequently Asked Questions",
-        "subtitle": "Everything you need to know before we start working together.",
-        "items": [
-            {
-                "question": "What services do you offer?",
-                "answer": "We provide full-cycle growth solutions. Beyond digital marketing (SEO, PPC, Social), we specialize in **Product Building** (Websites, Mobile Apps, SaaS), **Web3 Engineering** (dApps, Smart Contracts), and strategic Go-To-Market execution."
-            },
-            {
-                "question": "How do I get started working with you?",
-                "answer": "The first step is booking a free discovery call where we learn about your business, goals, and challenges. From there, we create a tailored proposal with strategy recommendations and pricing. If it's a fit, we begin onboarding within days."
-            },
-            {
-                "question": "What is your pricing structure?",
-                "answer": "Our pricing varies based on scope, industry, and goals. We offer monthly retainers for ongoing partnerships and project based pricing for specific deliverables. During our discovery call, we'll discuss your budget and create a proposal that delivers maximum value."
-            },
-            {
-                "question": "How long before I see results?",
-                "answer": "Timeline depends on the service. PPC campaigns can generate leads within days. With our new LLM optimization and GEO strategies, clients typically see meaningful results in just 3-4 weeks, much faster than traditional SEO. Community building is an ongoing effort with compounding returns."
-            },
-            {
-                "question": "Do you work with small businesses or only enterprise clients?",
-                "answer": "We work with businesses of all sizes, from funded startups to established enterprises. What matters most is alignment on goals and a commitment to growth. Our strategies scale to match your budget and ambitions."
-            },
-            {
-                "question": "How do you measure and report on results?",
-                "answer": "Transparency is core to how we work. You'll receive regular reports with clear KPIs, insights, and recommendations. We use data dashboards so you can track performance in real time, and we schedule review calls to discuss progress and next steps."
-            },
-            {
-                "question": "What makes you different from other agencies?",
-                "answer": "We combine over a decade of marketing experience with modern AI workflows that increase speed and precision. We're hands on, accountable, and treat your growth like our own. Our team has worked with high-growth startups and leading blockchain protocols."
-            },
-            {
-                "question": "Can I book a call to discuss my project?",
-                "answer": "Absolutely. We offer free 30 minute discovery calls to understand your needs and explore how we can help. You can book directly through our calendar or reach out via the contact form on this site."
-            }
-        ]
-    },
     "cta_section": {
         "title": "Ready to Scale?",
-        "subtitle": "Stop guessing and start growing. Let's build a data driven marketing engine for your business.",
+        "subtitle": "High-growth scale-ups and Web3 native protocols rely on our engine to scale their vision.",
         "button_text": "Book a Discovery Call",
         "button_link": "/contact"
     }
