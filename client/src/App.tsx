@@ -31,6 +31,7 @@ const WebsiteBuildingPage = lazy(() => import("./pages/WebsiteBuildingPage"));
 const ProductPlanningPage = lazy(() => import("./pages/ProductPlanningPage"));
 const AppBuildingPage = lazy(() => import("./pages/AppBuildingPage"));
 const CMOPage = lazy(() => import("./pages/CMOPage"));
+const AINativePage = lazy(() => import("./pages/AINativePage"));
 
 function Routes() {
   return (
@@ -68,6 +69,7 @@ function Routes() {
 
       {/* Premium Landing Pages */}
       <Route path="/cmo" component={CMOPage} />
+      <Route path="/ai-native" component={AINativePage} />
 
       {/* Legal */}
       <Route path="/terms" component={TermsPage} />
