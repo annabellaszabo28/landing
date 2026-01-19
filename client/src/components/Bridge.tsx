@@ -76,7 +76,7 @@ export default function Bridge({ content }: BridgeProps) {
                   }}
                   transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 >
-                  <span className="text-4xl text-brand-mint relative z-10 font-black">BM</span>
+                  <span className="text-5xl text-brand-mint relative z-10">∞</span>
                 </motion.div>
               </div>
 

@@ -48,10 +48,10 @@ export default function Home() {
         <section className="py-32 w-full relative overflow-hidden bg-primary">
           <div className="container relative z-10 text-center">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-6xl md:text-9xl font-heading font-black mb-10 text-white tracking-tighter leading-[0.9]">
+              <h2 className="text-5xl md:text-8xl font-heading font-black mb-10 text-white tracking-tighter leading-none">
                 Ready to <span className="text-brand-mint italic">Scale?</span>
               </h2>
-              <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-2xl mx-auto leading-relaxed font-bold">
+              <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto leading-relaxed font-bold">
                 {content.cta_section.subtitle}
               </p>
               <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">

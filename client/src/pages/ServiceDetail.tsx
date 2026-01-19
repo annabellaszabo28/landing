@@ -13,6 +13,10 @@ import { ServiceDetail as ServiceDetailType } from "@/types";
 
 import { useTranslation } from "react-i18next";
 
+interface ServiceDetailProps {
+    type: "web2" | "web3";
+}
+
 const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, label?: string }) => {
     const isWeb3 = type === "web3";
     // @ts-ignore
