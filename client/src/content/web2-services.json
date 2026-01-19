@@ -183,5 +183,51 @@
             }
         ],
         "icon": "Users"
+    },
+    {
+        "id": "email_marketing",
+        "title": "Email Marketing",
+        "slug": "email-marketing",
+        "description": "Direct, owned audience communication that drives retention and revenue.",
+        "longDescription": "Don't build your house on rented land. Email marketing allows you to own your audience relationships directly. We build sophisticated segmentation and automation strategies that deliver the right message to the right user at the right time, turning subscribers into loyal customers.",
+        "features": [
+            "User Segmentation",
+            "Drip Campaigns",
+            "Newsletter Management",
+            "A/B Testing"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Audit",
+                "description": "Analyzing current list health."
+            },
+            {
+                "step": "02",
+                "title": "Segment",
+                "description": "Categorizing users by behavior."
+            },
+            {
+                "step": "03",
+                "title": "Automate",
+                "description": "Building flows (Welcome, Cart, etc)."
+            },
+            {
+                "step": "04",
+                "title": "Optimize",
+                "description": "Refining open and click rates."
+            }
+        ],
+        "results": [
+            {
+                "label": "Open Rate",
+                "value": "45%+"
+            },
+            {
+                "label": "Revenue",
+                "value": "+25%"
+            }
+        ],
+        "icon": "Mail"
     }
 ]

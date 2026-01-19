@@ -44,7 +44,7 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
             href={`https://${company.domain}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-32 transition-transform hover:scale-105 flex items-center justify-center h-20 w-40 relative group"
+            className="mx-48 transition-transform hover:scale-105 flex items-center justify-center h-20 w-40 relative group"
         >
             {/* Tooltip for the company name */}
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-white text-slate-900 text-sm font-bold py-1 px-3 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
@@ -78,7 +78,7 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
 // Main Component
 export default function TrustedBy() {
     return (
-        <section className="py-32 border-y border-slate-900 bg-slate-950 overflow-hidden">
+        <section className="py-16 border-y border-slate-900 bg-slate-950 overflow-hidden">
             <div className="container mb-16 text-center">
                 <p className="text-sm font-bold text-white/40 uppercase tracking-[0.2em]">Trusted By Innovative Teams</p>
             </div>
