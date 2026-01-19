@@ -8,8 +8,13 @@ import { Link } from "wouter";
 
 export default function CMOPage() {
     const [budget, setBudget] = useState(5000);
-    const estROI = Math.floor(budget * 4.2);
-    const estLeads = Math.floor(budget / 45); // Approx €45 CPA
+
+    // Calculator metrics based on budget
+    const avgCPC = 0.85; // Average CPC in EUR
+    const ctr = 0.025; // 2.5% click-through rate
+    const potentialClicks = Math.floor(budget / avgCPC);
+    const potentialImpressions = Math.floor(potentialClicks / ctr);
+
 
     return (
         <div className="min-h-screen flex flex-col font-sans text-slate-900 bg-white selection:bg-primary/20">
@@ -68,7 +73,7 @@ export default function CMOPage() {
                             </div>
                             <div className="p-8 rounded-3xl bg-primary text-white shadow-xl shadow-primary/20">
                                 <h3 className="text-2xl font-bold mb-2">The AI Advantage</h3>
-                                <p className="text-primary/80 leading-relaxed">We don't just hire people; we deploy agents. Our AI-native stack allows us to execute 10x faster than traditional agencies.</p>
+                                <p className="text-white/80 leading-relaxed">We don't just hire people; we deploy agents. Our AI-native stack allows us to execute 10x faster than traditional agencies.</p>
                             </div>
                         </div>
                     </div>
@@ -140,21 +145,21 @@ export default function CMOPage() {
                                 <div className="grid md:grid-cols-3 gap-8">
                                     <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center">
                                         <div className="flex justify-center mb-4 text-primary/60"><TrendingUp size={32} /></div>
-                                        <div className="text-sm text-slate-400 mb-1">Est. Revenue Impact</div>
-                                        <div className="text-3xl font-bold text-white">€{estROI.toLocaleString()}</div>
-                                        <div className="text-xs text-emerald-400 mt-2 font-bold">4.2x ROAS</div>
+                                        <div className="text-sm text-slate-400 mb-1">Est. Impressions</div>
+                                        <div className="text-3xl font-bold text-white">{potentialImpressions.toLocaleString()}</div>
+                                        <div className="text-xs text-slate-500 mt-2">@ 2.5% CTR</div>
                                     </div>
                                     <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center">
                                         <div className="flex justify-center mb-4 text-blue-400"><Users size={32} /></div>
-                                        <div className="text-sm text-slate-400 mb-1">Est. Qualified Leads</div>
-                                        <div className="text-3xl font-bold text-white">~{estLeads.toLocaleString()}</div>
-                                        <div className="text-xs text-slate-500 mt-2">@ €45 CPA</div>
+                                        <div className="text-sm text-slate-400 mb-1">Potential Clicks</div>
+                                        <div className="text-3xl font-bold text-white">~{potentialClicks.toLocaleString()}</div>
+                                        <div className="text-xs text-emerald-400 mt-2 font-bold">@ €{avgCPC.toFixed(2)} CPC</div>
                                     </div>
                                     <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center">
-                                        <div className="flex justify-center mb-4 text-primary/60"><Zap size={32} /></div>
-                                        <div className="text-sm text-slate-400 mb-1">Campaign Velocity</div>
-                                        <div className="text-3xl font-bold text-white">2 Days</div>
-                                        <div className="text-xs text-slate-500 mt-2">Launch Time</div>
+                                        <div className="flex justify-center mb-4 text-primary/60"><Calculator size={32} /></div>
+                                        <div className="text-sm text-slate-400 mb-1">Cost Per Click</div>
+                                        <div className="text-3xl font-bold text-white">€{avgCPC.toFixed(2)}</div>
+                                        <div className="text-xs text-slate-500 mt-2">Industry Avg</div>
                                     </div>
                                 </div>
                                 <p className="text-xs text-slate-500 mt-8 text-center italic">*Estimates based on aggregated performance data from our Web3 & SaaS client portfolio.</p>

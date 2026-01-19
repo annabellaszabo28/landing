@@ -59,7 +59,7 @@ export default function Navigation() {
               <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.web3")}</a>
             </Link>
             <Link href="/cmo">
-              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">CMO aS</a>
+              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">CMO as a Service</a>
             </Link>
             <Link href="/about">
               <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors flex items-center gap-2 cursor-pointer">
