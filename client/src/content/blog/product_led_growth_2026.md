@@ -1,7 +1,7 @@
 ---
 title: "Product-Led Growth (PLG) Strategies for 2026"
 date: "2025-12-10"
-author: "Annabella Szabo"
+author: "BlockMarketing"
 category: "Growth"
 excerpt: "Marketing brings them to the door, but the product makes them stay. How to engineer your product for viral growth."
 image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"

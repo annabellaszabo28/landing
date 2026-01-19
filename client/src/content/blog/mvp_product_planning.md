@@ -1,7 +1,7 @@
 ---
 title: "From Idea to MVP: A Strategic Product Planning Guide"
 date: "2025-11-05"
-author: "Annabella Szabo"
+author: "BlockMarketing"
 category: "Product Management"
 excerpt: "Great products don't happen by accident. Learn the proven framework for taking your SaaS idea from concept to market-ready MVP."
 image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"

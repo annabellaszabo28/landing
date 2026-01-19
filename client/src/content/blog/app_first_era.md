@@ -1,7 +1,7 @@
 ---
 title: "Why Mobile First is No Longer Enough: The App-First Era"
 date: "2025-10-28"
-author: "Annabella Szabo"
+author: "BlockMarketing"
 category: "App Development"
 excerpt: "Mobile websites are essential, but they can't match the engagement and conversion rates of native mobile applications. It's time to build an app."
 image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"

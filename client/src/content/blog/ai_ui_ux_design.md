@@ -1,7 +1,7 @@
 ---
 title: "How AI is Revolutionizing UI/UX Design workflows"
 date: "2025-11-12"
-author: "Annabella Szabo"
+author: "BlockMarketing"
 category: "Design"
 excerpt: "AI isn't replacing designers; it's giving them superpowers. How we use generative design to build better products faster."
 image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"

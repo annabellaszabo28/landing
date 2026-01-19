@@ -1,7 +1,7 @@
 ---
 title: "The Future of Web Development in 2026: Beyond React and Next.js"
 date: "2025-10-15"
-author: "Annabella Szabo"
+author: "BlockMarketing"
 category: "Web Development"
 excerpt: "As we approach 2026, web development is shifting from component libraries to AI-generated interfaces. Here is what you need to know."
 image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"

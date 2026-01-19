@@ -1,7 +1,7 @@
 ---
 title: "SEO for Single Page Applications (SPAs): Myths vs Reality"
 date: "2025-12-22"
-author: "Annabella Szabo"
+author: "BlockMarketing"
 category: "SEO"
 excerpt: "Can React apps rank? Yes, but it requires technical finesse. A deep dive into Server-Side Rendering (SSR) and SEO."
 image: "https://images.unsplash.com/photo-1572021335469-31706a17aaef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"

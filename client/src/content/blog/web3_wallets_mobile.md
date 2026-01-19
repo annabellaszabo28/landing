@@ -1,7 +1,7 @@
 ---
 title: "Integrating Web3 Wallets into Mobile Apps: A Developer's Guide"
 date: "2025-12-18"
-author: "Annabella Szabo"
+author: "BlockMarketing"
 category: "Web3 Dev"
 excerpt: "Seamlessly onboarding non-crypto natives is the holy grail. How to implement wallet connections in iOS and Android apps."
 image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
