@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import React from 'react';
 
 const companies = [
     { name: "Biotech USA", domain: "biotechusa.com" },
@@ -34,44 +35,54 @@ const companies = [
     { name: "Ideaology", domain: "ideaology.io" },
 ];
 
+// Sub-component to handle logo fallback logic
+function CompanyLogo({ company }: { company: { name: string, domain: string } }) {
+    const [stats, setStatus] = React.useState<'clearbit' | 'google' | 'text'>('clearbit');
+
+    return (
+        <div className="mx-8 opacity-80 hover:opacity-100 transition-opacity flex items-center justify-center h-16 w-32 relative group">
+            {/* Tooltip for the company name */}
+            <div className="absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white text-xs py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
+                {company.name}
+            </div>
+
+            {stats === 'text' ? (
+                <span className="text-sm font-bold text-slate-500 font-heading">{company.name}</span>
+            ) : (
+                <img
+                    src={stats === 'clearbit'
+                        ? `https://logo.clearbit.com/${company.domain}`
+                        : `https://www.google.com/s2/favicons?domain=${company.domain}&sz=128`
+                    }
+                    alt={company.name}
+                    className="max-h-12 w-auto max-w-[120px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                    onError={() => {
+                        if (stats === 'clearbit') setStatus('google');
+                        else setStatus('text');
+                    }}
+                />
+            )}
+        </div>
+    );
+}
+
+// Main Component
 export default function TrustedBy() {
     return (
-        <section className="py-12 border-y border-slate-100 bg-slate-50/50 overflow-hidden">
-            <div className="container mb-8 text-center">
-                <p className="text-sm font-semibold text-slate-400 uppercase tracking-widest">Trusted By Innovative Teams</p>
+        <section className="py-20 border-y border-slate-100 bg-[#FAFAFA] overflow-hidden">
+            <div className="container mb-12 text-center">
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-[0.2em]">Trusted By Innovative Teams</p>
             </div>
 
             <div className="relative flex overflow-x-hidden group">
                 <div className="animate-marquee whitespace-nowrap flex items-center">
                     {/* First set of logos */}
                     {companies.map((company, index) => (
-                        <div key={index} className="mx-8 opacity-60 hover:opacity-100 transition-opacity grayscale hover:grayscale-0">
-                            <img
-                                src={`https://logo.clearbit.com/${company.domain}`}
-                                alt={company.name}
-                                className="h-12 w-auto max-w-[150px] object-contain"
-                                onError={(e) => {
-                                    e.currentTarget.style.display = 'none';
-                                    e.currentTarget.parentElement!.innerText = company.name;
-                                    e.currentTarget.parentElement!.className = "mx-8 text-sm font-bold text-slate-400 h-12 flex items-center";
-                                }}
-                            />
-                        </div>
+                        <CompanyLogo key={index} company={company} />
                     ))}
                     {/* Duplicate set for seamless loop */}
                     {companies.map((company, index) => (
-                        <div key={`dup-${index}`} className="mx-8 opacity-60 hover:opacity-100 transition-opacity grayscale hover:grayscale-0">
-                            <img
-                                src={`https://logo.clearbit.com/${company.domain}`}
-                                alt={company.name}
-                                className="h-12 w-auto max-w-[150px] object-contain"
-                                onError={(e) => {
-                                    e.currentTarget.style.display = 'none';
-                                    e.currentTarget.parentElement!.innerText = company.name;
-                                    e.currentTarget.parentElement!.className = "mx-8 text-sm font-bold text-slate-400 h-12 flex items-center";
-                                }}
-                            />
-                        </div>
+                        <CompanyLogo key={`dup-${index}`} company={company} />
                     ))}
                 </div>
             </div>
