@@ -24,21 +24,21 @@ interface WorkTogetherProps {
 
 export default function WorkTogetherSection({ content }: WorkTogetherProps) {
     return (
-        <section className="py-24 bg-[#FDFBF7]">
+        <section className="py-24 bg-gradient-to-b from-white to-[#FFF5F0]">
             <div className="container">
-                <div className="text-center max-w-3xl mx-auto mb-16">
-                    <p className="text-sm font-bold tracking-widest text-orange-600 uppercase mb-4">
+                <div className="text-center max-w-3xl mx-auto mb-20">
+                    <p className="text-sm font-bold tracking-[0.25em] text-orange-600 uppercase mb-4">
                         {content.section_title}
                     </p>
-                    <h2 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900">
+                    <h2 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-slate-900 tracking-tight leading-tight">
                         {content.title}
                     </h2>
-                    <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+                    <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
                         {content.subtitle}
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8 mb-16 max-w-6xl mx-auto">
+                <div className="grid md:grid-cols-3 gap-8 mb-20 max-w-6xl mx-auto">
                     {content.items.map((item, index) => {
                         const Icon = iconMap[item.icon] || Lightbulb;
                         return (
@@ -48,12 +48,12 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                                 viewport={{ once: true }}
-                                className="bg-white p-10 rounded-[2.5rem] shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col items-center text-center h-[320px] justify-center group border border-slate-100"
+                                className="bg-white p-12 rounded-[2rem] shadow-xl shadow-orange-900/5 hover:shadow-2xl hover:shadow-orange-900/10 transition-all duration-300 flex flex-col items-center text-center h-[340px] justify-center group border border-orange-50/50"
                             >
-                                <div className="mb-8 text-[#E67E22] p-4 bg-orange-50 rounded-2xl group-hover:scale-110 transition-transform duration-300">
-                                    <Icon size={48} strokeWidth={1.5} />
+                                <div className="mb-8 text-orange-500 p-5 bg-orange-50 rounded-2xl group-hover:scale-110 group-hover:bg-orange-100 transition-all duration-300">
+                                    <Icon size={52} strokeWidth={1.5} />
                                 </div>
-                                <h3 className="text-xl font-bold text-slate-800">
+                                <h3 className="text-2xl font-bold text-slate-800 font-heading">
                                     {item.title}
                                 </h3>
                             </motion.div>
@@ -63,7 +63,7 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
 
                 <div className="text-center">
                     <Link href="/contact">
-                        <button className="bg-[#C0392B] text-white px-12 py-4 rounded-full font-bold text-lg hover:bg-[#A93226] transition-all transform hover:-translate-y-1 shadow-lg shadow-red-900/20">
+                        <button className="bg-[#E64A19] text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-[#D84315] hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-orange-900/20">
                             {content.cta_text}
                         </button>
                     </Link>
