@@ -34,7 +34,7 @@ export default function AboutPage() {
         <PageHeader
           title={content.header.title}
           subtitle={content.header.subtitle}
-          gradient="from-blue-500 to-teal-400"
+          gradient="from-primary to-primary"
         />
 
         <section className="pb-24">
@@ -67,16 +67,26 @@ export default function AboutPage() {
               </motion.div>
             </div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="text-center max-w-2xl mx-auto py-12"
-            >
-              <p className="text-xl font-medium text-slate-800 leading-relaxed italic">
-                "We are marketers, coders, strategists and product designers. We know our shit and have been in the industry for 10+ years."
-              </p>
-            </motion.div>
+            {/* Partners Section */}
+            <div className="mb-24">
+              <h3 className="text-2xl font-bold text-center mb-12">{content.partners?.title}</h3>
+              <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+                {content.partners?.items.map((partner, i) => (
+                  <span key={i} className="text-2xl font-heading font-bold text-slate-400 hover:text-primary transition-colors cursor-default">{partner}</span>
+                ))}
+              </div>
+            </div>
+
+            {/* Expertise Section */}
+            <div className="grid md:grid-cols-3 gap-8">
+              {content.expertise?.items.map((item, i) => (
+                <div key={i} className="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-lg transition-shadow duration-300">
+                  <h4 className="text-xl font-bold mb-4 text-primary font-heading">{item.title}</h4>
+                  <p className="text-slate-600 leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+
           </div>
         </section>
       </main>

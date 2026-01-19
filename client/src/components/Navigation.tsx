@@ -43,7 +43,7 @@ export default function Navigation() {
         <div className="w-full hidden md:flex items-center justify-between px-6 py-2.5 rounded-full border border-slate-200/60 bg-white/70 backdrop-blur-xl shadow-sm">
 
           {/* Logo */}
-          <Link href="/" className="text-xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-800 to-primary cursor-pointer whitespace-nowrap">
+          <Link href="/" className="text-xl font-heading font-bold text-primary cursor-pointer whitespace-nowrap">
             {t("nav.agency_name")}
           </Link>
 
@@ -78,7 +78,7 @@ export default function Navigation() {
         </div>
 
         {/* Mobile: Logo on left */}
-        <Link href="/" className="md:hidden text-xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-800 to-primary cursor-pointer whitespace-nowrap">
+        <Link href="/" className="md:hidden text-xl font-heading font-bold text-primary cursor-pointer whitespace-nowrap">
           {t("nav.agency_name")}
         </Link>
 

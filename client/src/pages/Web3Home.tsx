@@ -44,7 +44,7 @@ export default function Web3Home() {
                             <span className="text-primary">Decentralized Internet</span>
                         </h1>
                         <p className="text-xl text-muted-foreground mb-8">
-                            We understand the nuances of blockchain communities. No bots, no hype—just real engagement and sustainable growth.
+                            We understand the nuances of blockchain communities. No bots, no hype, just real engagement and sustainable growth.
                         </p>
                     </motion.div>
 

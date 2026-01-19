@@ -6,7 +6,35 @@
     "mission": {
         "title": "Our Identity",
         "content_1": "We are a collective of marketers, coders, strategists, and product designers who understand the plumbing of the internet. We don't just follow trends; we engineer the systems that define them.",
-        "content_2": "With over 10 years of experience in the industry, we have seen the rise and fall of countless technologies. Our longevity is built on our ability to distinguish between noise and signal, bringing institutional grade rigor to every project we touch.",
+        "content_2": "With over 10 years of experience, we operate at the intersection of creativity and code. Our longevity is built on our ability to distinguish between noise and signal, bringing institutional-grade rigor to every project we touch.",
         "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
+    },
+    "partners": {
+        "title": "Trusted Partners & Media",
+        "items": [
+            "CoinTelegraph",
+            "Coindesk",
+            "Forbes",
+            "TechCrunch",
+            "Yahoo Finance",
+            "Bloomberg"
+        ]
+    },
+    "expertise": {
+        "title": "AI Native & Technical Excellence",
+        "items": [
+            {
+                "title": "AI Native",
+                "description": "We leverage recursive AI agents to automate 80% of manual workflows, allowing us to focus on high-leverage strategy."
+            },
+            {
+                "title": "Global Presence",
+                "description": "Our team speaks at major conferences including Token2049, NFT NYC, and EthDenver."
+            },
+            {
+                "title": "Full Stack",
+                "description": "From Solidity smart contracts to Next.js frontends, we build the entire stack in-house."
+            }
+        ]
     }
 }
