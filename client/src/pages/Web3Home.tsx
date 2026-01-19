@@ -26,8 +26,8 @@ export default function Web3Home() {
     return (
         <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
             <Helmet>
-                <title>{t("nav.agency_name")} | Web3</title>
-                <meta name="description" content="Decentralized community building and GTM strategies. We help blockchain protocols and dApps scale with authenticity." />
+                <title>{t("web3_seo.title")}</title>
+                <meta name="description" content={t("web3_seo.description")} />
             </Helmet>
             <Navigation />
 

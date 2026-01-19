@@ -109,8 +109,8 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>{t("contact.title")} | {t("nav.agency_name")}</title>
-        <meta name="description" content={t("contact.description")} />
+        <title>{t("contact_seo.title")}</title>
+        <meta name="description" content={t("contact_seo.description")} />
         <meta name="keywords" content="contact marketing agency, hire marketing team, book discovery call, AI marketing consultation" />
         <link rel="canonical" href="https://blockmarketingconsulting.com/contact" />
         <meta property="og:title" content={`${t("contact.title")} | ${t("nav.agency_name")}`} />
@@ -128,37 +128,41 @@ export default function ContactPage() {
         <section className="pb-24">
           <div className="container">
             <div className="grid lg:grid-cols-2 gap-16">
-              {/* Contact Info */}
+              {/* Contact Info & Value Prop */}
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
+                className="space-y-12"
               >
-                <h2 className="text-2xl font-bold mb-8">{t("contact.form_title")}</h2>
-                <div className="space-y-8">
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
-                      <Mail size={20} />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-lg mb-1">{t("contact.email_label")}</h3>
-                      <p className="text-slate-600 mb-2">Ready to scale? Connect with our team directly.</p>
-                      <a href="mailto:hello@blockmarketingconsulting.com" className="text-primary font-medium hover:underline">
-                        hello@blockmarketingconsulting.com
-                      </a>
-                    </div>
-                  </div>
+                <div>
+                  <h2 className="text-3xl md:text-4xl font-black mb-6 text-primary">{t("contact.get_in_touch_title")}</h2>
+                  <p className="text-slate-600 text-lg leading-relaxed">
+                    {t("contact.get_in_touch_desc")}
+                  </p>
                 </div>
 
-                <div className="mt-12 p-8 bg-slate-50 rounded-2xl border border-slate-100">
-                  <h3 className="font-bold text-lg mb-4">FAQ</h3>
-                  <p className="text-slate-600 mb-4">
-                    Looking for quick answers? Check out our frequently asked questions before reaching out.
-                  </p>
-                  <a href="/#faq" className="text-primary font-medium hover:underline">
-                    View FAQ &rarr;
-                  </a>
+                <div className="w-full h-px bg-slate-200" />
+
+                <div>
+                  <h2 className="text-3xl md:text-4xl font-black mb-6 text-primary">{t("contact.step_title")}</h2>
+                  <ul className="space-y-4">
+                    {[
+                      t("contact.step_1"),
+                      t("contact.step_2"),
+                      t("contact.step_3"),
+                      t("contact.step_4")
+                    ].map((step, index) => (
+                      <li key={index} className="flex items-start gap-3">
+                        <div className="mt-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center shrink-0">
+                          <CheckCircle size={14} className="text-white" strokeWidth={3} />
+                        </div>
+                        <span className="text-lg text-slate-700 font-medium">{step}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
+
               </motion.div>
 
               {/* Contact Form */}

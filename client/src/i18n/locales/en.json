@@ -20,24 +20,55 @@
         "loading": "Loading..."
     },
     "home_seo": {
-        "title": "BlockMarketing Consulting | AI native marketing agency",
-        "description": "We're an AI native marketing agency helping brands scale with cutting edge AI marketing, Web3 community building, and generative content strategies."
+        "title": "AI Native Marketing Agency | Web2 & Web3 Growth Experts",
+        "description": "Expert AI native marketing agency with 10+ years driving growth for blockchain, Web3, and Web2 brands. Performance-driven strategies for ambitious startups and visionary founders."
+    },
+    "web2_seo": {
+        "title": "Web2 Marketing Agency | SEO, PPC & Performance Marketing",
+        "description": "Data-driven digital marketing for ambitious brands. We specialize in precision SEO, high-ROI PPC campaigns, and conversion optimization to drive measurable growth."
+    },
+    "web3_seo": {
+        "title": "Web3 Growth Agency | Blockchain Marketing & Community Management",
+        "description": "Premier Web3 growth agency for DeFi, NFT, and L1/L2 protocols. We build authentic communities and execute go-to-market strategies that drive TVL and token adoption."
+    },
+    "work_seo": {
+        "title": "Case Studies & Portfolio | BlockMarketing Consulting Growth Results",
+        "description": "See our proven track record. From scaling SaaS startups to 10M+ ARR to launching top-tier blockchain protocols, explore our portfolio of measurable success stories."
+    },
+    "blog_seo": {
+        "title": "Marketing Insights & Strategy Blog | AI, Web3 & Growth",
+        "description": "Expert insights on the convergence of AI, blockchain, and digital growth. Stay ahead of the curve with our in-depth analysis and strategic guides."
+    },
+    "services_seo": {
+        "title": "Comprehensive Growth Services | AI, Web3 & Engineering",
+        "description": "Full-stack growth solutions: From AI-powered SEO and predictive ads to custom smart contract development and dApp engineering. One partner for total scalability."
+    },
+    "contact_seo": {
+        "title": "Contact BlockMarketing | Book a Growth Strategy Session",
+        "description": "Ready to scale? Book a strategy session with our expert team. We'll audit your current setup and propose a data-driven roadmap for sustainable growth."
+    },
+    "cmo_seo": {
+        "title": "Fractional CMO & Strategic Advisory | BlockMarketing Consulting",
+        "description": "High-level strategic guidance for your brand. Our Fractional CMO service brings executive expertise to your team without the full-time headcount."
     },
     "about_seo": {
-        "title": "About Us | BlockMarketing Consulting | AI and Web3 Marketing Agency",
-        "description": "Meet the team behind BlockMarketing Consulting. We're an AI native marketing agency and Web3 pioneers on a mission to future proof brands."
+        "title": "About BlockMarketing | The AI Native Growth Agency",
+        "description": "We are the bridge between traditional business and the decentralized future. Meet the team of engineers, strategists, and creatives building the next generation of brands."
     },
     "contact": {
         "title": "Contact Us",
-        "description": "Ready to future proof your brand? Get in touch with BlockMarketing Consulting. We help brands scale with AI marketing and Web3 strategies.",
         "header_title": "Let's Talk",
         "header_subtitle": "Ready to future proof your brand? Tell us about your project.",
-        "form_title": "Get in Touch",
+        "get_in_touch_title": "Get in Touch",
+        "get_in_touch_desc": "Ready to discuss how BlockMarketing can help drive real growth for your business? We're here to answer your questions and explore how our customer-focused approach can deliver the results you need. We look forward to learning more about your business!",
+        "step_title": "Take the First Step",
+        "step_1": "End marketing guesswork and uncertainty",
+        "step_2": "See how customer focus drives results",
+        "step_3": "Get a clear plan focused on your goals",
+        "step_4": "Start building a smarter plan today",
+        "form_title": "Send a Message",
         "email_label": "Email Us",
         "email_sub": "For general inquiries and new business.",
-        "call_label": "Call Us",
-        "call_sub": "Mon to Fri from 9am to 6pm EST.",
-        "visit_label": "Visit Us",
         "first_name": "First Name",
         "last_name": "Last Name",
         "email": "Email",

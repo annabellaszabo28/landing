@@ -20,13 +20,13 @@ export default function WorkPage() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>Our Work | Case Studies | {t("nav.agency_name")}</title>
-        <meta name="description" content="A showcase of our impact across industries. See how we help brands grow with AI marketing, Web3 communities, and generative strategies." />
+        <title>{t("work_seo.title")}</title>
+        <meta name="description" content={t("work_seo.description")} />
         <meta name="keywords" content="marketing case studies, web3 success stories, AI marketing results, crypto marketing portfolio, SaaS growth studies" />
         <link rel="canonical" href="https://blockmarketingconsulting.com/work" />
-        <meta property="og:title" content={`Our Work | ${t("nav.agency_name")}`} />
-        <meta property="og:description" content="A showcase of our impact across industries. See how we help brands grow with AI marketing, Web3 communities, and generative strategies." />
-        <meta property="og:url" content="https://blockmarketingconsulting.com/work" />
+        <meta property="og.title" content={`Our Work | ${t("nav.agency_name")}`} />
+        <meta property="og.description" content="A showcase of our impact across industries. See how we help brands grow with AI marketing, Web3 communities, and generative strategies." />
+        <meta property="og.url" content="https://blockmarketingconsulting.com/work" />
       </Helmet>
       <Navigation />
 

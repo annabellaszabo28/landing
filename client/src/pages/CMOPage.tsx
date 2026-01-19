@@ -20,11 +20,12 @@ export default function CMOPage() {
     return (
         <div className="min-h-screen flex flex-col font-sans text-slate-900 bg-white selection:bg-primary/20">
             <Helmet>
-                <title>Fractional CMO Services for Web3 & AI | BlockMarketing Consulting</title>
-                <meta name="description" content="Expert Fractional CMO services. Scale your Web3 or AI startup with a dedicated marketing leadership team. We replace an entire department for the cost of one hire." />
-                <meta name="keywords" content="fractional CMO, marketing leadership, Web3 CMO, AI marketing director, startup marketing help, growth executive" />
-                <meta property="og:title" content="Fractional CMO Services for Web3 & AI | BlockMarketing Consulting" />
-                <meta property="og:description" content="Expert Fractional CMO services. Scale your Web3 or AI startup with a dedicated marketing leadership team." />
+                <title>{t("cmo_seo.title")}</title>
+                <meta name="description" content={t("cmo_seo.description")} />
+                <meta name="keywords" content="fractional cmo, chief marketing officer service, marketing leadership, growth strategy consultant, executive marketing" />
+                <link rel="canonical" href="https://blockmarketingconsulting.com/cmo" />
+                <meta property="og:title" content={t("cmo_seo.title")} />
+                <meta property="og:description" content={t("cmo_seo.description")} />
                 <meta property="og:url" content="https://blockmarketingconsulting.com/cmo" />
             </Helmet>
             <Navigation />

@@ -21,8 +21,8 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>Insights | Blog | BlockMarketing Consulting</title>
-        <meta name="description" content="Thoughts on the convergence of AI, Web3, and digital culture. Stay ahead of the curve with insights from industry experts." />
+        <title>{t("blog_seo.title")}</title>
+        <meta name="description" content={t("blog_seo.description")} />
         <meta name="keywords" content="AI marketing blog, Web3 insights, digital marketing trends, blockchain news, growth hacking tips" />
         <link rel="canonical" href="https://blockmarketingconsulting.com/blog" />
         <meta property="og:title" content={`Insights | ${t("nav.agency_name")}`} />

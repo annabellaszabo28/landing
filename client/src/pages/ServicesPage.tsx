@@ -24,13 +24,13 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
       <Helmet>
-        <title>AI & Web3 Marketing Services | {t("nav.agency_name")}</title>
-        <meta name="description" content="Full-service AI marketing, Web3 community building, generative content, and growth strategy. Discover our comprehensive digital services." />
+        <title>{t("services_seo.title")}</title>
+        <meta name="description" content={t("services_seo.description")} />
         <meta name="keywords" content="AI marketing services, Web3 marketing, community building, SEO, PPC, branding, social media management, blockchain marketing" />
         <link rel="canonical" href="https://blockmarketingconsulting.com/services" />
-        <meta property="og:title" content={`AI & Web3 Marketing Services | ${t("nav.agency_name")}`} />
-        <meta property="og:description" content="Full-service AI marketing, Web3 community building, generative content, and growth strategy." />
-        <meta property="og:url" content="https://blockmarketingconsulting.com/services" />
+        <meta property="og.title" content={`AI & Web3 Marketing Services | ${t("nav.agency_name")}`} />
+        <meta property="og.description" content="Full-service AI marketing, Web3 community building, generative content, and growth strategy." />
+        <meta property="og.url" content="https://blockmarketingconsulting.com/services" />
       </Helmet>
       <Navigation />
 

@@ -26,8 +26,8 @@ export default function Web2Home() {
     return (
         <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
             <Helmet>
-                <title>{t("nav.agency_name")} | Marketing</title>
-                <meta name="description" content="Data driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform." />
+                <title>{t("web2_seo.title")}</title>
+                <meta name="description" content={t("web2_seo.description")} />
             </Helmet>
             <Navigation />
 
