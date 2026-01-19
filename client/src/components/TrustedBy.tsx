@@ -89,7 +89,7 @@ export default function TrustedBy() {
 
             <style>{`
         .animate-marquee {
-          animation: marquee 60s linear infinite;
+          animation: marquee 30s linear infinite;
         }
         @keyframes marquee {
           0% { transform: translateX(0); }
