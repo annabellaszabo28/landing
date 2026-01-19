@@ -119,7 +119,8 @@ export default function AINativePage() {
                         </a>
                     </div>
                 </section>
-                <Footer />
+            </main>
+            <Footer />
         </div>
     );
 }

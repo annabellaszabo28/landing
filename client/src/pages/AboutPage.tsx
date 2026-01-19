@@ -89,20 +89,21 @@ export default function AboutPage() {
             </div>
 
           </div>
+        </section>
 
-          {/* Brand Dark CTA */}
-          <section className="py-24 bg-brand-dark relative overflow-hidden mt-32">
-            {/* Retired Glow Effects */}
-            <div className="container px-4 text-center relative z-10">
-              <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-white uppercase tracking-tight">Let's build the future together.</h2>
-              <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">Whether you're a high-growth SME or a Web3 native protocol, we have the engine to scale your vision.</p>
-              <Link href="/contact">
-                <button className="bg-white text-slate-900 px-10 py-4 rounded-full text-lg font-bold hover:bg-primary hover:text-white hover:scale-105 transition-all shadow-xl shadow-white/10">
-                  Book a Strategy Call
-                </button>
-              </Link>
-            </div>
-          </section>
+        {/* Brand Dark CTA */}
+        <section className="py-24 bg-brand-dark relative overflow-hidden">
+          {/* Retired Glow Effects */}
+          <div className="container px-4 text-center relative z-10">
+            <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-white uppercase tracking-tight">Let's build the future together.</h2>
+            <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">Whether you're a high-growth SME or a Web3 native protocol, we have the engine to scale your vision.</p>
+            <Link href="/contact">
+              <button className="bg-white text-slate-900 px-10 py-4 rounded-full text-lg font-bold hover:bg-primary hover:text-white hover:scale-105 transition-all shadow-xl shadow-white/10">
+                Book a Strategy Call
+              </button>
+            </Link>
+          </div>
+        </section>
       </main>
 
       <Footer />
