@@ -4,7 +4,7 @@ date: "2025-12-28"
 author: "Annabella Szabo"
 category: "Design"
 excerpt: "Understanding the cognitive biases that drive user behavior. How to design ethical, habit-forming digital products."
-image: "https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=2070&auto=format&fit=crop"
 ---
 
 Good design looks good. Great design feels right. The difference often lies in behavioral psychology.
