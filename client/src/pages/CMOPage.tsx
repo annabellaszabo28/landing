@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { CheckCircle2, Zap, Rocket, BarChart3, Calculator, TrendingUp, Users } from "lucide-react";
 import { useState } from "react";
 import { Link } from "wouter";
+import heroBgLight from "@/assets/hero-bg-light.png";
 
 export default function CMOPage() {
     const [budget, setBudget] = useState(5000);
@@ -30,9 +31,16 @@ export default function CMOPage() {
 
             <main className="flex-grow">
                 {/* Hero Section */}
-                <section className="relative pt-32 pb-20 overflow-hidden bg-slate-50">
-                    <div className="absolute inset-0 bg-white" />
-                    {/* Retired Glow Effects */}
+                <section className="relative pt-40 pb-20 overflow-hidden bg-slate-50 text-slate-900">
+                    {/* Light Background Image */}
+                    <div className="absolute inset-0 z-0 overflow-hidden">
+                        <img
+                            src={heroBgLight}
+                            alt="Abstract Light Background"
+                            className="w-full h-full object-cover opacity-60 scale-105 transition-transform duration-1000"
+                        />
+                        <div className="absolute inset-0 bg-white/40" />
+                    </div>
 
                     <div className="container relative z-10 px-4">
                         <motion.div
@@ -41,9 +49,12 @@ export default function CMOPage() {
                             transition={{ duration: 0.8 }}
                             className="max-w-4xl"
                         >
-                            <span className="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-bold mb-6 tracking-wide uppercase">
-                                Leadership as a Service
-                            </span>
+                            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-50 border border-slate-200 mb-6 shadow-sm">
+                                <span className="w-2 h-2 rounded-full bg-primary" />
+                                <span className="text-xs font-bold text-slate-700 uppercase tracking-widest">
+                                    Leadership as a Service • Built for Elite Startups
+                                </span>
+                            </div>
                             <h1 className="text-5xl md:text-7xl font-bold font-heading tracking-tight mb-8 leading-[1.1] text-slate-900">
                                 The Impact of a CMO.<br />
                                 <span className="text-primary">Without the Equity.</span>
@@ -129,37 +140,37 @@ export default function CMOPage() {
                                     </div>
                                     <input
                                         type="range"
-                                        min="1000"
-                                        max="50000"
-                                        step="500"
+                                        min="2500"
+                                        max="100000"
+                                        step="2500"
                                         value={budget}
                                         onChange={(e) => setBudget(Number(e.target.value))}
                                         className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-primary"
                                     />
                                     <div className="flex justify-between text-xs text-slate-500 mt-2">
-                                        <span>€1,000</span>
-                                        <span>€50,000+</span>
+                                        <span>€2,500</span>
+                                        <span>€100,000+</span>
                                     </div>
                                 </div>
 
                                 <div className="grid md:grid-cols-3 gap-8">
-                                    <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center">
-                                        <div className="flex justify-center mb-4 text-primary/60"><TrendingUp size={32} /></div>
+                                    <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center group hover:bg-white/10 transition-colors">
+                                        <div className="flex justify-center mb-4 text-primary"><TrendingUp size={32} /></div>
                                         <div className="text-sm text-slate-400 mb-1">Est. Impressions</div>
-                                        <div className="text-3xl font-bold text-white">{potentialImpressions.toLocaleString()}</div>
-                                        <div className="text-xs text-slate-500 mt-2">@ 2.5% CTR</div>
+                                        <div className="text-3xl font-bold text-white tracking-tight">{potentialImpressions.toLocaleString()}</div>
+                                        <div className="text-xs text-slate-500 mt-2">@ {ctr * 100}% Avg. CTR</div>
                                     </div>
-                                    <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center">
-                                        <div className="flex justify-center mb-4 text-blue-400"><Users size={32} /></div>
+                                    <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center group hover:bg-white/10 transition-colors">
+                                        <div className="flex justify-center mb-4 text-primary"><Users size={32} /></div>
                                         <div className="text-sm text-slate-400 mb-1">Potential Clicks</div>
-                                        <div className="text-3xl font-bold text-white">~{potentialClicks.toLocaleString()}</div>
-                                        <div className="text-xs text-emerald-400 mt-2 font-bold">@ €{avgCPC.toFixed(2)} CPC</div>
+                                        <div className="text-3xl font-bold text-white tracking-tight">~{potentialClicks.toLocaleString()}</div>
+                                        <div className="text-xs text-slate-500 mt-2">@ €{avgCPC.toFixed(2)} Target CPC</div>
                                     </div>
-                                    <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center">
-                                        <div className="flex justify-center mb-4 text-primary/60"><Calculator size={32} /></div>
+                                    <div className="p-6 rounded-2xl bg-white/5 border border-white/10 text-center group hover:bg-white/10 transition-colors">
+                                        <div className="flex justify-center mb-4 text-primary"><Calculator size={32} /></div>
                                         <div className="text-sm text-slate-400 mb-1">Cost Per Click</div>
-                                        <div className="text-3xl font-bold text-white">€{avgCPC.toFixed(2)}</div>
-                                        <div className="text-xs text-slate-500 mt-2">Industry Avg</div>
+                                        <div className="text-3xl font-bold text-white tracking-tight">€{avgCPC.toFixed(2)}</div>
+                                        <div className="text-xs text-slate-500 mt-2">Benchmarked Avg.</div>
                                     </div>
                                 </div>
                                 <p className="text-xs text-slate-500 mt-8 text-center italic">*Estimates based on aggregated performance data from our Web3 & SaaS client portfolio.</p>
@@ -231,7 +242,7 @@ export default function CMOPage() {
                 </section>
 
                 {/* Final CTA */}
-                <section id="contact" className="py-24 bg-brand-dark relative overflow-hidden">
+                <section id="contact" className="py-24 bg-brand-dark relative overflow-hidden w-full border-t border-white/5">
                     {/* Retired Glow Effects */}
                     <div className="container px-4 text-center relative z-10">
                         <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight text-white">Ready to lead the market?</h2>
