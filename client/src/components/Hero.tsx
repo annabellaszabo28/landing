@@ -38,7 +38,7 @@ export default function Hero({ content }: HeroProps) {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-50 border border-slate-200 mb-6 shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-orange-500" />
+            <span className="w-2 h-2 rounded-full bg-indigo-500" />
             <span className="text-xs font-bold text-slate-700 uppercase tracking-widest">
               AI native marketing agency • 10+ Years Experience
             </span>

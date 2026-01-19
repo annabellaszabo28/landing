@@ -34,7 +34,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
 
             <div className="container pt-32">
                 <div className="text-center max-w-3xl mx-auto mb-24">
-                    <p className="text-sm font-bold tracking-[0.25em] text-orange-500 uppercase mb-4">
+                    <p className="text-sm font-bold tracking-[0.25em] text-indigo-500 uppercase mb-4">
                         {content.section_title}
                     </p>
                     <h2 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-white tracking-tight leading-tight">
@@ -57,7 +57,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                                 viewport={{ once: true }}
                                 className="flex flex-col items-center text-center group"
                             >
-                                <div className="mb-8 text-orange-400 p-8 rounded-full border border-white/10 bg-white/5 group-hover:border-orange-500/50 group-hover:bg-orange-500/10 transition-all duration-500">
+                                <div className="mb-8 text-indigo-400 p-8 rounded-full border border-white/10 bg-white/5 group-hover:border-indigo-500/50 group-hover:bg-indigo-500/10 transition-all duration-500">
                                     <Icon size={64} strokeWidth={1} />
                                 </div>
                                 <h3 className="text-2xl font-bold text-white mb-2 font-heading tracking-wide">
@@ -70,7 +70,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
 
                 <div className="text-center">
                     <Link href="/contact">
-                        <button className="bg-[#E64A19] text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-[#D84315] hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-orange-900/20">
+                        <button className="bg-indigo-600 text-white px-12 py-5 rounded-full font-bold text-lg hover:bg-indigo-700 hover:shadow-lg transition-all transform hover:-translate-y-1 shadow-md shadow-indigo-900/20">
                             {content.cta_text}
                         </button>
                     </Link>
