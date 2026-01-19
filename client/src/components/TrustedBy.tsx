@@ -1,13 +1,37 @@
 import { motion } from "framer-motion";
 
-// Placeholder logos - in a real scenario, we would use actual SVGs or images
 const companies = [
-    { name: "Company 1", logo: "https://via.placeholder.com/150x50?text=Logo+1" },
-    { name: "Company 2", logo: "https://via.placeholder.com/150x50?text=Logo+2" },
-    { name: "Company 3", logo: "https://via.placeholder.com/150x50?text=Logo+3" },
-    { name: "Company 4", logo: "https://via.placeholder.com/150x50?text=Logo+4" },
-    { name: "Company 5", logo: "https://via.placeholder.com/150x50?text=Logo+5" },
-    { name: "Company 6", logo: "https://via.placeholder.com/150x50?text=Logo+6" },
+    { name: "Biotech USA", domain: "biotechusa.com" },
+    { name: "Scitec Nutrition", domain: "scitecnutrition.com" },
+    { name: "Bitcoin.com", domain: "bitcoin.com" },
+    { name: "Tangem", domain: "tangem.com" },
+    { name: "Chiliz", domain: "chiliz.com" },
+    { name: "Houdini Swap", domain: "houdiniswap.com" },
+    { name: "Polygon", domain: "polygon.technology" },
+    { name: "Near", domain: "near.org" },
+    { name: "Tokendon", domain: "tokendon.com" },
+    { name: "Galaxis", domain: "galaxis.xyz" },
+    { name: "Celo", domain: "celo.org" },
+    { name: "Concordium", domain: "concordium.com" },
+    { name: "Polkamarkets", domain: "polkamarkets.com" },
+    { name: "Sweatcoin", domain: "sweatco.in" },
+    { name: "Coinzilla", domain: "coinzilla.com" },
+    { name: "Waves", domain: "waves.tech" },
+    { name: "OG Crystals", domain: "ogcrystals.com" },
+    { name: "Hermitage Museum", domain: "hermitagemuseum.org" },
+    { name: "FUNToken", domain: "funtoken.io" },
+    { name: "Sharkroll", domain: "sharkroll.io" },
+    { name: "CoinDesk", domain: "coindesk.com" },
+    { name: "CoinTelegraph", domain: "cointelegraph.com" },
+    { name: "The Block", domain: "theblock.co" },
+    { name: "Decrypt", domain: "decrypt.co" },
+    { name: "Messari", domain: "messari.io" },
+    { name: "Centrifuge", domain: "centrifuge.io" },
+    { name: "Aave", domain: "aave.com" },
+    { name: "SupraOracles", domain: "supraoracles.com" },
+    { name: "MakerDAO", domain: "makerdao.com" },
+    { name: "Atari", domain: "atari.com" },
+    { name: "Ideaology", domain: "ideaology.io" },
 ];
 
 export default function TrustedBy() {
@@ -17,36 +41,44 @@ export default function TrustedBy() {
                 <p className="text-sm font-semibold text-slate-400 uppercase tracking-widest">Trusted By Innovative Teams</p>
             </div>
 
-            <div className="relative flex overflow-x-hidden">
+            <div className="relative flex overflow-x-hidden group">
                 <div className="animate-marquee whitespace-nowrap flex items-center">
                     {/* First set of logos */}
                     {companies.map((company, index) => (
-                        <div key={index} className="mx-12 opacity-50 hover:opacity-100 transition-opacity grayscale hover:grayscale-0">
-                            {/* Replace this div with actual img tag when logos are available */}
-                            <div className="h-12 w-32 bg-slate-200 rounded flex items-center justify-center text-slate-400 font-bold text-xs">
-                                {company.name}
-                            </div>
+                        <div key={index} className="mx-8 opacity-60 hover:opacity-100 transition-opacity grayscale hover:grayscale-0">
+                            <img
+                                src={`https://logo.clearbit.com/${company.domain}`}
+                                alt={company.name}
+                                className="h-12 w-auto max-w-[150px] object-contain"
+                                onError={(e) => {
+                                    e.currentTarget.style.display = 'none';
+                                    e.currentTarget.parentElement!.innerText = company.name;
+                                    e.currentTarget.parentElement!.className = "mx-8 text-sm font-bold text-slate-400 h-12 flex items-center";
+                                }}
+                            />
                         </div>
                     ))}
                     {/* Duplicate set for seamless loop */}
                     {companies.map((company, index) => (
-                        <div key={`dup-${index}`} className="mx-12 opacity-50 hover:opacity-100 transition-opacity grayscale hover:grayscale-0">
-                            <div className="h-12 w-32 bg-slate-200 rounded flex items-center justify-center text-slate-400 font-bold text-xs">
-                                {company.name}
-                            </div>
+                        <div key={`dup-${index}`} className="mx-8 opacity-60 hover:opacity-100 transition-opacity grayscale hover:grayscale-0">
+                            <img
+                                src={`https://logo.clearbit.com/${company.domain}`}
+                                alt={company.name}
+                                className="h-12 w-auto max-w-[150px] object-contain"
+                                onError={(e) => {
+                                    e.currentTarget.style.display = 'none';
+                                    e.currentTarget.parentElement!.innerText = company.name;
+                                    e.currentTarget.parentElement!.className = "mx-8 text-sm font-bold text-slate-400 h-12 flex items-center";
+                                }}
+                            />
                         </div>
                     ))}
                 </div>
-
-                <div className="absolute top-0 animate-marquee2 whitespace-nowrap flex items-center">
-                    {/* Second marque layer if needed, or just CSS based infinite scroll */}
-                </div>
             </div>
 
-            {/* Add custom keyframes for marquee in index.css if not present, or use standard tailwind animate-spin or custom class */}
             <style>{`
         .animate-marquee {
-          animation: marquee 25s linear infinite;
+          animation: marquee 60s linear infinite;
         }
         @keyframes marquee {
           0% { transform: translateX(0); }

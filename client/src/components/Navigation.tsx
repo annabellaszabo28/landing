@@ -47,19 +47,19 @@ export default function Navigation() {
           {/* Centered Links */}
           <div className="flex items-center gap-8 mx-auto">
             <Link href="/marketing">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.marketing")}</span>
+              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.marketing")}</a>
             </Link>
             <Link href="/web3">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.web3")}</span>
+              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.web3")}</a>
             </Link>
             <Link href="/about">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors flex items-center gap-2 cursor-pointer">
+              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors flex items-center gap-2 cursor-pointer">
                 <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
                 {t("nav.about")}
-              </span>
+              </a>
             </Link>
             <Link href="/blog">
-              <span className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.blog")}</span>
+              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.blog")}</a>
             </Link>
           </div>
 
@@ -99,13 +99,13 @@ export default function Navigation() {
           className="absolute top-full left-0 right-0 bg-white/95 backdrop-blur-xl border-b border-slate-200/60 p-6 md:hidden flex flex-col gap-4 animate-in slide-in-from-top-5 shadow-lg"
         >
           {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              href={link.href}
-              className="text-lg font-medium text-slate-700 hover:text-primary transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              {link.name}
+            <Link key={link.name} href={link.href}>
+              <a
+                className="text-lg font-medium text-slate-700 hover:text-primary transition-colors block py-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {link.name}
+              </a>
             </Link>
           ))}
           <a href="mailto:hello@blockmarketingconsulting.com" className="text-lg font-medium text-primary hover:underline transition-colors" onClick={() => setMobileMenuOpen(false)}>
