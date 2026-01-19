@@ -30,7 +30,7 @@ export default function BlogPage() {
 
       <main className="flex-grow">
         <PageHeader
-          title="Insights"
+          title="Everything Product Marketing, Web2 and Web3"
           subtitle="Thoughts on the convergence of AI, Web3, and digital culture."
           gradient="from-cyan-400 to-blue-500"
         />

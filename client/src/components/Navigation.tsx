@@ -19,6 +19,7 @@ export default function Navigation() {
   }, []);
 
   const navLinks = [
+    { name: "Services", href: "/marketing" },
     { name: t("nav.marketing"), href: "/marketing" },
     { name: t("nav.web3"), href: "/web3" },
     { name: t("nav.about"), href: "/about" },

@@ -140,7 +140,7 @@
     {
         "id": "websitecreation",
         "title": "Website & Web App Creation",
-        "slug": "web_development",
+        "slug": "website-building",
         "description": "Premium, high converting websites built with modern stacks (React, Next.js).",
         "longDescription": "We build websites that aren't just pretty—they're growth engines. Our development team focuses on performance, speed, and conversion architecture to ensure your digital storefront works 24/7.",
         "features": [
@@ -182,6 +182,98 @@
             }
         ],
         "icon": "Code"
+    },
+    {
+        "id": "productplanning",
+        "title": "Product Planning & Strategy",
+        "slug": "product-planning",
+        "description": "From idea to market: MVP development, UX/UI design, and full-cycle product management.",
+        "longDescription": "We turn abstract ideas into shippable products. Our product planning phase involves rigorous market research, user persona definition, and technical feasibility studies to ensure your product succeeds.",
+        "features": [
+            "MVP Definition",
+            "User Journey Mapping",
+            "Technical Feasibility",
+            "Go-To-Market Strategy"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Discovery",
+                "description": "Understanding your vision and market fit."
+            },
+            {
+                "step": "02",
+                "title": "Scope Definition",
+                "description": "Prioritizing features for maximum impact."
+            },
+            {
+                "step": "03",
+                "title": "Roadmapping",
+                "description": "Creating a clear timeline for development and launch."
+            },
+            {
+                "step": "04",
+                "title": "Specs & Wireframes",
+                "description": "Detailed blueprints for your engineering team."
+            }
+        ],
+        "results": [
+            {
+                "label": "Time to Market",
+                "value": "2x Faster"
+            },
+            {
+                "label": "Dev Costs Saved",
+                "value": "40%"
+            }
+        ],
+        "icon": "PenTool"
+    },
+    {
+        "id": "appbuilding",
+        "title": "Mobile App Development",
+        "slug": "app-building",
+        "description": "Native iOS and Android apps that deliver outstanding user experiences.",
+        "longDescription": "We build mobile experiences that users love. Whether it's a native iOS app, Android app, or cross-platform solution using React Native, we ensure smooth performance and intuitive design.",
+        "features": [
+            "iOS & Android",
+            "React Native / Flutter",
+            "App Store Optimization",
+            "Scalable Backyard APIs"
+        ],
+        "process": [
+            {
+                "step": "01",
+                "title": "Mobile UX Design",
+                "description": "Designing touch-first interfaces for smaller screens."
+            },
+            {
+                "step": "02",
+                "title": "Native Development",
+                "description": "Coding robust applications with offline capabilities."
+            },
+            {
+                "step": "03",
+                "title": "Testing & QA",
+                "description": "Ensuring bug-free performance across all devices."
+            },
+            {
+                "step": "04",
+                "title": "Store Submission",
+                "description": "Handling the complex review process for Apple and Google."
+            }
+        ],
+        "results": [
+            {
+                "label": "App Store Rating",
+                "value": "4.8/5"
+            },
+            {
+                "label": "Retention Rate",
+                "value": "+65%"
+            }
+        ],
+        "icon": "Smartphone"
     },
     {
         "id": "ecommerce",
