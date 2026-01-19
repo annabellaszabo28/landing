@@ -6,6 +6,7 @@
         "cta_secondary": "Web3 növekedés"
     },
     "work_together_section": {
+        "section_title": "MIÉRT VÁLASSZ MINKET",
         "title": "Dolgozzunk együtt",
         "subtitle": "Személyre szabott marketing tervet készítünk vállalkozásod számára, és összehozunk célközönségeddel.",
         "items": [
@@ -25,6 +26,7 @@
         "cta_text": "Érdekel"
     },
     "who_we_help_section": {
+        "section_title": "TÁMOGATUNK CÉLJAID ELÉRÉSÉBEN",
         "title": "Akiknek segíteni tudunk",
         "subtitle": "Személyre szabott marketing tervet készítünk vállalkozásod számára, és összehozunk célközönségeddel.",
         "items": [
@@ -46,7 +48,7 @@
     "services_section": {
         "title": "Adatvezérelt növekedési megoldások",
         "subtitle": "Stratégiánk a klasszikus marketing alappilléreit ötvözi a jövő autonóm technológiáival. Legyen szó egy 10M+ ARR SaaS skálázásáról vagy egy Tier 1 blockchain protokoll indításáról.",
-        "web2_tab": "Web2 Eredmények",
+        "web2_tab": "Marketing",
         "web3_tab": "Web3 Ökoszisztémák",
         "web2_items": [
             {
@@ -100,7 +102,7 @@
     },
     "bridge_section": {
         "title": "A Web 2.5 integrációs motor",
-        "subtitle": "A jövő a technológiák keresztezésében rejlik. Segítünk a Fortune 500 vállalatoknak kiaknázni a blokkláncban rejlő erőt, a Web3 protokolloknak pedig elérni az intézményi szintű adoptációt.",
+        "subtitle": "A jövő a technológiák keresztezésében rejlik. Segítünk a törekvő KKV-knak kiaknázni a blokkláncban rejlő erőt, a Web3 protokolloknak pedig elérni a fenntartható növekedést.",
         "web2_label": "Intézményi skálázódás",
         "web2_sublabel": "Nagyvállalati teljesítmény",
         "web3_label": "Blockchain natív",
@@ -148,7 +150,7 @@
             },
             {
                 "question": "Mennyi ideig tart a rendszer kiépítése?",
-                "answer": "A kezdeti audit és stratégiai tervezés általában 5-7 munkanapot vesz igénybe. Az első optimalizált kampányokat vagy tartalom-rendszereket a konzultációt követő két héten belül elindítjuk."
+                "answer": "Az időkeret a szolgáltatástól függ. A PPC kampányok napokon belül eredményt hozhatnak. Új LLM optimalizálási és GEO stratégiáinkkal ügyfeleink már 3-4 hét alatt látható eredményeket tapasztalnak – sokkal gyorsabban, mint a hagyományos SEO esetében."
             },
             {
                 "question": "Milyen gyorsan válaszolnak?",

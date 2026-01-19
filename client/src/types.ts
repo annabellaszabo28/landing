@@ -70,6 +70,7 @@ export interface WorkTogetherItem {
 }
 
 export interface WorkTogetherSectionContent {
+    section_title: string;
     title: string;
     subtitle: string;
     items: WorkTogetherItem[];
@@ -82,6 +83,7 @@ export interface WhoWeHelpItem {
 }
 
 export interface WhoWeHelpSectionContent {
+    section_title: string;
     title: string;
     subtitle: string;
     items: WhoWeHelpItem[];

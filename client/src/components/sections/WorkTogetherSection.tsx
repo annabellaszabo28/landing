@@ -11,6 +11,7 @@ const iconMap: Record<string, LucideIcon> = {
 
 interface WorkTogetherProps {
     content: {
+        section_title: string;
         title: string;
         subtitle: string;
         items: {
@@ -27,7 +28,7 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
             <div className="container">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <p className="text-sm font-semibold tracking-wider text-slate-500 uppercase mb-4">
-                        MIÉRT VÁLASSZ MINKET
+                        {content.section_title}
                     </p>
                     <h2 className="text-4xl md:text-5xl font-bold mb-6 text-slate-900">
                         {content.title}

@@ -11,6 +11,7 @@ const iconMap: Record<string, LucideIcon> = {
 
 interface WhoWeHelpProps {
     content: {
+        section_title: string;
         title: string;
         subtitle: string;
         items: {
@@ -34,7 +35,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
             <div className="container pt-32">
                 <div className="text-center max-w-3xl mx-auto mb-20">
                     <p className="text-sm font-semibold tracking-wider text-[#F4A492] uppercase mb-4">
-                        TÁMOGATUNK CÉLJAID ELÉRÉSÉBEN
+                        {content.section_title}
                     </p>
                     <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[#BCAAA4]">
                         {content.title}

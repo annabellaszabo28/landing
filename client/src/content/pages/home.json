@@ -6,6 +6,7 @@
         "cta_secondary": "Web3 Growth"
     },
     "work_together_section": {
+        "section_title": "WHY CHOOSE US",
         "title": "Let's Work Together",
         "subtitle": "We create personalized marketing plans for your business and connect you with your target audience.",
         "items": [
@@ -25,6 +26,7 @@
         "cta_text": "I'm Interested"
     },
     "who_we_help_section": {
+        "section_title": "WE SUPPORT YOUR GOALS",
         "title": "Who We Can Help",
         "subtitle": "We create personalized marketing plans for your business and connect you with your target audience.",
         "items": [
@@ -46,7 +48,7 @@
     "services_section": {
         "title": "Precision Engineered Growth Solutions",
         "subtitle": "Our methodology merges traditional marketing rigors with next gen autonomous technology. Whether scaling a 10M+ ARR SaaS or launching a Tier 1 blockchain protocol.",
-        "web2_tab": "Web2 Performance",
+        "web2_tab": "Marketing",
         "web3_tab": "Web3 Ecosystems",
         "web2_items": [
             {
@@ -100,7 +102,7 @@
     },
     "bridge_section": {
         "title": "The Web 2.5 Integration Engine",
-        "subtitle": "The future is intersectional. We help Fortune 500 companies capture blockchain value and Web3 native protocols achieve institutional grade scale.",
+        "subtitle": "The future is intersectional. We help ambitious SMEs capture blockchain value and Web3 native protocols achieve sustainable growth.",
         "web2_label": "Institutional Scale",
         "web2_sublabel": "Enterprise Grade Performance",
         "web3_label": "Blockchain Native",
@@ -148,7 +150,7 @@
             },
             {
                 "question": "How long before I see results?",
-                "answer": "Timeline depends on the service. PPC campaigns can generate leads within days of launch. SEO typically shows meaningful improvements in 3 to 6 months. Community building and brand awareness are ongoing efforts with compounding returns over time."
+                "answer": "Timeline depends on the service. PPC campaigns can generate leads within days. With our new LLM optimization and GEO strategies, clients typically see meaningful results in just 3-4 weeks—much faster than traditional SEO. Community building is an ongoing effort with compounding returns."
             },
             {
                 "question": "Do you work with small businesses or only enterprise clients?",
@@ -160,7 +162,7 @@
             },
             {
                 "question": "What makes you different from other agencies?",
-                "answer": "We combine over a decade of marketing experience with modern AI workflows that increase speed and precision. We're hands on, accountable, and treat your growth like our own. Our team has worked with both Fortune 500 brands and leading blockchain protocols."
+                "answer": "We combine over a decade of marketing experience with modern AI workflows that increase speed and precision. We're hands on, accountable, and treat your growth like our own. Our team has worked with high-growth startups and leading blockchain protocols."
             },
             {
                 "question": "Can I book a call to discuss my project?",
