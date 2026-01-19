@@ -8,7 +8,7 @@
             "category": "Web2 Növekedés",
             "items": [
                 {
-                    "title": "AI Performance Marketing",
+                    "title": "AI Alapú Hirdetéskezelés",
                     "description": "Maximalizálja a megtérülést (ROI) gépi tanulási algoritmusokkal, amelyek valós időben optimalizálják a hirdetési kereteket Google, Meta és TikTok felületeken.",
                     "icon": "BarChart3"
                 },
@@ -23,23 +23,23 @@
                     "icon": "Layers"
                 },
                 {
-                    "title": "Egyedi webfejlesztés",
-                    "description": "Villámgyors, SEO-optimalizált weboldalak modern technológiákkal (React, Next.js).",
+                    "title": "Egyedi Weboldal Fejlesztés",
+                    "description": "Villámgyors, SEO optimalizált weboldalak modern technológiákkal (React, Next.js).",
                     "icon": "Code"
                 },
                 {
-                    "title": "Weboldal készítés",
+                    "title": "Weboldal Készítés",
                     "description": "Prémium megjelenésű, konverzióra optimalizált weboldalak, amelyek hitelességet adnak vállalkozásának.",
                     "icon": "Layout"
                 },
                 {
-                    "title": "Terméktervezés és építés",
-                    "description": "Az ötlettől a piacra lépésig: MVP fejlesztés, UX/UI tervezés és teljes körű termékmenedzsment.",
+                    "title": "Terméktervezés és Építés",
+                    "description": "Az ötlettől a piacra lépésig: MVP fejlesztés, UX UI tervezés és teljes körű termékmenedzsment.",
                     "icon": "PenTool"
                 },
                 {
-                    "title": "Applikáció fejlesztés",
-                    "description": "Natív iOS és Android alkalmazások, valamint cross-platform megoldások, amelyek kiemelkedő felhasználói élményt nyújtanak.",
+                    "title": "Mobilalkalmazás Fejlesztés",
+                    "description": "Natív iOS és Android alkalmazások, valamint cross platform megoldások, amelyek kiemelkedő felhasználói élményt nyújtanak.",
                     "icon": "Smartphone"
                 }
             ]

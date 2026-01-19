@@ -52,65 +52,65 @@
         "web3_tab": "Web3 Ökoszisztémák",
         "web2_items": [
             {
-                "title": "GEO & LLM Optimalizálás",
-                "description": "A SEO új generációja. Biztosítjuk, hogy márkája legyen az elsődleges, hiteles forrás a ChatGPT, Perplexity és Claude válaszaiban.",
+                "title": "Keresőoptimalizálás (SEO) és AI",
+                "description": "A modern keresőoptimalizálás csúcsa. Biztosítjuk, hogy márkája legyen az elsődleges találat a Google, a ChatGPT és a Perplexity felületein.",
                 "icon": "Cpu"
             },
             {
-                "title": "Prediktív performance marketing",
-                "description": "AI vezérelt licitkezelés és kreatív tesztelés, amely alacsony CPA-t és releváns lead-folyamot garantál, skálázható módon.",
+                "title": "PPC Hirdetéskezelés",
+                "description": "Adatvezérelt licitkezelés és kreatív tesztelés, amely alacsony CPA-t és releváns érdeklődőket garantál skálázható módon.",
                 "icon": "Target"
             },
             {
-                "title": "Termékvezérelt növekedés (PLG)",
-                "description": "Felhasználók átalakítása elkötelezett ügyfelekké: optimalizált onboarding és virális termék mechanizmusok tervezése.",
+                "title": "Termékvezérelt Növekedés",
+                "description": "Felhasználók átalakítása elkötelezett ügyfelekké optimalizált onboarding és virális termék mechanizmusok révén.",
                 "icon": "Zap"
             },
             {
-                "title": "Weboldal készítés",
-                "description": "Prémium, konverzióra optimalizált weboldalak, amelyek hitelességet biztosítanak vállalkozása számára.",
+                "title": "Prémium Weboldal Készítés",
+                "description": "Keresőbarát, konverzióra optimalizált weboldalak fejlesztése, amelyek hitelességet és vevőket hoznak vállalkozása számára.",
                 "icon": "Layout"
             },
             {
-                "title": "Terméktervezés és fejlesztés",
-                "description": "Az ötlettől a piacra lépésig: MVP fejlesztés, UX/UI tervezés és teljes körű termékmenedzsment.",
+                "title": "Terméktervezés és Fejlesztés",
+                "description": "Az ötlettől a piacra lépésig: MVP fejlesztés, UX UI tervezés és teljes körű termékmenedzsment.",
                 "icon": "PenTool"
             },
             {
-                "title": "Applikáció fejlesztés",
-                "description": "Natív iOS és Android alkalmazások, valamint keresztplatformos megoldások, amelyek kivételes felhasználói élményt nyújtanak.",
+                "title": "Mobilalkalmazás Fejlesztés",
+                "description": "Natív iOS és Android alkalmazások, valamint cross platform megoldások, amelyek kivételes felhasználói élményt nyújtanak.",
                 "icon": "Smartphone"
             }
         ],
         "web3_items": [
             {
-                "title": "Web3 PPC & Hirdetések",
+                "title": "Web3 PPC Hirdetések",
                 "description": "Célzott forgalomterelés kripto specifikus hálózatokon és szabálykövető Web2 csatornákon a felhasználóbázis növeléséhez.",
                 "icon": "Target"
             },
             {
-                "title": "Web3 SEO & Tartalom",
+                "title": "Web3 SEO és Tartalom",
                 "description": "A keresési találatok dominálása token szimbólumokra és protokoll kulcsszavakra az organikus felfedezés érdekében.",
                 "icon": "Search"
             },
             {
-                "title": "Social Media Menedzsment",
-                "description": "Közösségépítés a nulláról, valós interakciókkal és organikus növekedéssel X-en, LinkedIn-en és Farcaster-en.",
+                "title": "Közösségi Média Marketing",
+                "description": "Közösségépítés a nulláról, valós interakciókkal és organikus növekedéssel X, LinkedIn és Farcaster felületeken.",
                 "icon": "MessageCircle"
             },
             {
-                "title": "Piacra lépési stratégia (GTM)",
+                "title": "Piacra Lépési Stratégia (GTM)",
                 "description": "Átfogó keretrendszerek, amelyek összehangolják a tokenomikát, a közösségi figyelmet és a valós hasznosságot.",
                 "icon": "Rocket"
             },
             {
-                "title": "DApp & Termékfejlesztés",
+                "title": "DApp és Termékfejlesztés",
                 "description": "Teljes körű fejlesztés decentralizált alkalmazásokhoz, okosszerződésekhez és token igénylő felületekhez.",
                 "icon": "Code"
             },
             {
-                "title": "PR és On Chain kommunikáció",
-                "description": "Top-tier megjelenések és hiteles szakértői partnerségek, amelyek bizalmat építenek és növelik az elköteleződést.",
+                "title": "PR és On Chain Kommunikáció",
+                "description": "Kiemelt sajtómegjelenések és hiteles szakértői partnerségek, amelyek bizalmat építenek és növelik az elköteleződést.",
                 "icon": "Mic"
             }
         ]
