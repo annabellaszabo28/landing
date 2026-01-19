@@ -40,14 +40,19 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
     const [stats, setStatus] = React.useState<'clearbit' | 'google' | 'text'>('clearbit');
 
     return (
-        <div className="mx-8 opacity-80 hover:opacity-100 transition-opacity flex items-center justify-center h-16 w-32 relative group">
+        <a
+            href={`https://${company.domain}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-16 opacity-80 hover:opacity-100 transition-opacity flex items-center justify-center h-20 w-40 relative group"
+        >
             {/* Tooltip for the company name */}
-            <div className="absolute -top-8 left-1/2 -translate-x-1/2 bg-black text-white text-xs py-1 px-2 rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
+            <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-white text-slate-900 text-sm font-bold py-1 px-3 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
                 {company.name}
             </div>
 
             {stats === 'text' ? (
-                <span className="text-sm font-bold text-slate-500 font-heading">{company.name}</span>
+                <span className="text-lg font-bold text-white/80 font-heading">{company.name}</span>
             ) : (
                 <img
                     src={stats === 'clearbit'
@@ -55,23 +60,23 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
                         : `https://www.google.com/s2/favicons?domain=${company.domain}&sz=128`
                     }
                     alt={company.name}
-                    className="max-h-12 w-auto max-w-[120px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                    className="max-h-16 w-auto max-w-[160px] object-contain transition-transform duration-300 group-hover:scale-110"
                     onError={() => {
                         if (stats === 'clearbit') setStatus('google');
                         else setStatus('text');
                     }}
                 />
             )}
-        </div>
+        </a>
     );
 }
 
 // Main Component
 export default function TrustedBy() {
     return (
-        <section className="py-20 border-y border-slate-100 bg-[#FAFAFA] overflow-hidden">
-            <div className="container mb-12 text-center">
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-[0.2em]">Trusted By Innovative Teams</p>
+        <section className="py-32 border-y border-slate-900 bg-slate-950 overflow-hidden">
+            <div className="container mb-16 text-center">
+                <p className="text-sm font-bold text-white/40 uppercase tracking-[0.2em]">Trusted By Innovative Teams</p>
             </div>
 
             <div className="relative flex overflow-x-hidden group">

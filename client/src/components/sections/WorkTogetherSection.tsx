@@ -49,6 +49,7 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5, delay: index * 0.1 }}
                                     viewport={{ once: true }}
+                                    style={{ transformStyle: "preserve-3d" }}
                                     className="relative w-full h-full transition-all duration-700 transform-style-3d group-hover:rotate-y-180 shadow-xl shadow-slate-200/50 rounded-[2rem]"
                                 >
                                     {/* Front Face */}

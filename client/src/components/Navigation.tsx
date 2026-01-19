@@ -55,6 +55,9 @@ export default function Navigation() {
             <Link href="/web3">
               <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">{t("nav.web3")}</a>
             </Link>
+            <Link href="/cmo">
+              <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors cursor-pointer">CMO aS</a>
+            </Link>
             <Link href="/about">
               <a className="text-sm font-medium text-slate-600 hover:text-primary transition-colors flex items-center gap-2 cursor-pointer">
                 <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span>
@@ -67,7 +70,7 @@ export default function Navigation() {
           </div>
 
           <div className="flex items-center gap-4">
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
             {/* CTA */}
             <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
               <Button size="sm" className="bg-primary text-white hover:bg-primary/90 rounded-full px-6 font-bold text-sm shadow-md shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/30">
@@ -120,7 +123,7 @@ export default function Navigation() {
             </Button>
           </a>
           <div className="flex justify-center pt-2">
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
           </div>
         </div>
       )}
