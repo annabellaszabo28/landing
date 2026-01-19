@@ -23,7 +23,7 @@ export const caseStudies: CaseStudy[] = [
     result: "+300% Organic Traffic",
     tags: ["SEO Strategy", "Content Marketing", "SaaS Growth"],
     image: "/images/work-saas.png",
-    color: "from-blue-500 to-indigo-500",
+    color: "from-primary to-primary",
     content: `
       <h2>The Challenge</h2>
       <p>ScaleFlow had a superior product but zero visibility. They were burning cash on LinkedIn ads with a CAC that was unsustainable. They needed a channel that compounded over time.</p>
@@ -55,7 +55,7 @@ export const caseStudies: CaseStudy[] = [
     result: "$50M TVL Locked",
     tags: ["Tokenomics", "Launch Strategy", "Community"],
     image: "/images/blog-community.png",
-    color: "from-purple-500 to-pink-500",
+    color: "from-primary to-primary",
     content: `
       <h2>The Challenge</h2>
       <p>Launching a DEX in 2025 is hard. Liquidity is sticky. Nova Fi needed to attract millions in capital from day one to ensure trade execution and low slippage.</p>
@@ -87,7 +87,7 @@ export const caseStudies: CaseStudy[] = [
     result: "40k Wallets Created",
     tags: ["NFT Utility", "Brand Strategy", "Loyalty Program"],
     image: "/images/blog-tokenomics.png",
-    color: "from-amber-400 to-orange-500",
+    color: "from-primary to-primary",
     content: `
       <h2>The Challenge</h2>
       <p>LuxeRetail's loyalty program was dormant. Points were expiring unused. They needed to re-engage Gen Z consumers who value digital ownership over plastic cards.</p>
@@ -119,7 +119,7 @@ export const caseStudies: CaseStudy[] = [
     result: "25 New Markets",
     tags: ["AI Localization", "E-commerce", "Global Growth"],
     image: "/images/blog-agents.png",
-    color: "from-cyan-400 to-blue-500",
+    color: "from-primary to-primary",
     content: `
       <h2>The Challenge</h2>
       <p>MarketOne wanted to expand globally, but traditional translation agencies were too slow and expensive. They missed trend cycles in local markets.</p>

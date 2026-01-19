@@ -28,7 +28,7 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
         <section className="py-24 bg-slate-50">
             <div className="container">
                 <div className="text-center max-w-3xl mx-auto mb-20">
-                    <p className="text-sm font-bold tracking-[0.25em] text-indigo-600 uppercase mb-4">
+                    <p className="text-sm font-bold tracking-[0.25em] text-primary uppercase mb-4">
                         {content.section_title}
                     </p>
                     <h2 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-slate-900 tracking-tight leading-tight">
@@ -54,7 +54,7 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
                                 >
                                     {/* Front Face */}
                                     <div className="absolute w-full h-full backface-hidden bg-white p-12 rounded-[2rem] flex flex-col items-center justify-center border border-slate-100">
-                                        <div className="mb-8 text-indigo-600 p-5 bg-indigo-50 rounded-2xl group-hover:scale-110 transition-all duration-300">
+                                        <div className="mb-8 text-primary p-5 bg-primary/5 rounded-2xl group-hover:scale-110 transition-all duration-300">
                                             <Icon size={52} strokeWidth={1.5} />
                                         </div>
                                         <h3 className="text-2xl font-bold text-slate-800 font-heading">
@@ -63,11 +63,11 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
                                     </div>
 
                                     {/* Back Face */}
-                                    <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-indigo-600 p-8 rounded-[2rem] flex flex-col items-center justify-center text-center text-white">
+                                    <div className="absolute w-full h-full backface-hidden rotate-y-180 bg-primary p-8 rounded-[2rem] flex flex-col items-center justify-center text-center text-white">
                                         <h3 className="text-xl font-bold mb-4 font-heading">
                                             {item.title}
                                         </h3>
-                                        <p className="text-lg leading-relaxed text-indigo-100">
+                                        <p className="text-lg leading-relaxed text-white/80">
                                             {item.description || "Building superior systems for scale."}
                                         </p>
                                     </div>

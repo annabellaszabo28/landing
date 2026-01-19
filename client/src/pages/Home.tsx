@@ -30,7 +30,7 @@ export default function Home() {
       <Helmet>
         <title>{t("home_seo.title")}</title>
         <meta name="description" content={t("home_seo.description")} />
-        <meta name="keywords" content="AI marketing agency, Web3 marketing, digital agency, AI content, blockchain marketing, DAO community, generative AI, SEO agency, growth marketing" />
+        <meta name="keywords" content="AI marketing agency, Web3 marketing, digital agency, seo agency, blockchain marketing, go-to-marketing strategist, generative AI, LLM agency, growth marketing" />
         <link rel="canonical" href="https://blockmarketingconsulting.com/" />
         <meta property="og:title" content={t("home_seo.title")} />
         <meta property="og:description" content={t("home_seo.description")} />
@@ -47,9 +47,7 @@ export default function Home() {
         <Bridge content={content.bridge_section} />
 
         <section className="py-32 w-full relative overflow-hidden bg-brand-dark border-t border-white/5">
-          {/* Background Effects */}
-          <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
-          <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
+          {/* Retired Glow Effects */}
 
           <div className="container relative z-10 text-center">
             <div className="max-w-4xl mx-auto">
@@ -60,7 +58,7 @@ export default function Home() {
                 {content.cta_section.subtitle}
               </p>
               <Link href={content.cta_section.button_link}>
-                <button className="bg-white text-slate-900 px-12 py-5 rounded-full text-lg font-bold hover:bg-white hover:text-indigo-600 hover:scale-105 shadow-xl transition-all duration-300">
+                <button className="bg-white text-slate-900 px-12 py-5 rounded-full text-lg font-bold hover:bg-white hover:text-primary hover:scale-105 shadow-xl transition-all duration-300">
                   {content.cta_section.button_text}
                 </button>
               </Link>

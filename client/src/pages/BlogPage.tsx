@@ -35,7 +35,6 @@ export default function BlogPage() {
         <PageHeader
           title="Blog"
           subtitle="Everything Product Marketing, Web2 and Web3. Insights on the convergence of AI, blockchain, and digital growth."
-          gradient="from-cyan-400 to-blue-500"
         />
 
         <section className="pb-24">
@@ -51,7 +50,7 @@ export default function BlogPage() {
                       transition={{ delay: index * 0.1 }}
                       className="flex flex-col h-full"
                     >
-                      <div className="rounded-2xl overflow-hidden aspect-[16/10] mb-6 shadow-lg border border-slate-100 group-hover:border-indigo-100 transition-colors">
+                      <div className="rounded-2xl overflow-hidden aspect-[16/10] mb-6 shadow-lg border border-slate-100 group-hover:border-primary/20 transition-colors">
                         <BrandedBlogCard title={post.title} category={post.category} className="w-full h-full transition-transform duration-500 group-hover:scale-105" />
                       </div>
 
@@ -75,7 +74,7 @@ export default function BlogPage() {
 
                       <div className="flex items-center justify-between mt-auto pt-6 border-t border-slate-100">
                         <div className="flex items-center gap-2 text-sm font-medium text-slate-700">
-                          <User size={16} className="text-slate-400" />
+                          <img src="/brand_logo_blue.png" alt="Author" className="w-5 h-5 rounded-full object-contain" />
                           {post.author}
                         </div>
                         <span className="text-primary font-bold flex items-center gap-1 text-sm group-hover:gap-2 transition-all">

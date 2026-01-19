@@ -92,14 +92,13 @@ export default function WebsiteBuildingPage() {
 
                 {/* Brand Dark CTA */}
                 <section className="py-24 bg-brand-dark relative overflow-hidden">
-                    <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
-                    <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
+                    {/* Retired Glow Effects */}
                     <div className="container px-4 text-center relative z-10">
                         <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight text-white">Ready for a better website?</h2>
                         <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto">We build websites that don't just look good—they convert visitors into customers.</p>
 
                         <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                            <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-white/90 transition-all transform hover:scale-105 shadow-xl shadow-white/10">
+                            <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-primary hover:text-white transition-all transform hover:scale-105 shadow-xl shadow-white/10">
                                 Book a Discovery Call
                             </button>
                         </a>

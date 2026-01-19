@@ -24,7 +24,7 @@ export default function Bridge({ content }: BridgeProps) {
           alt="Abstract Light Background"
           className="w-full h-full object-cover opacity-60 scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-white/60 via-transparent to-white/40" />
+        <div className="absolute inset-0 bg-white/40" />
       </div>
 
       <div className="container relative z-10 text-center">
@@ -46,26 +46,18 @@ export default function Bridge({ content }: BridgeProps) {
           {/* Base Bridge Line */}
           <div className="absolute top-1/2 left-0 right-0 h-px bg-slate-200" />
 
-          {/* Active Line Glow */}
-          <div className="absolute top-1/2 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-indigo-500/20 to-transparent blur-sm" />
+          {/* Retired Active Line Glow */}
 
           {/* Content Container */}
           <div className="w-full relative z-10">
 
-            {/* Animated Energy Flow - Indigo Beam */}
-            <div className="absolute left-0 right-0 top-1/2 h-1 -translate-y-1/2 pointer-events-none overflow-hidden">
-              <motion.div
-                className="absolute top-0 h-full w-32 bg-gradient-to-r from-transparent via-indigo-500 to-transparent blur-[2px]"
-                animate={{ left: ["-20%", "120%"] }}
-                transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
-              />
-            </div>
+            {/* Retired Energy Flow */}
 
             {/* Labels Container */}
             <div className="flex justify-between items-center relative px-4 md:px-12">
               {/* Web2 Side */}
               <motion.div
-                className="text-left cursor-default p-8 rounded-3xl border border-slate-200 bg-white/80 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-indigo-400/30 transition-all duration-500"
+                className="text-left cursor-default p-8 rounded-3xl border border-slate-200 bg-white/80 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-primary/30 transition-all duration-500"
                 whileHover={{ x: 5 }}
               >
                 <div className="text-2xl font-bold text-slate-900 mb-2 font-heading tracking-wide">{content.web2_label}</div>
@@ -75,20 +67,20 @@ export default function Bridge({ content }: BridgeProps) {
               {/* Central Node */}
               <div className="relative z-20 mx-4">
                 <motion.div
-                  className="w-24 h-24 bg-white rounded-full border border-slate-100 flex items-center justify-center shadow-[0_4px_20px_rgba(99,102,241,0.15)] relative"
+                  className="w-24 h-24 bg-white rounded-full border border-slate-100 flex items-center justify-center shadow-xl relative"
                   animate={{
-                    boxShadow: ["0 4px 20px rgba(99,102,241,0.15)", "0 4px 40px rgba(99,102,241,0.25)", "0 4px 20px rgba(99,102,241,0.15)"]
+                    scale: [1, 1.05, 1],
                   }}
                   transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 >
-                  <div className="absolute inset-0 rounded-full border border-indigo-50 opacity-50" />
-                  <span className="text-4xl text-indigo-600 relative z-10 font-bold">∞</span>
+                  <div className="absolute inset-0 rounded-full border border-primary/10 opacity-50" />
+                  <span className="text-4xl text-primary relative z-10 font-bold">∞</span>
                 </motion.div>
               </div>
 
               {/* Web3 Side */}
               <motion.div
-                className="text-right cursor-default p-8 rounded-3xl border border-slate-200 bg-white/80 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-indigo-400/30 transition-all duration-500"
+                className="text-right cursor-default p-8 rounded-3xl border border-slate-200 bg-white/80 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-primary/30 transition-all duration-500"
                 whileHover={{ x: -5 }}
               >
                 <div className="text-2xl font-bold text-slate-900 mb-2 font-heading tracking-wide">{content.web3_label}</div>

@@ -89,8 +89,7 @@ function CompanyLogo({ company }: { company: { name: string, domain: string } })
 export default function TrustedBy() {
     return (
         <section className="py-16 border-y border-white/5 bg-brand-dark overflow-hidden relative">
-            <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
-            <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
+            {/* Retired Glow Effects */}
             <div className="container mb-16 text-center">
                 <p className="text-sm font-bold text-white/40 uppercase tracking-[0.2em]">Trusted By Innovative Teams</p>
             </div>

@@ -34,7 +34,7 @@ export default function Navigation() {
       role="navigation"
       aria-label="Main navigation"
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 ${scrolled
-        ? "bg-white/95 backdrop-blur-xl shadow-lg shadow-slate-900/5"
+        ? "bg-white/95 backdrop-blur-xl shadow-lg border-b border-slate-200"
         : "bg-white/80 backdrop-blur-md"
         }`}
     >
@@ -44,8 +44,9 @@ export default function Navigation() {
 
           {/* Logo */}
           <Link href="/" className="cursor-pointer group flex items-center gap-2">
+            <img src="/brand_logo_blue.png" alt="BlockMarketing Consulting" className="h-10 w-auto" />
             <span className="text-xl font-bold font-heading tracking-tight text-slate-900 group-hover:text-primary transition-colors">
-              BlockMarketing <span className="text-primary group-hover:text-slate-900 transition-colors">Consulting</span>
+              BlockMarketing Consulting
             </span>
           </Link>
 

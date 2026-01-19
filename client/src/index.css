@@ -54,8 +54,8 @@
   /* Text: Deep Slate/Charcoal */
   --foreground: oklch(0.25 0.02 260);
 
-  /* Primary: Deep Blue (Matching Logo) */
-  --primary: oklch(0.40 0.18 260);
+  /* Primary: Signature Deep Blue (#0a1157) */
+  --primary: oklch(0.25 0.1 260);
   --primary-foreground: oklch(0.98 0 0);
 
   /* Secondary: Soft Coral/Peach */
@@ -197,20 +197,20 @@ h3 {
 
   /* Glassmorphism Utilities */
   .glass {
-    @apply bg-white/40 backdrop-blur-md border border-white/20 shadow-lg;
+    @apply bg-white/70 backdrop-blur-md border border-white/40 shadow-lg;
   }
 
   .glass-card {
-    @apply bg-white/60 backdrop-blur-xl border border-white/40 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1;
+    @apply bg-white/80 backdrop-blur-xl border border-white/50 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1;
   }
 
   .glass-nav {
-    @apply bg-white/30 backdrop-blur-lg border-b border-white/20;
+    @apply bg-white/60 backdrop-blur-lg border-b border-white/30;
   }
 
   /* Brand Dark Theme */
   .bg-brand-dark {
-    background-color: #0b0c14;
+    background-color: var(--primary);
     color: white;
   }
 
@@ -221,14 +221,7 @@ h3 {
     color: white;
   }
 
-  /* Branding Glows */
-  .glow-indigo {
-    @apply absolute w-[500px] h-[500px] bg-indigo-500/10 blur-[120px] rounded-full pointer-events-none;
-  }
-
-  .glow-blue {
-    @apply absolute w-[500px] h-[500px] bg-blue-600/5 blur-[120px] rounded-full pointer-events-none;
-  }
+  /* Removed Gradients and Glows */
 }
 
 @keyframes spin {

@@ -40,7 +40,6 @@ export default function AISearchPage() {
                 <PageHeader
                     title={content.header.title}
                     subtitle={content.header.subtitle}
-                    gradient="from-purple-600 to-indigo-500"
                 />
 
                 <section className="py-24 bg-slate-50">
@@ -96,7 +95,7 @@ export default function AISearchPage() {
                 </section>
 
                 <section className="py-24 bg-slate-900 text-white overflow-hidden relative">
-                    <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.2),transparent_70%)]" />
+                    {/* Retired Radial Gradient */}
                     <div className="container relative z-10 text-center">
                         <h2 className="text-4xl md:text-5xl font-bold mb-8">{content.cta.title}</h2>
                         <p className="text-slate-400 mb-12 max-w-3xl mx-auto text-xl">

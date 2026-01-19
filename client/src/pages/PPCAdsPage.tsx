@@ -41,7 +41,6 @@ export default function PPCAdsPage() {
                 <PageHeader
                     title={content.header.title}
                     subtitle={content.header.subtitle}
-                    gradient="from-indigo-600 to-blue-500"
                 />
 
                 <section className="py-24 bg-slate-50">

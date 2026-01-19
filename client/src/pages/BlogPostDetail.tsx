@@ -72,14 +72,14 @@ export default function BlogPostDetail() {
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-slate-100 overflow-hidden border border-slate-200">
                   <img
-                    src="/brand_logo.png"
-                    alt="BlockMarketing"
+                    src="/brand_logo_blue.png"
+                    alt="BlockMarketing Consulting"
                     className="w-full h-full object-contain p-1"
                   />
                 </div>
                 <div className="text-left">
-                  <div className="text-sm font-bold text-slate-900">BlockMarketing</div>
-                  <div className="text-xs">Company Profile</div>
+                  <div className="text-sm font-bold text-slate-900">BlockMarketing Consulting</div>
+                  <div className="text-xs">Agency Team</div>
                 </div>
               </div>
 
@@ -143,7 +143,7 @@ export default function BlogPostDetail() {
         </article>
 
         {/* Newsletter CTA */}
-        <section className="mt-24 bg-slate-900 py-20">
+        <section className="mt-24 bg-primary py-20">
           <div className="container max-w-4xl text-center text-white">
             <h2 className="text-3xl font-bold mb-4">Stay ahead of the curve</h2>
             <p className="text-slate-300 mb-8 max-w-xl mx-auto">

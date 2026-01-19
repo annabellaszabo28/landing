@@ -38,7 +38,7 @@ export default function Hero({ content }: HeroProps) {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-50 border border-slate-200 mb-6 shadow-sm">
-            <span className="w-2 h-2 rounded-full bg-indigo-500" />
+            <span className="w-2 h-2 rounded-full bg-primary" />
             <span className="text-xs font-bold text-slate-700 uppercase tracking-widest">
               AI native marketing agency • 10+ Years Experience
             </span>
@@ -64,13 +64,13 @@ export default function Hero({ content }: HeroProps) {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="group relative bg-white/70 backdrop-blur-xl border border-slate-200 rounded-3xl p-10 hover:border-indigo-400/50 transition-all hover:shadow-2xl hover:shadow-indigo-500/10 text-left overflow-hidden shadow-sm"
+            className="group relative bg-white/70 backdrop-blur-xl border border-slate-200 rounded-3xl p-10 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/10 text-left overflow-hidden shadow-sm"
           >
             <div className="absolute -top-10 -right-10 p-8 opacity-5 group-hover:opacity-10 transition-opacity rotate-12">
               <Layers size={200} />
             </div>
             <div className="relative z-10">
-              <div className="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-600 mb-8 group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8 group-hover:scale-110 transition-transform">
                 <Layers size={28} />
               </div>
               <h3 className="text-3xl font-bold mb-4">Web2 Marketing</h3>
@@ -78,7 +78,7 @@ export default function Hero({ content }: HeroProps) {
                 Data driven digital marketing supercharged by AI. SEO, PPC, and Social strategies that outperform the competition.
               </p>
               <Link href="/marketing">
-                <a className="inline-flex items-center text-indigo-600 font-bold text-lg group-hover:translate-x-1 transition-transform">
+                <a className="inline-flex items-center text-primary font-bold text-lg group-hover:translate-x-1 transition-transform">
                   Explore Services <ArrowRight size={20} className="ml-2" />
                 </a>
               </Link>
@@ -90,13 +90,13 @@ export default function Hero({ content }: HeroProps) {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="group relative bg-white/70 backdrop-blur-xl border border-slate-200 rounded-3xl p-10 hover:border-indigo-400/50 transition-all hover:shadow-2xl hover:shadow-indigo-500/10 text-left overflow-hidden shadow-sm"
+            className="group relative bg-white/70 backdrop-blur-xl border border-slate-200 rounded-3xl p-10 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/10 text-left overflow-hidden shadow-sm"
           >
             <div className="absolute -top-10 -right-10 p-8 opacity-5 group-hover:opacity-10 transition-opacity rotate-12">
               <Box size={200} />
             </div>
             <div className="relative z-10">
-              <div className="w-14 h-14 bg-indigo-500/10 rounded-2xl flex items-center justify-center text-indigo-600 mb-8 group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary mb-8 group-hover:scale-110 transition-transform">
                 <Box size={28} />
               </div>
               <h3 className="text-3xl font-bold mb-4">Web3 Growth</h3>
@@ -104,7 +104,7 @@ export default function Hero({ content }: HeroProps) {
                 Decentralized community building and GTM strategies for the next generation of the internet. Built for scale.
               </p>
               <Link href="/web3">
-                <a className="inline-flex items-center text-indigo-600 font-bold text-lg group-hover:translate-x-1 transition-transform">
+                <a className="inline-flex items-center text-primary font-bold text-lg group-hover:translate-x-1 transition-transform">
                   Explore Solutions <ArrowRight size={20} className="ml-2" />
                 </a>
               </Link>

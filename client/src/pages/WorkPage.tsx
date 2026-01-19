@@ -57,7 +57,7 @@ export default function WorkPage() {
                   </Link>
 
                   <div className={index % 2 === 1 ? 'md:order-1' : ''}>
-                    <div className="w-12 h-1 mb-6 bg-indigo-500" />
+                    <div className="w-12 h-1 bridge-accent bg-primary" />
                     <div className="text-sm font-medium text-slate-500 mb-2 uppercase tracking-wider">
                       {project.category}
                     </div>

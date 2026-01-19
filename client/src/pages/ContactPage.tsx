@@ -123,7 +123,6 @@ export default function ContactPage() {
         <PageHeader
           title={t("contact.header_title")}
           subtitle={t("contact.header_subtitle")}
-          gradient="from-primary to-primary"
         />
 
         <section className="pb-24">

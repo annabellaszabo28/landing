@@ -26,8 +26,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
     return (
         <section className="relative bg-brand-dark pb-32 overflow-hidden">
             {/* Branding Glows */}
-            <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
-            <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
+            {/* Retired Glow Effects */}
 
             {/* Top wave divider connecting to previous section */}
             <div className="absolute top-0 left-0 w-full overflow-hidden leading-none rotate-180">
@@ -38,7 +37,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
 
             <div className="container pt-32">
                 <div className="text-center max-w-3xl mx-auto mb-24">
-                    <p className="text-sm font-bold tracking-[0.25em] text-indigo-500 uppercase mb-4">
+                    <p className="text-sm font-bold tracking-[0.25em] text-primary/60 uppercase mb-4">
                         {content.section_title}
                     </p>
                     <h2 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-white tracking-tight leading-tight">
@@ -61,7 +60,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                                 viewport={{ once: true }}
                                 className="flex flex-col items-center text-center group"
                             >
-                                <div className="mb-8 text-indigo-400 p-8 rounded-full border border-white/10 bg-white/5 group-hover:border-indigo-500/50 group-hover:bg-indigo-500/10 transition-all duration-500">
+                                <div className="mb-8 text-primary/60 p-8 rounded-full border border-white/10 bg-white/5 group-hover:border-primary/50 group-hover:bg-primary/10 transition-all duration-500">
                                     <Icon size={64} strokeWidth={1} />
                                 </div>
                                 <h3 className="text-2xl font-bold text-white mb-2 font-heading tracking-wide">
@@ -77,7 +76,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
                         href="https://cal.com/annabella-szabo-marketing/30min"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-white text-slate-900 px-12 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-indigo-600 hover:scale-105 transition-all shadow-xl shadow-white/10"
+                        className="inline-block bg-white text-slate-900 px-12 py-5 rounded-full font-bold text-lg hover:bg-primary hover:text-white hover:scale-105 transition-all shadow-xl shadow-white/10"
                     >
                         Book a Call
                     </a>

@@ -21,7 +21,7 @@ const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, la
     return (
         <div className="relative w-full h-[500px] flex items-center justify-center">
             {/* Background Glow */}
-            <div className={`absolute inset-0 ${isWeb3 ? 'bg-purple-900/10' : 'bg-indigo-900/10'} rounded-3xl blur-3xl opacity-30`} />
+            <div className={`absolute inset-0 ${isWeb3 ? 'bg-primary/10' : 'bg-primary/10'} rounded-3xl blur-3xl opacity-30`} />
 
             {/* Orbiting Elements */}
             {[...Array(3)].map((_, i) => (
@@ -52,7 +52,7 @@ const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, la
                 className="relative z-10 w-64 h-64 flex flex-col items-center justify-center"
             >
                 <div className={`absolute inset-0 rounded-[2.5rem] border border-white/20 backdrop-blur-3xl shadow-2xl bg-white/5 overflow-hidden`}>
-                    <div className={`absolute inset-0 ${isWeb3 ? 'bg-purple-500/10' : 'bg-indigo-500/10'}`} />
+                    <div className={`absolute inset-0 ${isWeb3 ? 'bg-primary/5' : 'bg-primary/10'}`} />
                 </div>
 
                 <motion.div
@@ -61,7 +61,7 @@ const AIEngineVisual = ({ type, icon, label }: { type: string, icon?: string, la
                     className="relative z-20 flex flex-col items-center"
                 >
                     <div className={`p-6 rounded-3xl bg-white/10 border border-white/20 mb-6 shadow-xl`}>
-                        <Icon size={48} className={isWeb3 ? 'text-pink-500' : 'text-indigo-500'} />
+                        <Icon size={48} className={isWeb3 ? 'text-primary' : 'text-primary'} />
                     </div>
                     <span className="text-sm font-bold tracking-widest text-slate-500 uppercase">
                         {label?.split(' ')[0]} Engine
@@ -184,7 +184,7 @@ export default function ServiceDetail({ type }: ServiceDetailProps) {
                                     href="https://cal.com/annabella-szabo-marketing/30min"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="bg-indigo-600 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-slate-900 transition-all shadow-xl shadow-indigo-500/20 hover:-translate-y-1 inline-block text-center"
+                                    className="bg-primary text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-slate-900 transition-all shadow-xl shadow-primary/20 hover:-translate-y-1 inline-block text-center"
                                 >
                                     Book a Discovery Call
                                 </a>
@@ -233,7 +233,7 @@ export default function ServiceDetail({ type }: ServiceDetailProps) {
                             <div className="grid md:grid-cols-4 gap-8">
                                 {service.process.map((step, i) => (
                                     <div key={i} className="group relative">
-                                        <div className="text-5xl font-black text-slate-50 mb-4 transition-colors group-hover:text-indigo-50">
+                                        <div className="text-5xl font-black text-slate-50 mb-4 transition-colors group-hover:text-primary/10">
                                             {step.step}
                                         </div>
                                         <h4 className="text-xl font-bold mb-3">{step.title}</h4>
@@ -252,14 +252,13 @@ export default function ServiceDetail({ type }: ServiceDetailProps) {
 
                 {/* Final CTA - Brand Dark */}
                 <section className="mt-32 py-24 bg-brand-dark relative overflow-hidden">
-                    <div className="glow-indigo top-0 right-0 -translate-y-1/2 translate-x-1/2" />
-                    <div className="glow-blue bottom-0 left-0 translate-y-1/2 -translate-x-1/2" />
+                    {/* Retired Glow Effects */}
                     <div className="container px-4 text-center relative z-10">
                         <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight text-white">Scale with precision.</h2>
                         <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto">Let's build a data-driven growth engine for your business. Book your session today.</p>
 
                         <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                            <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-white/90 transition-all transform hover:scale-105 shadow-xl shadow-white/10">
+                            <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-primary hover:text-white transition-all transform hover:scale-105 shadow-xl shadow-white/10">
                                 Book a Call Now
                             </button>
                         </a>

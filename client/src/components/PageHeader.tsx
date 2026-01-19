@@ -3,13 +3,11 @@ import { motion } from "framer-motion";
 interface PageHeaderProps {
   title: string;
   subtitle: string;
-  gradient?: string;
 }
 
 export default function PageHeader({
   title,
-  subtitle,
-  gradient = "from-primary to-secondary"
+  subtitle
 }: PageHeaderProps) {
   return (
     <section className="relative pt-32 pb-20 overflow-hidden">
@@ -29,7 +27,7 @@ export default function PageHeader({
       </div>
 
       {/* Background Elements */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-indigo-50/50 rounded-full blur-3xl -z-10 pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-primary/5 rounded-full blur-3xl -z-10 pointer-events-none" />
     </section>
   );
 }

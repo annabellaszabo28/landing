@@ -41,7 +41,6 @@ export default function SEOAdsPage() {
                 <PageHeader
                     title={content.header.title}
                     subtitle={content.header.subtitle}
-                    gradient="from-emerald-600 to-teal-500"
                 />
 
                 <section className="py-24 bg-slate-50">
@@ -82,9 +81,9 @@ export default function SEOAdsPage() {
                                         whileInView={{ opacity: 1, y: 0 }}
                                         viewport={{ once: true }}
                                         transition={{ delay: index * 0.1 }}
-                                        className="glass p-8 rounded-2xl border-b-4 border-emerald-500 hover:translate-y-[-8px] transition-transform"
+                                        className="glass p-8 rounded-2xl border-b-4 border-primary hover:translate-y-[-8px] transition-transform"
                                     >
-                                        <div className="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-500 mb-6">
+                                        <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6">
                                             <Icon size={24} />
                                         </div>
                                         <h3 className="text-xl font-bold mb-4">{solution.title}</h3>
@@ -101,25 +100,25 @@ export default function SEOAdsPage() {
                         <h2 className="text-3xl font-bold mb-12">{content.social_proof.title}</h2>
                         <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
                             <div className="p-8 bg-white rounded-3xl shadow-sm border border-slate-100">
-                                <div className="text-5xl font-bold text-emerald-500 mb-2">{content.social_proof.stat_1.split(" ")[0]}</div>
+                                <div className="text-5xl font-bold text-primary mb-2">{content.social_proof.stat_1.split(" ")[0]}</div>
                                 <div className="text-slate-500 font-medium uppercase tracking-wider">{content.social_proof.stat_1.split(" ").slice(1).join(" ")}</div>
                             </div>
                             <div className="p-8 bg-white rounded-3xl shadow-sm border border-slate-100">
-                                <div className="text-5xl font-bold text-emerald-500 mb-2">{content.social_proof.stat_2.split(" ")[0]}</div>
+                                <div className="text-5xl font-bold text-primary mb-2">{content.social_proof.stat_2.split(" ")[0]}</div>
                                 <div className="text-slate-500 font-medium uppercase tracking-wider">{content.social_proof.stat_2.split(" ").slice(1).join(" ")}</div>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <section className="py-24 bg-emerald-600 text-white">
+                <section className="py-24 bg-primary text-white">
                     <div className="container text-center">
                         <h2 className="text-4xl font-bold mb-6">{content.cta.title}</h2>
-                        <p className="text-emerald-100 mb-10 max-w-2xl mx-auto text-lg">
+                        <p className="text-white/80 mb-10 max-w-2xl mx-auto text-lg">
                             {content.cta.subtitle}
                         </p>
                         <Link href="/contact">
-                            <button className="bg-white text-emerald-600 px-10 py-4 rounded-full text-xl font-bold hover:bg-slate-100 transition-all shadow-xl shadow-black/10">
+                            <button className="bg-white text-primary px-10 py-4 rounded-full text-xl font-bold hover:bg-slate-100 transition-all shadow-xl shadow-black/10">
                                 {content.cta.button_text}
                             </button>
                         </Link>
