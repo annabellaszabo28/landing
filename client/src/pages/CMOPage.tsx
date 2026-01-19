@@ -188,54 +188,104 @@ export default function CMOPage() {
                             <h2 className="text-4xl md:text-7xl font-black font-heading mb-6 tracking-tighter">Choose Your Growth Engine</h2>
                         </div>
 
-                        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                            {/* Starter */}
-                            <div className="p-8 rounded-[2rem] bg-white border border-slate-200 flex flex-col hover:shadow-2xl transition-all hover:-translate-y-2">
-                                <h3 className="text-2xl font-black text-slate-900 mb-2 uppercase tracking-tight">Startup</h3>
-                                <div className="text-5xl font-black text-primary mb-6">€2,500<span className="text-lg text-slate-400 font-bold tracking-widest">/mo</span></div>
-                                <p className="text-slate-600 mb-8 border-b border-slate-100 pb-8 font-medium">Perfect for early stage validation and initial traction.</p>
-                                <ul className="space-y-4 mb-8 flex-grow text-slate-700 font-bold">
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> AI Marketing Setup</li>
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> 1 Campaign Manager</li>
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Weekly Reporting</li>
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Typeform/CRM Setup</li>
+                        <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                            {/* Foundation */}
+                            <div className="p-8 rounded-[2rem] bg-slate-900 border border-slate-800 flex flex-col hover:shadow-2xl transition-all hover:-translate-y-2 text-white">
+                                <h3 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Foundation</h3>
+                                {/* <div className="text-4xl font-black text-brand-mint mb-6">Contact for Pricing</div> */}
+                                <p className="text-slate-400 mb-8 border-b border-slate-800 pb-8 font-medium h-20">Your steady engine for visibility consistent posting, smart SEO, and end-to-end content flow.</p>
+
+                                <div className="mb-4">
+                                    <h4 className="font-bold text-white mb-3 text-sm uppercase tracking-wider opacity-70">What's Included: Per / Week</h4>
+                                </div>
+
+                                <ul className="space-y-6 mb-8 flex-grow text-slate-300 font-medium">
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Social Media Management</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Consistent Weekly Posting (One Channel)</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Social Media Engagement</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Active Weekly Engagement (One Channel)</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Content Marketing</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>SEO Optimized Content Articles</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Design Template Playbook Included</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Included</span></div>
+                                    </li>
                                 </ul>
                                 <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                                    <button className="w-full py-5 rounded-2xl border-2 border-primary/10 text-primary font-black uppercase tracking-widest text-sm hover:bg-primary hover:text-white transition-all">Get Started</button>
+                                    <button className="w-full py-5 rounded-2xl bg-white text-slate-900 font-black uppercase tracking-widest text-sm hover:bg-brand-mint hover:text-slate-900 transition-all">Choose this plan →</button>
                                 </a>
                             </div>
 
-                            {/* Scale - Highlighted */}
-                            <div className="p-10 rounded-[2.5rem] bg-white border-4 border-brand-mint flex flex-col relative shadow-2xl shadow-brand-mint/10 md:scale-110 z-10">
-                                <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-brand-mint text-primary text-[10px] font-black px-6 py-2 rounded-full tracking-[0.2em] uppercase shadow-lg shadow-brand-mint/30">MOST POPULAR</div>
-                                <h3 className="text-2xl font-black text-slate-900 mb-2 uppercase tracking-tight">Scale</h3>
-                                <div className="text-5xl font-black text-primary mb-6">€4,500<span className="text-lg text-slate-400 font-bold tracking-widest">/mo</span></div>
-                                <p className="text-slate-600 mb-8 border-b border-slate-100 pb-8 font-medium">For growing teams ready to dominate their niche.</p>
-                                <ul className="space-y-4 mb-8 flex-grow text-primary font-black">
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Full Fractional CMO</li>
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> 2 Senior Marketers</li>
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Omni-channel Growth</li>
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Premium Content Engine</li>
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> 24/7 Slack Access</li>
+                            {/* Attention - Highlighted */}
+                            <div className="p-10 rounded-[2.5rem] bg-slate-900 border-4 border-brand-mint flex flex-col relative shadow-2xl shadow-brand-mint/10 md:scale-105 z-10 text-white">
+                                <div className="absolute -top-5 right-10 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-[12px] font-black px-6 py-2 rounded-lg tracking-[0.1em] uppercase shadow-lg">★ POPULAR</div>
+                                <h3 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Attention</h3>
+                                {/* <div className="text-4xl font-black text-brand-mint mb-6">Contact for Pricing</div> */}
+                                <p className="text-slate-300 mb-8 border-b border-slate-700 pb-8 font-medium h-20">Your visibility multiplier scale your content and engagement across every platform.</p>
+
+                                <div className="mb-4">
+                                    <h4 className="font-bold text-white mb-3 text-sm uppercase tracking-wider opacity-70">What's Included: Per / Week</h4>
+                                </div>
+
+                                <ul className="space-y-6 mb-8 flex-grow text-white font-medium">
+                                    <li>
+                                        <div className="font-bold text-brand-mint mb-1">Social Media Management</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>High Volume Weekly Posting (Multiple Channels)</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-brand-mint mb-1">Social Media Engagement</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Enhanced Weekly Engagement (One Channel)</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-brand-mint mb-1">Content Marketing</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Multiple SEO Optimized Articles</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-brand-mint mb-1">Design Template Playbook Included</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Included</span></div>
+                                    </li>
                                 </ul>
                                 <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                                    <button className="w-full py-5 rounded-2xl bg-primary text-white font-black uppercase tracking-widest text-sm hover:bg-brand-mint hover:text-primary transition-all shadow-xl shadow-primary/20 transform hover:-translate-y-1">Scale Now</button>
+                                    <button className="w-full py-5 rounded-2xl bg-white text-slate-900 font-black uppercase tracking-widest text-sm hover:bg-brand-mint hover:text-slate-900 transition-all shadow-xl shadow-brand-mint/20 transform hover:-translate-y-1">Choose this plan →</button>
                                 </a>
                             </div>
 
-                            {/* Enterprise */}
-                            <div className="p-8 rounded-[2rem] bg-white border border-slate-200 flex flex-col hover:shadow-2xl transition-all hover:-translate-y-2">
-                                <h3 className="text-2xl font-black text-slate-900 mb-2 uppercase tracking-tight">Enterprise</h3>
-                                <div className="text-5xl font-black text-primary mb-6">€7,000<span className="text-lg text-slate-400 font-bold tracking-widest">/mo</span></div>
-                                <p className="text-slate-600 mb-8 border-b border-slate-100 pb-8 font-medium">Full department replacement for established orgs.</p>
-                                <ul className="space-y-4 mb-8 flex-grow text-slate-700 font-bold">
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Dedicated Growth Squad</li>
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Custom AI Agents</li>
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Unlimited Revisions</li>
-                                    <li className="flex gap-3"><CheckCircle2 className="text-brand-mint" size={22} strokeWidth={3} /> Priority Support</li>
+                            {/* Accelerator */}
+                            <div className="p-8 rounded-[2rem] bg-slate-900 border border-slate-800 flex flex-col hover:shadow-2xl transition-all hover:-translate-y-2 text-white">
+                                <h3 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Accelerator</h3>
+                                {/* <div className="text-4xl font-black text-brand-mint mb-6">Contact for Pricing</div> */}
+                                <p className="text-slate-400 mb-8 border-b border-slate-800 pb-8 font-medium h-20">Dominate your niche with maximum output and precision execution at scale.</p>
+
+                                <div className="mb-4">
+                                    <h4 className="font-bold text-white mb-3 text-sm uppercase tracking-wider opacity-70">What's Included: Per / Week</h4>
+                                </div>
+
+                                <ul className="space-y-6 mb-8 flex-grow text-slate-300 font-medium">
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Social Media Management</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Maximum Weekly Posting (Multiple Channels)</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Social Media Engagement</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Dominant Weekly Engagement (One Channel)</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Content Marketing</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>High Velocity Content Production</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Design Template Playbook Included</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Included</span></div>
+                                    </li>
                                 </ul>
                                 <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
-                                    <button className="w-full py-5 rounded-2xl border-2 border-primary/10 text-primary font-black uppercase tracking-widest text-sm hover:bg-primary hover:text-white transition-all">Contact Sales</button>
+                                    <button className="w-full py-5 rounded-2xl bg-white text-slate-900 font-black uppercase tracking-widest text-sm hover:bg-brand-mint hover:text-slate-900 transition-all">Choose this plan →</button>
                                 </a>
                             </div>
                         </div>
