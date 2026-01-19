@@ -54,8 +54,8 @@
   /* Text: Deep Slate/Charcoal */
   --foreground: oklch(0.25 0.02 260);
 
-  /* Primary: Indigo/Blurple */
-  --primary: oklch(0.55 0.2 270);
+  /* Primary: Deep Blue (Matching Logo) */
+  --primary: oklch(0.40 0.18 260);
   --primary-foreground: oklch(0.98 0 0);
 
   /* Secondary: Soft Coral/Peach */
@@ -80,7 +80,7 @@
 
   --border: oklch(0.92 0.01 260);
   --input: oklch(0.92 0.01 260);
-  --ring: oklch(0.55 0.2 270);
+  --ring: oklch(0.40 0.18 260);
 
   --radius: 1rem;
 
@@ -102,7 +102,7 @@
   --background: oklch(0.15 0.02 260);
   --foreground: oklch(0.98 0.005 240);
 
-  --primary: oklch(0.65 0.2 270);
+  --primary: oklch(0.60 0.18 260);
   --primary-foreground: oklch(0.98 0 0);
 
   --secondary: oklch(0.7 0.15 30);

@@ -67,7 +67,7 @@ export default function BlogPostDetail() {
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-slate-100 overflow-hidden border border-slate-200">
                   <img
-                    src="/favicon.png"
+                    src="/brand_logo.png"
                     alt="BlockMarketing"
                     className="w-full h-full object-contain p-1"
                   />
