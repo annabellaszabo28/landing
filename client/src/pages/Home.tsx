@@ -44,24 +44,28 @@ export default function Home() {
         <WhoWeHelpSection content={content.who_we_help_section} />
         <Services content={content.services_section} />
         <Bridge content={content.bridge_section} />
-        <FAQ content={content.faq_section} />
 
         <section className="py-24 container text-center relative z-10">
-          <div className="glass p-12 rounded-3xl max-w-4xl mx-auto relative overflow-hidden">
-            {/* CTA Background Gradient */}
-            <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/5 to-secondary/5 -z-10" />
+          <div className="bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700 p-12 rounded-3xl max-w-4xl mx-auto relative overflow-hidden shadow-2xl">
+            {/* Background Effects */}
+            <div className="absolute top-0 right-0 w-64 h-64 bg-primary/20 blur-[100px] rounded-full -translate-y-1/2 translate-x-1/2" />
+            <div className="absolute bottom-0 left-0 w-64 h-64 bg-emerald-500/10 blur-[100px] rounded-full translate-y-1/2 -translate-x-1/2" />
 
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">{content.cta_section.title}</h2>
-            <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
-              {content.cta_section.subtitle}
-            </p>
-            <Link href={content.cta_section.button_link}>
-              <button className="bg-primary text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-primary/90 shadow-xl shadow-primary/20 transition-all hover:-translate-y-1 hover:shadow-2xl">
-                {content.cta_section.button_text}
-              </button>
-            </Link>
+            <div className="relative z-10">
+              <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white tracking-tight">{content.cta_section.title}</h2>
+              <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+                {content.cta_section.subtitle}
+              </p>
+              <Link href={content.cta_section.button_link}>
+                <button className="bg-white text-slate-900 px-8 py-4 rounded-full text-lg font-bold hover:bg-slate-100 shadow-[0_0_20px_rgba(255,255,255,0.3)] transition-all hover:-translate-y-1 hover:shadow-[0_0_30px_rgba(255,255,255,0.4)]">
+                  {content.cta_section.button_text}
+                </button>
+              </Link>
+            </div>
           </div>
         </section>
+
+        <FAQ content={content.faq_section} />
       </main>
 
       <Footer />
