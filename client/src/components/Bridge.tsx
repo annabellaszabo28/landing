@@ -54,43 +54,44 @@ export default function Bridge({ content }: BridgeProps) {
             <div className="absolute top-0 left-[-400px] w-[300px] h-[3px] bg-gradient-to-r from-transparent via-primary-light/50 to-transparent animate-slide-beam" style={{ animationDelay: '1s' }} />
           </div>
 
-          {/* Labels Container */}
-          <div className="flex justify-between items-center relative px-4 md:px-12">
-            {/* Web2 Side */}
-            <motion.div
-              className="text-left cursor-default p-8 rounded-3xl border border-slate-200 bg-white/70 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-primary-light/50 transition-all duration-500"
-              whileHover={{ x: 5 }}
-            >
-              <div className="text-2xl font-bold text-primary-light mb-2 font-heading tracking-wide uppercase text-sm">{content.web2_label}</div>
-              <div className="text-sm text-slate-400 font-medium">{content.web2_sublabel}</div>
-            </motion.div>
-
-            {/* Central Node */}
-            <div className="relative z-20 mx-4">
+          <div className="w-full relative z-10">
+            {/* Labels Container */}
+            <div className="flex justify-between items-center relative px-4 md:px-12">
+              {/* Web2 Side */}
               <motion.div
-                className="w-24 h-24 bg-white rounded-full border border-slate-100 flex items-center justify-center shadow-xl relative"
-                animate={{
-                  scale: [1, 1.05, 1],
-                }}
-                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                className="text-left cursor-default p-8 rounded-3xl border border-slate-200 bg-white/70 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-primary-light/50 transition-all duration-500"
+                whileHover={{ x: 5 }}
               >
-                <div className="absolute inset-0 rounded-full border border-primary/10 opacity-50" />
-                <span className="text-4xl text-primary relative z-10 font-bold">∞</span>
+                <div className="text-2xl font-bold text-primary-light mb-2 font-heading tracking-wide uppercase text-sm">{content.web2_label}</div>
+                <div className="text-sm text-slate-400 font-medium">{content.web2_sublabel}</div>
+              </motion.div>
+
+              {/* Central Node */}
+              <div className="relative z-20 mx-4">
+                <motion.div
+                  className="w-24 h-24 bg-white rounded-full border border-slate-100 flex items-center justify-center shadow-xl relative"
+                  animate={{
+                    scale: [1, 1.05, 1],
+                  }}
+                  transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                >
+                  <div className="absolute inset-0 rounded-full border border-primary/10 opacity-50" />
+                  <span className="text-4xl text-primary relative z-10 font-bold">∞</span>
+                </motion.div>
+              </div>
+
+              {/* Web3 Side */}
+              <motion.div
+                className="text-right cursor-default p-8 rounded-3xl border border-slate-200 bg-white/70 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-primary-light/50 transition-all duration-500"
+                whileHover={{ x: -5 }}
+              >
+                <div className="text-2xl font-bold text-primary-light mb-2 font-heading tracking-wide uppercase text-sm">{content.web3_label}</div>
+                <div className="text-sm text-slate-400 font-medium">{content.web3_sublabel}</div>
               </motion.div>
             </div>
-
-            {/* Web3 Side */}
-            <motion.div
-              className="text-right cursor-default p-8 rounded-3xl border border-slate-200 bg-white/70 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-primary-light/50 transition-all duration-500"
-              whileHover={{ x: -5 }}
-            >
-              <div className="text-2xl font-bold text-primary-light mb-2 font-heading tracking-wide uppercase text-sm">{content.web3_label}</div>
-              <div className="text-sm text-slate-400 font-medium">{content.web3_sublabel}</div>
-            </motion.div>
           </div>
         </div>
       </div>
-    </div>
-    </section >
+    </section>
   );
 }
