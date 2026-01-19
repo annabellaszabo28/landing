@@ -30,6 +30,7 @@ const CookiesPage = lazy(() => import("./pages/CookiesPage"));
 const WebsiteBuildingPage = lazy(() => import("./pages/WebsiteBuildingPage"));
 const ProductPlanningPage = lazy(() => import("./pages/ProductPlanningPage"));
 const AppBuildingPage = lazy(() => import("./pages/AppBuildingPage"));
+const CMOPage = lazy(() => import("./pages/CMOPage"));
 
 function Routes() {
   return (
@@ -61,7 +62,12 @@ function Routes() {
       <Route path="/seo/organic_growth" component={SEOAdsPage} />
       <Route path="/services/website-building" component={WebsiteBuildingPage} />
       <Route path="/services/product-planning" component={ProductPlanningPage} />
+      <Route path="/services/website-building" component={WebsiteBuildingPage} />
+      <Route path="/services/product-planning" component={ProductPlanningPage} />
       <Route path="/services/app-building" component={AppBuildingPage} />
+
+      {/* Premium Landing Pages */}
+      <Route path="/cmo" component={CMOPage} />
 
       {/* Legal */}
       <Route path="/terms" component={TermsPage} />
