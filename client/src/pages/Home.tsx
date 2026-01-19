@@ -3,10 +3,11 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Bridge from "@/components/Bridge";
 import Footer from "@/components/Footer";
-import CaseStudies from "@/components/CaseStudies";
-import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import LoadingSpinner from "@/components/LoadingSpinner";
+import WorkTogetherSection from "@/components/sections/WorkTogetherSection";
+import WhoWeHelpSection from "@/components/sections/WhoWeHelpSection";
+import TrustedBy from "@/components/TrustedBy";
 import { Link } from "wouter";
 import { getPageContent } from "@/lib/content";
 import { useState, useEffect } from "react";
@@ -38,12 +39,11 @@ export default function Home() {
 
       <main className="flex-grow">
         <Hero content={content.hero} />
+        <TrustedBy />
         <WorkTogetherSection content={content.work_together_section} />
         <WhoWeHelpSection content={content.who_we_help_section} />
         <Services content={content.services_section} />
         <Bridge content={content.bridge_section} />
-        <CaseStudies />
-        <Testimonials content={content.testimonials_section} />
         <FAQ content={content.faq_section} />
 
         <section className="py-24 container text-center relative z-10">
