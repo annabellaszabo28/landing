@@ -56,9 +56,12 @@ export default function WebsiteBuildingPage() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="bg-slate-100 rounded-3xl h-[400px] flex items-center justify-center">
-                            {/* Placeholder for illustration */}
-                            <div className="text-slate-400">Illustration Placeholder</div>
+                        <div className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
+                            <img
+                                src="/website-infra.png"
+                                alt="High-performance website infrastructure illustration - BlockMarketing Consulting"
+                                className="w-full h-full object-cover"
+                            />
                         </div>
                     </div>
 

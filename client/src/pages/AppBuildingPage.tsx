@@ -56,8 +56,12 @@ export default function AppBuildingPage() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="bg-slate-100 rounded-3xl h-[400px] flex items-center justify-center">
-                            <div className="text-slate-400">Illustration Placeholder</div>
+                        <div className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
+                            <img
+                                src="/app-ecosystem.png"
+                                alt="Scalable mobile app ecosystem illustration - BlockMarketing Consulting"
+                                className="w-full h-full object-cover"
+                            />
                         </div>
                     </div>
 
