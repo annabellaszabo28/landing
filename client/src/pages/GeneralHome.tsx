@@ -3,9 +3,20 @@ import Footer from "@/components/Footer";
 import { Link } from "wouter";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
-import { ArrowRight, Layers, Box } from "lucide-react";
+import { ArrowRight, Layers, Box, Newspaper } from "lucide-react";
+import { getBlogPosts } from "@/lib/content";
+import { useState, useEffect } from "react";
+import type { BlogPost } from "@/types";
 
 export default function GeneralHome() {
+    const [blogs, setBlogs] = useState<BlogPost[]>([]);
+
+    useEffect(() => {
+        getBlogPosts().then(posts => {
+            setBlogs(posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 3));
+        });
+    }, []);
+
     return (
         <div className="min-h-screen flex flex-col font-sans text-foreground bg-background selection:bg-primary/20">
             <Helmet>
@@ -30,11 +41,11 @@ export default function GeneralHome() {
                             AI native marketing agency • 10+ Years Experience
                         </span>
                         <h1 className="text-5xl md:text-8xl font-black tracking-tighter mb-8 text-slate-900 leading-[1.05]">
-                            Future Proof<br />
-                            <span className="text-brand-mint uppercase tracking-tight">Your Growth</span>
+                            AI-Native Growth<br />
+                            <span className="text-brand-mint uppercase tracking-tight">Architecture</span>
                         </h1>
                         <p className="text-xl md:text-2xl text-slate-700 max-w-3xl mx-auto mb-16 font-medium leading-relaxed">
-                            We fuse agentic AI workflows with seasoned marketing expertise to scale ambitious brands in both Web2 and Web3 economies.
+                            We fuse autonomous agentic workflows with seasoned marketing expertise to scale global brands across Web2 and Web3 economies. Institutional-grade growth strategy for the new era.
                         </p>
                     </motion.div>
 
@@ -91,7 +102,48 @@ export default function GeneralHome() {
                             </div>
                         </motion.div>
                     </div>
-                </div>
+                    {/* Latest Insights Section */}
+                    <section className="py-24 bg-white">
+                        <div className="container px-4">
+                            <div className="text-center mb-16">
+                                <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-xs mb-4 block">Knowledge Share</span>
+                                <h2 className="text-4xl md:text-6xl font-black tracking-tighter text-slate-900">Latest Insights</h2>
+                            </div>
+                            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                                {blogs.map((blog, idx) => (
+                                    <Link key={blog.slug} href={`/blog/${blog.slug}`}>
+                                        <motion.div
+                                            initial={{ opacity: 0, y: 20 }}
+                                            whileInView={{ opacity: 1, y: 0 }}
+                                            transition={{ delay: idx * 0.1 }}
+                                            className="group cursor-pointer"
+                                        >
+                                            <div className="aspect-video rounded-3xl overflow-hidden mb-6 bg-slate-100 border border-slate-100">
+                                                <img
+                                                    src={blog.image}
+                                                    alt={blog.title}
+                                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                                />
+                                            </div>
+                                            <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors leading-snug">
+                                                {blog.title}
+                                            </h3>
+                                            <p className="text-slate-500 text-sm line-clamp-2 font-medium">
+                                                {blog.excerpt}
+                                            </p>
+                                        </motion.div>
+                                    </Link>
+                                ))}
+                            </div>
+                            <div className="text-center mt-16">
+                                <Link href="/blog">
+                                    <a className="inline-flex items-center gap-2 px-8 py-4 bg-slate-100 text-primary font-bold rounded-full hover:bg-slate-200 transition-colors uppercase text-sm tracking-wider">
+                                        View All Articles <ArrowRight size={18} />
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                    </section>
             </main>
 
             <Footer />

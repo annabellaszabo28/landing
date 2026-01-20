@@ -130,6 +130,25 @@ export default function BlogPostDetail() {
               </motion.div>
 
               <footer className="mt-20 pt-12 border-t border-slate-100">
+                <div className="mb-16">
+                  <h3 className="font-black text-2xl tracking-tight mb-8">Ready to Implement these Strategies?</h3>
+                  <div className="grid md:grid-cols-3 gap-4">
+                    {[
+                      { title: "AI-Native Marketing", path: "/ai-native" },
+                      { title: "Growth Strategy", path: "/marketing/strategy" },
+                      { title: "Web3 Adoption", path: "/web3" }
+                    ].map(service => (
+                      <Link key={service.path} href={service.path}>
+                        <div className="p-6 bg-slate-50 border border-slate-100 rounded-2xl hover:border-brand-mint hover:bg-white transition-all group cursor-pointer">
+                          <div className="font-black text-slate-900 group-hover:text-primary mb-2 uppercase text-xs tracking-widest">{service.title}</div>
+                          <div className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em]">
+                            Explore <ArrowLeft size={12} className="rotate-180" />
+                          </div>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
                 <div className="flex items-center justify-between flex-wrap gap-8">
                   <div>
                     <h3 className="font-black text-2xl tracking-tight mb-4">Related Topics</h3>

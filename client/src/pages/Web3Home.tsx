@@ -126,7 +126,35 @@ export default function Web3Home() {
                         </div>
                     </div>
                 </section>
-                {/* Web3 Metrics */}
+                {/* Methodology Section */}
+                <section className="py-24 bg-slate-50">
+                    <div className="container px-4 text-center">
+                        <div className="max-w-4xl mx-auto mb-16">
+                            <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-xs mb-4 block">Protocol GTM</span>
+                            <h2 className="text-4xl md:text-7xl font-black tracking-tighter text-slate-900 leading-none">On-Chain Growth Engine</h2>
+                        </div>
+                        <div className="grid md:grid-cols-4 gap-8 max-w-7xl mx-auto">
+                            {[
+                                { step: "01", title: "Ecosystem Audit", desc: "Analyzing on-chain metrics, wallet clusters, and existing liquidity patterns." },
+                                { step: "02", title: "Tokenomics", desc: "Refining incentive models and bootstrap strategies for sustainable TVL growth." },
+                                { step: "03", title: "Community Build", desc: "Engineering high-intent community clusters through KOLs and DAO governance." },
+                                { step: "04", title: "Mainnet Scale", desc: "Driving mass adoption and active wallets through protocol-native growth loops." },
+                            ].map((step, idx) => (
+                                <motion.div
+                                    key={idx}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: idx * 0.1 }}
+                                    className="p-8 bg-white border border-slate-100 rounded-3xl"
+                                >
+                                    <div className="text-6xl font-black text-slate-100 mb-6 uppercase tracking-widest">{step.step}</div>
+                                    <h3 className="text-2xl font-black text-primary mb-3 uppercase tracking-tight">{step.title}</h3>
+                                    <p className="text-slate-600 text-sm leading-relaxed font-medium">{step.desc}</p>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
                 <section className="py-24 bg-slate-900 text-white overflow-hidden relative">
                     <div className="container px-4 relative z-10">
                         <div className="max-w-4xl mx-auto text-center mb-16">

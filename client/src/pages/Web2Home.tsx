@@ -127,7 +127,35 @@ export default function Web2Home() {
                         </div>
                     </div>
                 </section>
-                {/* KPIs & Results */}
+                {/* Methodology Section */}
+                <section className="py-24 bg-slate-50">
+                    <div className="container px-4 text-center">
+                        <div className="max-w-4xl mx-auto mb-16">
+                            <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-xs mb-4 block">Proven Frameworks</span>
+                            <h2 className="text-4xl md:text-7xl font-black tracking-tighter text-slate-900 leading-none">The Roadmap to Dominance</h2>
+                        </div>
+                        <div className="grid md:grid-cols-4 gap-8 max-w-7xl mx-auto">
+                            {[
+                                { step: "01", title: "Technical Audit", desc: "We deep-dive into your analytics and infrastructure to identify performance leakage." },
+                                { step: "02", title: "Strategy Phase", desc: "Building a custom growth roadmap focused on your unit economics and LTV:CAC." },
+                                { step: "03", title: "Execution", desc: "Deploying our AI-native workflows to handle creative, bidding, and optimization at scale." },
+                                { step: "04", title: "Scaling", desc: "Aggressive budget allocation to winning channels while maintaining tight CPA targets." },
+                            ].map((step, idx) => (
+                                <motion.div
+                                    key={idx}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: idx * 0.1 }}
+                                    className="p-8 bg-white border border-slate-100 rounded-3xl"
+                                >
+                                    <div className="text-6xl font-black text-slate-100 mb-6 uppercase tracking-widest">{step.step}</div>
+                                    <h3 className="text-2xl font-black text-primary mb-3 uppercase tracking-tight">{step.title}</h3>
+                                    <p className="text-slate-600 text-sm leading-relaxed font-medium">{step.desc}</p>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
                 <section className="py-24 bg-slate-900 text-white overflow-hidden relative">
                     <div className="container px-4 relative z-10">
                         <div className="max-w-4xl mx-auto text-center mb-16">
