@@ -194,7 +194,7 @@ export default function CMOPage() {
                         <div className="text-center mb-16">
                             <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-sm mb-4 block">Transparent Pricing</span>
                             <h2 className="text-4xl md:text-7xl font-black font-heading tracking-tighter">Choose Your Growth Engine</h2>
-                            <p className="text-2xl font-bold text-slate-700 mt-6 max-w-3xl mx-auto leading-tight">From validation to domination. Our infrastructure adapts to your specific growth stage.</p>
+                            <p className="text-2xl text-slate-700 mt-6 max-w-3xl mx-auto leading-tight">From validation to domination. Our infrastructure adapts to your specific growth stage.</p>
                         </div>
 
                         <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
