@@ -1,82 +1,85 @@
 {
     "header": {
-        "title": "SEO That Actually Drives Business Growth",
-        "subtitle": "We help businesses increase organic visibility and attract qualified traffic through strategic, data driven search engine optimization."
+        "title": "SEO That Actually Drives Revenue Growth",
+        "subtitle": "We help professional brands increase organic visibility and attract institutional-grade traffic through strategic, data-driven search architecture."
     },
+    "hero_metrics": [
+        {
+            "value": "310%",
+            "label": "Organic Growth"
+        },
+        {
+            "value": "12+",
+            "label": "Avg. Page 1 Ranks"
+        },
+        {
+            "value": "0",
+            "label": "Black-Hat Tactics"
+        }
+    ],
     "challenges": {
-        "title": "Common SEO Challenges We Solve",
+        "title": "The Organic Bottleneck",
         "items": [
-            "Struggling to rank for keywords that matter to your business",
-            "Organic traffic has plateaued despite ongoing content efforts",
-            "Technical issues are holding back your site's performance",
-            "Previous SEO efforts haven't delivered measurable ROI",
-            "Algorithm updates keep affecting your rankings"
+            "Struggling to rank for high-intent keywords that actually drive business value.",
+            "Organic traffic has plateaued despite ongoing, expensive content efforts.",
+            "Technical legacy issues are holding back your site's crawlability and authority.",
+            "Algorithm updates keep wiping out your progress due to fragile SEO foundations."
         ]
     },
     "approach": {
-        "title": "Our SEO Methodology",
-        "description": "We take a strategic, transparent approach to SEO that focuses on sustainable growth rather than quick fixes. Every decision is backed by data and aligned with your business goals.",
+        "title": "The BlockMarketing Methodology",
+        "description": "We take an institutional approach to SEO that focuses on sustainable growth. Every decision is backed by mathematical certainty and aligned with your revenue goals.",
         "items": [
             {
-                "title": "Technical Foundation",
-                "description": "We start with a comprehensive audit of your site's technical health, fixing crawlability issues, improving page speed, and ensuring search engines can properly index your content.",
+                "title": "Technical Authority",
+                "description": "We start with a comprehensive architectural audit, fixing crawlability issues and ensuring 100% indexing precision.",
                 "icon": "Settings"
             },
             {
-                "title": "Keyword Strategy",
-                "description": "We research and prioritize keywords based on search volume, competition, and buyer intent, focusing on terms that drive qualified traffic and conversions.",
+                "title": "Intent Strategy",
+                "description": "We research and prioritize keywords based on buyer intent, focusing on terms that move the needle for your business.",
                 "icon": "Search"
             },
             {
-                "title": "Content Optimization",
-                "description": "We optimize existing content and develop new pages that answer your audience's questions, establish topical authority, and earn organic visibility over time.",
+                "title": "Authority Content",
+                "description": "We develop deep, authoritative pages that answer your audience's critical questions and establish industry dominance.",
                 "icon": "FileText"
             },
             {
-                "title": "Link Building",
-                "description": "We build high quality backlinks through genuine outreach and content partnerships, strengthening your domain authority and competitive position.",
+                "title": "Ethical Link Building",
+                "description": "We build high-quality backlinks through genuine outreach and content partnerships that stand the test of time.",
                 "icon": "Link"
             }
         ]
     },
     "process": {
-        "title": "How We Work Together",
+        "title": "The Roadmap to Search Dominance",
         "steps": [
             {
                 "step": "01",
                 "title": "Discovery Call",
-                "description": "We learn about your business, goals, and current SEO situation to understand if we're a good fit."
+                "description": "We audit your current growth architecture to see if our systems can deliver meaningful ROI for you."
             },
             {
                 "step": "02",
                 "title": "Audit & Strategy",
-                "description": "We conduct a thorough SEO audit and develop a custom strategy with clear priorities and timelines."
+                "description": "Conducting a deep technical and semantic audit to build your custom growth roadmap."
             },
             {
                 "step": "03",
-                "title": "Implementation",
-                "description": "Our team executes the strategy, handling technical fixes, content optimization, and link building."
+                "title": "Rapid Implementation",
+                "description": "Handling technical fixes, semantic optimization, and authority building with 48-hour velocity."
             },
             {
                 "step": "04",
-                "title": "Reporting & Iteration",
-                "description": "You receive regular reports with actionable insights, and we continuously refine our approach based on results."
+                "title": "Optimization Scale",
+                "description": "Continuously refining our approach based on real-time ranking data and search behavior shifts."
             }
         ]
     },
-    "differentiators": {
-        "title": "Why Work With Us",
-        "items": [
-            "Transparent reporting with clear, measurable KPIs",
-            "No long term contracts. We earn your business monthly.",
-            "Dedicated strategist who knows your business",
-            "10+ years experience across industries",
-            "Real results focused, not vanity metrics"
-        ]
-    },
     "cta": {
-        "title": "Ready to Improve Your Organic Visibility?",
-        "subtitle": "Book a free 30 minute discovery call. We'll discuss your goals and share initial insights on how we can help.",
-        "button_text": "Book a Free Call"
+        "title": "Ready to reclaim your organic search dominance?",
+        "subtitle": "Book a free 30-minute discovery call. We'll discuss your goals and share initial insights on your current search leakage.",
+        "button_text": "Book Strategy Call"
     }
 }

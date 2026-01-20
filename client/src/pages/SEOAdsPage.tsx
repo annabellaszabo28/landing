@@ -13,9 +13,10 @@ import { Link } from "wouter";
 
 interface SEOContent {
     header: { title: string; subtitle: string };
+    hero_metrics: { value: string; label: string }[];
     challenges: { title: string; items: string[] };
-    solutions: { title: string; items: Array<{ title: string; description: string; icon: string }> };
-    social_proof: { title: string; stat_1: string; stat_2: string };
+    approach: { title: string; description: string; items: Array<{ title: string; description: string; icon: string }> };
+    process: { title: string; steps: Array<{ step: string; title: string; description: string }> };
     cta: { title: string; subtitle: string; button_text: string };
 }
 
@@ -42,56 +43,88 @@ export default function SEOAdsPage() {
             <Navigation />
 
             <main className="flex-grow">
-                <PageHeader
-                    title={content.header.title}
-                    subtitle={content.header.subtitle}
-                />
+                {/* Hero Section */}
+                <section className="pt-40 pb-20 relative overflow-hidden bg-slate-50">
+                    <div className="container px-4 relative z-10">
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            className="max-w-5xl"
+                        >
+                            <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-xs mb-6 block">• ORGANIC DOMINANCE AT SCALE</span>
+                            <h1 className="text-5xl md:text-8xl font-black font-heading tracking-tighter mb-10 leading-[0.95] text-slate-900">
+                                SEO That Drives<br />
+                                <span className="text-brand-mint uppercase">Revenue Growth</span>
+                            </h1>
+                            <p className="text-xl md:text-2xl text-slate-700 max-w-3xl mb-12 leading-relaxed font-medium">
+                                {content.header.subtitle}
+                            </p>
 
-                <section className="py-24 bg-slate-50">
-                    <div className="container">
-                        <div className="max-w-3xl mx-auto text-center mb-16">
-                            <h2 className="text-3xl font-bold mb-6">{content.challenges.title}</h2>
-                            <div className="space-y-4 text-left">
-                                {content.challenges.items.map((item, i) => (
-                                    <motion.div
-                                        key={i}
-                                        initial={{ opacity: 0, x: -20 }}
-                                        whileInView={{ opacity: 1, x: 0 }}
-                                        transition={{ delay: i * 0.1 }}
-                                        className="flex items-center gap-4 p-4 bg-white rounded-xl border border-slate-100 shadow-sm"
-                                    >
-                                        <div className="w-8 h-8 rounded-full bg-red-50 flex items-center justify-center text-red-500 shrink-0">
-                                            <Icons.X size={16} />
-                                        </div>
-                                        <p className="text-slate-700 font-medium">{item}</p>
-                                    </motion.div>
+                            {/* Hero Metrics */}
+                            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 pt-8 border-t border-slate-200">
+                                {content.hero_metrics.map((metric, i) => (
+                                    <div key={i}>
+                                        <div className="text-3xl md:text-5xl font-black text-primary mb-1">{metric.value}</div>
+                                        <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">{metric.label}</div>
+                                    </div>
                                 ))}
                             </div>
+                        </motion.div>
+                    </div>
+                </section>
+
+                {/* Challenges Section */}
+                <section className="py-24 bg-white">
+                    <div className="container px-4">
+                        <div className="max-w-4xl mx-auto text-center mb-16">
+                            <h2 className="text-4xl md:text-6xl font-black tracking-tighter text-slate-900 mb-6">{content.challenges.title}</h2>
+                            <p className="text-xl text-slate-600 font-medium">Most websites are architecturally crippled. We fix the foundation first.</p>
+                        </div>
+                        <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+                            {content.challenges.items.map((item, i) => (
+                                <motion.div
+                                    key={i}
+                                    initial={{ opacity: 0, scale: 0.95 }}
+                                    whileInView={{ opacity: 1, scale: 1 }}
+                                    transition={{ delay: i * 0.1 }}
+                                    className="p-8 bg-slate-50 rounded-3xl border border-slate-100 flex gap-6 group hover:bg-red-50/30 transition-colors"
+                                >
+                                    <div className="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-red-500 shrink-0 group-hover:scale-110 transition-transform">
+                                        <Icons.X size={18} strokeWidth={3} />
+                                    </div>
+                                    <p className="text-slate-700 font-bold leading-relaxed">{item}</p>
+                                </motion.div>
+                            ))}
                         </div>
                     </div>
                 </section>
 
-                <section className="py-24">
-                    <div className="container">
-                        <h2 className="text-3xl font-bold text-center mb-16">{content.solutions.title}</h2>
+                {/* Approach Section */}
+                <section className="py-24 bg-slate-900 text-white relative">
+                    <div className="container px-4">
+                        <div className="text-center mb-16">
+                            <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-xs mb-4 block">Our Methodology</span>
+                            <h2 className="text-4xl md:text-7xl font-black tracking-tighter text-white">{content.approach.title}</h2>
+                        </div>
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                            {content.solutions.items.map((solution, index) => {
-                                const IconComponent = Icons[solution.icon as keyof typeof Icons];
+                            {content.approach.items.map((item, index) => {
+                                const IconComponent = Icons[item.icon as keyof typeof Icons];
                                 const Icon = (typeof IconComponent === 'function' ? IconComponent : Icons.Zap) as LucideIcon;
                                 return (
                                     <motion.div
-                                        key={solution.title}
+                                        key={item.title}
                                         initial={{ opacity: 0, y: 20 }}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         viewport={{ once: true }}
                                         transition={{ delay: index * 0.1 }}
-                                        className="glass p-8 rounded-2xl border-b-4 border-primary hover:translate-y-[-8px] transition-transform"
+                                        className="p-10 rounded-3xl bg-white/5 border border-white/10 hover:border-brand-mint transition-all duration-500 group"
                                     >
-                                        <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-6">
-                                            <Icon size={24} />
+                                        <div className="w-14 h-14 bg-brand-mint text-primary rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                                            <Icon size={28} strokeWidth={2.5} />
                                         </div>
-                                        <h3 className="text-xl font-bold mb-4">{solution.title}</h3>
-                                        <p className="text-slate-600 leading-relaxed">{solution.description}</p>
+                                        <h3 className="text-2xl font-black mb-4 tracking-tight uppercase leading-none">{item.title}</h3>
+                                        <p className="text-slate-400 leading-relaxed font-medium">{item.description}</p>
                                     </motion.div>
                                 );
                             })}
@@ -99,33 +132,46 @@ export default function SEOAdsPage() {
                     </div>
                 </section>
 
-                <section className="py-24 bg-slate-50">
-                    <div className="container text-center">
-                        <h2 className="text-3xl font-bold mb-12">{content.social_proof.title}</h2>
-                        <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-                            <div className="p-8 bg-white rounded-3xl shadow-sm border border-slate-100">
-                                <div className="text-5xl font-bold text-primary mb-2">{content.social_proof.stat_1.split(" ")[0]}</div>
-                                <div className="text-slate-500 font-medium uppercase tracking-wider">{content.social_proof.stat_1.split(" ").slice(1).join(" ")}</div>
-                            </div>
-                            <div className="p-8 bg-white rounded-3xl shadow-sm border border-slate-100">
-                                <div className="text-5xl font-bold text-primary mb-2">{content.social_proof.stat_2.split(" ")[0]}</div>
-                                <div className="text-slate-500 font-medium uppercase tracking-wider">{content.social_proof.stat_2.split(" ").slice(1).join(" ")}</div>
-                            </div>
+                {/* Process Timeline */}
+                <section className="py-24 bg-white">
+                    <div className="container px-4">
+                        <div className="max-w-4xl mx-auto text-center mb-20">
+                            <h2 className="text-4xl md:text-7xl font-black tracking-tighter text-slate-900 leading-none">The Roadmap to Domain Dominance</h2>
+                        </div>
+                        <div className="grid md:grid-cols-4 gap-8 max-w-7xl mx-auto relative">
+                            {/* Connector Line */}
+                            <div className="absolute top-24 left-0 w-full h-px bg-slate-100 hidden md:block" />
+                            {content.process.steps.map((step, idx) => (
+                                <motion.div
+                                    key={idx}
+                                    initial={{ opacity: 0, y: 20 }}
+                                    whileInView={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: idx * 0.1 }}
+                                    className="relative z-10"
+                                >
+                                    <div className="text-7xl font-black text-slate-100 mb-6 group-hover:text-brand-mint/20 transition-colors uppercase tracking-widest">{step.step}</div>
+                                    <h3 className="text-2xl font-black text-primary mb-3 uppercase tracking-tight">{step.title}</h3>
+                                    <p className="text-slate-600 text-sm leading-relaxed font-medium">{step.description}</p>
+                                </motion.div>
+                            ))}
                         </div>
                     </div>
                 </section>
 
-                <section className="py-24 bg-primary text-white">
-                    <div className="container text-center">
-                        <h2 className="text-4xl font-bold mb-6">{content.cta.title}</h2>
-                        <p className="text-white/80 mb-10 max-w-2xl mx-auto text-lg">
+                {/* CTA Section */}
+                <section className="py-32 bg-primary relative overflow-hidden">
+                    <div className="container px-4 text-center relative z-10">
+                        <h2 className="text-5xl md:text-8xl font-black mb-8 tracking-tighter text-white leading-none">
+                            Ready for Organic<br /><span className="text-brand-mint italic">Dominance?</span>
+                        </h2>
+                        <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto font-bold opacity-90">
                             {content.cta.subtitle}
                         </p>
-                        <Link href="/contact">
-                            <button className="bg-white text-primary px-10 py-4 rounded-full text-xl font-bold hover:bg-slate-100 transition-all shadow-xl shadow-black/10">
+                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                            <button className="px-16 py-6 bg-white text-primary font-black text-xl rounded-full hover:bg-brand-mint transition-all transform hover:scale-105 shadow-2xl tracking-tighter uppercase font-heading">
                                 {content.cta.button_text}
                             </button>
-                        </Link>
+                        </a>
                     </div>
                 </section>
             </main>

@@ -1,45 +1,59 @@
 {
     "header": {
         "title": "The Era of AI Search is Here. Are You Indexed?",
-        "subtitle": "Traditional SEO is evolving into GEO (Generative Engine Optimization). We ensure your brand is the primary citation on ChatGPT, Perplexity, and Claude."
+        "subtitle": "Traditional SEO is evolving into GEO (Generative Engine Optimization). We ensure your brand is the primary citation on ChatGPT, Perplexity, Claude, and Gemini."
     },
+    "hero_metrics": [
+        {
+            "value": "82%",
+            "label": "Citation Win-Rate"
+        },
+        {
+            "value": "3.4x",
+            "label": "Traffic Authority"
+        },
+        {
+            "value": "0.1s",
+            "label": "Response Priority"
+        }
+    ],
     "challenges": {
-        "title": "The Changing Search Landscape",
+        "title": "Searching is Changing: Most Brands are Invisible",
         "items": [
-            "Users are moving from search bars to AI chat interfaces",
-            "Traditional backlinks no longer guarantee AI citations",
-            "Mistakes in your online data can lead to AI hallucinations about your brand",
-            "Competitors are already engineering their presence in LLM models"
+            "Users are moving from search bars to AI chat interfaces that cite only 2-3 sources.",
+            "Traditional backlinks no longer guarantee citations in Large Language Models (LLMs).",
+            "Mistakes in your online data led to AI hallucinations that damage your brand reputation.",
+            "Competitors are already engineering their presence into the core training datasets."
         ]
     },
     "solutions": {
-        "title": "Future Proof Your Search Visibility",
+        "title": "Future-Proof Your Search Authority",
         "items": [
             {
                 "title": "Knowledge Graph Integrity",
-                "description": "We structure your brand data for LLM consumption, ensuring AI agents understand your authority.",
+                "description": "We structure your brand data for machine consumption, ensuring AI agents understand your authority as an undisputed facts.",
                 "icon": "Cpu"
             },
             {
                 "title": "Citation Engineering",
-                "description": "Our strategies focus on becoming the source of truth for generative answers in your industry.",
+                "description": "Our strategies focus on becoming the 'primary source' for generative answers in your specific niche or industry.",
                 "icon": "Search"
             },
             {
                 "title": "Sentiment Management",
-                "description": "We monitor and influence how AI models perceive and describe your brand to potential customers.",
+                "description": "We monitor and influence how AI models perceive and describe your brand to high-intent potential customers.",
                 "icon": "Target"
             },
             {
-                "title": "Technical Authority",
-                "description": "We ensure your site architecture is optimized for the next generation of generative search crawlers.",
+                "title": "Entity SEO",
+                "description": "Moving beyond keywords to 'entities'. We build the semantic relationships search engines and LLMs use to rank authority.",
                 "icon": "Zap"
             }
         ]
     },
     "cta": {
-        "title": "Don't be left behind by the AI search revolution.",
-        "subtitle": "Get a GEO readiness audit and secure your brand's presence in the world of 2026. Stand out in every AI conversation.",
+        "title": "Secure your brand's presence in 2026.",
+        "subtitle": "Get a GEO readiness audit today. Don't let AI models hallucinate about your business—become their source of truth.",
         "button_text": "Get GEO Audit"
     }
 }
