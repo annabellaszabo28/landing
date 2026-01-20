@@ -33,8 +33,8 @@ export default function BlogPage() {
 
       <main className="flex-grow">
         <PageHeader
-          title={<span className="text-slate-900 leading-none block">Insights & <span className="text-brand-mint">Growth Strategy</span></span>}
-          subtitle="Everything Product Marketing, Web2 and Web3. High-impact insights on the convergence of AI, blockchain, and digital scale."
+          title={<span className="text-slate-900 leading-none block">The <span className="text-brand-mint italic">Blog.</span></span>}
+          subtitle="High-impact insights on the convergence of AI, blockchain, and digital growth from the BlockMarketing Consulting team."
         />
 
         <section className="pb-24">
@@ -73,9 +73,9 @@ export default function BlogPage() {
                       </p>
 
                       <div className="flex items-center justify-between mt-auto pt-6 border-t border-slate-100">
-                        <div className="flex items-center gap-2 text-sm font-black text-primary uppercase tracking-tight">
+                        <div className="flex items-center gap-2 text-sm font-medium text-slate-600 uppercase tracking-tight">
                           <img src="/brand_logo_new.png" alt="Author" className="w-6 h-6 object-contain" />
-                          {post.author}
+                          BlockMarketing Consulting
                         </div>
                         <span className="text-primary font-black flex items-center gap-2 text-sm group-hover:text-brand-mint transition-all uppercase tracking-widest">
                           {t("common.read_more")} <ArrowRight size={18} strokeWidth={3} />

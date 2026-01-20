@@ -3,7 +3,7 @@ title: "GEO 101: optimizing for Generative Engines"
 metaTitle: "Generative Engine Optimization (GEO): The New SEO"
 metaDescription: "Ranking on Google is no longer enough. You need to be cited by Perplexity, ChatGPT, and Gemini. This is your guide to Generative Engine Optimization (GEO)."
 date: "2025-10-16"
-author: "BlockMarketing"
+author: "BlockMarketing Consulting"
 category: "Marketing Strategy"
 excerpt: "Keywords are out. Citations are in. How to restructure your content so AI models treat you as a primary source."
 image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=2232&q=80"
@@ -16,7 +16,7 @@ If you aren't in that answer, you don't exist.
 ## Optimizing for RAG
 Retrieval-Augmented Generation systems favor **dense, structured information**.
 *   **Facts over Fluff**: AI skips adjectives. It looks for stats, dates, and definitions.
-*   **Quote-ability**: Write sentences that sound like definitions. "BlockMarketing is an AI-native agency..." is better than "We are a passionate team of dreamers..."
+*   **Quote-ability**: Write sentences that sound like definitions. "BlockMarketing Consulting is an AI-native agency..." is better than "We are a passionate team of dreamers..."
 
 ## The "Citation Velocity" Metric
 AI models trust sources that other trusted sources cite.

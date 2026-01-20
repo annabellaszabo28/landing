@@ -1,7 +1,7 @@
 ---
 title: "The Psychology of Digital Product Design"
 date: "2025-12-28"
-author: "BlockMarketing"
+author: "BlockMarketing Consulting"
 category: "Design"
 excerpt: "Understanding the cognitive biases that drive user behavior. How to design ethical, habit-forming digital products."
 image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=2070&auto=format&fit=crop"

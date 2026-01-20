@@ -3,7 +3,7 @@ title: "AI Agent Behavior Analysis: The New UX Frontier"
 metaTitle: "AI Agent User Behavior: Designing UX for Autonomous Agents"
 metaDescription: "In 2026, your users aren't just humans—they're AI agents. Learn how to optimize your UX for autonomous navigation and decision-making."
 date: "2025-10-19"
-author: "BlockMarketing"
+author: "BlockMarketing Consulting"
 category: "AI Native"
 excerpt: "When an AI visits your site, does it understand your value prop? We explore the emerging field of Agent-First Design."
 image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2000&auto=format&fit=crop"
@@ -20,7 +20,7 @@ It looks at your **semantic structure**.
 *   Are your case studies structured data or just text blobs?
 
 ## Optimization Strategies
-At BlockMarketing, we implement a dual-layer UX strategy.
+At BlockMarketing Consulting, we implement a dual-layer UX strategy.
 1.  **The Human Layer**: Visually stunning, emotionally resonant (like our [Services pages](/marketing)).
 2.  **The Agent Layer**: Structurally rigorous, fact-dense.
 

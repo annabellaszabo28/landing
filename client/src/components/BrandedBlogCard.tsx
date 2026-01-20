@@ -15,13 +15,12 @@ export default function BrandedBlogCard({ title, category, className = "" }: Bra
             {/* Top Bar: Logo & Status */}
             <div className="relative z-10 flex items-center justify-between mb-auto w-full">
                 <div className="flex items-center gap-3">
-                    <div className="w-2.5 h-2.5 rounded-full bg-brand-mint" />
-                    <div className="w-2.5 h-2.5 rounded-full bg-white/20" />
+                    <div className="w-2 h-2 rounded-full bg-brand-mint" />
                 </div>
-                <div className="text-[10px] font-black tracking-[0.4em] uppercase text-white">
+                <div className="text-[12px] font-black tracking-[0.2em] uppercase text-white">
                     BM <span className="text-brand-mint">CONSULTING</span>
                 </div>
-                <div className="w-2.5 h-2.5 rounded-full bg-brand-mint" />
+                <div className="w-2 h-2 rounded-full bg-brand-mint" />
             </div>
 
             {/* Center Content: Impactful Title */}
@@ -41,9 +40,7 @@ export default function BrandedBlogCard({ title, category, className = "" }: Bra
 
             {/* Bottom Bar: Status */}
             <div className="relative z-10 flex justify-end items-end w-full mt-auto">
-                <div className="text-[10px] uppercase tracking-[0.3em] font-black text-brand-mint/60 border-t border-white/10 pt-3">
-                    DESIGN POWERHOUSE © 2026
-                </div>
+                {/* Footer removed */}
             </div>
         </div>
     );

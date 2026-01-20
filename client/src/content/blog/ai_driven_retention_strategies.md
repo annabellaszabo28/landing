@@ -3,7 +3,7 @@ title: "AI-Driven Retention: stopping Churn Before It Happens"
 metaTitle: "AI Retention Strategies: Predictive Churn Modeling for SaaS"
 metaDescription: "Stop looking at churn as a lagging indicator. Use AI behavioral prediction to identify at-risk users weeks before they leave. A guide for SaaS and Web3."
 date: "2025-10-26"
-author: "BlockMarketing"
+author: "BlockMarketing Consulting"
 category: "AI Native"
 excerpt: "Churn is not a surprise event; it's a calculated decision. Learn how to use predictive AI to intervene exactly when it matters."
 image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2000&auto=format&fit=crop"
@@ -18,7 +18,7 @@ Traditional metrics like Daily Active Users (DAU) and Monthly Recurring Revenue 
 If a user stops logging in, it's already too late.
 
 ## Predictive Signals
-At BlockMarketing, we build custom retention models for our [Product Planning](/services/product-planning) clients. We look for "Micro-Churn Signals":
+At BlockMarketing Consulting, we build custom retention models for our [Product Planning](/services/product-planning) clients. We look for "Micro-Churn Signals":
 *   **Feature Degradation**: A user who used to use Feature A 5 times a day now uses it twice.
 *   **Ticket Velocity**: A sudden spike in support tickets often precedes churn—or paradoxically, a sudden *silence* after a period of noise.
 *   **API Latency Sensitivity**: For technical products, users who experience 200ms of extra latency for 3 consecutive days are 40% more likely to churn.

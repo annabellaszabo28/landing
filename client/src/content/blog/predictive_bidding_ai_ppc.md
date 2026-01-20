@@ -3,7 +3,7 @@ title: "Predictive Bidding & AI: The End of Manual PPC"
 metaTitle: "AI PPC Strategy: Predictive Bidding & Automated Creative Testing"
 metaDescription: "Manual bid adjustments are obsolete. Learn how we use custom AI agents to automate PPC bidding and creative testing for sub-dollar CPAs."
 date: "2025-11-25"
-author: "BlockMarketing"
+author: "BlockMarketing Consulting"
 category: "Paid Media"
 excerpt: "Why pay a human to do a robot's job? We explore how predictive AI models are reshaping the landscape of paid performance marketing."
 image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
@@ -18,7 +18,7 @@ This scares traditional marketers. It shouldn't. It frees you to focus on the on
 
 ## AI-Driven Creative Testing
 The algorithm needs fuel. That fuel is creative variation.
-At BlockMarketing, we don't just guess what ad might work. We use Generative AI to create hundreds of variations:
+At BlockMarketing Consulting, we don't just guess what ad might work. We use Generative AI to create hundreds of variations:
 *   **visual hooks**: 50 different opening frames.
 *   **copy angles**: Fear vs. Greed vs. Status.
 *   **formats**: Static vs. UGC vs. High Production.

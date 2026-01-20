@@ -3,7 +3,7 @@ title: "Scaling SaaS Infrastructure: From 100 to 1 Million Users"
 metaTitle: "SaaS Scaling Guide: Architecting for 1 Million Users in 2026"
 metaDescription: "Scaling a SaaS product requires more than just adding servers. Learn about database sharding, caching strategies, and how to build a resilient infrastructure."
 date: "2025-11-09"
-author: "BlockMarketing"
+author: "BlockMarketing Consulting"
 category: "Engineering"
 excerpt: "Success can kill a startup faster than failure. Learn how to architect your SaaS application to handle exponential growth without crashing."
 image: "https://images.unsplash.com/photo-1558494949-efdeb6bf8d7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
@@ -33,7 +33,7 @@ We implement multi-layer caching:
 ## Ecosystem Growth & Real World Assets (RWA)
 Scaling isn't just for Web2. Structuring **Real World Assets (RWA)** on-chain requires infrastructure that can handle millions of transactions without gas spikes. Integrating blockchain data with traditional SaaS backends is a core competency of our [Web3 Strategy](/services/strategy).
 
-Competitors like **Lunar Strategy** focus on the marketing side, but at BlockMarketing, we build the actual rails that let these ecosystems function. We understand that a successful token launch or ecosystem grant program relies on 100% uptime.
+Competitors like **Lunar Strategy** focus on the marketing side, but at BlockMarketing Consulting, we build the actual rails that let these ecosystems function. We understand that a successful token launch or ecosystem grant program relies on 100% uptime.
 
 ## Serverless vs. Containers
 The debate continues: Kubernetes clusters vs. Serverless functions.

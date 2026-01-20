@@ -37,7 +37,7 @@ export default function AboutPage() {
         <PageHeader
           title={
             <>
-              About BlockMarketing <br />
+              About BlockMarketing Consulting <br />
               <span className="text-brand-mint italic">Consulting</span>
             </>
           }

@@ -78,8 +78,7 @@ export default function BlogPostDetail() {
                   />
                 </div>
                 <div className="text-left">
-                  <div className="text-sm font-black text-slate-900 uppercase tracking-tight">BlockMarketing Consulting</div>
-                  <div className="text-xs font-bold text-slate-400">Design Powerhouse</div>
+                  <div className="text-sm font-medium text-slate-900 uppercase tracking-tight">BlockMarketing Consulting</div>
                 </div>
               </div>
 
@@ -150,7 +149,7 @@ export default function BlogPostDetail() {
               Ready to <span className="text-brand-mint italic">Scale?</span>
             </h2>
             <p className="text-xl md:text-2xl text-white mb-12 max-w-xl mx-auto font-bold">
-              Stop guessing. Start growing. Book your strategy session with our design experts today.
+              Stop guessing. Start growing. Book your strategy session with our marketing experts today.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">

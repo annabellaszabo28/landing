@@ -3,7 +3,7 @@ title: "Programmatic SEO: How to Scale to 10,000 Pages"
 metaTitle: "Programmatic SEO Strategy: Scaling Organic Traffic with AI"
 metaDescription: "Manual blogging cannot scale. Learn how to use Programmatic SEO (pSEO) and AI to generate thousands of high-value landing pages that capture long-tail search intent."
 date: "2025-11-02"
-author: "BlockMarketing"
+author: "BlockMarketing Consulting"
 category: "Marketing Strategy"
 excerpt: "If you are writing every blog post by hand, you are losing. Here is the architecture for domination."
 image: "https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
@@ -20,7 +20,7 @@ They have a **database** of pizza places and a **template** that generates the p
 Now, with LLMs, we can do this for *content*, not just directories.
 
 ## The Architecture
-At BlockMarketing, we build pSEO engines for our [Website Building](/services/website-building) clients.
+At BlockMarketing Consulting, we build pSEO engines for our [Website Building](/services/website-building) clients.
 1.  **The Dataset**: We scrape or aggregate unique data relative to your niche (e.g., "Crypto Tax Rates by Country").
 2.  **The Template**: We design a high-converting page structure.
 3.  **The AI Layer**: We use OpenAI API to inject unique, context-aware analysis into each page so it doesn't look like a duplicate.

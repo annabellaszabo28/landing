@@ -3,7 +3,7 @@ title: "Mastering GTM for AI Startups: The Hybrid Growth Playbook"
 metaTitle: "AI Startup GTM Strategy: The Hybrid Growth Playbook 2026"
 metaDescription: "Feature parity is not a moat. Learn how to scale AI startups using citation engineering, PLG loops, and decentralized data provenance."
 date: "2026-01-13"
-author: "BlockMarketing"
+author: "BlockMarketing Consulting"
 category: "Marketing Strategy"
 excerpt: "The market is saturated with wrappers. Learn how to build a distribution moat that is as intelligent as your model."
 image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop"
@@ -11,7 +11,7 @@ image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070
 
 The landscape for AI startups has shifted from a race for feature parity to a war for distribution. In 2026, having a superior Large Language Model (LLM) or a specialized agent is no longer enough. The market is saturated with "wrapper" applications, and the only way to survive is to build a distribution moat that is as intelligent as the product itself.
 
-At BlockMarketing, we pioneered the **Hybrid Growth Playbook**. This strategy integrates traditional Go-To-Market (GTM) rigor with the emerging science of Generative Engine Optimization (GEO).
+At BlockMarketing Consulting, we pioneered the **Hybrid Growth Playbook**. This strategy integrates traditional Go-To-Market (GTM) rigor with the emerging science of Generative Engine Optimization (GEO).
 
 ## The Death of Traditional SEO for AI
 For over two decades, SEO was the primary driver of organic growth. However, as users transition from search bars to chat interfaces like ChatGPT, Claude, and Perplexity, the "link in the first three results" is being replaced by the "primary citation in the AI response."
