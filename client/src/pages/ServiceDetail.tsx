@@ -144,7 +144,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                             {service.methodology.phases.map((phase, i) => (
                                 <div key={i} className="space-y-4">
                                     <div className="text-5xl font-black text-slate-200 uppercase tracking-tighter leading-none mb-6">0{i + 1}</div>
-                                    <h4 className="text-xl font-black text-primary uppercase tracking-tight">{phase.title}</h4>
+                                    <h3 className="text-xl font-black text-primary uppercase tracking-tight">{phase.title}</h3>
                                     <p className="text-slate-600 text-sm leading-relaxed font-medium line-clamp-3">
                                         {phase.description}
                                     </p>
@@ -205,7 +205,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                                 <div key={i} className="relative">
                                     <div className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-white border-2 border-brand-mint" />
                                     <div className="text-xs font-black text-brand-mint uppercase tracking-widest mb-1">{ms.week}</div>
-                                    <h4 className="text-xl font-black text-primary uppercase tracking-tight mb-2">{ms.title}</h4>
+                                    <h3 className="text-xl font-black text-primary uppercase tracking-tight mb-2">{ms.title}</h3>
                                 </div>
                             ))}
                         </div>
@@ -227,7 +227,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                                     <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-primary mx-auto mb-6 shadow-sm group-hover:scale-110 transition-all">
                                         <Users size={24} />
                                     </div>
-                                    <h4 className="font-black text-primary uppercase tracking-tight leading-tight">{type}</h4>
+                                    <h3 className="font-black text-primary uppercase tracking-tight leading-tight">{type}</h3>
                                 </div>
                             ))}
                         </div>
@@ -290,7 +290,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                                     <div className="text-brand-mint mb-6">
                                         <DynamicIcon name={diff.icon} size={32} strokeWidth={2.5} />
                                     </div>
-                                    <h4 className="text-lg font-black text-primary uppercase tracking-tight">{diff.title}</h4>
+                                    <h3 className="text-lg font-black text-primary uppercase tracking-tight">{diff.title}</h3>
                                     <p className="text-slate-600 text-sm leading-relaxed font-medium line-clamp-3">
                                         {diff.description}
                                     </p>
