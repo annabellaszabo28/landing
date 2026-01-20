@@ -33,6 +33,10 @@ export default function AppBuildingPage() {
                 <title>{content.hero.title} | {t("nav.agency_name")}</title>
                 <meta name="description" content={content.hero.subtitle} />
                 <meta name="keywords" content="mobile app development, iOS app, android app, cross-platform apps, app building services" />
+                <link rel="canonical" href="https://blockmarketingconsulting.com/services/app-building" />
+                <meta property="og:title" content={`${content.hero.title} | ${t("nav.agency_name")}`} />
+                <meta property="og:description" content={content.hero.subtitle} />
+                <meta property="og:url" content="https://blockmarketingconsulting.com/services/app-building" />
             </Helmet>
             <Navigation />
 

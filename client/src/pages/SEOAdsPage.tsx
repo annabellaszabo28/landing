@@ -34,6 +34,10 @@ export default function SEOAdsPage() {
             <Helmet>
                 <title>{content.header.title} | {t("nav.agency_name")}</title>
                 <meta name="description" content={content.header.subtitle} />
+                <link rel="canonical" href="https://blockmarketingconsulting.com/seo/organic_growth" />
+                <meta property="og:title" content={`${content.header.title} | ${t("nav.agency_name")}`} />
+                <meta property="og:description" content={content.header.subtitle} />
+                <meta property="og:url" content="https://blockmarketingconsulting.com/seo/organic_growth" />
             </Helmet>
             <Navigation />
 

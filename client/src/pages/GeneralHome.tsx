@@ -11,6 +11,7 @@ export default function GeneralHome() {
             <Helmet>
                 <title>BlockMarketing Consulting | AI native marketing agency</title>
                 <meta name="description" content="BlockMarketing Consulting is an AI native marketing agency with 10+ years of experience, bridging the gap between Web2 growth and Web3 innovation." />
+                <link rel="canonical" href="https://blockmarketingconsulting.com/" />
             </Helmet>
             <Navigation />
 

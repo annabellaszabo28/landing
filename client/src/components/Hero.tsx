@@ -23,7 +23,7 @@ export default function Hero({ content }: HeroProps) {
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
           src={heroBgLight}
-          alt="Abstract Light Background"
+          alt="Abstract Digital Growth Network Background - BlockMarketing Consulting"
           className="w-full h-full object-cover opacity-60 scale-105 transition-transform duration-1000"
         />
         <div className="absolute inset-0 bg-white/40" />

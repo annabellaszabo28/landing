@@ -51,7 +51,7 @@ export default function WorkPage() {
                   <Link href={`/work/${project.slug}`} className={`block rounded-3xl overflow-hidden aspect-[4/3] shadow-2xl cursor-pointer ${index % 2 === 1 ? 'md:order-2' : ''}`}>
                     <img
                       src={project.image}
-                      alt={project.title}
+                      alt={`Case Study: ${project.title} - BlockMarketing Consulting`}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                   </Link>
