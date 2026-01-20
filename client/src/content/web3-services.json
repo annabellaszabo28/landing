@@ -5,45 +5,139 @@
         "slug": "gtm",
         "description": "Web3 native blueprint for blockchain protocols. From tokenomics to protocol adoption.",
         "longDescription": "We understand Web3 native dynamics. Our tokenomics modeling and on-chain analytics ensure your mainnet launch drives TVL, active wallets, and protocol revenue—not just vanity metrics.",
-        "features": [
-            "Tokenomics Design & Modeling",
-            "Airdrop Mechanics & Alpha Seeding",
-            "Mainnet Launch Sequencing",
-            "Narrative Engineering"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Incentive Modeling",
-                "description": "Simulating tokenomics for long-term sustainability."
-            },
-            {
-                "step": "02",
-                "title": "Alpha Seeding",
-                "description": "Building a core group of early adopters and LPs."
-            },
-            {
-                "step": "03",
-                "title": "Mainnet Launch",
-                "description": "Orchestrating high-impact community and liquidity events."
-            },
-            {
-                "step": "04",
-                "title": "Ecosystem Growth",
-                "description": "Scaling adoption through grants and protocol rewards."
-            }
-        ],
-        "results": [
+        "icon": "Rocket",
+        "heroMetrics": [
             {
                 "label": "TVL Reached",
                 "value": "$120M+"
             },
             {
-                "label": "Mainnet Launch",
-                "value": "25k+ Wallets"
+                "label": "Active Wallets",
+                "value": "25k+"
+            },
+            {
+                "label": "Onboarding",
+                "value": "48hrs"
             }
         ],
-        "icon": "Rocket"
+        "challenge": {
+            "title": "The Ghost Chain Trap",
+            "description": "Protocols often launch with flawed incentives or zero exposure, leading to a massive spike followed by a total collapse. We build sustainable foundations that secure long-term protocol health."
+        },
+        "methodology": {
+            "title": "Decentralized Growth Phase",
+            "phases": [
+                {
+                    "title": "Incentive Modeling",
+                    "description": "Simulating tokenomics and reward structures for long-term TVL sustainability."
+                },
+                {
+                    "title": "Alpha Seeding",
+                    "description": "Building a core community of early adopters, devs, and liquidity providers."
+                },
+                {
+                    "title": "Mainnet Launch",
+                    "description": "Orchestrating high-impact community events and liquidity bootstrapping."
+                },
+                {
+                    "title": "Post-Launch Growth",
+                    "description": "Scaling adoption through sustainable grants and ecosystem rewards."
+                }
+            ]
+        },
+        "deliverables": [
+            "Tokenomics Audit & Architecture",
+            "Airdrop Mechanics Design",
+            "Launch Sequencing Roadmap",
+            "KOL Briefing & Coordination",
+            "Exchange Listing Advisory",
+            "Ecosystem Grants Framework",
+            "Mainnet Event Orchestration",
+            "On-Chain Analytics Setup"
+        ],
+        "timeline": {
+            "duration": "8-12 Weeks",
+            "milestones": [
+                {
+                    "week": "Week 1-3",
+                    "title": "Audit & Narrative Design"
+                },
+                {
+                    "week": "Week 4-6",
+                    "title": "Incentive & Token Modeling"
+                },
+                {
+                    "week": "Week 7-10",
+                    "title": "Community Seeding & PR"
+                },
+                {
+                    "week": "Week 11-12",
+                    "title": "Mainnet Launch Phase"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Launch",
+            "types": [
+                "L1/L2 Protocols",
+                "DeFi Foundations",
+                "GameFi Studios"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "TVL Generated",
+                    "value": "$2.4B+",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Active Wallets",
+                    "value": "45k+",
+                    "icon": "Users"
+                },
+                {
+                    "label": "Successful Launches",
+                    "value": "50+",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "50+",
+            "retentionRate": "95%"
+        },
+        "differentiators": [
+            {
+                "title": "Web3 Native",
+                "description": "We've been building in the space since 2017.",
+                "icon": "ShieldCheck"
+            },
+            {
+                "title": "On-Chain Data",
+                "description": "We optimize based on wallet behavior, not just site clicks.",
+                "icon": "Database"
+            },
+            {
+                "title": "Protocol-First",
+                "description": "We prioritize incentive alignment over short-term hype.",
+                "icon": "Zap"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How do you handle tokenomics design?",
+                "answer": "We use mathematical modeling to stress-test your tokens against various market conditions and inflation scenarios."
+            },
+            {
+                "question": "Can you help with exchange listings?",
+                "answer": "We provide strategic advisory and introductions to top-tier CEXs and DEXs as part of the GTM process."
+            },
+            {
+                "question": "What is included in a 48hr onboarding?",
+                "answer": "We deploy our core team and AI-stack within 48 hours to start auditing your protocol and building your roadmap immediately."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
         "id": "communitybuilding",
@@ -51,91 +145,679 @@
         "slug": "community",
         "description": "Cultivate a loyal army of advocates on Discord and Telegram. Native Web3 engagement.",
         "longDescription": "Community is the bedrock of Web3. We specialize in Discord architecture, DAO governance, and 24/7 global moderation. We focus on real humans, community ownership, and protocol participation.",
-        "features": [
-            "Discord/Telegram Architecture",
-            "DAO Governance Orchestration",
-            "Community Ownership Design",
-            "Technical Support & Moderation"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Culture Design",
-                "description": "Establishing value-aligned community norms and lore."
-            },
-            {
-                "step": "02",
-                "title": "Tooling Setup",
-                "description": "Implementing anti-bot measures and gamified rewards."
-            },
-            {
-                "step": "03",
-                "title": "Moderation",
-                "description": "24/7 support from native Web3 community experts."
-            },
-            {
-                "step": "04",
-                "title": "Governance",
-                "description": "Turning members into active protocol participants."
-            }
-        ],
-        "results": [
+        "icon": "Users",
+        "heroMetrics": [
             {
                 "label": "Discord Active Rate",
                 "value": "42%"
             },
             {
                 "label": "Holder Count",
-                "value": "50k+ Real Users"
+                "value": "50k+"
+            },
+            {
+                "label": "DAO Participation",
+                "value": "18%"
             }
         ],
-        "icon": "Users"
+        "challenge": {
+            "title": "The Bot Problem",
+            "description": "Vanity metrics kill protocols. Thousands of inactive bots in a Discord don't drive TVL. We replace bot-noise with authentic, value-aligned community engagement."
+        },
+        "methodology": {
+            "title": "Community Ownership",
+            "phases": [
+                {
+                    "title": "Culture Design",
+                    "description": "Establishing value-aligned community norms, lore, and core values."
+                },
+                {
+                    "title": "Tooling Setup",
+                    "description": "Implementing anti-bot measures, quest systems, and reward loops."
+                },
+                {
+                    "title": "Moderation",
+                    "description": "24/7 support from native Web3 experts across all time zones."
+                },
+                {
+                    "title": "DAO Transition",
+                    "description": "Turning members into active protocol owners and voters."
+                }
+            ]
+        },
+        "deliverables": [
+            "Discord/Telegram Architecture",
+            "DAO Governance Framework",
+            "24/7 Global Moderation",
+            "Community Rewards System",
+            "Lore & Branding Development",
+            "Weekly Town Hall Support",
+            "Governance Proposal Advisory",
+            "Anti-Bot/Spam Implementation"
+        ],
+        "timeline": {
+            "duration": "Ongoing / 4 Week Setup",
+            "milestones": [
+                {
+                    "week": "Week 1",
+                    "title": "Architecture & Rules Soft Launch"
+                },
+                {
+                    "week": "Week 2",
+                    "title": "Moderator Training & Onboarding"
+                },
+                {
+                    "week": "Week 4",
+                    "title": "Full Community Activation"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Cultivate",
+            "types": [
+                "Emerging DAOs",
+                "NFT Collectives",
+                "Protocol Communities"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Active Users",
+                    "value": "50k+",
+                    "icon": "Users"
+                },
+                {
+                    "label": "Daily Engagement",
+                    "value": "42%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Bot Reduction",
+                    "value": "99%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "40+",
+            "retentionRate": "97%"
+        },
+        "differentiators": [
+            {
+                "title": "Human-Centric",
+                "description": "We prioritize real interactions over automated bot commands.",
+                "icon": "Users"
+            },
+            {
+                "title": "Global Presence",
+                "description": "Our mods are native to every major crypto hub.",
+                "icon": "Network"
+            },
+            {
+                "title": "Strategic Lore",
+                "description": "We give your community a story they want to be part of.",
+                "icon": "Sparkles"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How do you handle toxic members?",
+                "answer": "We have strict, community-agreed protocols for moderation that prioritize project health while maintaining transparency."
+            },
+            {
+                "question": "Can you help set up a DAO?",
+                "answer": "Yes, from governance token distribution models to Snapshot integration and voting frameworks."
+            },
+            {
+                "question": "Which platforms do you support?",
+                "answer": "Discord, Telegram, and Lens protocol are our core focus areas."
+            }
+        ],
+        "features": [],
+        "process": []
+    },
+    {
+        "id": "web3_growth",
+        "title": "Web3 Growth Marketing",
+        "slug": "growth",
+        "description": "Full-stack growth systems encompassing everything from wallet attribution to referral engines.",
+        "longDescription": "Growth in Web3 requires a different stack. We integrate on-chain attribution with off-chain marketing to build seamless conversion funnels for protocols and dApps.",
+        "icon": "TrendingUp",
+        "heroMetrics": [
+            {
+                "label": "User Growth",
+                "value": "4.5x"
+            },
+            {
+                "label": "Retention",
+                "value": "40%+"
+            },
+            {
+                "label": "LTV",
+                "value": "3x"
+            }
+        ],
+        "challenge": {
+            "title": "The Attribution Gap",
+            "description": "Standard analytics can't track a user from a tweet to a swap. We bridge the gap between social signals and on-chain actions to optimize your actual ROI."
+        },
+        "methodology": {
+            "title": "Growth Infrastructure",
+            "phases": [
+                {
+                    "title": "Stack Audit",
+                    "description": "Integrating wallet-connection tracking and on-chain attribution."
+                },
+                {
+                    "title": "Funnel Design",
+                    "description": "Optimizing dApp onboarding flows for zero friction."
+                },
+                {
+                    "title": "Growth Ops",
+                    "description": "Deploying referral engines and automated incentive missions."
+                },
+                {
+                    "title": "Scaling",
+                    "description": "Multi-channel rollout optimized for wallet-active users."
+                }
+            ]
+        },
+        "deliverables": [
+            "On-Chain Attribution Setup",
+            "Referral Program Design",
+            "Onboarding Flow Optimization",
+            "Growth Loop Architecture",
+            "A/B Testing for dApps",
+            "Web3 Analytics Dashboard",
+            "Viral Loop Integration",
+            "User Retention Strategy"
+        ],
+        "timeline": {
+            "duration": "6-10 Weeks",
+            "milestones": [
+                {
+                    "week": "Week 1-2",
+                    "title": "Tracking & Audit Phase"
+                },
+                {
+                    "week": "Week 3-5",
+                    "title": "Engine Build & Integration"
+                },
+                {
+                    "week": "Week 6+",
+                    "title": "Activation & Scaling"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Scale",
+            "types": [
+                "DeFi Protocols",
+                "dApp Developers",
+                "Web3 Infrastructure"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Avg. User Growth",
+                    "value": "340%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Retained Users",
+                    "value": "45k+",
+                    "icon": "Users"
+                },
+                {
+                    "label": "ROI Tracked",
+                    "value": "100%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "35+",
+            "retentionRate": "92%"
+        },
+        "differentiators": [
+            {
+                "title": "Attribution First",
+                "description": "We know exactly where your users come from.",
+                "icon": "Search"
+            },
+            {
+                "title": "Full-Stack",
+                "description": "We handle the marketing and the technical integration.",
+                "icon": "Database"
+            },
+            {
+                "title": "ROI Obsessed",
+                "description": "Every action we take is geared towards on-chain growth.",
+                "icon": "Target"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Can you track wallet conversions?",
+                "answer": "Yes, we integrate specialized Web3 analytics that track the full user journey from lead to wallet connect."
+            },
+            {
+                "question": "What metrics do you prioritize?",
+                "answer": "We focus on CAC, LTV, and Daily Active Wallets (DAW)."
+            },
+            {
+                "question": "Do you help with UI/UX?",
+                "answer": "Yes, we often optimize dApp landing pages and onboarding flows to reduce friction."
+            }
+        ],
+        "features": [],
+        "process": []
+    },
+    {
+        "id": "pr_native",
+        "title": "Public Relations (PR)",
+        "slug": "pr",
+        "description": "High-impact placements across CoinTelegraph, Decrypt, and tier-1 financial media.",
+        "longDescription": "In Web3, narrative is everything. We secure leading media placements and manage your protocol's reputation to ensure your vision is the industry standard.",
+        "icon": "Newspaper",
+        "heroMetrics": [
+            {
+                "label": "Tier-1 Placements",
+                "value": "15+"
+            },
+            {
+                "label": "Reach",
+                "value": "5M+"
+            },
+            {
+                "label": "Social Trust",
+                "value": "Native"
+            }
+        ],
+        "challenge": {
+            "title": "The Narrative War",
+            "description": "If you don't define your protocol's story, the market will. We shield your brand from FUD and position your leadership as industry pioneers."
+        },
+        "methodology": {
+            "title": "Narrative Engine",
+            "phases": [
+                {
+                    "title": "Story Design",
+                    "description": "Mining your technical innovation for high-impact media hooks."
+                },
+                {
+                    "title": "Outreach",
+                    "description": "Leveraging our direct relationships with top-tier Web3 journalists."
+                },
+                {
+                    "title": "Syndication",
+                    "description": "Multiplying the impact of every story across the entire crypto-ecosystem."
+                },
+                {
+                    "title": "Monitoring",
+                    "description": "24/7 reputation management and sentiment tracking."
+                }
+            ]
+        },
+        "deliverables": [
+            "Tier-1 Media Placements",
+            "Thought Leadership Content",
+            "Crisis Management Strategy",
+            "Journalist Relationship Management",
+            "Press Release Distribution",
+            "Podcast & Interview Bookings",
+            "Sentiment Analysis Reports",
+            "Media Training for Founders"
+        ],
+        "timeline": {
+            "duration": "8-12 Weeks",
+            "milestones": [
+                {
+                    "week": "Week 1",
+                    "title": "Narrative & Hook Workshop"
+                },
+                {
+                    "week": "Week 2-4",
+                    "title": "First Wave Placements"
+                },
+                {
+                    "week": "Week 5+",
+                    "title": "Ongoing Authority Building"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Represent",
+            "types": [
+                "Layer 1/2 Foundations",
+                "VC-Backed Labs",
+                "Protocol Founders"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Total Impressions",
+                    "value": "5M+",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Tier-1 Articles",
+                    "value": "150+",
+                    "icon": "Newspaper"
+                },
+                {
+                    "label": "Brand Authority",
+                    "value": "Leader",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "50+",
+            "retentionRate": "95%"
+        },
+        "differentiators": [
+            {
+                "title": "Direct Access",
+                "description": "We speak daily with the most influential writers in the space.",
+                "icon": "Network"
+            },
+            {
+                "title": "Native News",
+                "description": "We understand the nuances of crypto-media better than anyone.",
+                "icon": "Search"
+            },
+            {
+                "title": "Result Focused",
+                "description": "We prioritize placements that actually drive traffic and trust.",
+                "icon": "Target"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Can you guarantee placements?",
+                "answer": "While we cannot buy coverage, our 100% success rate with tier-1 media speaks for itself."
+            },
+            {
+                "question": "Do you handle crisis PR?",
+                "answer": "Yes, we have 24/7 emergency protocols for FUD mitigation and reputation recovery."
+            },
+            {
+                "question": "Which outlets do you work with?",
+                "answer": "CoinTelegraph, CoinDesk, Decrypt, The Block, and tier-1 tech like Forbes/TechCrunch."
+            }
+        ],
+        "features": [],
+        "process": []
+    },
+    {
+        "id": "ppc_native_web3",
+        "title": "Targeted PPC (Reddit & Native)",
+        "slug": "ppc_native",
+        "description": "Reddit, Twitter, and blockchain-native networks like Etherscan and Coinmarketcap.",
+        "longDescription": "We understand the limitations of crypto advertising. We manage compliant, high-performance ad campaigns across Reddit, X, and native networks to capture high-intent users.",
+        "icon": "Target",
+        "heroMetrics": [
+            {
+                "label": "CPC Reduction",
+                "value": "50%"
+            },
+            {
+                "label": "Wallet Connect",
+                "value": "28%+"
+            },
+            {
+                "label": "Compliant",
+                "value": "100%"
+            }
+        ],
+        "challenge": {
+            "title": "The Compliance Wall",
+            "description": "Standard ad platforms often block crypto ads. We use specialized, compliant networks and native placements to reach your audience where they actually live."
+        },
+        "methodology": {
+            "title": "Compliant Scale",
+            "phases": [
+                {
+                    "title": "Targeting",
+                    "description": "Identifying high-intent crypto users via subreddit and on-chain behavior."
+                },
+                {
+                    "title": "Creative Design",
+                    "description": "Building technical, value-driven ad assets that resonate."
+                },
+                {
+                    "title": "Compliance",
+                    "description": "Ensuring every asset meets strict platform regulatory standards."
+                },
+                {
+                    "title": "Bid Optimization",
+                    "description": "Real-time AI management of bids to ensure lowest possible CPAs."
+                }
+            ]
+        },
+        "deliverables": [
+            "Reddit Crypto Ad Management",
+            "X (Twitter) Native Ads",
+            "Etherscan/CMC Placements",
+            "Compliant Creative Assets",
+            "Real-time CPC Dashboards",
+            "On-Chain Conversion Tracking",
+            "Subreddit Targeting Audit",
+            "Retargeting Funnel Build"
+        ],
+        "timeline": {
+            "duration": "2 Weeks Build / Ongoing",
+            "milestones": [
+                {
+                    "week": "Day 1-3",
+                    "title": "Compliance Audit & Setup"
+                },
+                {
+                    "week": "Day 4-7",
+                    "title": "Creative Asset Production"
+                },
+                {
+                    "week": "Week 2",
+                    "title": "Campaign Launch & Bidding"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Targeted",
+            "types": [
+                "DeFi Protocols",
+                "Blockchain Games",
+                "Crypto Infrastructure"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Avg. CTR",
+                    "value": "2.5%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Monthly Impressions",
+                    "value": "10M+",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "CPA Reduction",
+                    "value": "35%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "40+",
+            "retentionRate": "96%"
+        },
+        "differentiators": [
+            {
+                "title": "Native Networks",
+                "description": "We have direct access to Etherscan and CMC ad inventory.",
+                "icon": "Network"
+            },
+            {
+                "title": "Compliance Experts",
+                "description": "We never get your accounts banned or flagged.",
+                "icon": "ShieldCheck"
+            },
+            {
+                "title": "Technical Ads",
+                "description": "We speak to the developer and the degen with equal precision.",
+                "icon": "Zap"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Can you run crypto ads on Facebook?",
+                "answer": "Yes, provided your project has the necessary regulatory filings and our compliant creative approach."
+            },
+            {
+                "question": "What are native networks?",
+                "answer": "These are platforms like CoinMarketCap and Etherscan that have specialized ad inventory for crypto projects."
+            },
+            {
+                "question": "How do you track on-chain ROI?",
+                "answer": "We link ad clicks to wallet connections and smart contract interactions."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
         "id": "kolinfluencermarketing",
-        "title": "KOL & Crypto Twitter",
+        "title": "KOL & Influencer Marketing",
         "slug": "kol",
         "description": "Vetted KOL campaigns with on-chain analysis and authentic narrative placement.",
         "longDescription": "Partner with trusted voices who speak the language of DeFi. We handle vetting using proprietary on-chain analysis, ensuring your narrative reaches the most engaged crypto-native audiences.",
-        "features": [
-            "Crypto Twitter Strategy",
-            "On-Chain KOL Vetting",
-            "KOL Narrative Alignment",
-            "Regulatory Compliance Vetting"
-        ],
-        "process": [
+        "icon": "Mic",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Vetting",
-                "description": "Analyzing real engagement and on-chain domain authority."
-            },
-            {
-                "step": "02",
-                "title": "Briefing",
-                "description": "Ensuring the message is native while hitting value props."
-            },
-            {
-                "step": "03",
-                "title": "Launch Phase",
-                "description": "Coordinating simultaneous drops for maximal trending."
-            },
-            {
-                "step": "04",
-                "title": "Analytics",
-                "description": "Reporting on reach, engagement, and wallet connection."
-            }
-        ],
-        "results": [
-            {
-                "label": "Total Impressions",
+                "label": "Influencer Reach",
                 "value": "2M+"
             },
             {
-                "label": "Social Trust Score",
-                "value": "Native High"
+                "label": "Vetted Agents",
+                "value": "250+"
+            },
+            {
+                "label": "Social Trust",
+                "value": "High"
             }
         ],
-        "icon": "Mic"
+        "challenge": {
+            "title": "The Shilling Scams",
+            "description": "90% of influencers have fake engagement or only attract bot traffic. We use on-chain analysis to vet every KOL, ensuring your message reaches real holders, not just 'moon-boys'."
+        },
+        "methodology": {
+            "title": "Authentic Influence",
+            "phases": [
+                {
+                    "title": "On-Chain Vetting",
+                    "description": "Analyzing a KOL's audience wallet behavior and real engagement."
+                },
+                {
+                    "title": "Briefing",
+                    "description": "Guiding the narrative to ensure it's native while hitting value props."
+                },
+                {
+                    "title": "Deployment",
+                    "description": "Coordinating simultaneous drops for maximal trending potential."
+                },
+                {
+                    "title": "Analytics",
+                    "description": "Tracking wallet connections and sentiment post-campaign."
+                }
+            ]
+        },
+        "deliverables": [
+            "Vetted KOL Whitelist",
+            "On-Chain Engagement Audit",
+            "Campaign Narrative Briefs",
+            "Contract & Compliance Management",
+            "Coordinated Launch Sprints",
+            "Real-time Social Dashboards",
+            "Influencer Relationship Management",
+            "Wallet Conversion Tracking"
+        ],
+        "timeline": {
+            "duration": "4-8 Weeks",
+            "milestones": [
+                {
+                    "week": "Week 1-2",
+                    "title": "KOL Selection & Vetting"
+                },
+                {
+                    "week": "Week 3-4",
+                    "title": "Briefing & Contracting"
+                },
+                {
+                    "week": "Week 5+",
+                    "title": "Launch & Trending Phase"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Influence",
+            "types": [
+                "New Token Launches",
+                "DeFi Protocols",
+                "Web3 Social Apps"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Total Impressions",
+                    "value": "2M+",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Real Engagement",
+                    "value": "High",
+                    "icon": "Users"
+                },
+                {
+                    "label": "Vetting Accuracy",
+                    "value": "99%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "45+",
+            "retentionRate": "92%"
+        },
+        "differentiators": [
+            {
+                "title": "Zero Bots",
+                "description": "We only work with KOLs who have human, active audiences.",
+                "icon": "Search"
+            },
+            {
+                "title": "Narrative Focused",
+                "description": "We ensure the KOL actually understands your technology.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Compliance First",
+                "description": "All our partnerships are managed according to regulatory norms.",
+                "icon": "ShieldCheck"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How do you know an influencer is real?",
+                "answer": "We look at the on-chain history of their audience wallets to see if they actually trade or participate in protocols."
+            },
+            {
+                "question": "Do you handle the payments?",
+                "answer": "Yes, we handle all contracting, escrow, and final payments to the influencers."
+            },
+            {
+                "question": "Can you make us trend on X?",
+                "answer": "With coordinated KOL drops and high-quality narratives, we maximize your chances of organic trending."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
         "id": "devrel_web3",
@@ -143,35 +825,8 @@
         "slug": "devrel",
         "description": "Strategies to attract and retain the best technical talent for your ecosystem.",
         "longDescription": "In Web3, developers are your most valuable customers. We architect hackathons, grants programs, and SDK documentation that drive actual mainnet deployments and developer liquidity.",
-        "features": [
-            "Hackathon Orchestration",
-            "SDK & Tech Documentation",
-            "Developer Grants Programs",
-            "Grant Recipient Support"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Outreach",
-                "description": "Engaging high-quality builders across GitHub and Discord."
-            },
-            {
-                "step": "02",
-                "title": "Documentation",
-                "description": "Creating frictionless entry points with world-class docs."
-            },
-            {
-                "step": "03",
-                "title": "Incubation",
-                "description": "Structuring grants that drive mainnet deployments."
-            },
-            {
-                "step": "04",
-                "title": "Liquidity",
-                "description": "Providing technical support to ensure projects scale."
-            }
-        ],
-        "results": [
+        "icon": "Code",
+        "heroMetrics": [
             {
                 "label": "Active Builders",
                 "value": "500+"
@@ -179,54 +834,125 @@
             {
                 "label": "Mainnet dApps",
                 "value": "50+"
+            },
+            {
+                "label": "Grant Velocity",
+                "value": "High"
             }
         ],
-        "icon": "Code"
-    },
-    {
-        "id": "ppc_native_web3",
-        "title": "Crypto Compliant PPC",
-        "slug": "ppc_native",
-        "description": "Reddit, Twitter, and blockchain-native networks like Etherscan and Coinmarketcap.",
-        "longDescription": "We understand the limitations of crypto advertising. We manage compliant, high-performance ad campaigns across Reddit, X, and native networks to capture high-intent users.",
-        "features": [
-            "Reddit & X Crypto Ads",
-            "Blockchain Native Placements",
-            "On-Chain Intent Targeting",
-            "Compliant Traffic Strategy"
+        "challenge": {
+            "title": "The Barrier to Entry",
+            "description": "If your documentation is poor, developers will switch to a competitor. We bridge the gap between technical complexity and builder adoption by creating frictionless entry points."
+        },
+        "methodology": {
+            "title": "Builder Adoption",
+            "phases": [
+                {
+                    "title": "Doc Audit",
+                    "description": "Ensuring your SDKs and technical guides are world-class."
+                },
+                {
+                    "title": "Incentive Design",
+                    "description": "Structuring grants and hackathons that drive actual deployments."
+                },
+                {
+                    "title": "Outreach",
+                    "description": "Engaging high-quality builders on GitHub and Discord."
+                },
+                {
+                    "title": "Support",
+                    "description": "Providing technical 24/7 success management for grant recipients."
+                }
+            ]
+        },
+        "deliverables": [
+            "Technical Documentation Audit",
+            "Hackathon Orchestration",
+            "Developer Grants Framework",
+            "SDK & Boilerplate Design",
+            "Technical Social Strategy",
+            "Developer Advocacy Program",
+            "Grant Recipient Support",
+            "Mainnet Deployment Tracking"
         ],
-        "process": [
+        "timeline": {
+            "duration": "12-16 Weeks",
+            "milestones": [
+                {
+                    "week": "Week 1-4",
+                    "title": "Documentation & Tooling Audit"
+                },
+                {
+                    "week": "Week 5-8",
+                    "title": "Grants & Hackathon Design"
+                },
+                {
+                    "week": "Week 9+",
+                    "title": "Activation & Builder Support"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Support",
+            "types": [
+                "Layer 1/2 Chains",
+                "SDK/API Providers",
+                "Developer Tools"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Live dApps",
+                    "value": "50+",
+                    "icon": "Code"
+                },
+                {
+                    "label": "Active Devs",
+                    "value": "500+",
+                    "icon": "Users"
+                },
+                {
+                    "label": "Doc Readability",
+                    "value": "9/10",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "30+",
+            "retentionRate": "98%"
+        },
+        "differentiators": [
             {
-                "step": "01",
-                "title": "Audience",
-                "description": "Segmenting by Subreddit and on-chain wallet behavior."
+                "title": "Technical Native",
+                "description": "Our strategists are also builders who understand the stack.",
+                "icon": "Terminal"
             },
             {
-                "step": "02",
-                "title": "Creative",
-                "description": "Designing ad assets focused on technical value props."
+                "title": "Result Orientated",
+                "description": "We prioritize deployments over 'participation' vanity metrics.",
+                "icon": "Target"
             },
             {
-                "step": "03",
-                "title": "Bidding",
-                "description": "Optimizing for low CPA in expensive crypto niches."
-            },
-            {
-                "step": "04",
-                "title": "Attribution",
-                "description": "Tracking wallet connections via paid traffic funnels."
+                "title": "Ecosystem Focus",
+                "description": "We look at the health of your entire dev-ecosystem.",
+                "icon": "Network"
             }
         ],
-        "results": [
+        "faqs": [
             {
-                "label": "CPC Reduction",
-                "value": "50% Savings"
+                "question": "Can you run our hackathons?",
+                "answer": "Yes, from platform setup to marketing and final judging coordination."
             },
             {
-                "label": "Wallet Connect",
-                "value": "+28%"
+                "question": "How do you track developer success?",
+                "answer": "We monitor GitHub activity, documentation interactions, and mainnet deployments."
+            },
+            {
+                "question": "Do you help with technical writing?",
+                "answer": "Yes, our team can rewrite and optimize your technical docs and API guides."
             }
         ],
-        "icon": "Target"
+        "features": [],
+        "process": []
     }
 ]

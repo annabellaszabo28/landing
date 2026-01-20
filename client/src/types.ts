@@ -171,8 +171,53 @@ export interface ServiceDetail {
     slug: string;
     description: string;
     longDescription: string;
-    features: string[];
     icon: string;
+
+    // Section 2: Results Bar
+    heroMetrics: { label: string; value: string }[];
+
+    // Section 3: The Challenge
+    challenge: {
+        title: string;
+        description: string;
+    };
+
+    // Section 4: Our Approach
+    methodology: {
+        title: string;
+        phases: { title: string; description: string }[];
+    };
+
+    // Section 5: What's Included
+    deliverables: string[];
+
+    // Section 6: Process Timeline
+    timeline: {
+        duration: string;
+        milestones: { title: string; week: string }[];
+    };
+
+    // Section 7: Who This Is For
+    targetAudience: {
+        title: string;
+        types: string[];
+    };
+
+    // Section 8: Results & Social Proof
+    socialProof: {
+        metrics: { label: string; value: string; icon: string }[];
+        projectCount: string;
+        retentionRate: string;
+    };
+
+    // Section 9: Why BlockMarketing
+    differentiators: { title: string; description: string; icon: string }[];
+
+    // Section 11: FAQs
+    faqs: { question: string; answer: string }[];
+
+    // Legacy fields (optional cleanup later)
+    features: string[];
     process?: ServiceProcess[];
     results?: ServiceResult[];
 }

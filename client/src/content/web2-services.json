@@ -1,49 +1,143 @@
 [
     {
         "id": "strategy",
-        "title": "Strategy",
+        "title": "Growth Strategy & Strategy",
         "slug": "strategy",
         "description": "Comprehensive go-to-market planning and strategic positioning for ambitious brands.",
-        "longDescription": "Everything starts with a solid plan. We analyze your market position, competitive landscape, and unique customer insights to craft a roadmap that ensures sustainable growth and market penetration.",
-        "features": [
-            "Go-to-Market Strategy",
-            "Brand Positioning",
-            "Competitor Analysis",
-            "Market Research & Insights"
-        ],
-        "process": [
+        "longDescription": "We build comprehensive marketing systems for ambitious businesses—from strategy and brand development to performance marketing and customer retention. Results-driven growth for companies ready to scale.",
+        "icon": "Map",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Audit",
-                "description": "Deep dive into your current metrics and market share."
-            },
-            {
-                "step": "02",
-                "title": "Plan",
-                "description": "Defining KPIs, milestones, and customer personas."
-            },
-            {
-                "step": "03",
-                "title": "Execute",
-                "description": "Rolling out the strategic roadmap."
-            },
-            {
-                "step": "04",
-                "title": "Optimize",
-                "description": "Iterating based on hard data and performance."
-            }
-        ],
-        "results": [
-            {
-                "label": "Strategic Clarity",
-                "value": "100%"
+                "label": "Revenue Impact",
+                "value": "€2.4M"
             },
             {
                 "label": "Growth Velocity",
-                "value": "3x"
+                "value": "3.5x"
+            },
+            {
+                "label": "Strategic Clarity",
+                "value": "100%"
             }
         ],
-        "icon": "Map"
+        "challenge": {
+            "title": "The Growth Paradox",
+            "description": "Many brands scale prematurely without a solid foundation, leading to high CAC and poor retention. We solve this by architecting deterministic growth frameworks that align your product with the right market segments."
+        },
+        "methodology": {
+            "title": "Strategic Excellence Phase",
+            "phases": [
+                {
+                    "title": "Market Audit",
+                    "description": "Deep dive into your current metrics, market share, and competitive landscape to find hidden gaps."
+                },
+                {
+                    "title": "Model Design",
+                    "description": "Defining your ideal customer personas, value props, and unit economics for sustainable scale."
+                },
+                {
+                    "title": "GTM Blueprint",
+                    "description": "Architecting the full-funnel roadmap from awareness to advocacy with clear KPIs."
+                },
+                {
+                    "title": "Iterative Scale",
+                    "description": "Rolling out the strategy with weekly feedback loops and automated performance tracking."
+                }
+            ]
+        },
+        "deliverables": [
+            "Comprehensive Market Analysis",
+            "Competitor Benchmarking Report",
+            "Ideal Customer Profile (ICP) Design",
+            "Full-Funnel Growth Roadmap",
+            "Unit Economics Modeling",
+            "Brand Positioning Framework",
+            "Strategic Content Calendar",
+            "Weekly Performance Dashboards"
+        ],
+        "timeline": {
+            "duration": "4-6 Weeks",
+            "milestones": [
+                {
+                    "week": "Week 1-2",
+                    "title": "Deep Audit & Discovery"
+                },
+                {
+                    "week": "Week 3-4",
+                    "title": "Strategic Framework Design"
+                },
+                {
+                    "week": "Week 5-6",
+                    "title": "GTM Launch & Handover"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Empower",
+            "types": [
+                "B2B SaaS Companies",
+                "Scalable E-commerce",
+                "Venture-Backed Startups"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Avg. Revenue Growth",
+                    "value": "340%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Ad Spend Managed",
+                    "value": "€5M+",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Retention Rate",
+                    "value": "95%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "50+",
+            "retentionRate": "95%"
+        },
+        "differentiators": [
+            {
+                "title": "Data-First",
+                "description": "We replace gut feelings with hard data and predictive modeling.",
+                "icon": "Database"
+            },
+            {
+                "title": "AI-Integrated",
+                "description": "Our strategies leverage internal AI agents for 70% faster execution.",
+                "icon": "Zap"
+            },
+            {
+                "title": "Founder Focussed",
+                "description": "We align our growth goals directly with your business objectives.",
+                "icon": "Users"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is included in a Go-To-Market strategy?",
+                "answer": "Our GTM strategy includes market research, competitor analysis, ICP definition, pricing strategy, and a step-by-step channel execution plan."
+            },
+            {
+                "question": "How soon will we see results?",
+                "answer": "Strategic clarity is immediate. Tactical execution typically begins within 2 weeks, with measurable growth markers appearing by week 8."
+            },
+            {
+                "question": "Do you handle the execution as well?",
+                "answer": "Yes, we are a full-service partner. While we start with strategy, we can handle the entire execution end-to-end through our specialized teams."
+            },
+            {
+                "question": "How do you measure success?",
+                "answer": "We align on 'North Star' metrics during onboarding—usually Revenue, CAC, or Market Share—and provide real-time dashboard tracking."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
         "id": "creative_content",
@@ -51,45 +145,135 @@
         "slug": "creative-content",
         "description": "Visual identity, copywriting, and content strategy that defines your brand voice.",
         "longDescription": "We create visuals that resonate and content that converts. From professional brand guidelines to multi-channel assets, we ensure your brand stands out with an established, corporate aesthetic.",
-        "features": [
-            "Brand Guidelines & Identity",
-            "Content Calendar Management",
-            "Multi-Channel Assets",
-            "Professional Sales Enablement"
-        ],
-        "process": [
+        "icon": "PenTool",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Concept",
-                "description": "Moodboards and brand voice definition."
+                "label": "Assets Produced",
+                "value": "10k+"
             },
             {
-                "step": "02",
-                "title": "Create",
-                "description": "Asset production and corporate design."
-            },
-            {
-                "step": "03",
-                "title": "Review",
-                "description": "Refining with stakeholder feedback."
-            },
-            {
-                "step": "04",
-                "title": "Publish",
-                "description": "Distributing across established channels."
-            }
-        ],
-        "results": [
-            {
-                "label": "Brand Recall",
-                "value": "High"
+                "label": "Brand Reach",
+                "value": "2M+"
             },
             {
                 "label": "Engagement",
                 "value": "+150%"
             }
         ],
-        "icon": "PenTool"
+        "challenge": {
+            "title": "The Noise Problem",
+            "description": "In a saturated market, generic content is invisible. We build distinct brand identities and high-performing content loops that capture attention and build authority instantly."
+        },
+        "methodology": {
+            "title": "Creative Excellence",
+            "phases": [
+                {
+                    "title": "Visual Audit",
+                    "description": "Analyzing your current brand assets and identifying conversion bottlenecks."
+                },
+                {
+                    "title": "Voice Design",
+                    "description": "Setting the tonal foundation and brand guidelines for all communication."
+                },
+                {
+                    "title": "Production",
+                    "description": "High-velocity asset creation using our AI-hybrid creative studio."
+                },
+                {
+                    "title": "Distribution",
+                    "description": "Multi-channel rollout optimized for platform-specific engagement."
+                }
+            ]
+        },
+        "deliverables": [
+            "Complete Brand Guidelines",
+            "Logo & Visual Identity",
+            "Marketing Copy Library",
+            "Social Media Asset Packs",
+            "Video & Motion Graphics",
+            "Landing Page Design",
+            "Sales Deck Templates",
+            "AI-Assisted Content Engine"
+        ],
+        "timeline": {
+            "duration": "4-8 Weeks",
+            "milestones": [
+                {
+                    "week": "Week 1",
+                    "title": "Brand Discovery & Moodboards"
+                },
+                {
+                    "week": "Week 2-4",
+                    "title": "Visual & Verbal Asset Creation"
+                },
+                {
+                    "week": "Week 5-8",
+                    "title": "System Integration & Launch"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Design For",
+            "types": [
+                "Enterprise Brands",
+                "High-Growth Startups",
+                "Direct-to-Consumer (DTC)"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Engagement Lift",
+                    "value": "150%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Assets Managed",
+                    "value": "100k+",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Brand Recall",
+                    "value": "High",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "80+",
+            "retentionRate": "92%"
+        },
+        "differentiators": [
+            {
+                "title": "Brand Consistency",
+                "description": "We ensure every touchpoint feels like the same elite brand.",
+                "icon": "CheckCircle2"
+            },
+            {
+                "title": "AI-Enhanced",
+                "description": "We use AI to scale production without losing the human spark.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Conversion First",
+                "description": "We don't just build pretty things; we build things that sell.",
+                "icon": "Target"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Do we own the assets you create?",
+                "answer": "Absolutely. You maintain 100% ownership of every visual, piece of copy, and guideline we produce."
+            },
+            {
+                "question": "Can you work with our existing branding?",
+                "answer": "Yes, we can either perform a total rebrand or work within your current guidelines to elevate and expand them."
+            },
+            {
+                "question": "How many revisions do we get?",
+                "answer": "We work collaboratively. Our standard process includes two major revision rounds per asset, though we iterate until it's perfect."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
         "id": "paid_marketing",
@@ -97,45 +281,135 @@
         "slug": "paid-marketing",
         "description": "High-ROI Google, Meta, and LinkedIn campaigns to scale your reach instantly.",
         "longDescription": "We combine algorithmic precision with proven frameworks that reduce CAC by 30-45%. Our paid campaigns focus on lead generation and ROAS optimization across established digital channels.",
-        "features": [
-            "Google Ads & Search",
-            "Meta (FB/IG) Advertising",
-            "LinkedIn B2B Campaigns",
-            "Programmatic Lead Gen"
-        ],
-        "process": [
+        "icon": "Target",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Targeting",
-                "description": "Identifying your ideal customer persona."
-            },
-            {
-                "step": "02",
-                "title": "Framework",
-                "description": "Applying proven conversion systems."
-            },
-            {
-                "step": "03",
-                "title": "Launch",
-                "description": "Going live with optimized ad sets."
-            },
-            {
-                "step": "04",
-                "title": "Scale",
-                "description": "Doubling down on high-performing segments."
-            }
-        ],
-        "results": [
-            {
-                "label": "ROAS",
+                "label": "Avg. ROAS",
                 "value": "5.5x"
             },
             {
                 "label": "CAC Reduction",
-                "value": "-40%"
+                "value": "-45%"
+            },
+            {
+                "label": "Impressions",
+                "value": "20M+"
             }
         ],
-        "icon": "Target"
+        "challenge": {
+            "title": "The Efficiency Gap",
+            "description": "Most agencies waste 40% of their ad spend on broad targeting. We use machine learning to identify your highest-value users and eliminate wasted spend from day one."
+        },
+        "methodology": {
+            "title": "Performance First",
+            "phases": [
+                {
+                    "title": "Audience Mapping",
+                    "description": "Identifying high-intent behavior segments through data analysis."
+                },
+                {
+                    "title": "Funnel Design",
+                    "description": "Building high-converting landing pages and ad flow architecture."
+                },
+                {
+                    "title": "Launch Phase",
+                    "description": "Deploying campaigns with multi-variat testing across 100+ ad sets."
+                },
+                {
+                    "title": "Auto-Scaling",
+                    "description": "Using our AI algorithms to reallocate budget to winners in real-time."
+                }
+            ]
+        },
+        "deliverables": [
+            "Search Engine Ads (Google/Bing)",
+            "Social Media Ads (Meta/LinkedIn)",
+            "Retargeting Funnels",
+            "High-Converting Landing Pages",
+            "A/B Testing Framework",
+            "Real-time ROI Dashboard",
+            "Competitor Ad Spend Audit",
+            "Creative Ad Production"
+        ],
+        "timeline": {
+            "duration": "24-48 Hours Onboarding",
+            "milestones": [
+                {
+                    "week": "Day 1",
+                    "title": "Pixel & Data Integration"
+                },
+                {
+                    "week": "Day 2",
+                    "title": "Campaign Architecture Build"
+                },
+                {
+                    "week": "Week 1",
+                    "title": "Launch & Baseline Testing"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Scale",
+            "types": [
+                "E-commerce Brands",
+                "B2B Lead Generation",
+                "SaaS Mobile Apps"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Avg. ROAS",
+                    "value": "5.5x",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Monthly Ad Spend",
+                    "value": "€500K+",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Lead Gen Lift",
+                    "value": "+340%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "120+",
+            "retentionRate": "96%"
+        },
+        "differentiators": [
+            {
+                "title": "Algorithmic Precision",
+                "description": "Our bidding strategies are powered by predictive ML models.",
+                "icon": "Database"
+            },
+            {
+                "title": "Real-time Reporting",
+                "description": "No monthly waiting. You see your ROI in live dashboards.",
+                "icon": "BarChart"
+            },
+            {
+                "title": "Full-Funnel Ownership",
+                "description": "We optimize the ad, the page, and the conversion loop.",
+                "icon": "Network"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is your minimum ad spend requirement?",
+                "answer": "We typically work with clients spending €5,000/mo or more to ensure there is enough data for our AI models to optimize effectively."
+            },
+            {
+                "question": "Which platforms do you support?",
+                "answer": "We are certified partners for Google Ads, Meta (FB/IG), LinkedIn, and specialized B2B native networks."
+            },
+            {
+                "question": "How do you handle ad creative?",
+                "answer": "Our in-house creative team produces all ad assets, from static banners to high-converting short-form video content."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
         "id": "community_retention",
@@ -143,45 +417,135 @@
         "slug": "community-retention",
         "description": "Building loyal customer bases and automated retention loops to maximize LTV.",
         "longDescription": "Acquisition is only half the battle. We implement customer success programs and CRM retention flows to keep your users engaged, active, and advocating for your brand.",
-        "features": [
-            "Customer Loyalty Programs",
-            "CRM & Churn Reduction",
-            "Customer Success Programs",
-            "Automated Feedback Loops"
-        ],
-        "process": [
+        "icon": "Users",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Onboard",
-                "description": "Welcoming and educating new users."
+                "label": "LTV Growth",
+                "value": "+60%"
             },
             {
-                "step": "02",
-                "title": "Engage",
-                "description": "Daily customer success activation."
+                "label": "Churn Reduction",
+                "value": "-40%"
             },
-            {
-                "step": "03",
-                "title": "Retain",
-                "description": "Automated drip and loyalty campaigns."
-            },
-            {
-                "step": "04",
-                "title": "Grow",
-                "description": "Increasing customer lifetime value."
-            }
-        ],
-        "results": [
             {
                 "label": "Retention Rate",
-                "value": "+40%"
-            },
-            {
-                "label": "LTV",
-                "value": "+60%"
+                "value": "45%+"
             }
         ],
-        "icon": "Users"
+        "challenge": {
+            "title": "The Leaky Bucket",
+            "description": "Spending thousands on ads only to lose users in 30 days is the #1 killer of growth. We plug the leak by architecting automated retention systems that drive repeat behavior."
+        },
+        "methodology": {
+            "title": "Loyalty Loop",
+            "phases": [
+                {
+                    "title": "Churn Audit",
+                    "description": "Analyzing user behavior to identify exactly where and why you lose them."
+                },
+                {
+                    "title": "Trigger Design",
+                    "description": "Setting up automated lifecycle events based on customer actions."
+                },
+                {
+                    "title": "Activation",
+                    "description": "Deploying loyalty programs and customer success sequences."
+                },
+                {
+                    "title": "Referral Engine",
+                    "description": "Turning your best users into your most efficient growth channel."
+                }
+            ]
+        },
+        "deliverables": [
+            "Customer Retention Audit",
+            "Automated CRM Flows",
+            "Loyalty Program Design",
+            "Referral System Setup",
+            "Customer Success Framework",
+            "Churn Prediction Model",
+            "Community Engagement Loops",
+            "Customer Feedback Systems"
+        ],
+        "timeline": {
+            "duration": "6-10 Weeks",
+            "milestones": [
+                {
+                    "week": "Week 1-2",
+                    "title": "Data Audit & Segmenting"
+                },
+                {
+                    "week": "Week 3-5",
+                    "title": "Flow Architecture & Build"
+                },
+                {
+                    "week": "Week 6+",
+                    "title": "Launch & Iterative Scale"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Retain",
+            "types": [
+                "Subscription SaaS",
+                "Membership Platforms",
+                "High-LTV E-commerce"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Retention Lift",
+                    "value": "+40%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "LTV Increase",
+                    "value": "+60%",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "User Activity",
+                    "value": "High",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "45+",
+            "retentionRate": "98%"
+        },
+        "differentiators": [
+            {
+                "title": "LTV Focussed",
+                "description": "We prioritize long-term value over short-term vanity clicks.",
+                "icon": "Target"
+            },
+            {
+                "title": "Automated Loops",
+                "description": "Our systems work 24/7 without requiring manual management.",
+                "icon": "Clock"
+            },
+            {
+                "title": "Behavioral Insights",
+                "description": "We understand the psychology behind why users stay or leave.",
+                "icon": "Search"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Can you integrate with our current CRM?",
+                "answer": "Yes, we have deep experience with HubSpot, Salesforce, ActiveCampaign, and custom-built backend systems."
+            },
+            {
+                "question": "What is a good retention rate?",
+                "answer": "This varies by industry, but we aim for top-decile performance, often seeing 40-60% improvements in first-year retention."
+            },
+            {
+                "question": "How do refer-a-friend programs work?",
+                "answer": "We build automated systems that incentivize and track word-of-mouth growth, turning users into advocates."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
         "id": "email_marketing",
@@ -189,35 +553,8 @@
         "slug": "email-marketing",
         "description": "Enterprise-grade audience communication that drives retention and revenue.",
         "longDescription": "Own your audience relationships directly. We build sophisticated segmentation and enterprise-grade ESP management that deliver the right message to the right user, turning subscribers into loyal customers.",
-        "features": [
-            "Enterprise ESP Management",
-            "Sophisticated Segmentation",
-            "Drip Campaign Automation",
-            "Rigorous A/B Testing"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Audit",
-                "description": "Analyzing current list health and deliverability."
-            },
-            {
-                "step": "02",
-                "title": "Segment",
-                "description": "Categorizing users by high-impact behavior."
-            },
-            {
-                "step": "03",
-                "title": "Automate",
-                "description": "Building ROI-driven lifecycle flows."
-            },
-            {
-                "step": "04",
-                "title": "Optimize",
-                "description": "Refining conversion and open rates."
-            }
-        ],
-        "results": [
+        "icon": "Mail",
+        "heroMetrics": [
             {
                 "label": "Open Rate",
                 "value": "45%+"
@@ -225,8 +562,125 @@
             {
                 "label": "Direct ROI",
                 "value": "25%+"
+            },
+            {
+                "label": "Revenue Share",
+                "value": "30%"
             }
         ],
-        "icon": "Mail"
+        "challenge": {
+            "title": "The Inbox War",
+            "description": "With privacy changes and crowded inboxes, deliverability is everything. We use technical optimization and advanced segmenting to ensure your brand lands in the primary tab, every time."
+        },
+        "methodology": {
+            "title": "Inbox Dominance",
+            "phases": [
+                {
+                    "title": "Technical Audit",
+                    "description": "Cleaning lists and warming domains for maximum deliverability."
+                },
+                {
+                    "title": "Segmenting",
+                    "description": "Splitting your list by behavior, value, and intent stages."
+                },
+                {
+                    "title": "Automation",
+                    "description": "Building the 'always-on' machine that drives revenue in your sleep."
+                },
+                {
+                    "title": "Content Sprints",
+                    "description": "High-velocity production of conversion-optimized sales copy."
+                }
+            ]
+        },
+        "deliverables": [
+            "Technical ESP Management",
+            "Drip Campaign Automation",
+            "Behavioral Segmentation",
+            "Weekly Newsletter Strategy",
+            "A/B Testing Framework",
+            "Deliverability Optimization",
+            "Revenue Attribution Models",
+            "Compliance Management (GDPR)"
+        ],
+        "timeline": {
+            "duration": "4-6 Weeks",
+            "milestones": [
+                {
+                    "week": "Week 1",
+                    "title": "Technical Audit & Setup"
+                },
+                {
+                    "week": "Week 2-4",
+                    "title": "Automation Flow Build"
+                },
+                {
+                    "week": "Week 5-6",
+                    "title": "Launch & Monitoring"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Who We Message",
+            "types": [
+                "Content Creators",
+                "Enterprise B2B",
+                "E-commerce Retailers"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Avg. Open Rate",
+                    "value": "45%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Revenue from Email",
+                    "value": "30%",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "List Health",
+                    "value": "99%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "65+",
+            "retentionRate": "94%"
+        },
+        "differentiators": [
+            {
+                "title": "Deliverability Experts",
+                "description": "We specialize in the technical plumbing of the inbox.",
+                "icon": "Zap"
+            },
+            {
+                "title": "Hyper-Segmented",
+                "description": "No 'blast' emails. Every user gets a tailored experience.",
+                "icon": "Users"
+            },
+            {
+                "title": "ROI Obsessed",
+                "description": "We track every click directly to your bottom line revenue.",
+                "icon": "Target"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Does email marketing still work?",
+                "answer": "Better than ever. For many of our clients, email represents 30-40% of their total monthly recurring revenue."
+            },
+            {
+                "question": "Which email platforms do you use?",
+                "answer": "We are experts in Klaviyo, HubSpot, Braze, and Mailchimp, as well as native specialized PRM systems."
+            },
+            {
+                "question": "Can you help with list building?",
+                "answer": "Yes, we architect high-converting lead magnets and opt-in funnels to grow your primary database instantly."
+            }
+        ],
+        "features": [],
+        "process": []
     }
 ]

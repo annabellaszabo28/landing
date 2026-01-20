@@ -50,94 +50,106 @@ export default function BlogPostDetail() {
       <Navigation />
 
       <main className="flex-grow pt-32 pb-24">
-        <article className="container max-w-4xl">
-          <Link href="/blog" className="inline-flex items-center gap-2 text-slate-500 hover:text-primary transition-colors mb-8">
-            <ArrowLeft size={20} /> Back to Blog
-          </Link>
+        <article className="container max-w-4xl px-4 md:px-6">
+          {/* Breadcrumb Navigation */}
+          <nav className="flex items-center gap-2 text-[10px] md:text-xs font-bold uppercase tracking-widest text-slate-400 mb-8 overflow-hidden whitespace-nowrap">
+            <Link href="/blog" className="hover:text-primary transition-colors">Blog</Link>
+            <span className="text-slate-300">/</span>
+            <span className="text-slate-300">{post.category}</span>
+            <span className="text-slate-300">/</span>
+            <span className="text-slate-500 truncate">{post.title}</span>
+          </nav>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
-          >
-            <div className="inline-block px-6 py-2 bg-brand-mint text-primary rounded-full font-black text-xs uppercase tracking-[0.2em] mb-8 shadow-xl shadow-brand-mint/20">
+          <header className="mb-12">
+            <div className="inline-block px-4 py-1.5 bg-brand-mint/10 text-primary border border-brand-mint/20 rounded-lg font-black text-[10px] uppercase tracking-[0.2em] mb-6">
               {post.category}
             </div>
-            <h1 className="text-4xl md:text-7xl font-black mb-8 leading-[1.1] tracking-tighter text-slate-900">
+
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-10 leading-[1.1] tracking-tighter text-slate-900 max-w-4xl">
               {post.title}
             </h1>
 
-            <div className="flex flex-wrap items-center justify-center gap-6 text-slate-600">
+            <div className="flex flex-wrap items-center gap-6 py-8 border-y border-slate-100 mb-12">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-white overflow-hidden border border-slate-200 shadow-sm">
-                  <img
-                    src="/brand_logo_new.png"
-                    alt="BlockMarketing Consulting"
-                    className="w-full h-full object-contain p-1.5"
-                  />
+                <div className="w-10 h-10 rounded-full bg-slate-50 overflow-hidden border border-slate-100">
+                  <img src="/brand_logo_new.png" alt="BlockMarketing Consulting" className="w-full h-full object-contain p-1.5" />
                 </div>
-                <div className="text-left">
-                  <div className="text-sm font-medium text-slate-900 uppercase tracking-tight">BlockMarketing Consulting</div>
+                <div>
+                  <div className="text-xs font-black uppercase tracking-widest text-slate-900">BlockMarketing Consulting</div>
+                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-0.5">Author</div>
                 </div>
               </div>
 
-              <div className="w-px h-8 bg-slate-200 hidden sm:block" />
+              <div className="w-px h-8 bg-slate-100 hidden sm:block" />
 
-              <div className="flex items-center gap-2">
-                <Calendar size={20} className="text-slate-400" />
-                <div className="text-left">
-                  <div className="text-sm font-bold text-slate-900">{new Date(post.date).toLocaleDateString()}</div>
-                  <div className="text-xs">Published</div>
+              <div className="flex items-center gap-6">
+                <div>
+                  <div className="text-xs font-black text-slate-900 uppercase tracking-widest">{new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</div>
+                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-0.5">Published</div>
+                </div>
+                <div>
+                  <div className="text-xs font-black text-slate-900 uppercase tracking-widest">{post.readTime || '3 min read'}</div>
+                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-0.5">Read time</div>
                 </div>
               </div>
             </div>
-          </motion.div>
+          </header>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="rounded-3xl overflow-hidden shadow-2xl mb-16 aspect-video border border-slate-100"
+            className="rounded-[2.5rem] overflow-hidden shadow-2xl mb-20 aspect-[16/9] border border-slate-100 group"
           >
-            <BrandedBlogCard title={post.title} category={post.category} className="w-full h-full" />
+            <BrandedBlogCard title={post.title} category={post.category} className="w-full h-full transition-transform duration-700 group-hover:scale-105" />
           </motion.div>
 
-          <div className="grid lg:grid-cols-12 gap-12">
-            <div className="lg:col-span-2 hidden lg:block">
-              <div className="sticky top-32 space-y-4">
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-4">Share</p>
-                <button className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-600 hover:bg-primary hover:text-white transition-colors">
-                  <Share2 size={18} />
-                </button>
+          <div className="grid lg:grid-cols-12 gap-16">
+            <aside className="lg:col-span-1 hidden lg:block">
+              <div className="sticky top-32 space-y-6">
+                <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-6">Share</p>
+                <div className="flex flex-col gap-4">
+                  <button className="w-11 h-11 rounded-xl bg-slate-50 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white hover:scale-110 transition-all border border-slate-100">
+                    <Share2 size={18} />
+                  </button>
+                  <button className="w-11 h-11 rounded-xl bg-slate-50 flex items-center justify-center text-slate-400 hover:bg-brand-mint hover:text-primary hover:scale-110 transition-all border border-slate-100">
+                    <Tag size={18} />
+                  </button>
+                </div>
               </div>
-            </div>
+            </aside>
 
-            <div className="lg:col-span-8">
+            <section className="lg:col-span-9 max-w-3xl">
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                className="prose prose-lg prose-slate max-w-none first-letter:text-5xl first-letter:font-bold first-letter:text-primary first-letter:mr-3 first-letter:float-left"
+                className="prose prose-xl prose-slate max-w-none prose-headings:font-black prose-headings:tracking-tighter prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-[1.8] prose-p:text-lg md:prose-p:text-xl prose-li:text-slate-700 prose-strong:text-slate-900 prose-a:text-primary prose-a:no-underline hover:prose-a:text-brand-mint prose-a:transition-colors prose-img:rounded-3xl prose-blockquote:border-l-4 prose-blockquote:border-brand-mint prose-blockquote:bg-slate-50 prose-blockquote:p-8 prose-blockquote:rounded-2xl prose-blockquote:not-italic prose-blockquote:font-black prose-blockquote:text-2xl prose-blockquote:tracking-tight transition-all"
               >
                 <ReactMarkdown>{post.content}</ReactMarkdown>
               </motion.div>
 
-              <div className="mt-16 pt-8 border-t border-slate-200">
-                <h3 className="font-bold text-xl mb-6">Related Topics</h3>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-4 py-2 bg-slate-100 rounded-full text-slate-700 hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer">
-                    #AI
-                  </span>
-                  <span className="px-4 py-2 bg-slate-100 rounded-full text-slate-700 hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer">
-                    #Web3
-                  </span>
-                  <span className="px-4 py-2 bg-slate-100 rounded-full text-slate-700 hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer">
-                    #Marketing
-                  </span>
+              <footer className="mt-20 pt-12 border-t border-slate-100">
+                <div className="flex items-center justify-between flex-wrap gap-8">
+                  <div>
+                    <h3 className="font-black text-2xl tracking-tight mb-4">Related Topics</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {['AI', 'Web3', 'Growth'].map(tag => (
+                        <span key={tag} className="px-5 py-2.5 bg-slate-100 text-slate-800 rounded-xl text-xs font-black uppercase tracking-widest hover:bg-primary hover:text-white transition-all cursor-pointer border border-slate-200">
+                          #{tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Tags:</p>
+                    <div className="flex gap-2">
+                      <Tag size={16} className="text-brand-mint" />
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
+              </footer>
+            </section>
           </div>
         </article>
 

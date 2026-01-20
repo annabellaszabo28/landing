@@ -69,10 +69,9 @@ export interface BlogPost {
     title: string;
     date: string;
     author: string;
-    category: string;
-    excerpt: string;
     image: string;
     content: string;
+    readTime?: string;
 }
 
 export interface CaseStudy {
@@ -147,10 +146,16 @@ export async function getAllBlogPosts(): Promise<BlogPost[]> {
                 const fileContent = (await finalResolver()) as string;
                 const { data, content } = parseFrontmatter(fileContent);
 
+                // Calculate read time (avg 200 words per minute)
+                const wordCount = content.split(/\s+/).length;
+                const minutes = Math.ceil(wordCount / 200);
+                const readTime = `${minutes} min read`;
+
                 return {
                     ...data,
                     slug: (isHu && group.huResolver) ? `${slug}.hu` : slug,
-                    content
+                    content,
+                    readTime
                 } as BlogPost;
             } catch (err) {
                 console.error(`Error loading blog post ${slug}:`, err);

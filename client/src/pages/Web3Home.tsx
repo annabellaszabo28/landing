@@ -3,7 +3,8 @@ import Footer from "@/components/Footer";
 import { Link } from "wouter";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2, Users, Rocket, Mic, Newspaper, Zap } from "lucide-react";
+import { ArrowRight, CheckCircle2, Users, Rocket, Mic, Newspaper, Zap, TrendingUp, Target, Code } from "lucide-react";
+import * as Icons from "lucide-react";
 import { getPageContent } from "@/lib/content";
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
@@ -13,7 +14,10 @@ const iconMap: Record<string, any> = {
     Users,
     Rocket,
     Mic,
-    Newspaper
+    Newspaper,
+    TrendingUp: Icons.TrendingUp,
+    Target: Icons.Target,
+    Code: Icons.Code
 };
 
 export default function Web3Home() {

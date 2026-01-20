@@ -3,7 +3,8 @@ import Footer from "@/components/Footer";
 import { Link } from "wouter";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2, Search, Target, Share2, FileText, Zap } from "lucide-react";
+import { ArrowRight, CheckCircle2, Search, Target, Share2, FileText, Zap, Map, PenTool, Users, Mail } from "lucide-react";
+import * as Icons from "lucide-react";
 import { getPageContent } from "@/lib/content";
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
@@ -13,7 +14,11 @@ const iconMap: Record<string, any> = {
     Search,
     Target,
     Share2,
-    FileText
+    FileText,
+    Map,
+    PenTool: Icons.PenTool,
+    Users: Icons.Users,
+    Mail: Icons.Mail
 };
 
 export default function Web2Home() {

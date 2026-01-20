@@ -58,9 +58,15 @@ export default function BlogPage() {
                         <span className="px-5 py-2 bg-brand-mint text-primary rounded-full shadow-lg shadow-brand-mint/20">
                           {post.category}
                         </span>
-                        <div className="flex items-center gap-1.5 font-bold">
-                          <Calendar size={14} className="text-brand-mint" strokeWidth={3} />
-                          {new Date(post.date).toLocaleDateString()}
+                        <div className="flex items-center gap-3 font-bold">
+                          <div className="flex items-center gap-1.5">
+                            <Calendar size={14} className="text-brand-mint" strokeWidth={3} />
+                            {new Date(post.date).toLocaleDateString()}
+                          </div>
+                          <div className="w-1 h-1 rounded-full bg-slate-200" />
+                          <div className="text-slate-400">
+                            {post.readTime || '3 min read'}
+                          </div>
                         </div>
                       </div>
 
