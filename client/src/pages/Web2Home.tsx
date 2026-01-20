@@ -45,16 +45,32 @@ export default function Web2Home() {
                             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-100 border border-slate-200 mb-6 shadow-sm">
                                 <span className="w-2 h-2 rounded-full bg-primary" />
                                 <span className="text-xs font-bold text-slate-700 uppercase tracking-widest">
-                                    Enterprise Grade Growth
+                                    Strategic Growth Partner
                                 </span>
                             </div>
                             <h1 className="text-5xl md:text-8xl font-black font-heading tracking-tighter mb-8 leading-[1.05] text-slate-900">
-                                Digital Marketing.<br />
-                                <span className="text-brand-mint">Supercharged.</span>
+                                Digital Marketing<br />
+                                <span className="text-brand-mint">That Delivers.</span>
                             </h1>
-                            <p className="text-xl md:text-2xl text-slate-700 max-w-2xl mb-12 leading-relaxed font-medium">
-                                We leverage recursive AI agents to optimize every node of your marketing funnel. From acquisition to retention, we engineer growth.
+                            <p className="text-xl md:text-2xl text-slate-700 max-w-3xl mb-12 leading-relaxed font-medium">
+                                We build comprehensive marketing systems for ambitious businesses—from strategy and brand development to performance marketing and customer retention. Results-driven growth for companies ready to scale.
                             </p>
+
+                            {/* Trust Signals */}
+                            <div className="flex flex-wrap gap-8 py-8 border-t border-slate-200 mt-12">
+                                <div>
+                                    <div className="text-2xl font-black text-primary">€500K+</div>
+                                    <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">Monthly Ad Spend</div>
+                                </div>
+                                <div>
+                                    <div className="text-2xl font-black text-primary">95%</div>
+                                    <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">Client Retention</div>
+                                </div>
+                                <div>
+                                    <div className="text-2xl font-black text-primary">SaaS & B2B</div>
+                                    <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">Core Domain Focus</div>
+                                </div>
+                            </div>
                         </motion.div>
                     </div>
                 </section>
@@ -103,6 +119,33 @@ export default function Web2Home() {
                                     </motion.div>
                                 );
                             })}
+                        </div>
+                    </div>
+                </section>
+                {/* KPIs & Results */}
+                <section className="py-24 bg-slate-900 text-white overflow-hidden relative">
+                    <div className="container px-4 relative z-10">
+                        <div className="max-w-4xl mx-auto text-center mb-16">
+                            <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-6">Built for <span className="text-brand-mint">Conversion.</span></h2>
+                            <p className="text-slate-400 text-xl font-medium">We optimize the metrics that matter most to your bottom line.</p>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                            <div className="p-8 bg-white/5 rounded-3xl border border-white/10 text-center">
+                                <div className="text-4xl font-black mb-2 text-brand-mint">+340%</div>
+                                <div className="text-xs font-bold uppercase tracking-widest text-slate-400">Qualified Leads</div>
+                            </div>
+                            <div className="p-8 bg-white/5 rounded-3xl border border-white/10 text-center">
+                                <div className="text-4xl font-black mb-2 text-brand-mint">-45%</div>
+                                <div className="text-xs font-bold uppercase tracking-widest text-slate-400">CAC Reduction</div>
+                            </div>
+                            <div className="p-8 bg-white/5 rounded-3xl border border-white/10 text-center">
+                                <div className="text-4xl font-black mb-2 text-brand-mint">5.5x</div>
+                                <div className="text-xs font-bold uppercase tracking-widest text-slate-400">Average ROAS</div>
+                            </div>
+                            <div className="p-8 bg-white/5 rounded-3xl border border-white/10 text-center">
+                                <div className="text-4xl font-black mb-2 text-brand-mint">2M+</div>
+                                <div className="text-xs font-bold uppercase tracking-widest text-slate-400">Monthly Impressions</div>
+                            </div>
                         </div>
                     </div>
                 </section>

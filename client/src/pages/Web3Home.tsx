@@ -45,16 +45,32 @@ export default function Web3Home() {
                             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-100 border border-slate-200 mb-6 shadow-sm">
                                 <span className="w-2 h-2 rounded-full bg-primary" />
                                 <span className="text-xs font-bold text-slate-700 uppercase tracking-widest">
-                                    Web3 Native Growth
+                                    Web3 Native Growth Experts
                                 </span>
                             </div>
                             <h1 className="text-5xl md:text-8xl font-black font-heading tracking-tighter mb-8 leading-[1.05] text-slate-900">
-                                Growth for the<br />
-                                <span className="text-brand-mint">Decentralized Internet.</span>
+                                Web3 Marketing for<br />
+                                <span className="text-brand-mint">Blockchain Builders.</span>
                             </h1>
-                            <p className="text-xl md:text-2xl text-slate-700 max-w-2xl mb-12 leading-relaxed font-medium">
-                                We understand the nuances of blockchain communities. From tokenomics to on-chain analytics, we build systems that scale TVL and users.
+                            <p className="text-xl md:text-2xl text-slate-700 max-w-3xl mb-12 leading-relaxed font-medium">
+                                We understand the nuances of blockchain communities. From tokenomics modeling to on-chain analytics, we build marketing systems that drive TVL growth, active wallets, and protocol adoption.
                             </p>
+
+                            {/* Credibility Markers */}
+                            <div className="flex flex-wrap gap-8 py-8 border-t border-slate-200 mt-12">
+                                <div>
+                                    <div className="text-2xl font-black text-primary">50+</div>
+                                    <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">Mainnet Launches</div>
+                                </div>
+                                <div>
+                                    <div className="text-2xl font-black text-primary">$2.4B+</div>
+                                    <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">TVL Generated</div>
+                                </div>
+                                <div>
+                                    <div className="text-2xl font-black text-primary">Since 2017</div>
+                                    <div className="text-xs font-bold text-slate-500 uppercase tracking-widest">Blockchain Native</div>
+                                </div>
+                            </div>
                         </motion.div>
                     </div>
                 </section>
@@ -103,6 +119,33 @@ export default function Web3Home() {
                                     </motion.div>
                                 );
                             })}
+                        </div>
+                    </div>
+                </section>
+                {/* Web3 Metrics */}
+                <section className="py-24 bg-slate-900 text-white overflow-hidden relative">
+                    <div className="container px-4 relative z-10">
+                        <div className="max-w-4xl mx-auto text-center mb-16">
+                            <h2 className="text-4xl md:text-6xl font-black tracking-tighter mb-6">Engineered for <span className="text-brand-mint">Protocol Success.</span></h2>
+                            <p className="text-slate-400 text-xl font-medium">We deliver growth across DeFi, L1/L2s, and DAO ecosystems.</p>
+                        </div>
+                        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                            <div className="p-8 bg-white/5 rounded-3xl border border-white/10 text-center">
+                                <div className="text-4xl font-black mb-2 text-brand-mint">$340M</div>
+                                <div className="text-xs font-bold uppercase tracking-widest text-slate-400">TVL Gained (6mo)</div>
+                            </div>
+                            <div className="p-8 bg-white/5 rounded-3xl border border-white/10 text-center">
+                                <div className="text-4xl font-black mb-2 text-brand-mint">45K</div>
+                                <div className="text-xs font-bold uppercase tracking-widest text-slate-400">Active Wallets (60d)</div>
+                            </div>
+                            <div className="p-8 bg-white/5 rounded-3xl border border-white/10 text-center">
+                                <div className="text-4xl font-black mb-2 text-brand-mint">25K+</div>
+                                <div className="text-xs font-bold uppercase tracking-widest text-slate-400">Discord Community</div>
+                            </div>
+                            <div className="p-8 bg-white/5 rounded-3xl border border-white/10 text-center">
+                                <div className="text-4xl font-black mb-2 text-brand-mint">18%</div>
+                                <div className="text-xs font-bold uppercase tracking-widest text-slate-400">Daily Active Rate</div>
+                            </div>
                         </div>
                     </div>
                 </section>

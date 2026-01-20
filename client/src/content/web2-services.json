@@ -3,34 +3,34 @@
         "id": "strategy",
         "title": "Strategy",
         "slug": "strategy",
-        "description": "Comprehensive go-to-market planning and strategic positioning for Web2 and Web3 brands.",
-        "longDescription": "Everything starts with a solid plan. We analyze your market position, competitive landscape, and unique value proposition to craft a roadmap that ensures sustainable growth and market dominance.",
+        "description": "Comprehensive go-to-market planning and strategic positioning for ambitious brands.",
+        "longDescription": "Everything starts with a solid plan. We analyze your market position, competitive landscape, and unique customer insights to craft a roadmap that ensures sustainable growth and market penetration.",
         "features": [
             "Go-to-Market Strategy",
             "Brand Positioning",
             "Competitor Analysis",
-            "Tokenomics Advisory"
+            "Market Research & Insights"
         ],
         "process": [
             {
                 "step": "01",
                 "title": "Audit",
-                "description": "Deep dive into your current metrics."
+                "description": "Deep dive into your current metrics and market share."
             },
             {
                 "step": "02",
                 "title": "Plan",
-                "description": "Defining KPIs and milestones."
+                "description": "Defining KPIs, milestones, and customer personas."
             },
             {
                 "step": "03",
                 "title": "Execute",
-                "description": "Rolling out the roadmap."
+                "description": "Rolling out the strategic roadmap."
             },
             {
                 "step": "04",
                 "title": "Optimize",
-                "description": "Iterating based on data."
+                "description": "Iterating based on hard data and performance."
             }
         ],
         "results": [
@@ -50,23 +50,23 @@
         "title": "Creative and Content",
         "slug": "creative-content",
         "description": "Visual identity, copywriting, and content strategy that defines your brand voice.",
-        "longDescription": "We create visuals that pop and content that converts. From high-fidelity UI/UX design to compelling narratives, we ensure your brand stands out in a crowded digital landscape.",
+        "longDescription": "We create visuals that resonate and content that converts. From professional brand guidelines to multi-channel assets, we ensure your brand stands out with an established, corporate aesthetic.",
         "features": [
-            "Visual Identity & Branding",
-            "UI/UX Design",
-            "Copywriting & Storytelling",
-            "Video Production"
+            "Brand Guidelines & Identity",
+            "Content Calendar Management",
+            "Multi-Channel Assets",
+            "Professional Sales Enablement"
         ],
         "process": [
             {
                 "step": "01",
                 "title": "Concept",
-                "description": "Moodboards and voice definition."
+                "description": "Moodboards and brand voice definition."
             },
             {
                 "step": "02",
                 "title": "Create",
-                "description": "Asset production and design."
+                "description": "Asset production and corporate design."
             },
             {
                 "step": "03",
@@ -76,7 +76,7 @@
             {
                 "step": "04",
                 "title": "Publish",
-                "description": "Distributing across channels."
+                "description": "Distributing across established channels."
             }
         ],
         "results": [
@@ -93,36 +93,36 @@
     },
     {
         "id": "paid_marketing",
-        "title": "Paid Marketing and Influencers",
+        "title": "Performance Marketing",
         "slug": "paid-marketing",
-        "description": "High-ROI performance marketing and influencer campaigns to scale your reach instantly.",
-        "longDescription": "We combine algorithmic precision with human influence. Our paid campaigns across search and social are complemented by strategic influencer partnerships to drive credibility and conversions.",
+        "description": "High-ROI Google, Meta, and LinkedIn campaigns to scale your reach instantly.",
+        "longDescription": "We combine algorithmic precision with proven frameworks that reduce CAC by 30-45%. Our paid campaigns focus on lead generation and ROAS optimization across established digital channels.",
         "features": [
-            "PPC (Google & Social)",
-            "Influencer Management",
-            "Affiliate Networks",
-            "Programmatic Ads"
+            "Google Ads & Search",
+            "Meta (FB/IG) Advertising",
+            "LinkedIn B2B Campaigns",
+            "Programmatic Lead Gen"
         ],
         "process": [
             {
                 "step": "01",
                 "title": "Targeting",
-                "description": "Identifying your ideal persona."
+                "description": "Identifying your ideal customer persona."
             },
             {
                 "step": "02",
-                "title": "Negotiation",
-                "description": "Securing best rates with KOLs."
+                "title": "Framework",
+                "description": "Applying proven conversion systems."
             },
             {
                 "step": "03",
                 "title": "Launch",
-                "description": "Going live with optimized ads."
+                "description": "Going live with optimized ad sets."
             },
             {
                 "step": "04",
                 "title": "Scale",
-                "description": "Doubling down on winners."
+                "description": "Doubling down on high-performing segments."
             }
         ],
         "results": [
@@ -131,44 +131,44 @@
                 "value": "5.5x"
             },
             {
-                "label": "Reach",
-                "value": "10M+"
+                "label": "CAC Reduction",
+                "value": "-40%"
             }
         ],
         "icon": "Target"
     },
     {
         "id": "community_retention",
-        "title": "Community and Retention",
+        "title": "Retention and Loyalty",
         "slug": "community-retention",
-        "description": "Building loyal tribes and automated retention loops to maximize customer lifetime value.",
-        "longDescription": "Acquisition is only half the battle. We implement community management strategies and CRM retention flows to keep your users engaged, active, and advocating for your brand.",
+        "description": "Building loyal customer bases and automated retention loops to maximize LTV.",
+        "longDescription": "Acquisition is only half the battle. We implement customer success programs and CRM retention flows to keep your users engaged, active, and advocating for your brand.",
         "features": [
-            "Discord/Telegram Mgmt",
-            "Email/SMS Retention",
-            "Loyalty Programs",
-            "Churn Reduction"
+            "Customer Loyalty Programs",
+            "CRM & Churn Reduction",
+            "Customer Success Programs",
+            "Automated Feedback Loops"
         ],
         "process": [
             {
                 "step": "01",
                 "title": "Onboard",
-                "description": "Welcoming new users."
+                "description": "Welcoming and educating new users."
             },
             {
                 "step": "02",
                 "title": "Engage",
-                "description": "Daily community activation."
+                "description": "Daily customer success activation."
             },
             {
                 "step": "03",
                 "title": "Retain",
-                "description": "Automated drip campaigns."
+                "description": "Automated drip and loyalty campaigns."
             },
             {
                 "step": "04",
                 "title": "Grow",
-                "description": "Turning users into advocates."
+                "description": "Increasing customer lifetime value."
             }
         ],
         "results": [
@@ -187,34 +187,34 @@
         "id": "email_marketing",
         "title": "Email Marketing",
         "slug": "email-marketing",
-        "description": "Direct, owned audience communication that drives retention and revenue.",
-        "longDescription": "Don't build your house on rented land. Email marketing allows you to own your audience relationships directly. We build sophisticated segmentation and automation strategies that deliver the right message to the right user at the right time, turning subscribers into loyal customers.",
+        "description": "Enterprise-grade audience communication that drives retention and revenue.",
+        "longDescription": "Own your audience relationships directly. We build sophisticated segmentation and enterprise-grade ESP management that deliver the right message to the right user, turning subscribers into loyal customers.",
         "features": [
-            "User Segmentation",
-            "Drip Campaigns",
-            "Newsletter Management",
-            "A/B Testing"
+            "Enterprise ESP Management",
+            "Sophisticated Segmentation",
+            "Drip Campaign Automation",
+            "Rigorous A/B Testing"
         ],
         "process": [
             {
                 "step": "01",
                 "title": "Audit",
-                "description": "Analyzing current list health."
+                "description": "Analyzing current list health and deliverability."
             },
             {
                 "step": "02",
                 "title": "Segment",
-                "description": "Categorizing users by behavior."
+                "description": "Categorizing users by high-impact behavior."
             },
             {
                 "step": "03",
                 "title": "Automate",
-                "description": "Building flows (Welcome, Cart, etc)."
+                "description": "Building ROI-driven lifecycle flows."
             },
             {
                 "step": "04",
                 "title": "Optimize",
-                "description": "Refining open and click rates."
+                "description": "Refining conversion and open rates."
             }
         ],
         "results": [
@@ -223,8 +223,8 @@
                 "value": "45%+"
             },
             {
-                "label": "Revenue",
-                "value": "+25%"
+                "label": "Direct ROI",
+                "value": "25%+"
             }
         ],
         "icon": "Mail"

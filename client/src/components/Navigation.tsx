@@ -19,11 +19,9 @@ export default function Navigation() {
   }, []);
 
   const navLinks = [
-    { name: "Services", href: "/marketing" },
-    { name: "CMO as a Service", href: "/cmo" },
-    { name: "AI Native", href: "/ai-native" },
-    { name: t("nav.marketing"), href: "/marketing" },
-    { name: t("nav.web3"), href: "/web3" },
+    { name: "Marketing Services", href: "/marketing" },
+    { name: "Web3 Growth", href: "/web3" },
+    { name: "Fractional CMO", href: "/cmo" },
     { name: t("nav.about"), href: "/about" },
     { name: t("nav.blog"), href: "/blog" },
     { name: t("nav.contact"), href: "/contact" },
@@ -53,13 +51,13 @@ export default function Navigation() {
           {/* Centered Links */}
           <div className="flex items-center gap-8 mx-auto">
             <Link href="/marketing">
-              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors cursor-pointer">{t("nav.marketing")}</a>
+              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors cursor-pointer text-center leading-tight">Marketing<br /><span className="text-[10px] text-slate-400">Traditional</span></a>
             </Link>
             <Link href="/web3">
-              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors cursor-pointer">{t("nav.web3")}</a>
+              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors cursor-pointer text-center leading-tight">Web3 Growth<br /><span className="text-[10px] text-slate-400">Native</span></a>
             </Link>
             <Link href="/cmo">
-              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors cursor-pointer">CMO as a Service</a>
+              <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors cursor-pointer text-center leading-tight">Fractional<br /><span className="text-[10px] text-slate-400">CMO</span></a>
             </Link>
             <Link href="/about">
               <a className="text-[13px] font-black uppercase tracking-widest text-slate-800 hover:text-brand-mint transition-colors flex items-center gap-2 cursor-pointer">
