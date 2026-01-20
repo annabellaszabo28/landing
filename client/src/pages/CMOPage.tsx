@@ -201,7 +201,7 @@ export default function CMOPage() {
                             {/* Foundation */}
                             <div className="p-8 rounded-[2rem] bg-slate-900 border border-slate-800 flex flex-col hover:shadow-2xl transition-all hover:-translate-y-2 text-white">
                                 <h3 className="text-2xl font-black text-white mb-2 uppercase tracking-tight">Foundation</h3>
-                                <div className="text-4xl font-black text-brand-mint mb-6">€2,500<span className="text-lg text-slate-500">/mo</span></div>
+                                <div className="text-4xl font-black text-brand-mint mb-6">€3,500<span className="text-lg text-slate-500">/mo</span></div>
                                 <p className="text-slate-400 mb-8 border-b border-slate-800 pb-8 font-medium h-20">Your steady engine for visibility consistent posting, smart SEO, and end-to-end content flow.</p>
 
                                 <div className="mb-4">
@@ -211,19 +211,27 @@ export default function CMOPage() {
                                 <ul className="space-y-6 mb-8 flex-grow text-slate-300 font-medium">
                                     <li>
                                         <div className="font-bold text-white mb-1">Social Media Management</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>3 Posts Per Week (One Channel)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>7 Posts Per Week (One Channel)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Social Media Engagement</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>100 Engagement Actions Per Week (One Channel)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>20 Engagement Actions Per Week (One Channel)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Content Marketing</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>1 SEO Optimized Article Per Month</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>1 SEO Optimized Article Per Week</span></div>
                                     </li>
                                     <li>
-                                        <div className="font-bold text-white mb-1">Design Template Playbook</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Included</span></div>
+                                        <div className="font-bold text-white mb-1">Video Component</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>1 Video Monthly (30 sec)</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Paid Ads Management</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>One Channel Included</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Technical Support</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Full Website Audit</span></div>
                                     </li>
                                 </ul>
                                 <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
@@ -235,7 +243,7 @@ export default function CMOPage() {
                             <div className="p-10 rounded-[2.5rem] bg-slate-900 border-4 border-brand-mint flex flex-col relative shadow-2xl shadow-brand-mint/10 md:scale-105 z-10 text-white">
                                 <div className="absolute -top-5 right-10 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-[12px] font-black px-6 py-2 rounded-lg tracking-[0.1em] uppercase shadow-lg">★ POPULAR</div>
                                 <h3 className="text-2xl font-black text-white mb-2 uppercase tracking-tight">Attention</h3>
-                                <div className="text-4xl font-black text-brand-mint mb-6">€4,500<span className="text-lg text-white/50">/mo</span></div>
+                                <div className="text-4xl font-black text-brand-mint mb-6">€5,000<span className="text-lg text-white/50">/mo</span></div>
                                 <p className="text-slate-300 mb-8 border-b border-slate-700 pb-8 font-medium h-20">Your visibility multiplier scale your content and engagement across every platform.</p>
 
                                 <div className="mb-4">
@@ -245,23 +253,27 @@ export default function CMOPage() {
                                 <ul className="space-y-6 mb-8 flex-grow text-white font-medium">
                                     <li>
                                         <div className="font-bold text-brand-mint mb-1">Social Media Management</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>7 Posts Per Week (Multiple Channels)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>14 Posts Per Week (Multiple Channels)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-brand-mint mb-1">Social Media Engagement</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>300 Engagement Actions Per Week (Multiple Channels)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>30 Engagement Actions Per Week (One Channel)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-brand-mint mb-1">Content Marketing</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>3 SEO Optimized Articles Per Month</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>7 SEO Optimized Articles Per Week</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-brand-mint mb-1">Video Component</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>1 Video Weekly</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-brand-mint mb-1">Paid Ads Management</div>
                                         <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>One Channel Included</span></div>
                                     </li>
                                     <li>
-                                        <div className="font-bold text-brand-mint mb-1">Design Template Playbook</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Included</span></div>
+                                        <div className="font-bold text-brand-mint mb-1">Technical Support</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Full Audit + Strategy for Website</span></div>
                                     </li>
                                 </ul>
                                 <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
@@ -272,7 +284,7 @@ export default function CMOPage() {
                             {/* Accelerator */}
                             <div className="p-8 rounded-[2rem] bg-slate-900 border border-slate-800 flex flex-col hover:shadow-2xl transition-all hover:-translate-y-2 text-white">
                                 <h3 className="text-2xl font-black text-white mb-2 uppercase tracking-tight">Accelerator</h3>
-                                <div className="text-4xl font-black text-brand-mint mb-6">€7,000<span className="text-lg text-slate-500">/mo</span></div>
+                                <div className="text-4xl font-black text-brand-mint mb-6">€7,890<span className="text-lg text-slate-500">/mo</span></div>
                                 <p className="text-slate-400 mb-8 border-b border-slate-800 pb-8 font-medium h-20">Dominate your niche with maximum output and precision execution at scale.</p>
 
                                 <div className="mb-4">
@@ -282,23 +294,27 @@ export default function CMOPage() {
                                 <ul className="space-y-6 mb-8 flex-grow text-slate-300 font-medium">
                                     <li>
                                         <div className="font-bold text-white mb-1">Social Media Management</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>14 Posts Per Week (All Channels)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>30 Posts Per Week (Multiple Channels)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Social Media Engagement</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>1000 Engagement Actions Per Week (All Channels)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>40 Engagement Actions Per Week (One Channel)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Content Marketing</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>8 SEO Optimized Articles Per Month</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>15 SEO Optimized Articles Per Week</span></div>
+                                    </li>
+                                    <li>
+                                        <div className="font-bold text-white mb-1">Video Component</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>10 Videos Monthly</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Paid Ads Management</div>
                                         <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>3 Channels Included</span></div>
                                     </li>
                                     <li>
-                                        <div className="font-bold text-white mb-1">Design Template Playbook</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Included</span></div>
+                                        <div className="font-bold text-white mb-1">Technical Support</div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Full Audit + Full Design Support</span></div>
                                     </li>
                                 </ul>
                                 <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
