@@ -69,14 +69,13 @@ export default function Bridge({ content }: BridgeProps) {
               {/* Central Node */}
               <div className="relative z-20 mx-4">
                 <motion.div
-                  className="w-24 h-24 bg-primary rounded-full border-4 border-white flex items-center justify-center shadow-2xl relative"
+                  className="w-24 h-24 bg-primary rounded-full border-4 border-white flex items-center justify-center shadow-2xl relative overflow-hidden"
                   animate={{
-                    scale: [1, 1.1, 1],
-                    boxShadow: ["0 0 20px rgba(0,0,0,0.1)", "0 0 40px rgba(165,243,200,0.4)", "0 0 20px rgba(0,0,0,0.1)"]
+                    scale: [1, 1.05, 1],
                   }}
                   transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 >
-                  <span className="text-5xl text-brand-mint relative z-10">∞</span>
+                  <span className="text-6xl text-brand-mint relative z-10 select-none font-bold" style={{ lineHeight: 1 }}>∞</span>
                 </motion.div>
               </div>
 

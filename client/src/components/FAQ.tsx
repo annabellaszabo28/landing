@@ -43,10 +43,12 @@ export default function FAQ({ content }: FAQProps) {
                     {faq.question}
                   </span>
                 </AccordionTrigger>
-                <AccordionContent className="text-slate-600 text-lg leading-relaxed pb-8 pl-12 max-w-3xl">
-                  <ReactMarkdown className="prose prose-slate prose-lg max-w-none">
-                    {faq.answer}
-                  </ReactMarkdown>
+                <AccordionContent className="text-slate-600 text-lg leading-relaxed pb-8 pl-12 max-w-3xl font-normal">
+                  <div className="prose prose-slate prose-lg max-w-none prose-strong:font-normal prose-b:font-normal">
+                    <ReactMarkdown>
+                      {faq.answer}
+                    </ReactMarkdown>
+                  </div>
                 </AccordionContent>
               </AccordionItem>
             ))}
