@@ -211,18 +211,18 @@ export default function CMOPage() {
                                 <ul className="space-y-6 mb-8 flex-grow text-slate-300 font-medium">
                                     <li>
                                         <div className="font-bold text-white mb-1">Social Media Management</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Consistent Weekly Posting (One Channel)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>3 Posts Per Week (One Channel)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Social Media Engagement</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Active Weekly Engagement (One Channel)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>100 Engagement Actions Per Week (One Channel)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Content Marketing</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>SEO Optimized Content Articles</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>1 SEO Optimized Article Per Month</span></div>
                                     </li>
                                     <li>
-                                        <div className="font-bold text-white mb-1">Design Template Playbook Included</div>
+                                        <div className="font-bold text-white mb-1">Design Template Playbook</div>
                                         <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Included</span></div>
                                     </li>
                                 </ul>
@@ -245,19 +245,19 @@ export default function CMOPage() {
                                 <ul className="space-y-6 mb-8 flex-grow text-white font-medium">
                                     <li>
                                         <div className="font-bold text-brand-mint mb-1">Social Media Management</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>High Volume Weekly Posting (Multiple Channels)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>7 Posts Per Week (Multiple Channels)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-brand-mint mb-1">Social Media Engagement</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Enhanced Weekly Engagement (One Channel)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>300 Engagement Actions Per Week (Multiple Channels)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-brand-mint mb-1">Content Marketing</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Multiple SEO Optimized Articles</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>3 SEO Optimized Articles Per Month</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-brand-mint mb-1">Paid Ads Management</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>One Channel</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>One Channel Included</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-brand-mint mb-1">Design Template Playbook</div>
@@ -282,19 +282,19 @@ export default function CMOPage() {
                                 <ul className="space-y-6 mb-8 flex-grow text-slate-300 font-medium">
                                     <li>
                                         <div className="font-bold text-white mb-1">Social Media Management</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Maximum Weekly Posting (Multiple Channels)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>14 Posts Per Week (All Channels)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Social Media Engagement</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>Dominant Weekly Engagement (One Channel)</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>1000 Engagement Actions Per Week (All Channels)</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Content Marketing</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>High Velocity Content Production</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>8 SEO Optimized Articles Per Month</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Paid Ads Management</div>
-                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>3 Channels</span></div>
+                                        <div className="flex items-start gap-2 text-sm"><CheckCircle2 className="text-brand-mint mt-0.5" size={16} strokeWidth={3} /> <span>3 Channels Included</span></div>
                                     </li>
                                     <li>
                                         <div className="font-bold text-white mb-1">Design Template Playbook</div>
