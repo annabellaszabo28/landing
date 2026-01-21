@@ -4,36 +4,84 @@
         "subtitle": "Minden fontos információ a közös munka megkezdése előtt.",
         "items": [
             {
-                "question": "Milyen szolgáltatásokat kínálnak?",
-                "answer": "Komplex növekedési megoldásokat nyújtunk a teljes digitális térben. Főbb területeink az AI keresőoptimalizálás (GEO), az online hirdetéskezelés (PPC), a tartalomgyártás és a Web3 marketing. Emellett teljes körű szoftverfejlesztést (weboldalak, alkalmazások), blockchain megoldásokat és bérelhető marketing igazgatói (Fractional CMO) szolgáltatást is biztosítunk. Folyamatainkat modern automatizálási eszközökkel tesszük hatékonyabbá."
+                "question": "Milyen marketing területekre specializálódtak?",
+                "answer": "A hagyományos teljesítményalapú marketing és a feltörekvő AI-natív gazdaság metszéspontjára specializálódtunk. Ez magában foglalja a GEO-t (Generative Engine Optimization), az AI-vezérelt PPC-t és a teljes körű termékmarketinget Web2 és Web3 márkák számára.",
+                "category": "Get Started"
             },
             {
                 "question": "Hogyan kezdhetünk el együtt dolgozni?",
-                "answer": "A folyamat egy rövid konzultációval kezdődik, ahol áttekintjük cége jelenlegi helyzetét és céljait. Ezt követően készítünk egy egyedi stratégiai javaslatot. Amennyiben az ajánlatunk elnyeri tetszését, akár napokon belül el tudjuk kezdeni a közös munkát."
+                "answer": "A folyamat egy 30 perces konzultációval kezdődik, ahol átvilágítjuk a jelenlegi növekedési struktúráját és azonosítjuk a gyenge pontokat. Ezt követően készítünk egy egyedi stratégiai tervet. Amennyiben az ajánlatunk elnyeri tetszését, akár 72 órán belül el tudjuk kezdeni a közös munkát.",
+                "category": "Get Started"
             },
             {
-                "question": "Milyen az árazási struktúrájuk?",
-                "answer": "Rugalmas árazási modellekkel dolgozunk, amelyek tartalmazhatnak fix havidíjat vagy teljesítményalapú elemeket is. Célunk a hosszú távú partnerség, ezért minden esetben a várható megtérülés (ROI) alapján alakítjuk ki az árazást, figyelembe véve az Ön cégének növekedési szakaszát."
+                "question": "Kikkel dolgoznak együtt általában?",
+                "answer": "Minden méretű céggel dolgozunk, a tőkeerős startupoktól a jól bevezetett nagyvállalatokig. Számunkra a legfontosabb a célok és a növekedési elkötelezettség összhangja. Stratégiáinkat az Ön költségvetéséhez és ambícióihoz igazítjuk.",
+                "category": "Get Started"
+            },
+            {
+                "question": "Foglalhatok időpontot a projektem megbeszélésére?",
+                "answer": "Természetesen. Ingyenes konzultációt biztosítunk, ahol megismerhetjük az igényeit és feltérképezhetjük a lehetőségeket. Időpontot közvetlenül a naptárunkon keresztül tud foglalni.",
+                "category": "Get Started"
+            },
+            {
+                "question": "Miben különbözik az Önök megközelítése?",
+                "answer": "Több mint tízéves marketing tapasztalatunkat ötvözzük a modern AI-natív munkafolyamatokkal, amelyek növelik a sebességet és a precizitást. Úgy kezeljük ügyfeleink növekedését, mintha a sajátunk lenne, a puszta számok helyett az üzleti eredményekre összpontosítva.",
+                "category": "Our Approach"
+            },
+            {
+                "question": "Milyen kihívások leküzdésében segítenek a vállalkozásoknak?",
+                "answer": "Segítünk a márkáknak a disztribúciós akadályok lebontásában, az ügyfélszerzés skálázásában prediktív hirdetésekkel, és modernizáljuk a SEO stratégiákat az AI alapú keresés (GEO) korszakára.",
+                "category": "Our Approach"
+            },
+            {
+                "question": "Hogyan integrálják az AI-t a marketing stratégiába?",
+                "answer": "Autonóm ágenseket használunk a mély piaci kutatáshoz, prediktív modellezést a hirdetési költés optimalizálásához, és generatív motorokat (GEO), hogy márkáját az olyan LLM-ek idézzék, mint a ChatGPT vagy a Claude.",
+                "category": "Our Approach"
+            },
+            {
+                "question": "Vállalnak teljes körű szoftverfejlesztést?",
+                "answer": "Igen, magas konverziójú weboldalakat, SaaS alkalmazásokat és decentralizált protokollokat (Web3) építünk, amelyeket kifejezetten az agresszív növekedés és skálázhatóság támogatására tervezünk.",
+                "category": "Our Approach"
+            },
+            {
+                "question": "Melyek a fő szolgáltatásaik?",
+                "answer": "Fő területeink a GEO és LLM Optimalizálás (AI SEO), a Prediktív Teljesítményalapú Hirdetések (PPC), a Web3 fejlesztés és a bérelhető marketing igazgatói (Fractional CMO) szolgáltatás.",
+                "category": "Services"
+            },
+            {
+                "question": "Mi az a GEO és miért fontos 2026-ban?",
+                "answer": "A Generative Engine Optimization (GEO) biztosítja, hogy az Ön márkája legyen az elsődleges forrás az AI által generált válaszokban. Ahogy a felhasználók elmozdulnak a hagyományos kereséstől, a GEO válik az új SEO-vá.",
+                "category": "Services"
+            },
+            {
+                "question": "Minden platformon kezelnek hirdetéseket?",
+                "answer": "Igen. Nagy teljesítményű kampányokat kezelünk a Google, Meta, LinkedIn felületein, valamint kripto-natív hálózatokon is, mint az Etherscan vagy a Twitter (X), a legmagasabb megtérülésre (ROAS) optimalizálva.",
+                "category": "Services"
+            },
+            {
+                "question": "Mi az a Fractional CMO, és szükségem van-e rá?",
+                "answer": "A Fractional CMO vezetői szintű marketing irányítást biztosít a teljes munkaidős foglalkoztatás költségének töredékéért. Ideális olyan startupoknak, amelyeknek stratégiai irányításra van szükségük a magas fix költségek nélkül.",
+                "category": "Services"
             },
             {
                 "question": "Milyen hamar láthatók az eredmények?",
-                "answer": "Ez a választott szolgáltatástól függ. A hirdetések (PPC) szinte azonnal hozhatnak érdeklődőket. Az AI alapú keresőoptimalizálásunkkal általában 3-4 hét alatt érünk el látványos sikereket, ami töredéke a hagyományos SEO idejének. A közösségépítés és a márkaerősítés egy hosszabb folyamat, ami idővel egyre jobb eredményeket hoz."
+                "answer": "A PPC kampányok akár napokon belül hozhatnak érdeklődőket. A GEO stratégiáinkkal az ügyfelek általában 3-4 hét alatt érnek el látványos sikereket az AI említések és az organikus láthatóság terén.",
+                "category": "Measuring Results"
             },
             {
-                "question": "Dolgoznak kisvállalkozásokkal is?",
-                "answer": "Igen, a feltörekvő startupoktól a jól bevezetett vállalatokig minden méretű céggel dolgozunk. Számunkra a legfontosabb a közös vízió és a növekedés iránti elkötelezettség. Stratégiáinkat az Ön költségvetéséhez és céljaihoz igazítjuk."
+                "question": "Hogyan mérik és jelentik az eredményeket?",
+                "answer": "Az átláthatóság modellünk kulcsa. Valós idejű dashboardokat és rendszeres jelentéseket kap egyértelmű mutatókkal (KPI), a CPA-ra, ROAS-ra és az ügyfél-élettartam értékre (LTV) összpontosítva.",
+                "category": "Measuring Results"
             },
             {
-                "question": "Hogyan mérik az eredményeket?",
-                "answer": "Számunkra az átláthatóság az elsődleges. Rendszeres jelentéseket küldünk a legfontosabb mutatókkal (KPI), és folyamatosan követhető dashboardokat biztosítunk, így Ön valós időben láthatja a kampányok teljesítményét."
+                "question": "Készítenek teljesítmény-előrejelzést?",
+                "answer": "Igen. Mielőtt növelnénk a büdzsét, prediktív AI-t használunk a lehetséges eredmények előrejelzéséhez, biztosítva, hogy minden elköltött forintot adatalapú valószínűség támasszon alá.",
+                "category": "Measuring Results"
             },
             {
-                "question": "Miben különböznek más ügynökségektől?",
-                "answer": "Több mint tízéves szakmai tapasztalatunkat ötvözzük a legújabb technológiai megoldásokkal. Nem csak tanácsot adunk, hanem aktívan részt veszünk a kivitelezésben is, és úgy kezeljük ügyfeleink üzletét, mintha a sajátunk lenne."
-            },
-            {
-                "question": "Foglalhatok időpontot egy kötetlen beszélgetésre?",
-                "answer": "Természetesen. Ingyenes konzultációt biztosítunk, ahol megismerhetjük az igényeit. Időpontot közvetlenül a naptárunkon keresztül vagy az oldalon található űrlapon is foglalhat."
+                "question": "Hogyan mérik a sikert a Web3 és decentralizált projekteknél?",
+                "answer": "A hagyományos analitika mellett on-chain mutatókat, tárca-megtartási arányt és a közösség 'misszionárius' típusú növekedését is követjük a protokoll hosszú távú egészsége érdekében.",
+                "category": "Measuring Results"
             }
         ]
     }

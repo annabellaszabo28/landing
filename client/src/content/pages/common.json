@@ -4,36 +4,84 @@
         "subtitle": "Everything you need to know before we start working together.",
         "items": [
             {
-                "question": "What services do you offer?",
-                "answer": "We provide elite growth solutions across the entire digital stack. Our core expertise includes GEO & LLM Optimization (AI Search Visibility), Predictive Performance Ads (AI PPC), and Product Led Growth (PLG). We also provide full cycle Product Building (Websites, Apps, SaaS), Web3 Engineering (dApps, Smart Contracts), and CMO as a Service for strategic high level guidance. Every solution is supercharged by our AI Native recursive agents for maximum efficiency."
+                "question": "What kind of marketing do you specialize in?",
+                "answer": "We specialize in the intersection of traditional performance marketing and the emerging AI-native economy. This includes GEO (Generative Engine Optimization), AI-powered PPC, and full-stack product marketing for Web2 and Web3 brands.",
+                "category": "Get Started"
             },
             {
                 "question": "How do I get started working with you?",
-                "answer": "The process begins with a 30 minute discovery call where we audit your current growth architecture and identify leakage points. From there, we deliver a custom strategy roadmap. If aligned, we can begin high impact execution within 72 hours."
+                "answer": "The process begins with a 30-minute discovery call where we audit your current growth architecture and identify leakage points. From there, we deliver a custom strategy roadmap. If aligned, we can begin high-impact execution within 72 hours.",
+                "category": "Get Started"
             },
             {
-                "question": "What is your pricing structure?",
-                "answer": "We offer performance aligned models and monthly strategic retainers. Our pricing is reflective of the institutional grade rigor we bring to every project. We'll discuss specific budget alignment during our roadmap session to ensure maximum ROI for your growth stage."
-            },
-            {
-                "question": "How long before I see results?",
-                "answer": "Timeline depends on the service. PPC campaigns can generate leads within days. With our new LLM optimization and GEO strategies, clients typically see meaningful results in just 3-4 weeks, much faster than traditional SEO. Community building is an ongoing effort with compounding returns."
-            },
-            {
-                "question": "Do you work with small businesses or only enterprise clients?",
-                "answer": "We work with businesses of all sizes, from funded startups to established enterprises. What matters most is alignment on goals and a commitment to growth. Our strategies scale to match your budget and ambitions."
-            },
-            {
-                "question": "How do you measure and report on results?",
-                "answer": "Transparency is core to how we work. You'll receive regular reports with clear KPIs, insights, and recommendations. We use data dashboards so you can track performance in real time, and we schedule review calls to discuss progress and next steps."
-            },
-            {
-                "question": "What makes you different from other agencies?",
-                "answer": "We combine over a decade of marketing experience with modern AI workflows that increase speed and precision. We're hands on, accountable, and treat your growth like our own. Our team has worked with high-growth startups and leading blockchain protocols."
+                "question": "Who do you typically partner with?",
+                "answer": "We work with businesses of all sizes, from funded startups to established enterprises. What matters most is alignment on goals and a commitment to growth. Our strategies scale to match your budget and ambitions.",
+                "category": "Get Started"
             },
             {
                 "question": "Can I book a call to discuss my project?",
-                "answer": "Absolutely. We offer free 30 minute discovery calls to understand your needs and explore how we can help. You can book directly through our calendar or reach out via the contact form on this site."
+                "answer": "Absolutely. We offer free discovery calls to understand your needs and explore how we can help. You can book directly through our calendar on the site.",
+                "category": "Get Started"
+            },
+            {
+                "question": "What makes your approach different?",
+                "answer": "We combine over a decade of marketing experience with modern AI-native workflows that increase speed and precision. We treat your growth like our own, focusing on unit economics rather than vanity metrics.",
+                "category": "Our Approach"
+            },
+            {
+                "question": "What challenges do you help businesses overcome?",
+                "answer": "We help brands solve distribution moats, scale user acquisition through predictive ads, and modernize their SEO strategies for the era of AI search (GEO).",
+                "category": "Our Approach"
+            },
+            {
+                "question": "How do you integrate AI into your marketing strategy?",
+                "answer": "We use autonomous agents for deep market research, predictive modeling for ad spend optimization, and generative engines to ensure your brand is cited by LLMs like ChatGPT and Claude.",
+                "category": "Our Approach"
+            },
+            {
+                "question": "Do you offer full-cycle product development?",
+                "answer": "Yes, we build high-conversion websites, SaaS applications, and decentralized protocols (Web3) designed specifically to support aggressive growth and scalability.",
+                "category": "Our Approach"
+            },
+            {
+                "question": "What core services do you provide?",
+                "answer": "Our core expertise includes GEO & LLM Optimization, Predictive Performance Ads (PPC), Web3 Engineering, and Fractional CMO services for strategic leadership.",
+                "category": "Services"
+            },
+            {
+                "question": "What is GEO and why is it important in 2026?",
+                "answer": "Generative Engine Optimization (GEO) ensures your brand is the primary source cited in AI-generated search answers. As users move away from traditional search bars, GEO is the new SEO.",
+                "category": "Services"
+            },
+            {
+                "question": "Do you manage Paid Ads across all platforms?",
+                "answer": "Yes. We manage high-performance campaigns across Google, Meta, LinkedIn, and crypto-native networks like Etherscan and Twitter (X), optimized for the highest ROAS.",
+                "category": "Services"
+            },
+            {
+                "question": "What is a Fractional CMO, and do I need one?",
+                "answer": "A Fractional CMO provides executive-level marketing leadership at a fraction of the cost of a full-time hire. This is ideal for startups skaling to Series A/B that need strategic direction without the high overhead.",
+                "category": "Services"
+            },
+            {
+                "question": "How long before I see results?",
+                "answer": "PPC campaigns can generate leads within days. With our GEO strategies, clients typically see meaningful increases in AI mentions and organic awareness in just 3-4 weeks.",
+                "category": "Measuring Results"
+            },
+            {
+                "question": "How do you measure and report on results?",
+                "answer": "Transparency is core to our model. You'll receive real-time data dashboards and regular reports with clear KPIs, focusing on CPA, ROAS, and customer lifetime value (LTV).",
+                "category": "Measuring Results"
+            },
+            {
+                "question": "Do you provide performance forecasting?",
+                "answer": "Yes. Before we scale budgets, we use predictive AI to forecast potential outcomes, ensuring every dollar spent is backed by data-driven probability.",
+                "category": "Measuring Results"
+            },
+            {
+                "question": "How do you track success in Web3 and Decentralized growth?",
+                "answer": "Beyond traditional analytics, we track on-chain metrics, wallet retention, and community missionary growth to ensure long-term protocol health.",
+                "category": "Measuring Results"
             }
         ]
     }

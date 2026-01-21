@@ -14,60 +14,31 @@ interface FAQItem {
     category: string;
 }
 
+interface FAQContent {
+    faq_section: {
+        title: string;
+        subtitle: string;
+        items: FAQItem[];
+    };
+}
+
 const CATEGORIES = ["Get Started", "Our Approach", "Services", "Measuring Results"];
 
 export default function FAQPage() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const [activeCategory, setActiveCategory] = useState("Get Started");
     const [openItems, setOpenItems] = useState<number[]>([]);
-    const [faqItems, setFaqItems] = useState<FAQItem[]>([]);
+    const [content, setContent] = useState<FAQContent | null>(null);
 
     useEffect(() => {
-        // In a real app, these would come from the JSON content
-        // For now, mapping the existing common.json items to these categories
-        setFaqItems([
-            {
-                question: "What kind of marketing do you specialize in?",
-                answer: "We specialize in the intersection of traditional performance marketing and the emerging AI-native economy. This includes GEO (Generative Engine Optimization), AI-powered PPC, and full-stack product marketing for Web2 and Web3 brands.",
-                category: "Get Started"
-            },
-            {
-                question: "How do I get started working with you?",
-                answer: "The process begins with a 30-minute discovery call where we audit your current growth architecture and identify leakage points. From there, we deliver a custom strategy roadmap. If aligned, we can begin high-impact execution within 72 hours.",
-                category: "Get Started"
-            },
-            {
-                question: "What challenges do you help businesses overcome?",
-                answer: "We help brands solve distribution moats, scale user acquisition through predictive ads, and modernize their SEO strategies for the era of AI search (GEO). We also assist with the technical transition from Web2 to Web3 models.",
-                category: "Our Approach"
-            },
-            {
-                question: "What makes your approach different?",
-                answer: "We combine over a decade of marketing experience with modern AI workflows that increase speed and precision. We're hands-on, accountable, and treat your growth like our own. Our team has worked with high-growth startups and leading blockchain protocols.",
-                category: "Our Approach"
-            },
-            {
-                question: "Who do you typically partner with?",
-                answer: "We work with businesses of all sizes, from funded startups to established enterprises. What matters most is alignment on goals and a commitment to growth. Our strategies scale to match your budget and ambitions.",
-                category: "Get Started"
-            },
-            {
-                question: "What services do you offer?",
-                answer: "We provide elite growth solutions across the entire digital stack. Our core expertise includes GEO & LLM Optimization (AI Search Visibility), Predictive Performance Ads (AI PPC), and Product Led Growth (PLG). We also provide full cycle Product Building (Websites, Apps, SaaS), Web3 Engineering (dApps, Smart Contracts), and CMO as a Service for strategic high-level guidance.",
-                category: "Services"
-            },
-            {
-                question: "How long before I see results?",
-                answer: "Timeline depends on the service. PPC campaigns can generate leads within days. With our new LLM optimization and GEO strategies, clients typically see meaningful results in just 3-4 weeks, much faster than traditional SEO.",
-                category: "Measuring Results"
-            },
-            {
-                question: "How do you measure and report on results?",
-                answer: "Transparency is core to how we work. You'll receive regular reports with clear KPIs, insights, and recommendations. We use data dashboards so you can track performance in real-time, and we schedule review calls to discuss progress and next steps.",
-                category: "Measuring Results"
-            }
-        ]);
-    }, []);
+        getPageContent<FAQContent>("common").then(setContent).catch(err => {
+            console.error("Failed to load FAQ content:", err);
+        });
+    }, [i18n.language]);
+
+    if (!content) return null;
+
+    const faqItems = content.faq_section.items;
 
     const toggleItem = (index: number) => {
         setOpenItems(prev =>
@@ -106,8 +77,8 @@ export default function FAQPage() {
                                     setOpenItems([]);
                                 }}
                                 className={`px-8 py-3 rounded-xl font-bold transition-all duration-300 ${activeCategory === cat
-                                        ? "bg-slate-900 text-white shadow-xl scale-105"
-                                        : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                                    ? "bg-slate-900 text-white shadow-xl scale-105"
+                                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
                                     }`}
                             >
                                 {cat}
