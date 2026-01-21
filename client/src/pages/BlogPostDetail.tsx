@@ -124,9 +124,34 @@ export default function BlogPostDetail() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                className="prose prose-xl prose-slate max-w-none prose-headings:font-black prose-headings:tracking-tighter prose-headings:text-slate-900 prose-headings:mt-12 prose-headings:mb-6 prose-p:text-slate-700 prose-p:leading-[1.9] prose-p:text-lg md:prose-p:text-xl prose-p:mb-6 prose-li:text-slate-700 prose-li:mb-2 prose-strong:text-slate-900 prose-a:text-[#00D4AA] prose-a:font-semibold prose-a:underline prose-a:underline-offset-4 prose-a:decoration-2 hover:prose-a:text-primary prose-a:transition-colors prose-img:rounded-3xl prose-blockquote:border-l-4 prose-blockquote:border-brand-mint prose-blockquote:bg-slate-50 prose-blockquote:p-8 prose-blockquote:rounded-2xl prose-blockquote:not-italic prose-blockquote:font-black prose-blockquote:text-2xl prose-blockquote:tracking-tight transition-all [&>p]:mb-6 [&>h2]:mt-14 [&>h2]:mb-6 [&>h3]:mt-10 [&>h3]:mb-4"
+                className="prose prose-xl prose-slate max-w-none prose-headings:font-black prose-headings:tracking-tighter prose-headings:text-slate-900 prose-headings:mt-12 prose-headings:mb-6 prose-p:text-slate-700 prose-p:leading-[1.9] prose-p:text-lg md:prose-p:text-xl prose-p:mb-6 prose-li:text-slate-700 prose-li:mb-2 prose-strong:text-slate-900 prose-img:rounded-3xl prose-blockquote:border-l-4 prose-blockquote:border-brand-mint prose-blockquote:bg-slate-50 prose-blockquote:p-8 prose-blockquote:rounded-2xl prose-blockquote:not-italic prose-blockquote:font-black prose-blockquote:text-2xl prose-blockquote:tracking-tight transition-all [&>p]:mb-6 [&>h2]:mt-14 [&>h2]:mb-6 [&>h3]:mt-10 [&>h3]:mb-4"
               >
-                <ReactMarkdown>{post.content}</ReactMarkdown>
+                <ReactMarkdown
+                  components={{
+                    a: ({ href, children }) => (
+                      <a
+                        href={href}
+                        className="text-[#00D4AA] font-semibold underline underline-offset-4 decoration-2 hover:text-primary transition-colors"
+                        target={href?.startsWith('http') ? '_blank' : undefined}
+                        rel={href?.startsWith('http') ? 'noopener noreferrer' : undefined}
+                      >
+                        {children}
+                      </a>
+                    ),
+                    h2: ({ children }) => (
+                      <h2 className="text-3xl md:text-4xl font-black tracking-tight text-slate-900 mt-14 mb-6">
+                        {children}
+                      </h2>
+                    ),
+                    h3: ({ children }) => (
+                      <h3 className="text-2xl md:text-3xl font-black tracking-tight text-slate-900 mt-10 mb-4">
+                        {children}
+                      </h3>
+                    ),
+                  }}
+                >
+                  {post.content}
+                </ReactMarkdown>
               </motion.div>
 
               <footer className="mt-20 pt-12 border-t border-slate-100">
