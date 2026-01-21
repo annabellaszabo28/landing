@@ -183,7 +183,7 @@ export default function BlogPostDetail() {
               Stop guessing. Start growing. Book your strategy session with our marketing experts today.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+              <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                 <button className="px-12 py-5 rounded-full bg-brand-mint text-primary font-black text-xl hover:scale-105 transition-all shadow-2xl shadow-brand-mint/20 tracking-tight">
                   Book a Strategy Call
                 </button>

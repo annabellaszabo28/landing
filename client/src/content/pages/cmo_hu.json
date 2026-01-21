@@ -1,0 +1,89 @@
+{
+    "hero": {
+        "badge": "Bérelhető Marketing Igazgató • Profi csapat startupoknak",
+        "title_main": "Profi Marketing Vezetés.",
+        "title_highlight": "Teljes Állás Nélkül.",
+        "subtitle": "Szakértői Fractional CMO szolgáltatás ambiciózus Web3 és technológiai cégek számára. Egy egész marketing osztályt pótolunk egy integrált növekedési motorral.",
+        "cta_pricing": "Árazási Csomagok",
+        "cta_call": "Konzultációs Időpont"
+    },
+    "benefits": {
+        "fractional": {
+            "title": "Miért a Fractional?",
+            "desc": "Egy top-tier marketing igazgató évente akár 250 ezer euróba és tulajdonrészbe kerülhet. Mi ugyanezt a stratégiai vezetést biztosítjuk fix havi díjért, tulajdonrész nélkül."
+        },
+        "ai": {
+            "title": "Technológiai Előny",
+            "desc": "Modern automatizációs eszközeinkkel és folyamatainkkal 10x gyorsabban és hatékonyabban hajtjuk végre a stratégiát, mint egy hagyományos ügynökség."
+        }
+    },
+    "speed": {
+        "title_main": "Az indítástól a megvalósításig",
+        "title_highlight": "kevesebb mint 48 óra.",
+        "subtitle": "A mi onboarding folyamatunk nem hetekig, hanem csak órákig tart.",
+        "steps": [
+            {
+                "step": "01",
+                "title": "Audit és Stratégia",
+                "desc": "Mélymerülés a jelenlegi számokba, a piaci helyzetbe és a célok meghatározása."
+            },
+            {
+                "step": "02",
+                "title": "Rendszerépítés",
+                "desc": "A növekedéshez szükséges technikai háttér és automatizációk beállítása."
+            },
+            {
+                "step": "03",
+                "title": "Kreatív Megvalósítás",
+                "desc": "Hirdetések, landing oldalak és szövegek gyors és precíz gyártása."
+            },
+            {
+                "step": "04",
+                "title": "Skálázás",
+                "desc": "Folyamatos mérés, optimalizálás és a költségvetés hatékony kezelése."
+            }
+        ]
+    },
+    "calculator": {
+        "badge": "ROI Kalkulátor",
+        "title": "Számolja ki a Várható Hatást",
+        "subtitle": "Nézze meg, mit tud elérni marketing büdzséjéből modern növekedési motorunkkal.",
+        "budget_label": "Havi Marketing Költségkeret",
+        "impressions_label": "Várható Megjelenés",
+        "clicks_label": "Várható Kattintás",
+        "cpc_label": "Kattintási Költség (CPC)",
+        "benchmarked": "Iparági Átlag",
+        "disclaimer": "*A becslések a Web3 és SaaS portfóliónk összesített adatai alapján készültek."
+    },
+    "pricing": {
+        "badge": "Átlátható Árazás",
+        "title": "Válassza ki a Megfelelő Csomagot",
+        "subtitle": "Az indulástól a piacvezető szerepig. Megoldásaink rugalmasan követik cége növekedését.",
+        "plans": {
+            "foundation": {
+                "title": "Foundation",
+                "price": "3 500 EUR",
+                "desc": "Stabil alapok a láthatósághoz: folyamatos tartalomgyártás, okos SEO és rugalmas megvalósítás.",
+                "weekly_label": "Mit tartalmaz a csomag (hetente):"
+            },
+            "attention": {
+                "title": "Attention",
+                "price": "5 000 EUR",
+                "desc": "Aktiválja növekedési potenciálját minden fontos platformon aktív jelenléttel.",
+                "weekly_label": "Mit tartalmaz a csomag (hetente):",
+                "popular_badge": "★ NÉPSZERŰ"
+            },
+            "accelerator": {
+                "title": "Accelerator",
+                "price": "7 890 EUR",
+                "desc": "Uralja a piacát maximális teljesítménnyel és professzionális kivitelezéssel.",
+                "weekly_label": "Mit tartalmaz a csomag (hetente):"
+            }
+        }
+    },
+    "cta": {
+        "title": "Készen áll a piacvezető szerepre?",
+        "subtitle": "Felejtse el a találgatást. Kezdjen el növekedni. Foglalja le stratégiai konzultációját még ma.",
+        "button": "Konzultáció Foglalása"
+    }
+}

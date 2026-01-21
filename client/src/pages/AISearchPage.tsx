@@ -150,7 +150,7 @@ export default function AISearchPage() {
                         <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto font-bold opacity-90">
                             {content.cta.subtitle}
                         </p>
-                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                             <button className="px-16 py-6 bg-white text-primary font-black text-xl rounded-full hover:bg-brand-mint hover:text-primary transition-all transform hover:scale-105 shadow-2xl tracking-tighter uppercase font-heading">
                                 {content.cta.button_text}
                             </button>

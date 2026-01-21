@@ -46,6 +46,6 @@ Account Abstraction is not just a technical upgrade; it's a fundamental shift in
 
 By removing the friction of seed phrases and gas fees, you unlock the ability to scale your protocol to millions of users who care about the value of your app, not the complexity of its stack.
 
-Ready to revolutionize your onboarding flow and dominate your niche? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our conversion experts today.
+Ready to revolutionize your onboarding flow and dominate your niche? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our conversion experts today.
 
 Or, browse our [Web3 Development services](/web3) to see how we implement state-of-the-art infrastructure for the world's most ambitious decentralized applications.

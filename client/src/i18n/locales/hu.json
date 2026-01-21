@@ -1,7 +1,7 @@
 {
     "nav": {
         "home": "Kezdőlap",
-        "marketing": "Marketing",
+        "marketing": "PPC & SEO",
         "web3": "Web3",
         "about": "Rólunk",
         "work": "Referenciák",
@@ -20,33 +20,61 @@
         "loading": "Betöltés..."
     },
     "home_seo": {
-        "title": "BlockMarketing Consulting | AI natív marketingügynökség",
-        "description": "AI natív marketingügynökség vagyunk, amely segít a márkák skálázásában élvonalbeli AI marketinggel, Web3 közösségépítéssel és generatív tartalomstratégiákkal."
+        "title": "Marketing Ügynökség | BlockMarketing Consulting",
+        "description": "Professzionális marketing ügynökség 10+ év tapasztalattal. Online marketing, Web3 és AI stratégiák növekedésre vágyó cégeknek."
+    },
+    "web2_seo": {
+        "title": "B2B Marketing Ügynökség | SaaS és Technológiai Cégeknek",
+        "description": "Teljes körű B2B marketing szolgáltatás. Digitális stratégia, hirdetéskezelés, tartalomgyártás és ügyfélszerzés technológiai cégeknek."
+    },
+    "web3_seo": {
+        "title": "Web3 és Kripto Marketing | Blockchain Projektek Számára",
+        "description": "Web3 marketing blockchain projekteknek. Közösségépítés, tokenomika tanácsadás, kripto hirdetések. 50+ sikeres projekt indítás 2017 óta."
+    },
+    "contact_seo": {
+        "title": "Kapcsolat | Ingyenes Konzultáció | BlockMarketing",
+        "description": "Foglaljon ingyenes konzultációt marketing szakértőinkkel. Segítünk növelni cége online jelenlétét és értékesítését."
+    },
+    "cmo_seo": {
+        "title": "Marketing Igazgató Bérelhető | Fractional CMO Szolgáltatás",
+        "description": "Tapasztalt marketing vezetés cégének. CMO szintű stratégia teljes állású fizetés nélkül. Havi 3500 EUR-tól."
+    },
+    "work_seo": {
+        "title": "Referenciák | Eredményeink | BlockMarketing",
+        "description": "Nézze meg hogyan segítettünk partnereinknek a skálázásban. Esettanulmányok B2B és Web3 területekről."
+    },
+    "blog_seo": {
+        "title": "Blog | Marketing Hírek és Tippek",
+        "description": "Szakmai cikkek az online marketing, AI és Web3 világából. Maradjon naprakész szakértőink írásaival."
+    },
+    "services_seo": {
+        "title": "Marketing Szolgáltatások | BlockMarketing Consulting",
+        "description": "PPC hirdetések, SEO, tartalomgyártás és Web3 marketing. Komplex növekedési megoldások technológiai cégeknek."
     },
     "about_seo": {
-        "title": "Rólunk | BlockMarketing Consulting | AI és Web3 Marketingügynökség",
-        "description": "Ismerje meg a BlockMarketing Consulting mögött álló csapatot. AI natív marketingügynökség és Web3 úttörők vagyunk a márkák jövőbiztosítása érdekében."
+        "title": "Rólunk | A Csapat | BlockMarketing",
+        "description": "Ismerje meg profi marketing csapatunkat. 2016 óta segítjük ügyfeleinket a digitális térben."
     },
     "contact": {
         "title": "Kapcsolat",
-        "description": "Készen áll a márkája jövőbiztosítására? Lépjen kapcsolatba a BlockMarketing Consultinggal. Segítünk a márkák skálázásában AI marketinggel és Web3 stratégiákkal.",
-        "header_title": "Beszélgessünk",
-        "header_subtitle": "Készen áll a márkája jövőbiztosítására? Meséljen nekünk projektjéről.",
-        "form_title": "Kapcsolatfelvétel",
+        "header_title": "Beszéljünk!",
+        "header_subtitle": "Mondja el, miben segíthetünk. Ingyenes konzultáció projektjéről.",
+        "step_title": "Első lépés",
+        "step_1": "Tisztázza marketing céljait",
+        "step_2": "Lássa meg, hogyan érhetők el eredmények",
+        "step_3": "Kapjon konkrét tervet céljai eléréséhez",
+        "step_4": "Kezdje el növelni cége forgalmát még ma",
+        "form_title": "Üzenet küldése",
         "email_label": "Írjon nekünk",
-        "email_sub": "Általános kérdések és új üzleti megkeresések esetén.",
-        "call_label": "Hívjon minket",
-        "call_sub": "Hétfőtől péntekig, 9:00 és 18:00 között (EST).",
-        "visit_label": "Látogasson el hozzánk",
-        "first_name": "Keresztnév",
-        "last_name": "Vezetéknév",
-        "email": "E-mail",
+        "email_sub": "Általános kérdések és ajánlatkérés.",
+        "full_name": "Név",
+        "email": "E-mail cím",
         "subject": "Tárgy",
         "message": "Üzenet",
-        "send": "Üzenet küldése",
-        "sending": "Küldés...",
-        "success_title": "Üzenet elküldve!",
-        "success_msg": "Köszönjük a megkeresést. 24 órán belül válaszolunk.",
-        "send_another": "Új üzenet küldése"
+        "send": "Küldés",
+        "sending": "Küldés folyamatban...",
+        "success_title": "Köszönjük!",
+        "success_msg": "Megkaptuk üzenetét. 24 órán belül válaszolunk.",
+        "send_another": "Új üzenet"
     }
 }

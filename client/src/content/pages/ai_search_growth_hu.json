@@ -1,45 +1,85 @@
 {
     "header": {
-        "title": "Megérkezett az AI alapú keresés korszaka. Ön szerepel benne?",
-        "subtitle": "A hagyományos SEO átalakul GEO-vá (Generatív Kereső Optimalizálás). Biztosítjuk, hogy márkája legyen az elsődleges hivatkozás a ChatGPT, Perplexity és Claude felületein."
+        "title": "AI Keresőoptimalizálás (GEO): Legyen Ön az Első!",
+        "subtitle": "A hagyományos SEO már nem elég. Biztosítjuk, hogy márkája legyen az elsődleges válasz a ChatGPT, Perplexity, Claude és egyéb AI keresőkben."
     },
+    "hero_metrics": [
+        {
+            "value": "85%",
+            "label": "AI Megemlítési Arány"
+        },
+        {
+            "value": "3x",
+            "label": "Organikus Növekedés"
+        },
+        {
+            "value": "100%",
+            "label": "Márka Láthatóság"
+        }
+    ],
     "challenges": {
-        "title": "A megváltozott keresési környezet",
+        "title": "A Keresés Jövője: Miért bukik el a hagyományos SEO?",
         "items": [
-            "A felhasználók a keresőktől az AI csevegőfelületek felé mozdulnak",
-            "A hagyományos linképítés már nem garantálja az AI hivatkozásokat",
-            "Az online adathibák AI hallucinációkhoz vezethetnek az Ön márkájával kapcsolatban",
-            "A versenytársak már most építik jelenlétüket az LLM modellekben"
+            "A felhasználók egyre inkább az AI válaszokat olvassák a Google találatok helyett.",
+            "A hagyományos kulcsszó-alapú optimalizálás láthatatlan marad az LLM modellek számára.",
+            "Csökkenő organikus forgalom a kiegészített keresési eredmények miatt.",
+            "A márkák elveszítik az irányítást a róluk alkotott AI válaszok felett."
         ]
     },
     "solutions": {
-        "title": "Tegye jövőbiztossá keresési láthatóságát",
+        "title": "A GEO Megoldás",
         "items": [
             {
-                "title": "Tudásgráf integritás",
-                "description": "Úgy strukturáljuk adatait, hogy az LLM modellek megértsék és elismerjék az Ön szakértelmét.",
+                "title": "LLM Optimalizálás",
+                "description": "Tartalmát úgy építjük fel, hogy az AI modellek könnyen feldolgozzák és márkáját szakértőként ajánlják.",
                 "icon": "Cpu"
             },
             {
-                "title": "Hivatkozás tervezés",
-                "description": "Stratégiánk lényege, hogy az Ön márka legyen a hiteles forrás a generatív válaszokhoz az iparágában.",
-                "icon": "Search"
+                "title": "Szemantikai Hálózat",
+                "description": "Létrehozzuk azt a kontextuális hálót, amely összeköti márkáját a legfontosabb iparági fogalmakkal.",
+                "icon": "Network"
             },
             {
-                "title": "Szemlélet kezelés",
-                "description": "Monitorozzuk és befolyásoljuk, hogyan látják és írják le az AI modellek az Ön márkáját.",
+                "title": "Hitelesség Építés",
+                "description": "Növeljük márkája tekintélyét a külső forrásokban, hogy az AI megbízható forrásként hivatkozzon Önre.",
+                "icon": "Shield"
+            },
+            {
+                "title": "Valós Idejű Követés",
+                "description": "Folyamatosan monitorozzuk, mit mondanak az AI modellek az Ön cégéről, és finomhangoljuk a stratégiát.",
                 "icon": "Target"
-            },
-            {
-                "title": "Technikai szaktekintély",
-                "description": "Biztosítjuk, hogy weboldala architektúrája optimalizált legyen a generatív keresők robotjai számára.",
-                "icon": "Zap"
             }
         ]
     },
+    "methodology": {
+        "title": "GEO Stratégiánk",
+        "steps": [
+            {
+                "title": "AI Láthatósági Audit",
+                "desc": "Megvizsgáljuk, jelenleg hogyan jelenik meg márkája a vezető AI keresőkben."
+            },
+            {
+                "title": "Tartalom Gazdagítás",
+                "desc": "Optimalizáljuk weboldalát az AI modellek preferált struktúrája szerint."
+            },
+            {
+                "title": "Külső Referenciák",
+                "desc": "Növeljük az említések számát a releváns szakmai portálokon és adatbázisokban."
+            },
+            {
+                "title": "Folyamatos Monitorozás",
+                "desc": "Mérjük az AI megemlítések számát és a generált válaszok minőségét."
+            }
+        ]
+    },
+    "social_proof": {
+        "title": "Eredményeink",
+        "stat_1": "3x Organikus Forgalom Növekedés",
+        "stat_2": "Iparági Elsőbbség AI Válaszokban"
+    },
     "cta": {
-        "title": "Ne maradjon le az AI keresési forradalomról.",
-        "subtitle": "Kérjen GEO felkészültségi auditot és biztosítsa márkája jelenlétét a jövő keresőiben. Emelkedjen ki minden AI alapú beszélgetésből.",
-        "button_text": "GEO audit kérése"
+        "title": "Készen áll az AI-alapú keresés korára?",
+        "subtitle": "Kérjen GEO auditot, és tudja meg, hogyan látják cégét az AI modellek ma, és hogyan válhat piacvezetővé holnap.",
+        "button_text": "GEO Audit Kérése"
     }
 }

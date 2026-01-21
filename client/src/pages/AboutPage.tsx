@@ -37,7 +37,7 @@ export default function AboutPage() {
         <PageHeader
           title={
             <>
-              About BlockMarketing Consulting <br />
+              {content.header.title.split(' Consulting')[0]} <br />
               <span className="text-brand-mint italic">Consulting</span>
             </>
           }
@@ -76,9 +76,14 @@ export default function AboutPage() {
 
             {/* Impact Quote / Sub-CTA */}
             <div className="mb-24 text-center">
-              <span className="text-brand-mint font-black tracking-[0.4em] uppercase text-xs mb-6 block">Our Impact</span>
+              <span className="text-brand-mint font-black tracking-[0.4em] uppercase text-xs mb-6 block">{content.impact?.badge || "Our Impact"}</span>
               <h2 className="text-4xl md:text-7xl font-black font-heading mb-8 tracking-tighter text-slate-900 leading-[1.1]">
-                Bridging the Gap Between <span className="text-brand-mint">Insight</span> and <span className="text-brand-mint">Execution</span>.
+                {content.impact?.title.split('Insight').map((part, i) => (
+                  <span key={i}>
+                    {part}
+                    {i === 0 && <span className="text-brand-mint">Insight</span>}
+                  </span>
+                ))}
               </h2>
             </div>
 
@@ -101,11 +106,18 @@ export default function AboutPage() {
         {/* Brand Dark CTA */}
         <section className="py-32 bg-primary relative overflow-hidden">
           <div className="container px-4 text-center relative z-10">
-            <h2 className="text-5xl md:text-8xl font-black font-heading mb-8 text-white tracking-tighter leading-none">Ready to lead the <span className="text-brand-mint">Market?</span></h2>
-            <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto font-bold leading-relaxed">High-growth scale-ups and Web3 native protocols rely on our engine to scale their vision.</p>
-            <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+            <h2 className="text-5xl md:text-8xl font-black font-heading mb-8 text-white tracking-tighter leading-none">
+              {content.cta?.title.split('Market?').map((part, i) => (
+                <span key={i} className={i === 1 ? "text-brand-mint" : ""}>
+                  {part}
+                  {i === 0 && <span className="text-brand-mint">Market?</span>}
+                </span>
+              ))}
+            </h2>
+            <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto font-bold leading-relaxed">{content.cta?.subtitle}</p>
+            <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
               <button className="bg-white text-primary px-12 py-5 rounded-full text-xl font-black hover:bg-brand-mint hover:text-primary hover:scale-105 transition-all shadow-2xl shadow-brand-mint/20 tracking-tight uppercase">
-                Book a Strategy Call
+                {content.cta?.button}
               </button>
             </a>
           </div>

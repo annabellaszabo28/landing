@@ -163,7 +163,7 @@ export default function FAQPage() {
 
                     <div className="mt-20 text-center">
                         <p className="text-slate-600 mb-8 font-bold text-lg">Your question isn't covered? We're ready to connect and provide a more personal response.</p>
-                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                             <button className="bg-slate-900 text-white px-12 py-5 rounded-full text-lg font-black hover:bg-brand-mint hover:text-primary transition-all shadow-2xl hover:scale-105">
                                 Get Started
                             </button>

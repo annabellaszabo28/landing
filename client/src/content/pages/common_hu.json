@@ -1,0 +1,40 @@
+{
+    "faq_section": {
+        "title": "Gyakran Ismételt Kérdések",
+        "subtitle": "Minden fontos információ a közös munka megkezdése előtt.",
+        "items": [
+            {
+                "question": "Milyen szolgáltatásokat kínálnak?",
+                "answer": "Komplex növekedési megoldásokat nyújtunk a teljes digitális térben. Főbb területeink az AI keresőoptimalizálás (GEO), az online hirdetéskezelés (PPC), a tartalomgyártás és a Web3 marketing. Emellett teljes körű szoftverfejlesztést (weboldalak, alkalmazások), blockchain megoldásokat és bérelhető marketing igazgatói (Fractional CMO) szolgáltatást is biztosítunk. Folyamatainkat modern automatizálási eszközökkel tesszük hatékonyabbá."
+            },
+            {
+                "question": "Hogyan kezdhetünk el együtt dolgozni?",
+                "answer": "A folyamat egy rövid konzultációval kezdődik, ahol áttekintjük cége jelenlegi helyzetét és céljait. Ezt követően készítünk egy egyedi stratégiai javaslatot. Amennyiben az ajánlatunk elnyeri tetszését, akár napokon belül el tudjuk kezdeni a közös munkát."
+            },
+            {
+                "question": "Milyen az árazási struktúrájuk?",
+                "answer": "Rugalmas árazási modellekkel dolgozunk, amelyek tartalmazhatnak fix havidíjat vagy teljesítményalapú elemeket is. Célunk a hosszú távú partnerség, ezért minden esetben a várható megtérülés (ROI) alapján alakítjuk ki az árazást, figyelembe véve az Ön cégének növekedési szakaszát."
+            },
+            {
+                "question": "Milyen hamar láthatók az eredmények?",
+                "answer": "Ez a választott szolgáltatástól függ. A hirdetések (PPC) szinte azonnal hozhatnak érdeklődőket. Az AI alapú keresőoptimalizálásunkkal általában 3-4 hét alatt érünk el látványos sikereket, ami töredéke a hagyományos SEO idejének. A közösségépítés és a márkaerősítés egy hosszabb folyamat, ami idővel egyre jobb eredményeket hoz."
+            },
+            {
+                "question": "Dolgoznak kisvállalkozásokkal is?",
+                "answer": "Igen, a feltörekvő startupoktól a jól bevezetett vállalatokig minden méretű céggel dolgozunk. Számunkra a legfontosabb a közös vízió és a növekedés iránti elkötelezettség. Stratégiáinkat az Ön költségvetéséhez és céljaihoz igazítjuk."
+            },
+            {
+                "question": "Hogyan mérik az eredményeket?",
+                "answer": "Számunkra az átláthatóság az elsődleges. Rendszeres jelentéseket küldünk a legfontosabb mutatókkal (KPI), és folyamatosan követhető dashboardokat biztosítunk, így Ön valós időben láthatja a kampányok teljesítményét."
+            },
+            {
+                "question": "Miben különböznek más ügynökségektől?",
+                "answer": "Több mint tízéves szakmai tapasztalatunkat ötvözzük a legújabb technológiai megoldásokkal. Nem csak tanácsot adunk, hanem aktívan részt veszünk a kivitelezésben is, és úgy kezeljük ügyfeleink üzletét, mintha a sajátunk lenne."
+            },
+            {
+                "question": "Foglalhatok időpontot egy kötetlen beszélgetésre?",
+                "answer": "Természetesen. Ingyenes konzultációt biztosítunk, ahol megismerhetjük az igényeit. Időpontot közvetlenül a naptárunkon keresztül vagy az oldalon található űrlapon is foglalhat."
+            }
+        ]
+    }
+}

@@ -38,6 +38,6 @@ The 2026 Marketing Reset is about more than just rules; it's about a return to f
 
 At BlockMarketing Consulting, we don't just build hype; we build compliant, on-chain growth engines that turn transaction volume into market engineering.
 
-Ready to dominate the on-chain utility era and scale your protocol? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our conversion experts today.
+Ready to dominate the on-chain utility era and scale your protocol? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our conversion experts today.
 
 Or, browse our [Web3 Development services](/web3) to see how we implement the high-performance infrastructure required for the world's most ambitious brands.

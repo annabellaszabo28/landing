@@ -38,6 +38,6 @@ As the world becomes saturated with AI-generated data, blockchain remains the on
 
 At BlockMarketing Consulting, we specialize in bridging the gap between cutting-edge AI technology and the market engineering required to build a defensible growth moat.
 
-Ready to harness the AI-blockchain convergence to scale your protocol? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our experts today.
+Ready to harness the AI-blockchain convergence to scale your protocol? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our experts today.
 
 Or, browse our [AI Native solutions](/ai-native) to see how we automate growth for the next generation of autonomous brands.

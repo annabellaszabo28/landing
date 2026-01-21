@@ -46,6 +46,6 @@ Agentic marketing isn't about replacing your creative team; it's about giving th
 
 Success requires a "bottom-up" approach where you identify repetitive manual tasks and replace them with specialized, fine-tuned AI agents that learn from every iteration.
 
-Ready to build your AI-native growth engine and dominate your niche? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our expert team today to get started.
+Ready to build your AI-native growth engine and dominate your niche? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our expert team today to get started.
 
 Or, learn more about how we implement [Growth Strategy frameworks](/marketing/strategy) for ambitious global brands ready to scale in the age of agentic intelligence.

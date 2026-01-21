@@ -1,324 +1,686 @@
 [
     {
-        "id": "searchengineoptimization",
-        "title": "Keresőoptimalizálás (SEO)",
-        "slug": "seo",
-        "description": "Uralja a találati listákat AI vezérelt SEO stratégiáinkkal és tartalom klaszterekkel.",
-        "longDescription": "SEO megközelítésünk fejlett AI elemzéseket használ a nagy értékű kulcsszavak azonosítására és a tartalom optimalizálására a maximális láthatóság érdekében. A technikai SEO ra, az oldalszintű optimalizálásra és a hiteles linképítésre összpontosítunk a konvertáló organikus forgalom növelése érdekében.",
-        "features": [
-            "AI alapú kulcsszókutatás",
-            "Technikai SEO auditok",
-            "Témakör klaszter stratégia",
-            "Algoritmus váltás rezisztencia"
-        ],
-        "process": [
+        "id": "strategy",
+        "title": "Marketing Stratégia és GTM Tervezés",
+        "slug": "strategy",
+        "description": "Piacra lépési stratégia és üzleti pozicionálás ambiciózus cégeknek.",
+        "longDescription": "Komplex marketing rendszereket építünk technológiai cégeknek – a stratégiától és márkaépítéstől az online hirdetéseken át az ügyfélmegtartásig. Eredményorientált növekedés a skálázásra kész vállalatok számára.",
+        "icon": "Map",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Mély audit",
-                "description": "AI vezérelt elemzés a technikai akadályokról és kulcsszó hiányokról."
+                "label": "Bevételi Hatás",
+                "value": "€2.4M"
             },
             {
-                "step": "02",
-                "title": "Klaszter térképezés",
-                "description": "Szemantikai térképek tervezése egész témakörök uralásához."
+                "label": "Növekedési Sebesség",
+                "value": "3.5x"
             },
             {
-                "step": "03",
-                "title": "AI tartalomgyártás",
-                "description": "Kiváló minőségű és gyorsan indexelhető tartalom generálása nagy mennyiségben."
-            },
-            {
-                "step": "04",
-                "title": "Hiteles linképítés",
-                "description": "Prémium visszamutató linkek biztosítása a vezető helyezések stabilizálásához."
-            }
-        ],
-        "results": [
-            {
-                "label": "Organikus forgalom",
-                "value": "+320%"
-            },
-            {
-                "label": "Kulcsszavak a top 3 ban",
-                "value": "1.2k"
-            }
-        ],
-        "icon": "Search"
-    },
-    {
-        "id": "llmoptimization",
-        "title": "LLM optimalizálás (GEO)",
-        "slug": "llm_optimization",
-        "description": "A keresés jövője az AI. Optimalizálja márkáját a nagy nyelvi modellekre.",
-        "longDescription": "A generatív keresőoptimalizálás (GEO) az új SEO. Biztosítjuk, hogy márkája legyen a legfontosabb hivatkozás, amikor a felhasználók a ChatGPT t, Claude ot vagy Perplexity t kérdezik az Ön iparágáról.",
-        "features": [
-            "AI hivatkozás kezelés",
-            "Szemlélet formálás",
-            "Adatlap optimalizálás",
-            "BGE rangsorolási stratégiák"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Észlelési audit",
-                "description": "A márkájáról és piaci réséről szóló aktuális LLM válaszok elemzése."
-            },
-            {
-                "step": "02",
-                "title": "Hivatkozás tervezés",
-                "description": "Forrásadatok optimalizálása az elsődleges hivatkozott szaktekintéllyé váláshoz."
-            },
-            {
-                "step": "03",
-                "title": "Szemlélet finomhangolás",
-                "description": "Annak biztosítása, hogy az AI modellek pontosan értelmezzék a márkaértékeket."
-            },
-            {
-                "step": "04",
-                "title": "Folyamatos monitoring",
-                "description": "Valós idejű frissítések az LLM modellek és súlyozások fejlődésével összhangban."
-            }
-        ],
-        "results": [
-            {
-                "label": "AI ajánlási arány",
-                "value": "85%"
-            },
-            {
-                "label": "Márka hivatkozások",
-                "value": "10 szeres növekedés"
-            }
-        ],
-        "icon": "Cpu"
-    },
-    {
-        "id": "payperclick",
-        "title": "PPC és teljesítmény marketing",
-        "slug": "ppc",
-        "description": "Magas ROI kampányok a Google, Meta és LinkedIn felületein AI licit optimalizálással.",
-        "longDescription": "Magas teljesítményű PPC kampányokat kezelünk az egységnyi jövedelmezőségre összpontosítva. AI vezérelt licitálásunk és kreatív tesztelésünk biztosítja, hogy minden elköltött forint a lead minőségre és az ügyfélszerzési költségre legyen optimalizálva.",
-        "features": [
-            "Google és Meta hirdetések",
-            "AI licitkezelés",
-            "Retargeting tölcsérek",
-            "Dinamikus kreatív tesztelés"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Tölcsér tervezés",
-                "description": "Az út feltérképezése a kattintástól a konverzióig adatvezérelt pontossággal."
-            },
-            {
-                "step": "02",
-                "title": "Kreatív tesztelés",
-                "description": "Több száz AI generált kreatív variáns indítása a győztesek megtalálásához."
-            },
-            {
-                "step": "03",
-                "title": "Licit optimalizálás",
-                "description": "Valós idejű módosítások a lehető legmagasabb hirdetési megtérülés érdekében."
-            },
-            {
-                "step": "04",
-                "title": "Megtartási hurkok",
-                "description": "Remarketing stratégiák, amelyek az egyszeri kattintókat hűséges ügyfelekké alakítják."
-            }
-        ],
-        "results": [
-            {
-                "label": "Átlagos ROAS",
-                "value": "6.2x"
-            },
-            {
-                "label": "Lead költség",
-                "value": "45% csökkenés"
-            }
-        ],
-        "icon": "Target"
-    },
-    {
-        "id": "websitecreation",
-        "title": "Weboldal és webalkalmazás készítés",
-        "slug": "web_development",
-        "description": "Prémium, magas konverziójú weboldalak modern technológiákkal (React, Next.js).",
-        "longDescription": "Nem csak szép weboldalakat építünk, hanem növekedési motorokat is. Fejlesztő csapatunk a teljesítményre, sebességre és konverziós architektúrára összpontosít, hogy digitális üzlete a nap 24 órájában dolgozzon.",
-        "features": [
-            "Egyedi React és Next.js fejlesztés",
-            "Nagy teljesítményű tárhely",
-            "Konverzió fókuszú UI és UX",
-            "Reszponzív folyékony dizájn"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Felhasználói út térképezés",
-                "description": "Az optimális pszichológiai út meghatározása látogatói számára."
-            },
-            {
-                "step": "02",
-                "title": "Vizuális prototípus",
-                "description": "Prémium, magas minőségű Figma tervek készítése jóváhagyásra."
-            },
-            {
-                "step": "03",
-                "title": "Next.js implementáció",
-                "description": "Villámgyors és SEO optimalizált webes architektúrák építése."
-            },
-            {
-                "step": "04",
-                "title": "Végső QA és gyorsítás",
-                "description": "Szigorú tesztelés és optimalizálás a tökéletes Lighthouse pontszámokért."
-            }
-        ],
-        "results": [
-            {
-                "label": "Betöltési sebesség",
-                "value": "98/100"
-            },
-            {
-                "label": "Konverzió emelkedés",
-                "value": "+120%"
-            }
-        ],
-        "icon": "Code"
-    },
-    {
-        "id": "ecommerce",
-        "title": "eCommerce megoldások",
-        "slug": "ecommerce",
-        "description": "Skálázza online áruházát Shopify, WooCommerce és headless megoldásokkal.",
-        "longDescription": "A készletkezeléstől a pénztár optimalizálásig segítünk az eCommerce márkáknak 7 és 8 számjegyű árbevétel elérésében. Adatvezérelt megközelítésünk azonosítja a súrlódási pontokat az ügyfélút során és kiküszöböli azokat.",
-        "features": [
-            "Shopify Plus kezelés",
-            "Készletnyilvántartó rendszerek",
-            "Konverziós arány optimalizálás",
-            "Ügyfélmegtartási tölcsérek"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Áruház audit",
-                "description": "A fizetési folyamat súrlódási és lemorzsolódási pontjainak azonosítása."
-            },
-            {
-                "step": "02",
-                "title": "CRO implementáció",
-                "description": "Magas konverziójú termék és kosár oldalak tervezése."
-            },
-            {
-                "step": "03",
-                "title": "Hűségprogram integráció",
-                "description": "Automatizált email és SMS megtartási motorok beállítása."
-            },
-            {
-                "step": "04",
-                "title": "Operatív skálázás",
-                "description": "Nagy forgalmú események és szezonális hullámok kezelése."
-            }
-        ],
-        "results": [
-            {
-                "label": "Éves bevétel növekedés",
-                "value": "+240%"
-            },
-            {
-                "label": "Kosárelhagyás",
-                "value": "32% csökkenés"
-            }
-        ],
-        "icon": "ShoppingBag"
-    },
-    {
-        "id": "figmadesign",
-        "title": "Figma tervezés és prototípus",
-        "slug": "design_figma",
-        "description": "Élvonalbeli UI és UX dizájn és interaktív Figma prototípusok.",
-        "longDescription": "Dizájn csapatunk esztétikus és használható felületeket hoz létre, amelyek tükrözik márkája prémium jellegét. Pixelpontos Figma fájlokat és interaktív prototípusokat szállítunk, amelyek felgyorsítják a fejlesztést.",
-        "features": [
-            "Felületi dizájn (UI)",
-            "Felhasználói élmény (UX)",
-            "Magas minőségű prototípus",
-            "Dizájn rendszerek és kitek"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Moodboarding",
-                "description": "A vizuális irányvonal és a márka esztétikájának meghatározása."
-            },
-            {
-                "step": "02",
-                "title": "Drótváz készítés",
-                "description": "A váz felépítése az optimális felhasználói élmény érdekében."
-            },
-            {
-                "step": "03",
-                "title": "Magas minőségű dizájn",
-                "description": "Minden pixel finomítása a prémium digitális élmény létrehozásához."
-            },
-            {
-                "step": "04",
-                "title": "Átadás",
-                "description": "Egyeztetés a fejlesztőkkel a zökkenőmentes megvalósítás érdekében."
-            }
-        ],
-        "results": [
-            {
-                "label": "Ügyfél elégedettség",
+                "label": "Stratégiai Tisztánlátás",
                 "value": "100%"
-            },
-            {
-                "label": "Fejlesztési sebesség",
-                "value": "2 szeres"
             }
         ],
-        "icon": "Figma"
+        "challenge": {
+            "title": "A Növekedési Paradoxon",
+            "description": "Sok cég túl korán próbál skálázni szilárd alapok nélkül, ami drága ügyfélszerzéshez és gyenge megtartáshoz vezet. Ezt konkrét növekedési tervekkel oldjuk meg, amelyek összehangolják a terméket a megfelelő piaccal."
+        },
+        "methodology": {
+            "title": "Stratégiai Kiválóság",
+            "phases": [
+                {
+                    "title": "Audit és Elemzés",
+                    "description": "Mélymerülés a jelenlegi számokba, a piaci helyzetbe és a versenytársak elemzésébe a fejlődési lehetőségek feltárása érdekében."
+                },
+                {
+                    "title": "Modell Tervezés",
+                    "description": "Az ideális ügyfélprofil (ICP), az értékajánlat és a jövedelmezőségi modell meghatározása a fenntartható növekedéshez."
+                },
+                {
+                    "title": "GTM Útiterv",
+                    "description": "A teljes értékesítési tölcsér megtervezése az ismertségtől a vásárlásig, világos célokkal."
+                },
+                {
+                    "title": "Iteratív Skálázás",
+                    "description": "A stratégia bevezetése folyamatos visszacsatolással és modern marketing automatizálási eszközökkel."
+                }
+            ]
+        },
+        "deliverables": [
+            "Átfogó Piacelemzés",
+            "Versenytárs Elemzés",
+            "Ideális Ügyfélprofil (ICP) Tervezés",
+            "Növekedési Útiterv",
+            "Jövedelmezőségi Modellezés",
+            "Pozicionálási Tanácsadás",
+            "Tartalomstratégia",
+            "Teljesítmény Dashboardok"
+        ],
+        "timeline": {
+            "duration": "4-6 Hét",
+            "milestones": [
+                {
+                    "week": "1-2. Hét",
+                    "title": "Audit és Feltárás"
+                },
+                {
+                    "week": "3-4. Hét",
+                    "title": "Stratégiai Keretrendszer"
+                },
+                {
+                    "week": "5-6. Hét",
+                    "title": "GTM Indítás és Átadás"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kinek Segítünk",
+            "types": [
+                "B2B SaaS Vállalatok",
+                "Webshopok és E-kereskedelem",
+                "Technológiai Startupok"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Átlagos Növekedés",
+                    "value": "340%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Kezelt Büdzsé",
+                    "value": "€5M+",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Ügyfélmegtartás",
+                    "value": "95%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "50+",
+            "retentionRate": "95%"
+        },
+        "differentiators": [
+            {
+                "title": "Adatvezérelt",
+                "description": "A megérzéseket pontos adatokkal és üzleti modellezéssel váltjuk fel.",
+                "icon": "Database"
+            },
+            {
+                "title": "Automatizált",
+                "description": "Modern eszközöket használunk a folyamatok 70%-kal gyorsabb végrehajtásához.",
+                "icon": "Zap"
+            },
+            {
+                "title": "Üzletfókuszú",
+                "description": "A marketing célokat közvetlenül az Ön üzleti eredményeihez igazítjuk.",
+                "icon": "Users"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Mit tartalmaz a piacra lépési (GTM) stratégia?",
+                "answer": "A GTM stratégia tartalmazza a piackutatást, a versenytársak elemzését, az ideális ügyfélkör meghatározását, az árazási stratégiát és egy konkrét végrehajtási tervet."
+            },
+            {
+                "question": "Milyen hamar lesznek eredmények?",
+                "answer": "A stratégiai irányok azonnal láthatóak. A végrehajtás általában 2 héten belül elindul, és a 8. hétre már mérhető eredményeket hoz."
+            },
+            {
+                "question": "A kivitelezésben is segítenek?",
+                "answer": "Igen, nem csak tanácsot adunk, hanem a teljes megvalósítást is kezeljük szakértői csapatunkkal."
+            },
+            {
+                "question": "Hogyan mérjük a sikert?",
+                "answer": "Közösen határozzuk meg a legfontosabb mutatókat (például Bevétel vagy ügyfélszerzési költség), és ezeket valós időben követheti."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
-        "id": "socialmediamarketing",
-        "title": "Közösségi média marketing",
-        "slug": "social_media",
-        "description": "Elköteleződés fókuszú stratégiák, amelyek a követőket márka hűvökké alakítják.",
-        "longDescription": "Kezeljük márkája hangját az Instagram, TikTok és X felületein. AI alapú tartalomgyártási folyamatunk biztosítja a folyamatos és kiváló minőségű vizuális és szöveges tartalmat.",
-        "features": [
-            "Többcsatornás stratégia",
-            "AI alapú virális tartalom motor",
-            "Közösségi elköteleződés",
-            "Growth hacking taktikák"
-        ],
-        "process": [
+        "id": "creative_content",
+        "title": "Tartalomgyártás és Kreatív",
+        "slug": "creative-content",
+        "description": "Grafika, szövegírás és tartalomstratégia, amely meghatározza márkája hangját.",
+        "longDescription": "Olyan vizuális megoldásokat és szövegeket készítünk, amelyek nem csak jól néznek ki, de vásárlásra is ösztönöznek. A márkaépítéstől a közösségi média tartalomig mindent biztosítunk.",
+        "icon": "PenTool",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Hangvétel kalibrálása",
-                "description": "A márka személyiségének finomhangolása a különböző platformokra."
+                "label": "Létrehozott Kreatív",
+                "value": "10k+"
             },
             {
-                "step": "02",
-                "title": "Tartalmi motor",
-                "description": "Napi szintű AI alapú vizuális és szöveges tartalmak gyártása."
+                "label": "Márka Elérés",
+                "value": "2M+"
             },
             {
-                "step": "03",
-                "title": "Virális terjesztés",
-                "description": "Influencer hálózatok kihasználása az elérés növelése érdekében."
-            },
-            {
-                "step": "04",
-                "title": "Analitikai hurok",
-                "description": "A tartalomstratégia módosítása a valós idejű adatok alapján."
+                "label": "Elköteleződés",
+                "value": "+150%"
             }
         ],
-        "results": [
+        "challenge": {
+            "title": "A Zaj Problémája",
+            "description": "A mai piacon a tucattartalom láthatatlan marad. Mi olyan egyedi megjelenést és tartalomstratégiát építünk, amely azonnal megragadja a figyelmet és bizalmat épít."
+        },
+        "methodology": {
+            "title": "Kreatív Folyamat",
+            "phases": [
+                {
+                    "title": "Vizuális Audit",
+                    "description": "A meglévő megjelenés elemzése és a gyenge pontok azonosítása."
+                },
+                {
+                    "title": "Stílus és Hangvétel",
+                    "description": "A márka stílusának és kommunikációs alapjainak kidolgozása."
+                },
+                {
+                    "title": "Gyártás",
+                    "description": "Gyors és precíz tartalomgyártás grafikai és szövegíró csapatunkkal."
+                },
+                {
+                    "title": "Hajszálpontos Megvalósítás",
+                    "description": "A tartalom optimalizálása és publikálása a megfelelő csatornákon."
+                }
+            ]
+        },
+        "deliverables": [
+            "Arculati Útmutató",
+            "Logó és Arculattervezés",
+            "Marketing Szövegírás",
+            "Közösségi Média Tartalmak",
+            "Videó és Mozgó Grafika",
+            "Landing Page Tervezés",
+            "Bemutató Anyagok",
+            "Tartalomgyártási Rendszer"
+        ],
+        "timeline": {
+            "duration": "4-8 Hét",
+            "milestones": [
+                {
+                    "week": "1. Hét",
+                    "title": "Koncepció és Moodboard"
+                },
+                {
+                    "week": "2-4. Hét",
+                    "title": "Kreatív Anyagok Gyártása"
+                },
+                {
+                    "week": "5-8. Hét",
+                    "title": "Bevezetés és Átadás"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kinek Tervezünk",
+            "types": [
+                "Nagyvállalati Márkák",
+                "Startupok",
+                "Webshopok (B2C)"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Aktivitás Növekedés",
+                    "value": "150%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Készült Elem",
+                    "value": "100k+",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Márkaelismerés",
+                    "value": "Magas",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "80+",
+            "retentionRate": "92%"
+        },
+        "differentiators": [
             {
-                "label": "Heti interakciók",
-                "value": "150k+"
+                "title": "Konzisztencia",
+                "description": "Biztosítjuk, hogy márkája mindenhol egységes és profi legyen.",
+                "icon": "CheckCircle2"
             },
             {
-                "label": "Követő bázis növekedés",
-                "value": "+80% MoM"
+                "title": "Modern Eszközök",
+                "description": "A legújabb technológiákat használjuk a minőségi és gyors gyártáshoz.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Konverziófókusz",
+                "description": "Nem csak szép dolgokat alkotunk; olyat készítünk, ami elad.",
+                "icon": "Target"
             }
         ],
-        "icon": "Share2"
+        "faqs": [
+            {
+                "question": "A miénk lesz a tartalom tulajdonjoga?",
+                "answer": "Igen, minden elkészült grafika, szöveg és videó 100%-ban az Ön tulajdonába kerül."
+            },
+            {
+                "question": "Dolgoznak meglévő arculattal is?",
+                "answer": "Igen, szívesen frissítjük a meglévő arculatot vagy dolgozunk a meglévő irányelvek szerint."
+            },
+            {
+                "question": "Hányszor lehet javítást kérni?",
+                "answer": "Szorosan együttműködünk. Alapvetően két nagyobb javítási kört biztosítunk, de addig finomítunk, amíg tökéletes nem lesz."
+            }
+        ],
+        "features": [],
+        "process": []
+    },
+    {
+        "id": "paid_marketing",
+        "title": "Online Hirdetések (PPC)",
+        "slug": "paid-marketing",
+        "description": "Google Ads, Facebook és LinkedIn kampányok az azonnali forgalomnöveléshez.",
+        "longDescription": "A profi hirdetéskezelést modern adatelemzéssel ötvözzük, amivel jelentősen csökkentjük az ügyfélszerzési költséget. Kampányaink a konkrét eredményekre és a profitra összpontosítanak.",
+        "icon": "Target",
+        "heroMetrics": [
+            {
+                "label": "Átlagos Megtérülés",
+                "value": "5.5x"
+            },
+            {
+                "label": "Költségcsökkenés",
+                "value": "-45%"
+            },
+            {
+                "label": "Elérés",
+                "value": "20M+"
+            }
+        ],
+        "challenge": {
+            "title": "A Hatékonyság Hiánya",
+            "description": "A legtöbb hirdetési fiókban a költés jelentős része elpazarolódik a rossz célzás miatt. Mi adatelemzéssel azonosítjuk a valódi vevőket és minimalizáljuk a felesleges költést."
+        },
+        "methodology": {
+            "title": "Eredményfókusz",
+            "phases": [
+                {
+                    "title": "Közönség Elemzés",
+                    "description": "A vásárlási szándékkal rendelkező célcsoportok pontos behatárolása."
+                },
+                {
+                    "title": "Értékesítési Tölcsér",
+                    "description": "Konverzióra optimalizált oldalak és hirdetési folyamatok kialakítása."
+                },
+                {
+                    "title": "Kampány Indítás",
+                    "description": "Folyamatos A/B tesztelés és több száz hirdetésvariáció futtatása."
+                },
+                {
+                    "title": "Folyamatos Skálázás",
+                    "description": "A büdzsé valós idejű átcsoportosítása a legjobban teljesítő hirdetésekre."
+                }
+            ]
+        },
+        "deliverables": [
+            "Google Ads Keresőhirdetések",
+            "Facebook és Instagram Hirdetések",
+            "LinkedIn B2B Kampányok",
+            "Retargeting Rendszerek",
+            "Kontrollált A/B Tesztelés",
+            "Valós Idejű Profit Dashboard",
+            "Versenytárs Hirdetési Audit",
+            "Hirdetési Kreatívok Gyártása"
+        ],
+        "timeline": {
+            "duration": "24-48 Óra Onboarding",
+            "milestones": [
+                {
+                    "week": "1. Nap",
+                    "title": "Mérés és Adatintegráció"
+                },
+                {
+                    "week": "2. Nap",
+                    "title": "Hirdetési Architektúra Felépítése"
+                },
+                {
+                    "week": "1. Hét",
+                    "title": "Indítás és Első Eredmények"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kinek Skálázunk",
+            "types": [
+                "Webshopok",
+                "B2B Cégek (Lead Generálás)",
+                "Mobilalkalmazások és SaaS"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Átlagos ROAS",
+                    "value": "5.5x",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Havi Költés",
+                    "value": "€500K+",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Lead Növekedés",
+                    "value": "+340%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "120+",
+            "retentionRate": "96%"
+        },
+        "differentiators": [
+            {
+                "title": "Precíziós Licitálás",
+                "description": "Saját modelleket használunk a hirdetési költségek optimalizálásához.",
+                "icon": "Database"
+            },
+            {
+                "title": "Napi Jelentkezés",
+                "description": "Nem kell várnia a hó végéig. Bármikor látja az eredményeket.",
+                "icon": "BarChart"
+            },
+            {
+                "title": "Teljes Irányítás",
+                "description": "Optimalizáljuk a hirdetést, az oldalt és a teljes folyamatot.",
+                "icon": "Network"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Mennyi a minimális hirdetési költés?",
+                "answer": "Jellemzően havi 1,5 - 2 millió forint feletti büdzsével rendelkező ügyfeleknek tudunk a leghatékonyabb eredményt hozni."
+            },
+            {
+                "question": "Milyen platformokon hirdetnek?",
+                "answer": "Google Ads, Meta (FB/IG), LinkedIn és egyéb speciális hálózatok hivatalos partnerei vagyunk."
+            },
+            {
+                "question": "A hirdetési grafikákat is Önök készítik?",
+                "answer": "Igen, saját csapatunk készít el minden hirdetést, a képektől a rövid videókig."
+            }
+        ],
+        "features": [],
+        "process": []
+    },
+    {
+        "id": "community_retention",
+        "title": "E-mail Marketing és Ügyfélmegtartás",
+        "slug": "community-retention",
+        "description": "Lojális ügyfélbázis építése és hírlevél automatizálás az árbevétel növeléséhez.",
+        "longDescription": "Új vevőt szerezni drága, megtartani kifizetődő. Olyan automatizált folyamatokat és hűségprogramokat építünk, amelyekkel elérjük, hogy vevői többször vásároljanak és ajánlják Önt.",
+        "icon": "Users",
+        "heroMetrics": [
+            {
+                "label": "LTV Növekedés",
+                "value": "+60%"
+            },
+            {
+                "label": "Lemorzsolódás",
+                "value": "-40%"
+            },
+            {
+                "label": "Visszatérő Vevő",
+                "value": "45%+"
+            }
+        ],
+        "challenge": {
+            "title": "A 'Lyukas Vödör' Probléma",
+            "description": "Hirdetésekre sokat költeni csak azért, hogy 30 nap után elveszítse a vevőket, kidobott pénz. Mi megszüntetjük ezt a szivárgást automatizált rendszerekkel.",
+        },
+        "methodology": {
+            "title": "Vevőmegtartás",
+            "phases": [
+                {
+                    "title": "Lemorzsolódási Audit",
+                    "description": "Megvizsgáljuk miért és hol veszítjük el az ügyfeleket."
+                },
+                {
+                    "title": "Eseményvezérelt Folyamatok",
+                    "description": "Automatikus üzenetek beállítása a vevő cselekedetei alapján."
+                },
+                {
+                    "title": "Aktiválás",
+                    "description": "Hűségprogramok és rendszeres kommunikáció bevezetése."
+                },
+                {
+                    "title": "Ajánlói Rendszer",
+                    "description": "A legjobb vevőkből hozzuk létre a leghatékonyabb marketing csatornát."
+                }
+            ]
+        },
+        "deliverables": [
+            "Ügyfélmegtartási Audit",
+            "CRM Folyamatok Építése",
+            "Hűségprogram Tervezés",
+            "Ajánlói Rendszer",
+            "Vevői Elégedettség Mérés",
+            "Hírlevél Automatizmusok",
+            "Ügyfélélmény Tervezés",
+            "Visszajelzési Csatornák"
+        ],
+        "timeline": {
+            "duration": "6-10 Hét",
+            "milestones": [
+                {
+                    "week": "1-2. Hét",
+                    "title": "Adatok és Lemezolódás Vizsgálata"
+                },
+                {
+                    "week": "3-5. Hét",
+                    "title": "Rendszerek és Folyamatok Építése"
+                },
+                {
+                    "week": "6. Hét+",
+                    "title": "Indítás és Finomhangolás"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kiket Tartunk Meg",
+            "types": [
+                "SaaS és Előfizetéses Cégek",
+                "Tagsági Weboldalak",
+                "Magas Értékű Webshopok"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Megtartás Javulás",
+                    "value": "+40%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Bevétel Növekedés",
+                    "value": "+60%",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Vevői Aktivitás",
+                    "value": "Magas",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "45+",
+            "retentionRate": "98%"
+        },
+        "differentiators": [
+            {
+                "title": "Hosszú Távú Érték",
+                "description": "A tartós ügyfélkapcsolatot nézzük az egyszeri eladás helyett.",
+                "icon": "Target"
+            },
+            {
+                "title": "Automatizált",
+                "description": "Rendszereink folyamatosan dolgoznak Önnek, kézi munka nélkül.",
+                "icon": "Clock"
+            },
+            {
+                "title": "Vevőpszichológia",
+                "description": "Tudjuk mitől maradnak az emberek elkötelezettek.",
+                "icon": "Search"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Működik a meglévő CRM rendszerünkkel?",
+                "answer": "Igen, van tapasztalatunk HubSpot, Salesforce, ActiveCampaign és egyedi rendszerekkel is."
+            },
+            {
+                "question": "Mi számít jó megtartási aránynak?",
+                "answer": "Ez iparágfüggő, de általában 40-60%-os javulást érünk el az első évben."
+            },
+            {
+                "question": "Hogyan működnek az ajánlói programok?",
+                "answer": "Olyan rendszereket építünk, amelyek jutalmazzák és követik az új vevők ajánlását."
+            }
+        ],
+        "features": [],
+        "process": []
+    },
+    {
+        "id": "email_marketing",
+        "title": "Automatizált Hírlevelek",
+        "slug": "email-marketing",
+        "description": "Profi e-mail kommunikáció, amely bizalmat épít és növeli a bevételt.",
+        "longDescription": "Vegye saját kezébe az ügyfélkapcsolatot. Precíz szegmentálást és automatizált levelezési rendszereket építünk, hogy mindig a megfelelő üzenet jusson el a vevőkhöz.",
+        "icon": "Mail",
+        "heroMetrics": [
+            {
+                "label": "Megnyitás",
+                "value": "45%+"
+            },
+            {
+                "label": "Közvetlen ROI",
+                "value": "25%+"
+            },
+            {
+                "label": "Bevételi Arány",
+                "value": "30%"
+            }
+        ],
+        "challenge": {
+            "title": "Harc a Figyelemért",
+            "description": "A zsúfolt postaládák korában nem mindegy, hova érkezik a levele. Mi elérjük, hogy hírlevelei az elsődleges fülön landoljanak és el is olvassák őket."
+        },
+        "methodology": {
+            "title": "E-mail Dominancia",
+            "phases": [
+                {
+                    "title": "Technikai Audit",
+                    "description": "Listatisztítás és a kézbesíthetőség javítása."
+                },
+                {
+                    "title": "Szegmentálás",
+                    "description": "Az adatbázis felosztása vevői viselkedés és szándék szerint."
+                },
+                {
+                    "title": "Automatizálás",
+                    "description": "Az 'örökké üzemelő' értékesítési gép felépítése."
+                },
+                {
+                    "title": "Tartalomgyártás",
+                    "description": "Magas konverziójú, olvasmányos e-mailek írása."
+                }
+            ]
+        },
+        "deliverables": [
+            "Hírlevél Szoftver Kezelés",
+            "Automata Sorozatok",
+            "Viselkedési Szegmentálás",
+            "Heti Hírlevél Stratégia",
+            "A/B Tesztelési Rendszer",
+            "Kézbesíthetőség Javítása",
+            "Bevételi Jelentések",
+            "GDPR Megfelelőség"
+        ],
+        "timeline": {
+            "duration": "4-6 Hét",
+            "milestones": [
+                {
+                    "week": "1. Hét",
+                    "title": "Technikai Beállítások"
+                },
+                {
+                    "week": "2-4. Hét",
+                    "title": "Automata Sorozatok Építése"
+                },
+                {
+                    "week": "5-6. Hét",
+                    "title": "Indítás és Mérés"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kinek Üzenünk",
+            "types": [
+                "Tartalomgyártók és Influencerek",
+                "B2B Cégek",
+                "Webshopok"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Megnyitási Arány",
+                    "value": "45%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "E-mail Bevétel",
+                    "value": "30%",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Lista Tisztaság",
+                    "value": "99%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "65+",
+            "retentionRate": "94%"
+        },
+        "differentiators": [
+            {
+                "title": "Kézbesítési Szakértők",
+                "description": "Értjük a technikai hátteret, hogy levelei célba érjenek.",
+                "icon": "Zap"
+            },
+            {
+                "title": "Személyre Szabott",
+                "description": "Nincs spammelés. Mindenki azt kapja, ami őt érdekli.",
+                "icon": "Users"
+            },
+            {
+                "title": "Eredményorientált",
+                "description": "A kattintásokat közvetlenül az értékesítéshez kapcsoljuk.",
+                "icon": "Target"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Érdemes még e-mailezni?",
+                "answer": "Abszolút. Ügyfeleinknél az e-mail csatorna felel a havi bevétel 30-40%-áért."
+            },
+            {
+                "question": "Milyen szoftvereket használnak?",
+                "answer": "Klaviyo, HubSpot és Mailchimp szakértők vagyunk."
+            },
+            {
+                "question": "Segítenek a feliratkozók szerzésében?",
+                "answer": "Igen, vonzó ajánlatokat és feliratkozási formokat tervezünk adatbázisa építéséhez."
+            }
+        ],
+        "features": [],
+        "process": []
     }
 ]

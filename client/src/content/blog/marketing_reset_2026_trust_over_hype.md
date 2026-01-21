@@ -38,6 +38,6 @@ Regulations like MiCA aren't a hurdle; they are a filter. Brands that embrace co
 
 At BlockMarketing Consulting, we've built our reputation on helping founders build compliant, high-performing growth engines that turn "handshakes" into LTV.
 
-Ready to lead the 2026 Marketing Reset? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our conversion experts today.
+Ready to lead the 2026 Marketing Reset? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our conversion experts today.
 
 Or, learn more about our [CMO-as-a-Service](/cmo) to see how we manage global brand transformations at scale.

@@ -54,7 +54,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto leading-relaxed font-bold">
                 {content.cta_section.subtitle}
               </p>
-              <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+              <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                 <button className="bg-white text-primary px-12 py-5 rounded-full text-xl font-black hover:bg-brand-mint hover:text-primary hover:scale-105 shadow-2xl transition-all duration-300 tracking-tight uppercase">
                   Book a Strategy Session
                 </button>

@@ -119,7 +119,7 @@ export default function Navigation() {
           <a href="mailto:hello@blockmarketingconsulting.com" className="text-lg font-medium text-primary hover:underline transition-colors" onClick={() => setMobileMenuOpen(false)}>
             hello@blockmarketingconsulting.com
           </a>
-          <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+          <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
             <Button className="w-full bg-primary hover:bg-primary/90 text-white rounded-full shadow-lg shadow-primary/25 font-bold">
               Book a Call
             </Button>

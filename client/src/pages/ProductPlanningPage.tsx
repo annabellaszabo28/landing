@@ -104,7 +104,7 @@ export default function ProductPlanningPage() {
                         <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight text-white">Ready to plan your roadmap?</h2>
                         <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto">Don't launch without a strategy. Let's map out your path to market domination.</p>
 
-                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                             <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-primary hover:text-white transition-all transform hover:scale-105 shadow-xl shadow-white/10">
                                 Book a Strategy Session
                             </button>

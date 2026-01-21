@@ -1,82 +1,85 @@
 {
     "header": {
-        "title": "SEO, Ami Valódi Üzleti Növekedést Hoz",
-        "subtitle": "Segítünk vállalkozásoknak növelni az organikus láthatóságot és minősített forgalmat vonzani stratégiai, adatvezérelt keresőoptimalizálással."
+        "title": "SEO Stratégia: Dominálja a Keresési Találatokat",
+        "subtitle": "Nem csak kulcsszavakat keresünk, hanem üzleti eredményeket hozunk. Komplex SEO stratégiák technológiai cégeknek és Web3 projekteknek."
     },
+    "hero_metrics": [
+        {
+            "value": "240%",
+            "label": "Átlagos Forgalomnövekedés"
+        },
+        {
+            "value": "Top 3",
+            "label": "Helyezés Kulcs Szavakra"
+        },
+        {
+            "value": "0 Ft",
+            "label": "Hirdetési Költség / Kattintás"
+        }
+    ],
     "challenges": {
-        "title": "Gyakori SEO Kihívások, Amelyeket Megoldunk",
+        "title": "Miért nem hoz eredményt a jelenlegi SEO-ja?",
         "items": [
-            "Nehézségek a vállalkozásod számára fontos kulcsszavakkal való rangsorolásban",
-            "Az organikus forgalom megtorpant a folyamatos tartalomkészítési erőfeszítések ellenére",
-            "Technikai problémák hátráltatják a weboldalad teljesítményét",
-            "A korábbi SEO erőfeszítések nem hoztak mérhető megtérülést",
-            "Az algoritmus frissítések folyamatosan befolyásolják a rangsorolást"
+            "Rosszul megválasztott kulcsszavak, amelyek látogatókat hoznak, de vásárlókat nem.",
+            "Technikai hibák a weboldalon, amelyek gátolják a Google rangsorolást.",
+            "Gyenge minőségű tartalom, ami nem épít bizalmat az olvasókban.",
+            "A minőségi visszamutató linkek hiánya, ami miatt a versenytársak elöl maradnak."
         ]
     },
-    "approach": {
-        "title": "SEO Módszertanunk",
-        "description": "Stratégiai, átlátható megközelítést alkalmazunk a SEO terén, amely a fenntartható növekedésre összpontosít a gyors megoldások helyett. Minden döntést adatok támasztanak alá és az üzleti céljaidhoz igazodnak.",
+    "solutions": {
+        "title": "A BlockMarketing SEO Megközelítése",
         "items": [
             {
-                "title": "Technikai Alapok",
-                "description": "Átfogó audittal kezdjük a weboldalad technikai állapotáról, javítjuk a bejárhatósági problémákat, növeljük az oldalsebességet és biztosítjuk, hogy a keresőmotorok megfelelően indexeljék a tartalmat.",
-                "icon": "Settings"
+                "title": "Technikai SEO",
+                "description": "Tökéletesítjük weboldala technikai alapjait a gyors betöltés és a hibátlan indexelés érdekében.",
+                "icon": "Code"
             },
             {
-                "title": "Kulcsszó Stratégia",
-                "description": "Kutatjuk és prioritizáljuk a kulcsszavakat a keresési volumen, a verseny és a vásárlói szándék alapján, olyan kifejezésekre összpontosítva, amelyek minősített forgalmat és konverziókat hoznak.",
-                "icon": "Search"
+                "title": "Értékalapú Tartalom",
+                "description": "Olyan szakmai tartalmakat készítünk, amelyek megválaszolják ügyfelei kérdéseit és szakértőként tüntetik fel cégét.",
+                "icon": "PenTool"
             },
             {
-                "title": "Tartalom Optimalizálás",
-                "description": "Optimalizáljuk a meglévő tartalmakat és új oldalakat fejlesztünk, amelyek válaszolnak a közönséged kérdéseire, megalapozzák a tematikus tekintélyt és idővel organikus láthatóságot szereznek.",
-                "icon": "FileText"
-            },
-            {
-                "title": "Linképítés",
-                "description": "Magas minőségű backlinkeket építünk valódi kapcsolatépítésen és tartalmi partnerségeken keresztül, erősítve a domain tekintélyedet és versenypozíciódat.",
+                "title": "Linképítés és Tekintély",
+                "description": "Magas minőségű, releváns oldalakról származó hivatkozásokkal növeljük weboldala erejét.",
                 "icon": "Link"
+            },
+            {
+                "title": "Adatalapú Optimalizálás",
+                "description": "Folyamatosan elemzzük a számokat, és finomhangoljuk a stratégiát a legjobb konverzió érdekében.",
+                "icon": "BarChart"
             }
         ]
     },
-    "process": {
-        "title": "Hogyan Dolgozunk Együtt",
+    "methodology": {
+        "title": "SEO Folyamatunk",
         "steps": [
             {
-                "step": "01",
-                "title": "Felfedező Beszélgetés",
-                "description": "Megismerjük a vállalkozásodat, céljaidat és a jelenlegi SEO helyzetedet, hogy megértsük, jó partnerek lehetünk e."
+                "title": "Kulcsszó Kutatás",
+                "desc": "Megkeressük azokat a kifejezéseket, amelyekre az Ön ideális ügyfelei keresnek."
             },
             {
-                "step": "02",
-                "title": "Audit és Stratégia",
-                "description": "Alapos SEO auditot végzünk és egyedi stratégiát készítünk egyértelmű prioritásokkal és ütemezéssel."
+                "title": "Technikai Javítások",
+                "desc": "Megszüntetjük a weboldalán lévő összes olyan hibát, ami hátráltatja a rangsorolást."
             },
             {
-                "step": "03",
-                "title": "Megvalósítás",
-                "description": "Csapatunk végrehajtja a stratégiát, kezelve a technikai javításokat, tartalom optimalizálást és linképítést."
+                "title": "Tartalom Stratégia",
+                "desc": "Kidolgozunk egy tervet, amellyel márkája a legfontosabb témák tulajdonosává válik."
             },
             {
-                "step": "04",
-                "title": "Jelentéskészítés és Finomítás",
-                "description": "Rendszeres jelentéseket kapsz gyakorlati betekintésekkel, és folyamatosan finomítjuk a megközelítésünket az eredmények alapján."
+                "title": "Hatékonyság Mérés",
+                "desc": "Részletes jelentéseket küldünk a helyezések javulásáról és a forgalom alakulásáról."
             }
         ]
     },
-    "differentiators": {
-        "title": "Miért Velünk Dolgozz",
-        "items": [
-            "Átlátható jelentéskészítés egyértelmű, mérhető KPI mutatókkal",
-            "Nincsenek hosszú távú szerződések. Havonta bizonyítjuk az értékünket.",
-            "Dedikált stratéga, aki ismeri a vállalkozásodat",
-            "10+ év tapasztalat különböző iparágakban",
-            "Valós eredményekre fókuszálunk, nem hiúsági mutatókra"
-        ]
+    "social_proof": {
+        "title": "SEO Eredményeink",
+        "stat_1": "240% Forgalomnövekedés",
+        "stat_2": "Több mint 500 Top 3 Helyezés"
     },
     "cta": {
-        "title": "Készen Állsz Az Organikus Láthatóságod Javítására?",
-        "subtitle": "Foglalj ingyenes 30 perces felfedező beszélgetést. Megbeszéljük a céljaidat és megosztjuk az első meglátásainkat arról, hogyan tudunk segíteni.",
-        "button_text": "Ingyenes Beszélgetés Foglalása"
+        "title": "Készen áll az organikus növekedésre?",
+        "subtitle": "Kérjen SEO elemzést, és nézzük meg, hogyan tudnánk több vásárlót hozni weboldalára hirdetési költség nélkül.",
+        "button_text": "SEO Elemzés Kérése"
     }
 }

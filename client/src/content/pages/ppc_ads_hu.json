@@ -1,50 +1,85 @@
 {
     "header": {
-        "title": "Skálázható teljesítmény alapú marketing professzionális márkáknak",
-        "subtitle": "Hagyja abba a találgatást. Kezdjen el növekedni. AI natív hirdetéskezelésünk kiszámítható eredményeket és prémium minőségű teljesítményt nyújt a kereső és közösségi felületeken."
+        "title": "Online Hirdetéskezelés Profiknak: Skálázható Eredmények",
+        "subtitle": "Felejtse el a találgatást. Kezdjen el növekedni. Modern hirdetéskezelési folyamataink kiszámítható eredményeket hoznak a Google, Facebook, LinkedIn és egyéb csatornákon."
     },
+    "hero_metrics": [
+        {
+            "value": "64%",
+            "label": "Költségcsökkenés (CPA)"
+        },
+        {
+            "value": "6.2x",
+            "label": "Átlagos Megtérülés (ROAS)"
+        },
+        {
+            "value": "48ó",
+            "label": "Indítási Idő"
+        }
+    ],
     "challenges": {
-        "title": "A növekedési nehézségek",
+        "title": "A Probléma: Miért Sikertelen a Kampányok Többsége?",
         "items": [
-            "Pazarló hirdetési kiadások és gyenge minőségű forgalom",
-            "Kimerülő kreatívok, amelyek lassítják a konverziót",
-            "Komplex adathalmazok, amelyeket lehetetlen manuálisan kezelni",
-            "Emelkedő ügyfélszerzési költségek, amelyek felemésztik a profitot"
+            "Felesleges hirdetési költés a pontatlan célzás és a rosszul beállított fiókok miatt.",
+            "A hirdetések gyors elöregedése, ami miatt a látogatók egy idő után már nem kattintanak.",
+            "Bonyolult adathalmazok, amelyeket manuálisan szinte lehetetlen hatékonyan kezelni.",
+            "Folyamatosan dráguló ügyfélszerzési költségek, amelyek felemésztik a profitot."
         ]
     },
     "solutions": {
-        "title": "A BlockMarketing megoldás",
+        "title": "A BlockMarketing Megoldása",
         "items": [
             {
-                "title": "Profit fókuszú optimalizálás",
-                "description": "Mi a profitra optimalizálunk, nem csak a kattintásokra. Minden kampányt az Ön üzleti eredményeit szem előtt tartva tervezünk meg.",
+                "title": "Profit-fókuszú Megközelítés",
+                "description": "Nem csak kattintásokra, hanem profitra optimalizálunk. Minden kampányt az Ön üzleti céljait és a megtérülést szem előtt tartva tervezünk.",
                 "icon": "Target"
             },
             {
-                "title": "AI alapú licitkezelés",
-                "description": "Rekurzív algoritmusaink valós időben módosítják a liciteket, hogy elkapják a legértékesebb forgalmat a lehető legalacsonyabb költségen.",
+                "title": "Okos Licitkezelés",
+                "description": "Rendszereink valós időben figyelik a hirdetéseket, hogy a legjobb vevőket érjük el a lehető legalacsonyabb áron.",
                 "icon": "Cpu"
             },
             {
-                "title": "Kreatív kiválóság",
-                "description": "Az adatvezérelt kreatív tesztelés biztosítja, hogy üzenete célba érjen és kitűnjön a versenytársak közül.",
+                "title": "Kreatív Tartalomgyártás",
+                "description": "Folyamatosan teszteljük a hirdetési szövegeket és képeket, hogy megtaláljuk azt, ami a legjobban rezonál a célközönségével.",
                 "icon": "Zap"
             },
             {
-                "title": "Prediktív skálázás",
-                "description": "Korán azonosítjuk a nyertes hirdetéseket és skálázzuk őket, mielőtt a piac telítődne, megvédve az Ön profitját.",
+                "title": "Gyors Skálázás",
+                "description": "Napok alatt azonosítjuk a nyertes hirdetéseket, és azonnal átcsoportosítjuk a büdzsét a legjobban teljesítő csatornákra.",
                 "icon": "TrendingUp"
             }
         ]
     },
+    "methodology": {
+        "title": "Hogyan Dolgozunk?",
+        "steps": [
+            {
+                "title": "Mélyreható Audit",
+                "desc": "Megkeressük a gyenge pontokat a jelenlegi hirdetéseiben és a weboldalán."
+            },
+            {
+                "title": "Precíz Beállítás",
+                "desc": "Bevezetjük a legmodernebb mérési és követési rendszereket a pontos adatokért."
+            },
+            {
+                "title": "Tesztelési Fázis",
+                "desc": "Különböző hirdetési variációkat futtatunk, hogy megtaláljuk a legsikeresebb irányt."
+            },
+            {
+                "title": "Stabil Növekedés",
+                "desc": "A sikeres kampányokat fokozatosan növeljük, ügyelve a profit stabilitására."
+            }
+        ]
+    },
     "social_proof": {
-        "title": "Piacvezető márkák bizalma",
-        "stat_1": "64% átlagos CPA csökkenés",
-        "stat_2": "6.2x átlagos hirdetési megtérülés"
+        "title": "Eredményeink",
+        "stat_1": "64% Átlagos CPA Csökkenés",
+        "stat_2": "6.2x Átlagos Hirdetési Megtérülés"
     },
     "cta": {
-        "title": "Készen áll a lead forgalom skálázására?",
-        "subtitle": "Kérjen hirdetési auditot és nézzük meg, hogyan tudjuk optimalizálni jelenlegi kampányait. Kötelezettség nélkül, csak az adatokra fókuszálva.",
-        "button_text": "Hirdetési audit kérése"
+        "title": "Szeretné növelni hirdetései hatékonyságát?",
+        "subtitle": "Kérjen tőlünk egy hirdetési auditot, és nézzük meg, hogyan tudjuk optimalizálni jelenlegi kampányait. Pontosan megmutatjuk, hol takaríthat meg költséget.",
+        "button_text": "Hirdetési Audit Kérése"
     }
 }

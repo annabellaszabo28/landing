@@ -129,13 +129,6 @@ export interface ServicesContent {
 }
 
 // ============ ABOUT PAGE ============
-export interface TeamMember {
-    name: string;
-    role: string;
-    bio: string;
-    image: string;
-}
-
 export interface AboutContent {
     header: {
         title: string;
@@ -147,9 +140,74 @@ export interface AboutContent {
         content_2: string;
         image: string;
     };
-    team: {
+    impact?: {
+        badge: string;
         title: string;
-        members: TeamMember[];
+    };
+    expertise?: {
+        title: string;
+        items: { title: string; description: string }[];
+    };
+    cta?: {
+        title: string;
+        subtitle: string;
+        button: string;
+    };
+}
+
+// ============ CMO PAGE ============
+export interface PricingPlan {
+    title: string;
+    price: string;
+    desc: string;
+    weekly_label: string;
+    popular_badge?: string;
+}
+
+export interface CMOContent {
+    hero: {
+        badge: string;
+        title_main: string;
+        title_highlight: string;
+        subtitle: string;
+        cta_pricing: string;
+        cta_call: string;
+    };
+    benefits: {
+        fractional: { title: string; desc: string };
+        ai: { title: string; desc: string };
+    };
+    speed: {
+        title_main: string;
+        title_highlight: string;
+        subtitle: string;
+        steps: { step: string; title: string; desc: string }[];
+    };
+    calculator: {
+        badge: string;
+        title: string;
+        subtitle: string;
+        budget_label: string;
+        impressions_label: string;
+        clicks_label: string;
+        cpc_label: string;
+        benchmarked: string;
+        disclaimer: string;
+    };
+    pricing: {
+        badge: string;
+        title: string;
+        subtitle: string;
+        plans: {
+            foundation: PricingPlan;
+            attention: PricingPlan;
+            accelerator: PricingPlan;
+        };
+    };
+    cta: {
+        title: string;
+        subtitle: string;
+        button: string;
     };
 }
 

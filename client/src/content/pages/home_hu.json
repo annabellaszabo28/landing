@@ -1,182 +1,159 @@
 {
     "hero": {
-        "title": "AI Natív Marketing: 10+ Év Szakmai Tapasztalat",
-        "subtitle": "Nem csak követjük a trendeket, mi diktáljuk őket. A hagyományos marketing szakértelmet a legmodernebb AI technológiával ötvözzük, hogy globális márkákat emeljünk piacvezető pozícióba a Web2 és Web3 térben.",
-        "cta_primary": "Szolgáltatásaink",
-        "cta_secondary": "Web3 növekedés"
+        "title": "Marketing Ügynökség: 10+ év szakmai tapasztalattal",
+        "subtitle": "Nem csak követjük a trendeket, hanem mi alakítjuk őket. A modern marketing automatizálást ötvözzük egy évtizedes szakértelemmel, hogy globálisan skálázzuk márkáját a technológiai és Web3 szektorban.",
+        "cta_primary": "Szolgáltatások",
+        "cta_secondary": "Web3 Marketing"
     },
     "work_together_section": {
-        "section_title": "MIÉRT PARTNERKÉNT",
-        "title": "Teljesítményre Tervezve",
-        "subtitle": "A több évtizedes szakértelmet ötvözzük autonóm AI ágensekkel. Olyan rendszereket építünk, amelyek nem csak működnek, hanem skálázódnak.",
+        "section_title": "MIÉRT VELÜNK DOLGOZZON?",
+        "title": "Eredményorientált Megközelítés",
+        "subtitle": "Több mint tízéves tapasztalatunkat a legújabb technológiákkal ötvözzük, hogy olyan marketing rendszereket építsünk, amelyek valódi növekedést hoznak.",
         "items": [
             {
-                "title": "Évtizedes Szakértelem",
-                "icon": "Lightbulb"
+                "title": "Szakmai Tapasztalat",
+                "icon": "Lightbulb",
+                "description": "2016-os alapításunk óta számos piaci ciklust éltünk át sikeresen. Stratégiáinkat a hosszú távú, stabil növekedésre terveztük, függetlenül a piaci változásoktól."
             },
             {
-                "title": "Globális Intelligencia",
-                "icon": "Globe"
+                "title": "Nemzetközi Jelenlét",
+                "icon": "Globe",
+                "description": "New York-i, londoni és szingapúri kapcsolataink révén globális rálátást és 24 órás jelenlétet biztosítunk ügyfeleink számára minden jelentős régióban."
             },
             {
-                "title": "Technikai Kiválóság",
-                "icon": "HeartHandshake"
+                "title": "Technológiai Tudás",
+                "icon": "HeartHandshake",
+                "description": "Összekötjük a marketinget a technológiával. Házon belüli csapatunk egyedi alkalmazásokat, auditált okosszerződéseket és magas konverziójú weboldalakat épít."
             }
         ],
-        "cta_text": "Érdekel"
+        "cta_text": "Konzultáció foglalása"
     },
     "who_we_help_section": {
-        "section_title": "SKÁLÁZHATÓ ARCHITEKTÚRA",
-        "title": "Víziók Felgyorsítása",
-        "subtitle": "A validálástól a dominanciáig. Infrastruktúránk pontosan illeszkedik a növekedési fázisodhoz.",
+        "section_title": "KIKNEK SEGÍTÜNK?",
+        "title": "Támogatás a Növekedésben",
+        "subtitle": "Az ötlettől a piacvezető szerepig. Megoldásaink rugalmasan alkalmazkodnak az Ön cége aktuális növekedési fázisához.",
         "items": [
             {
-                "title": "Dinamikus KKV szektor",
+                "title": "Növekvő KKV-k",
                 "icon": "Building2"
             },
             {
-                "title": "Törekvő Startupok",
+                "title": "Technológiai Startupok",
                 "icon": "Rocket"
             },
             {
-                "title": "Vízionárius Alapítók",
+                "title": "Ambiciózus Alapítók",
                 "icon": "UserSquare2"
             }
         ],
-        "cta_text": "Érdekel"
+        "cta_text": "Ajánlatot kérek"
     },
     "services_section": {
-        "title": "Adatvezérelt növekedési megoldások",
-        "subtitle": "Stratégiánk a klasszikus marketing alappilléreit ötvözi a jövő autonóm technológiáival. Legyen szó egy 10M+ ARR SaaS skálázásáról vagy egy Tier 1 blockchain protokoll indításáról.",
-        "web2_tab": "Marketing",
-        "web3_tab": "Web3 Ökoszisztémák",
+        "title": "Komplex Növekedési Megoldások",
+        "subtitle": "Módszertanunk egyesíti a stratégiai marketinget a legmodernebb technológiai eszközökkel. A SaaS platformok skálázásától a nemzetközi blockchain projektek indításáig mindenre van megoldásunk.",
+        "web2_tab": "PPC & SEO",
+        "web3_tab": "Web3 & Kripto",
         "web2_items": [
             {
-                "title": "Keresőoptimalizálás (SEO) és AI",
-                "description": "A modern keresőoptimalizálás csúcsa. Biztosítjuk, hogy márkája legyen az elsődleges találat a Google, a ChatGPT és a Perplexity felületein.",
+                "title": "AI Keresőoptimalizálás (GEO)",
+                "description": "A SEO következő szintje. Biztosítjuk, hogy márkája az első helyen szerepeljen az AI alapú keresőkben (ChatGPT, Perplexity, Claude).",
                 "icon": "Cpu"
             },
             {
-                "title": "PPC Hirdetéskezelés",
-                "description": "Adatvezérelt licitkezelés és kreatív tesztelés, amely alacsony CPA-t és releváns érdeklődőket garantál skálázható módon.",
+                "title": "Online Hirdetések (PPC)",
+                "description": "Google Ads, Facebook és LinkedIn hirdetéskezelés modern eszközökkel az alacsony ügyfélszerzési költség és a magas profit érdekében.",
                 "icon": "Target"
             },
             {
                 "title": "Termékvezérelt Növekedés",
-                "description": "Felhasználók átalakítása elkötelezett ügyfelekké optimalizált onboarding és virális termék mechanizmusok révén.",
+                "description": "Vevői elégedettség és ajánlói rendszerek építése optimalizált folyamatokkal és automatizált megoldásokkal.",
                 "icon": "Zap"
             },
             {
-                "title": "Prémium Weboldal Készítés",
-                "description": "Keresőbarát, konverzióra optimalizált weboldalak fejlesztése, amelyek hitelességet és vevőket hoznak vállalkozása számára.",
+                "title": "Weboldal Készítés",
+                "description": "Prémium megjelenésű, konverzióra optimalizált weboldalak, amelyek bizalmat ébresztenek a látogatókban.",
                 "icon": "Layout"
             },
             {
                 "title": "Terméktervezés és Fejlesztés",
-                "description": "Az ötlettől a piacra lépésig: MVP fejlesztés, UX UI tervezés és teljes körű termékmenedzsment.",
+                "description": "Az ötlettől a megvalósításig: MVP fejlesztés, UX/UI tervezés és teljes körű termékmenedzsment.",
                 "icon": "PenTool"
             },
             {
                 "title": "Mobilalkalmazás Fejlesztés",
-                "description": "Natív iOS és Android alkalmazások, valamint cross platform megoldások, amelyek kivételes felhasználói élményt nyújtanak.",
+                "description": "Saját iOS és Android alkalmazások fejlesztése a legjobb felhasználói élmény biztosítása érdekében.",
                 "icon": "Smartphone"
             }
         ],
         "web3_items": [
             {
-                "title": "Web3 PPC Hirdetések",
-                "description": "Célzott forgalomterelés kripto specifikus hálózatokon és szabálykövető Web2 csatornákon a felhasználóbázis növeléséhez.",
+                "title": "Kripto Hirdetések (PPC)",
+                "description": "Hatékony hirdetések speciális kripto hálózatokon és a legfontosabb közösségi csatornákon keresztül.",
                 "icon": "Target"
             },
             {
-                "title": "Web3 SEO és Tartalom",
-                "description": "A keresési találatok dominálása token szimbólumokra és protokoll kulcsszavakra az organikus felfedezés érdekében.",
+                "title": "Kripto SEO és Tartalom",
+                "description": "A keresési találatok uralása a releváns kulcsszavakra az ingyenes, organikus forgalom növeléséhez.",
                 "icon": "Search"
             },
             {
-                "title": "Közösségi Média Marketing",
-                "description": "Közösségépítés a nulláról, valós interakciókkal és organikus növekedéssel X, LinkedIn és Farcaster felületeken.",
+                "title": "Social Media Kezelés",
+                "description": "Valódi közösségi elköteleződés és tartalomgyártás az X (Twitter), LinkedIn és egyéb platformokon.",
                 "icon": "MessageCircle"
             },
             {
-                "title": "Piacra Lépési Stratégia (GTM)",
-                "description": "Átfogó keretrendszerek, amelyek összehangolják a tokenomikát, a közösségi figyelmet és a valós hasznosságot.",
+                "title": "Piacra lépési (GTM) Stratégia",
+                "description": "Komplex keretrendszer az indításhoz, ahol a technológia, a közösség és a marketing összhangban van.",
                 "icon": "Rocket"
             },
             {
-                "title": "DApp és Termékfejlesztés",
-                "description": "Teljes körű fejlesztés decentralizált alkalmazásokhoz, okosszerződésekhez és token igénylő felületekhez.",
+                "title": "dApp és Termékfejlesztés",
+                "description": "Decentralizált alkalmazások, okosszerződések és technikai felületek teljes körű fejlesztése.",
                 "icon": "Code"
             },
             {
-                "title": "PR és On Chain Kommunikáció",
-                "description": "Kiemelt sajtómegjelenések és hiteles szakértői partnerségek, amelyek bizalmat építenek és növelik az elköteleződést.",
+                "title": "KOL és Kripto PR",
+                "description": "Vezető média megjelenések és hiteles szakértői együttműködések a bizalomépítés érdekében.",
                 "icon": "Mic"
             }
         ]
     },
     "bridge_section": {
-        "title": "A Web 2.5 integrációs motor",
-        "subtitle": "A jövő a technológiák keresztezésében rejlik. Segítünk a törekvő KKV-knak kiaknázni a blokkláncban rejlő erőt, a Web3 protokolloknak pedig elérni a fenntartható növekedést.",
-        "web2_label": "Intézményi skálázódás",
-        "web2_sublabel": "Nagyvállalati teljesítmény",
-        "web3_label": "Blockchain natív",
-        "web3_sublabel": "Decentralizált innováció"
+        "title": "Web 2.5: A Jövő Marketingje",
+        "subtitle": "Segítünk a hagyományos cégeknek a blokklánc technológia elérésében, a Web3 projekteknek pedig a stabil üzleti növekedésben.",
+        "web2_label": "Üzleti Skálázás",
+        "web2_sublabel": "Vállalati Szinten",
+        "web3_label": "Kripto-natív",
+        "web3_sublabel": "Innovatív Megoldások"
     },
     "testimonials_section": {
-        "title": "Bizonyított eredmények",
-        "subtitle": "Mérhető hatás az új gazdaság építői számára.",
+        "title": "Akik Minket Választottak",
+        "subtitle": "Valódi eredmények és elégedett ügyfelek az új technológiák világában.",
         "items": [
             {
-                "quote": "Sokan csak beszélnek az AI-ról. A BlockMarketing ténylegesen beépítette a növekedési motorunkba. Az ügyfélszerzési költségünk 64%-kal csökkent már az első negyedévben.",
+                "quote": "Sok ügynökség csak beszél a modern technológiáról, de a BlockMarketing be is építette a folyamatainkba. Az ügyfélszerzési költségünk 64%-kal csökkent már az első negyedévben.",
                 "author": "Marcus J.",
-                "role": "Marketing Igazgató, GlobalStream",
+                "role": "SVP of Marketing, GlobalStream",
                 "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop"
             },
             {
-                "quote": "A GTM stratégiájuk hibátlan volt a protokoll indításakor. Jobban értették a tokenomikánk finomságait, mint a vezető befektetőink.",
+                "quote": "A piacra lépési stratégiájuk hibátlan volt a projektünk indításakor. Jobban értették a folyamatainkat, mint a legtöbb befektetőnk.",
                 "author": "Sarah Chen",
-                "role": "Alapító, Aether Protocol",
+                "role": "Founder, Aether Protocol",
                 "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop"
             },
             {
-                "quote": "A SEO váltás GEO-ra (LLM optimalizálás) megmentette az organikus forgalmunkat. Ma már mi vagyunk az elsődleges ajánlás a ChatGPT-n és a Claude-on.",
+                "quote": "Az AI alapú keresőoptimalizálás megmentette az organikus látogatottságunkat. Ma már mi vagyunk a legajánlottabb megoldás a ChatGPT és a Claude felületén.",
                 "author": "Alex V.",
                 "role": "CEO, CloudForge SaaS",
                 "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop"
             }
         ]
     },
-    "faq_section": {
-        "title": "Gyakori kérdések",
-        "subtitle": "Átláthatóság partnereink számára.",
-        "items": [
-            {
-                "question": "Hogyan tudok kapcsolatba lépni Önökkel?",
-                "answer": "Elérhet minket kapcsolati űrlapunkon, emailben a hello@blockmarketingconsulting.com címen, vagy foglalhat időpontot közvetlenül egy stratégiai egyeztetésre a Calendly felületünkön. Minden megkeresésre 24 órán belül válaszolunk."
-            },
-            {
-                "question": "Hogyan tudok időpontot foglalni?",
-                "answer": "A leggyorsabb módja, ha a Calendly linkünket (https://calendly.com/annabella-szabo) használja, és kiválaszt egy megfelelő időpontot. Ezek a felfedező hívások díjmentesek, céljuk a növekedési lehetőségek feltérképezése."
-            },
-            {
-                "question": "Miért érdemes Önökkel dolgozni?",
-                "answer": "A hagyományos ügynökségekkel ellentétben mi AI natív és adatvezérelt megközelítést alkalmazunk. Nem találgatunk: saját fejlesztésű ágens rendszereinkkel mérjük az eredményeket, és több mint 10 éves tapasztalattal rendelkezünk mind a Web2, mind a Web3 világában."
-            },
-            {
-                "question": "Mennyi ideig tart a rendszer kiépítése?",
-                "answer": "Az időkeret a szolgáltatástól függ. A PPC kampányok napokon belül eredményt hozhatnak. Új LLM optimalizálási és GEO stratégiáinkkal ügyfeleink már 3-4 hét alatt látható eredményeket tapasztalnak, sokkal gyorsabban, mint a hagyományos SEO esetében."
-            },
-            {
-                "question": "Milyen gyorsan válaszolnak?",
-                "answer": "Büszkék vagyunk gyorsaságunkra. Megkeresésére legkésőbb 24 órán belül választ kap, a közös munka során pedig dedikált kapcsolattartó biztosítja a folyamatos, valós idejű kommunikációt."
-            }
-        ]
-    },
     "cta_section": {
-        "title": "Készen áll a növekedésre?",
-        "subtitle": "Ne találgasson, kezdjen el növekedni. Építsünk adatvezérelt marketing motort vállalkozása számára.",
-        "button_text": "Időpontfoglalás",
+        "title": "Szeretné növelni cége forgalmát?",
+        "subtitle": "Csatlakozzon a sikeres technológiai cégekhez és Web3 projektekhez, akik velünk skálázzák víziójukat.",
+        "button_text": "Konzultáció foglalása",
         "button_link": "/contact"
     }
 }

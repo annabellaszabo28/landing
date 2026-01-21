@@ -38,6 +38,6 @@ Privacy isn't about hiding; it's about control. In 2026, the most successful pro
 
 At BlockMarketing Consulting, we specialize in helping privacy-native brands build an authoritative presence in the market, turning technical complexity into a strategic moat.
 
-Ready to build the future of private, secure DeFi? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our conversion experts today to get started.
+Ready to build the future of private, secure DeFi? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our conversion experts today to get started.
 
 Or, browse our latest [Marketing Case Studies](/work) to see how we've helped secure protocols achieve 2026-level growth.

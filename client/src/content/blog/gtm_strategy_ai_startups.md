@@ -46,6 +46,6 @@ The era of passive growth is over. To scale an AI startup in 2026 requires a met
 
 By combining citation dominance with high-intensity referral loops, you can build a moat that protects your technical innovation from the rising tide of generic competitors.
 
-Ready to future-proof your brand and scale with an AI-native growth engine? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our expert consultants today.
+Ready to future-proof your brand and scale with an AI-native growth engine? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our expert consultants today.
 
 Or browse our full suite of [Traditional Marketing services](/marketing) to see how we bridge the gap between legacy results and future-facing technology.

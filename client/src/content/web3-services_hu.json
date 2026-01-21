@@ -1,278 +1,958 @@
 [
     {
         "id": "gotomarketstrategy",
-        "title": "GTM stratégia és piacra lépés",
+        "title": "Token Stratégia és Tokenomika",
         "slug": "gtm",
-        "description": "A sikeres Web3 indulás tervrajza. A tokenomikától a felhasználószerzésig.",
-        "longDescription": "Egyedi piacra lépési stratégiákat készítünk blokklánc protokollok és dApp ok számára. Adatvezérelt megközelítésünk biztosítja, hogy elérje célközönségét és a likviditásszolgáltatókat az indulás minden fázisában.",
-        "features": [
-            "Indítási tervezés és ütemezés",
-            "Tokenomikai tanácsadás",
-            "Ösztönző rendszer tervezés",
-            "Partneri ökoszisztémák"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "Ösztönző modellezés",
-                "description": "Tokenomika szimuláció a hosszú távú fenntarthatóság érdekében."
-            },
-            {
-                "step": "02",
-                "title": "Alpha magvetés",
-                "description": "Korai befogadók és likviditásszolgáltatók körének építése."
-            },
-            {
-                "step": "03",
-                "title": "Mainnet indulás",
-                "description": "Nagy hatású közösségi és likviditási események szervezése."
-            },
-            {
-                "step": "04",
-                "title": "Indítás utáni növekedés",
-                "description": "Adopció skálázása ökoszisztéma támogatásokkal és jutalmakkal."
-            }
-        ],
-        "results": [
+        "description": "Token tervezés és gazdasági modellezés blockchain projektek számára.",
+        "longDescription": "Értjük a Web3-natív dinamikát. Token stratégiai tervezésünk és on-chain elemzéseink biztosítják, hogy a projekt indítása valódi értéket és hosszú távú fenntarthatóságot generáljon.",
+        "icon": "Rocket",
+        "heroMetrics": [
             {
                 "label": "Elért TVL",
                 "value": "$120M+"
             },
             {
-                "label": "Indítási részvétel",
-                "value": "25k+ felhasználó"
+                "label": "Aktív Tárcák",
+                "value": "25k+"
+            },
+            {
+                "label": "Onboarding",
+                "value": "48 óra"
             }
         ],
-        "icon": "Rocket"
+        "challenge": {
+            "title": "A Hype Csapdája",
+            "description": "Sok projekt az alapok nélkül indul el, ami gyors felfutás után teljes összeomláshoz vezet. Mi fenntartható gazdasági modelleket építünk a hosszú távú siker érdekében."
+        },
+        "methodology": {
+            "title": "Növekedési Fázisok",
+            "phases": [
+                {
+                    "title": "Tokenomika Tervezés",
+                    "description": "A tokenek és a jutalmazási rendszerek szimulációja a fenntartható gazdaság érdekében."
+                },
+                {
+                    "title": "Közösségi Magvetés",
+                    "description": "A korai támogatók és fejlesztők magjának felépítése és bevonása."
+                },
+                {
+                    "title": "Indítási Stratégia",
+                    "description": "Nagy hatású közösségi események és likviditási folyamatok koordinálása."
+                },
+                {
+                    "title": "Indítás Utáni Támogatás",
+                    "description": "Folyamatos növekedés és ökoszisztéma fejlesztés a bevezetést követően."
+                }
+            ]
+        },
+        "deliverables": [
+            "Tokenomika Audit",
+            "Airdrop Rendszerek Tervezése",
+            "Indítási Ütemterv",
+            "KOL Kapcsolatok és Koordináció",
+            "Tőzsdei Listázási Tanácsadás",
+            "Ökoszisztéma Támogatás",
+            "On-Chain Analitika",
+            "Gazdasági Modellezés"
+        ],
+        "timeline": {
+            "duration": "8-12 Hét",
+            "milestones": [
+                {
+                    "week": "1-3. Hét",
+                    "title": "Audit és Stratégia"
+                },
+                {
+                    "week": "4-6. Hét",
+                    "title": "Token Modellezés"
+                },
+                {
+                    "week": "7-10. Hét",
+                    "title": "Közösség és PR"
+                },
+                {
+                    "week": "11-12. Hét",
+                    "title": "Projekt Indítása"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kinek Segítünk",
+            "types": [
+                "Layer 1 és Layer 2 Hálózatok",
+                "DeFi Projektek",
+                "Blockchain Játékok (GameFi)"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Generált TVL",
+                    "value": "$2.4B+",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Aktív Tárcák",
+                    "value": "45k+",
+                    "icon": "Users"
+                },
+                {
+                    "label": "Sikeres Indítás",
+                    "value": "50+",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "50+",
+            "retentionRate": "95%"
+        },
+        "differentiators": [
+            {
+                "title": "Kripto-natív",
+                "description": "2017 óta vagyunk jelen a piacon, ismerjük a teljes ökoszisztémát.",
+                "icon": "ShieldCheck"
+            },
+            {
+                "title": "Adatvezérelt",
+                "description": "A tárcák valós viselkedése alapján optimalizálunk.",
+                "icon": "Database"
+            },
+            {
+                "title": "Fenntartható",
+                "description": "A hosszú távú értékteremtést választjuk a rövid távú hype helyett.",
+                "icon": "Zap"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Mivel foglalkozik a tokenomika tervezés?",
+                "answer": "Matematikai modellekkel teszteljük a tokeneket különböző piaci körülmények és gazdasági forgatókönyvek között."
+            },
+            {
+                "question": "Segítenek a tőzsdékre való bejutásban?",
+                "answer": "Stratégiai tanácsot és közvetlen kapcsolatokat biztosítunk a legnagyobb tőzsdékhez (CEX és DEX)."
+            },
+            {
+                "question": "Milyen technikai támogatást kapunk?",
+                "answer": "Csapatunk segít az okosszerződések auditálásában és a teljes technikai útiterv felépítésében."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
         "id": "communitybuilding",
-        "title": "Közösségépítés és kezelés",
+        "title": "Közösségépítés és Moderálás",
         "slug": "community",
-        "description": "Hozzon létre egy lojális követőtábort Discord, Telegram és Lens felületeken.",
-        "longDescription": "Az erős közösség a Web3 alapköve. Speciális közösségépítési és kezelési megoldásokat kínálunk a megtartásra és a technikai támogatásra összpontosítva. Valódi emberek, botok nélkül, AI alapú biztonsági felügyelettel.",
-        "features": [
-            "Discord és Telegram architektúra",
-            "24/7 globális moderáció",
-            "Elköteleződés és eseménykezelés",
-            "Szemlélet és egészség analitika"
-        ],
-        "process": [
+        "description": "Discord és Telegram kezelés, aktív közösségmenedzsment és KOL együttműködések.",
+        "longDescription": "A közösség a Web3 alapköve. Discord architektúrára, közösségi hálózatra és 24/7 globális moderálásra szakosodtunk, hogy valódi elköteleződést hozzunk létre a projektje körül.",
+        "icon": "Users",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Kultúra tervezés",
-                "description": "Értékrend alapú közösségi normák és háttértörténet kialakítása."
-            },
-            {
-                "step": "02",
-                "title": "Eszközök beállítása",
-                "description": "Botellenes intézkedések és gamifikált jutalmazási rendszerek."
-            },
-            {
-                "step": "03",
-                "title": "Aktív moderáció",
-                "description": "24/7 globális támogatás és elköteleződés natív Web3 szakértőktől."
-            },
-            {
-                "step": "04",
-                "title": "Konverzió",
-                "description": "A passzív tagok aktív protokoll résztvevőkké alakítása."
-            }
-        ],
-        "results": [
-            {
-                "label": "Discord aktív arány",
+                "label": "Közösségi Aktivitás",
                 "value": "42%"
             },
             {
-                "label": "Közösség mérete",
-                "value": "50k+ valódi felhasználó"
+                "label": "Token Holderek",
+                "value": "50k+"
+            },
+            {
+                "label": "DAO Részvétel",
+                "value": "18%"
             }
         ],
-        "icon": "Users"
+        "challenge": {
+            "title": "A Botok Világa",
+            "description": "A hamis számok megölik a projekteket. Mi az üres botok helyett valódi, elkötelezett embereket hozunk a közösségbe, akik hisznek a projekt jövőjében."
+        },
+        "methodology": {
+            "title": "Közösségi Stratégia",
+            "phases": [
+                {
+                    "title": "Közösségi Kultúra",
+                    "description": "Az alaphangulat, a szabályok és a közösségi narratíva kidolgozása."
+                },
+                {
+                    "title": "Rendszerek Beállítása",
+                    "description": "Botvédelem, moderátor eszközök és jutalmazási rendszerek telepítése."
+                },
+                {
+                    "title": "24/7 Moderálás",
+                    "description": "Folyamatos jelenlét és technikai segítségnyújtás minden időzónában."
+                },
+                {
+                    "title": "DAO Átmenet",
+                    "description": "A legaktívabb tagok bevonása a projekt jövőbeli döntéseibe."
+                }
+            ]
+        },
+        "deliverables": [
+            "Discord és Telegram Kezelés",
+            "24/7 Globális Moderálás",
+            "Közösségi Jutalmazási Rendszer",
+            "KOL Együttműködések",
+            "Heti Közösségi Beszélgetések",
+            "DAO Keretrendszer",
+            "Anti-Bot Védelem",
+            "Tartalomgyártás a Csatornákra"
+        ],
+        "timeline": {
+            "duration": "Folyamatos",
+            "milestones": [
+                {
+                    "week": "1. Hét",
+                    "title": "Csatornák Beállítása"
+                },
+                {
+                    "week": "2. Hét",
+                    "title": "Moderátorok Felkészítése"
+                },
+                {
+                    "week": "4. Hét",
+                    "title": "Teljes Közösségi Aktiválás"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kinek Építünk",
+            "types": [
+                "Induló DAO-k",
+                "NFT Kollekciók",
+                "Blockchain Projektek"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Aktív Felhasználó",
+                    "value": "50k+",
+                    "icon": "Users"
+                },
+                {
+                    "label": "Napi Interakció",
+                    "value": "42%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Bot Elhárítás",
+                    "value": "99%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "40+",
+            "retentionRate": "97%"
+        },
+        "differentiators": [
+            {
+                "title": "Emberi Kapcsolat",
+                "description": "A valódi párbeszédben hiszünk az automata válaszok helyett.",
+                "icon": "Users"
+            },
+            {
+                "title": "Globális Csapat",
+                "description": "Moderátoraink minden jelentős kripto hub-on jelen vannak.",
+                "icon": "Network"
+            },
+            {
+                "title": "Storytelling",
+                "description": "Olyan történetet építünk, aminek az emberek a részesei akarnak lenni.",
+                "icon": "Sparkles"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Hogyan kezelik a problémás tagokat?",
+                "answer": "Szigorú moderációs elveink vannak, amelyek a közösség egészségét védik."
+            },
+            {
+                "question": "Segítenek a DAO elindításában?",
+                "answer": "Igen, a szavazási rendszerektől a token elosztási modellekig mindent kezelünk."
+            },
+            {
+                "question": "Milyen platformokon dolgoznak?",
+                "answer": "A Discord és a Telegram a két legfontosabb platformunk."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
-        "id": "publicrelationsweb3",
+        "id": "web3_growth",
+        "title": "Kripto Marketing Stratégia",
+        "slug": "growth",
+        "description": "Átfogó növekedési rendszerek a hirdetéstől az on-chain konverzióig.",
+        "longDescription": "A kripto-marketing speciális eszközöket igényel. Az on-chain adatokat ötvözzük a hagyományos marketinggel, hogy zökkenőmentes növekedést érjünk el a projektje számára.",
+        "icon": "TrendingUp",
+        "heroMetrics": [
+            {
+                "label": "Ügyfél Növekedés",
+                "value": "4.5x"
+            },
+            {
+                "label": "Megtartás",
+                "value": "40%+"
+            },
+            {
+                "label": "LTV",
+                "value": "3x"
+            }
+        ],
+        "challenge": {
+            "title": "A Hatékonyság Mérése",
+            "description": "A hagyományos analitika nem látja a tárcák közötti mozgást. Mi áthidaljuk ezt a szakadékot, hogy pontosan lássa a hirdetései megtérülését.",
+        },
+        "methodology": {
+            "title": "Növekedési Rendszer",
+            "phases": [
+                {
+                    "title": "Adataudit",
+                    "description": "Az on-chain mérések és a követő kódok beállítása."
+                },
+                {
+                    "title": "Folyamat Optimalizálás",
+                    "description": "A belépési küszöb csökkentése és a felhasználói élmény javítása."
+                },
+                {
+                    "title": "Növekedési Motorok",
+                    "description": "Ajánlói rendszerek és automatizált marketing folyamatok indítása."
+                },
+                {
+                    "title": "Skálázás",
+                    "description": "Többcsatornás marketing aktív kripto-felhasználókra célozva."
+                }
+            ]
+        },
+        "deliverables": [
+            "On-Chain Konverziókövetés",
+            "Ajánlói Programok",
+            "Onboarding Optimalizálás",
+            "Növekedési Architektúra",
+            "A/B Tesztelés dApp-okhoz",
+            "Kripto Analitika Dashboard",
+            "Virális Marketing Folyamatok",
+            "Felhasználó Megtartás"
+        ],
+        "timeline": {
+            "duration": "6-10 Hét",
+            "milestones": [
+                {
+                    "week": "1-2. Hét",
+                    "title": "Mérés és Audit"
+                },
+                {
+                    "week": "3-5. Hét",
+                    "title": "Rendszerépítés"
+                },
+                {
+                    "week": "6. Hét+",
+                    "title": "Aktiválás és Skálázás"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kinek Skálázunk",
+            "types": [
+                "DeFi Protokollok",
+                "Blockchain Alkalmazások",
+                "Web3 Infrastruktúra"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Átlagos Növekedés",
+                    "value": "340%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Aktív Felhasználó",
+                    "value": "45k+",
+                    "icon": "Users"
+                },
+                {
+                    "label": "ROI Követés",
+                    "value": "100%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "35+",
+            "retentionRate": "92%"
+        },
+        "differentiators": [
+            {
+                "title": "Hajszálpontos Mérés",
+                "description": "Pontosan tudjuk, honnan jönnek az aktív felhasználói.",
+                "icon": "Search"
+            },
+            {
+                "title": "Teljes Körű",
+                "description": "A technikai méréstől a kreatív megvalósításig mindent kezelünk.",
+                "icon": "Database"
+            },
+            {
+                "title": "Eredményfókusz",
+                "description": "Minden lépésünket az on-chain adatok igazolják.",
+                "icon": "Target"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Követhető a tárcák viselkedése?",
+                "answer": "Igen, speciális analitikát használunk, amely összeköti a hirdetési adatokat az on-chain aktivitással."
+            },
+            {
+                "question": "Milyen mutatókat figyelünk?",
+                "answer": "A legfontosabb nekünk a CAC, az LTV és a napi aktív tárcák száma."
+            },
+            {
+                "question": "Segítenek a UX/UI javításában?",
+                "answer": "Igen, gyakran javasolunk módosításokat a weboldalon a jobb konverzió érdekében."
+            }
+        ],
+        "features": [],
+        "process": []
+    },
+    {
+        "id": "pr_native",
         "title": "Public Relations (PR)",
         "slug": "pr",
-        "description": "Globális sajtómegjelenések a vezető blokklánc és technológiai lapokban.",
-        "longDescription": "Elmeséljük történetét a világnak. PR csapatunk közvetlen kapcsolatban áll a Cointelegraph, Blockworks és TechCrunch újságíróival, biztosítva a maximális hatást.",
-        "features": [
-            "Stratégiai történetmesélés",
-            "Média kapcsolatok (Tier 1)",
-            "Szakértői tartalomgyártás",
-            "Krízis kommunikáció"
-        ],
-        "process": [
+        "description": "Médiamegjelenések a CoinTelegraph, Decrypt és egyéb vezető lapokban.",
+        "longDescription": "A kripto világában a hírnév és a narratíva kulcsfontosságú. Megjelenéseket biztosítunk a legnagyobb szakmai lapokban, hogy projektje szakmai referenciává váljon.",
+        "icon": "Newspaper",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Narratíva építés",
-                "description": "Meggyőző irányvonal kialakítása intézményi és lakossági célközönségnek."
+                "label": "Tier-1 Megjelenés",
+                "value": "15+"
             },
             {
-                "step": "02",
-                "title": "Média megkeresések",
-                "description": "Közvetlen kapcsolatfelvétel a vezető újságírókkal globális hálózatunkban."
+                "label": "Elérés",
+                "value": "5M+"
             },
             {
-                "step": "03",
-                "title": "Szindikálás",
-                "description": "Biztosítjuk a hírek terjedését a másodlagos és technikai csatornákon is."
-            },
-            {
-                "step": "04",
-                "title": "Márka védelem",
-                "description": "Folyamatos szakértői jelenlét az iparági vezető szerep megerősítéséhez."
+                "label": "Bizalmi Index",
+                "value": "Magas"
             }
         ],
-        "results": [
+        "challenge": {
+            "title": "A Narratíva Uralása",
+            "description": "Ha nem Ön mondja el a történetét, akkor a piac fogja. Mi megvédjük márkáját a pletykáktól és szakértőként pozicionáljuk projektjét."
+        },
+        "methodology": {
+            "title": "PR Folyamat",
+            "phases": [
+                {
+                    "title": "Sztori Alkotás",
+                    "description": "A technikai újdonságok átfordítása érthető és hírértékű üzenetekre."
+                },
+                {
+                    "title": "Média Kapcsolatok",
+                    "description": "Közvetlen kapcsolatunk van a legnagyobb szakmai újságírókkal."
+                },
+                {
+                    "title": "Terjesztés",
+                    "description": "A hírek felerősítése a teljes kripto közösségben."
+                },
+                {
+                    "title": "Monitorozás",
+                    "description": "Folyamatos visszajelzés és a hírnév kezelése."
+                }
+            ]
+        },
+        "deliverables": [
+            "Tier-1 Média Megjelenések",
+            "Szakmai Cikkek",
+            "Krízis Kommunikáció",
+            "Újságírói Kapcsolattartás",
+            "Sajtóközlemények",
+            "Podcast Szereplések",
+            "Hírnév Elemzés",
+            "Média Tréning Alapítóknak"
+        ],
+        "timeline": {
+            "duration": "8-12 Hét",
+            "milestones": [
+                {
+                    "week": "1. Hét",
+                    "title": "Stratégiai Workshop"
+                },
+                {
+                    "week": "2-4. Hét",
+                    "title": "Első Megjelenések"
+                },
+                {
+                    "week": "5. Hét+",
+                    "title": "Szakmai Tekintély Építése"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kinek Szól",
+            "types": [
+                "Blockchain Alapítványok",
+                "Befektetéssel Rendelkező Projektek",
+                "Innovatív Alapítók"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Összes Impresszió",
+                    "value": "5M+",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Megjelent Cikk",
+                    "value": "150+",
+                    "icon": "Newspaper"
+                },
+                {
+                    "label": "Piaci Tekintély",
+                    "value": "Vezető",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "50+",
+            "retentionRate": "95%"
+        },
+        "differentiators": [
             {
-                "label": "Tier 1 megjelenések",
-                "value": "15+ havonta"
+                "title": "Közvetlen Elérés",
+                "description": "Naponta beszélünk a legbefolyásosabb szakírókkal.",
+                "icon": "Network"
             },
             {
-                "label": "Média érték",
-                "value": "$500k+"
+                "title": "Piaci Ismeret",
+                "description": "Bárkinél jobban értjük a kripto média dinamikáját.",
+                "icon": "Search"
+            },
+            {
+                "title": "Profizmus",
+                "description": "Csak olyan híreket hozunk ki, amelyek valódi értéket képviselnek.",
+                "icon": "Target"
             }
         ],
-        "icon": "Newspaper"
+        "faqs": [
+            {
+                "question": "Garantálható a megjelenés?",
+                "answer": "Bár a független média nem megvásárolható, az eredményeink magukért beszélnek."
+            },
+            {
+                "question": "Kezelnek krízishelyzeteket?",
+                "answer": "Igen, azonnali segítséget nyújtunk a negatív hírek és pletykák kezelésében."
+            },
+            {
+                "question": "Melyik lapokban jelenhetünk meg?",
+                "answer": "CoinTelegraph, CoinDesk, Decrypt, The Block és a Forbes is a partnereink között van."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
-        "id": "growthmarketingweb3",
-        "title": "Web3 növekedési marketing",
-        "slug": "growth",
-        "description": "Teljes tölcsér stratégiák a decentralizált felhasználói útra szabva.",
-        "longDescription": "A Web3 növekedés egyedi megközelítést igényel a felhasználói attribúció és az ösztönzők terén. Saját adatkezelő eszközeinkkel követjük az on chain és off chain viselkedést.",
-        "features": [
-            "Quest és airdrop stratégia",
-            "Ajánlói program tervezés",
-            "Megtartási mérnökösködés",
-            "On chain analitika"
-        ],
-        "process": [
-            {
-                "step": "01",
-                "title": "On Chain elemzés",
-                "description": "Nagy értékű felhasználói profilok azonosítása tárca viselkedés alapján."
-            },
-            {
-                "step": "02",
-                "title": "Ösztönző tölcsérek",
-                "description": "Küldetés alapú onboarding tervezése a valós protokoll használatért."
-            },
-            {
-                "step": "03",
-                "title": "Megtartási hurkok",
-                "description": "Irányítási és közösségi rétegek használata a felhasználók megtartására."
-            },
-            {
-                "step": "04",
-                "title": "TVL optimalizálás",
-                "description": "Likviditási ösztönzők finomhangolása a maximális tőkehatékonyságért."
-            }
-        ],
-        "results": [
-            {
-                "label": "Aktív tárcák növekedése",
-                "value": "120% QoQ"
-            },
-            {
-                "label": "Airdrop hatékonyság",
-                "value": "3.5x ROI"
-            }
-        ],
-        "icon": "TrendingUp"
-    },
-    {
-        "id": "ppcredditnative",
-        "title": "Célzott PPC (Reddit és natív)",
+        "id": "ppc_native_web3",
+        "title": "Kripto Hirdetések (PPC)",
         "slug": "ppc_native",
-        "description": "PPC a Reddit, Twitter és a főbb blokklánc natív hirdetési hálózatokon.",
-        "longDescription": "Érje el célközönségét ott, ahol idejüket töltik. Magas teljesítményű kampányokat kezelünk a Redditen, X en és a Coingecko hoz hasonló natív hálózatokon.",
-        "features": [
-            "Reddit hirdetési kampányok",
-            "Blokklánc natív hirdetések",
-            "Twitter és X hirdetéskezelés",
-            "Magas szándékú célzás"
-        ],
-        "process": [
+        "description": "Reddit, Twitter (X) és blockchain-natív hirdetési hálózatok (Etherscan, CMC).",
+        "longDescription": "Ismerjük a kripto hirdetések korlátait és szabályait. Biztonságos és eredményes kampányokat futtatunk ott, ahol a valódi célközönsége tartózkodik.",
+        "icon": "Target",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Közönség szegmentálás",
-                "description": "Csoportosítás subreddit, közösség és on chain aktivitás alapján."
+                "label": "CPC Csökkenés",
+                "value": "50%"
             },
             {
-                "step": "02",
-                "title": "Natív tartalom dizájn",
-                "description": "A közösségi kultúrába illeszkedő hirdetési kreatívok készítése."
+                "label": "Konverzió",
+                "value": "28%+"
             },
             {
-                "step": "03",
-                "title": "Licit mérnökség",
-                "description": "Optimalizálás az alacsony CPA elérésére a drága Web3 résekben."
-            },
-            {
-                "step": "04",
-                "title": "Konverzió követés",
-                "description": "Egyedi megoldások a tárcacsatlakozások követésére fizetett forgalomból."
+                "label": "Szabálykövető",
+                "value": "100%"
             }
         ],
-        "results": [
+        "challenge": {
+            "title": "Hirdetési Tiltások",
+            "description": "A hagyományos platformok gyakran tiltják a blokklánc hirdetéseket. Mi speciális engedélyekkel és hálózatokkal dolgozunk, hogy üzenete eljusson a vevőkhöz."
+        },
+        "methodology": {
+            "title": "Biztonságos Skálázás",
+            "phases": [
+                {
+                    "title": "Célzás",
+                    "description": "Valódi kripto-használók azonosítása on-chain adatok és érdeklődés alapján."
+                },
+                {
+                    "title": "Kreatív Tervezés",
+                    "description": "Szakmai és meggyőző hirdetési képek és szövegek készítése."
+                },
+                {
+                    "title": "Megfelelőség",
+                    "description": "Biztosítjuk, hogy a hirdetések megfeleljenek a szigorú szabályoknak."
+                },
+                {
+                    "title": "Optimalizálás",
+                    "description": "A hirdetési költségek napi szintű javítása a legjobb eredmény érdekében."
+                }
+            ]
+        },
+        "deliverables": [
+            "Reddit Hirdetéskezelés",
+            "X (Twitter) Kampányok",
+            "Etherscan és CMC Hirdetések",
+            "Szabálykövető Grafika",
+            "Valós Idejű Dashboard",
+            "On-Chain Követés",
+            "Célcsoport Audit",
+            "Értékesítési Folyamat Építése"
+        ],
+        "timeline": {
+            "duration": "2 Hét Setup",
+            "milestones": [
+                {
+                    "week": "1-3. Nap",
+                    "title": "Audit és Beállítás"
+                },
+                {
+                    "week": "4-7. Nap",
+                    "title": "Hirdetési Anyagok Gyártása"
+                },
+                {
+                    "week": "2. Hét",
+                    "title": "Kampány Indítása"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kiket Célzunk",
+            "types": [
+                "DeFi Protokollok",
+                "Blockchain Játékok",
+                "Kripto Szolgáltatások"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Átlagos CTR",
+                    "value": "2.5%",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Havi Elérés",
+                    "value": "10M+",
+                    "icon": "BarChart"
+                },
+                {
+                    "label": "Költségmegtakarítás",
+                    "value": "35%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "40+",
+            "retentionRate": "96%"
+        },
+        "differentiators": [
             {
-                "label": "CPC csökkenés",
-                "value": "50% csökkenés"
+                "title": "Kripto-natív Hálózatok",
+                "description": "Közvetlen hozzáférésünk van a legnagyobb szakmai felületekhez.",
+                "icon": "Network"
             },
             {
-                "label": "Tárcacsatlakozási arány",
-                "value": "+28%"
+                "title": "Biztonság",
+                "description": "Garantáljuk a hirdetési fiókok zavartalan működését.",
+                "icon": "ShieldCheck"
+            },
+            {
+                "title": "Technikai Precizitás",
+                "description": "Ugyanazon a nyelven szólunk a fejlesztőkhöz és a befektetőkhöz.",
+                "icon": "Zap"
             }
         ],
-        "icon": "Target"
+        "faqs": [
+            {
+                "question": "Hirdethetünk a Facebookon is?",
+                "answer": "Igen, a megfelelő engedélyek beszerzése után kezeljük a kampányait ott is."
+            },
+            {
+                "question": "Mik azok a natív hálózatok?",
+                "answer": "Olyan szakmai oldalak hirdetési rendszerei, mint például a CoinMarketCap vagy az Etherscan."
+            },
+            {
+                "question": "Hogyan mérjük a megtérülést?",
+                "answer": "A hirdetési kattintásokat összekötjük a tárcák valódi aktivitásával."
+            }
+        ],
+        "features": [],
+        "process": []
     },
     {
         "id": "kolinfluencermarketing",
-        "title": "KOL és Influencer marketing",
+        "title": "KOL és Influencer Marketing",
         "slug": "kol",
-        "description": "Partneri kapcsolat a Web3 ökoszisztéma leghitelesebb hangjaival.",
-        "longDescription": "Lépjen kapcsolatba azokkal a véleményvezérekkel (KOL), akik hitelesen tudják népszerűsíteni projektjét. Kezeljük a kiválasztást, tárgyalást és a teljesítmény mérést.",
-        "features": [
-            "Tier 1 KOL azonosítás",
-            "Kampány koordináció",
-            "Tárgyalás és szerződéskötés",
-            "Attribúció követés"
-        ],
-        "process": [
+        "description": "Valódi szakértők bevonása on-chain adatokon alapuló szűréssel.",
+        "longDescription": "Csak a leghitelesebb hangokkal dolgozunk. Minden partnert on-chain adatok alapján ellenőrzünk, hogy üzenete valódi befektetőkhöz jusson el.",
+        "icon": "Mic",
+        "heroMetrics": [
             {
-                "step": "01",
-                "title": "Átvilágítás",
-                "description": "Valódi elköteleződéssel bíró véleményvezérek kiválasztása."
-            },
-            {
-                "step": "02",
-                "title": "Instruálás",
-                "description": "Biztosítjuk, hogy az üzenet hiteles maradjon a főbb értékek mellett."
-            },
-            {
-                "step": "03",
-                "title": "Indítási fázis",
-                "description": "Egyidejű megjelenések koordinálása a maximális elérés érdekében."
-            },
-            {
-                "step": "04",
-                "title": "Teljesítmény mérés",
-                "description": "Részletes riportok az elérésről, elköteleződésről és konverzióról."
-            }
-        ],
-        "results": [
-            {
-                "label": "Összes impresszió",
+                "label": "Influencer Elérés",
                 "value": "2M+"
             },
             {
-                "label": "Bizalmi mutató",
-                "value": "Nagyon magas"
+                "label": "Ellenőrzött Partner",
+                "value": "250+"
+            },
+            {
+                "label": "Bizalmi Index",
+                "value": "Magas"
             }
         ],
-        "icon": "Mic"
+        "challenge": {
+            "title": "Hamis Befolyás",
+            "description": "Sok influencer vásárolt követőkkel rendelkezik. Mi on-chain adatokkal ellenőrizzük őket, hogy Ön csak a valódi közösségekhez jusson el."
+        },
+        "methodology": {
+            "title": "Hiteles Befolyás",
+            "phases": [
+                {
+                    "title": "Háttérellenőrzés",
+                    "description": "A partnerek on-chain aktivitásának és közönségének vizsgálata."
+                },
+                {
+                    "title": "Üzenet Tervezése",
+                    "description": "A narratíva kezelése, hogy az üzenet hiteles maradjon."
+                },
+                {
+                    "title": "Koordináció",
+                    "description": "Összehangolt indítás a maximális figyelem érdekében."
+                },
+                {
+                    "title": "Utólagos Elemzés",
+                    "description": "A valódi eredmények és a közösség reakcióinak mérése."
+                }
+            ]
+        },
+        "deliverables": [
+            "Ellenőrzött Influencer Lista",
+            "Hitelességi Audit",
+            "Kampány Brief-ek",
+            "Szerződéskezelés",
+            "Koordinált Indítás",
+            "Social Dashboard",
+            "Kapcsolattartás",
+            "Konverziókövetés"
+        ],
+        "timeline": {
+            "duration": "4-8 Hét",
+            "milestones": [
+                {
+                    "week": "1-2. Hét",
+                    "title": "Partnerek Kiválasztása"
+                },
+                {
+                    "week": "3-4. Hét",
+                    "title": "Tárgyalás és Szerződés"
+                },
+                {
+                    "week": "5. Hét+",
+                    "title": "Kampány Indítása"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kinek Segítünk",
+            "types": [
+                "Új Token Indítások",
+                "DeFi Projektek",
+                "Web3 Alkalmazások"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Impressziók",
+                    "value": "2M+",
+                    "icon": "TrendingUp"
+                },
+                {
+                    "label": "Valódi Elköteleződés",
+                    "value": "Magas",
+                    "icon": "Users"
+                },
+                {
+                    "label": "Ellenőrzési Pontosság",
+                    "value": "99%",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "45+",
+            "retentionRate": "92%"
+        },
+        "differentiators": [
+            {
+                "title": "Zéró Bot",
+                "description": "Csak valódi, aktív közönséggel rendelkező partnerekkel dolgozunk.",
+                "icon": "Search"
+            },
+            {
+                "title": "Szakmai Mélység",
+                "description": "Biztosítjuk, hogy a partner valóban értse az Ön technológiáját.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Megbízhatóság",
+                "description": "Minden partnerséget szigorú szabályok szerint kezelünk.",
+                "icon": "ShieldCheck"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Hogyan tudjuk, hogy valódi követőik vannak?",
+                "answer": "On-chain adatokkal ellenőrizzük, hogy a közönségük tagjai valódi kripto-használók-e."
+            },
+            {
+                "question": "Ki intézi a kifizetéseket?",
+                "answer": "Mi kezeljük az összes pénzügyi és szerződéses folyamatot a partnerekkel."
+            },
+            {
+                "question": "Lehetünk 'trending' kategóriában?",
+                "answer": "Koordinált kampányokkal maximalizáljuk az organikus elérés esélyét a közösségi médiában."
+            }
+        ],
+        "features": [],
+        "process": []
+    },
+    {
+        "id": "devrel_web3",
+        "title": "Developer Relations (DevRel)",
+        "slug": "devrel",
+        "description": "Stratégiák a legjobb technikai tehetségek vonzására és megtartására.",
+        "longDescription": "A Web3-ban a fejlesztők a legértékesebb partnerek. Hackathonokat, támogatási programokat és technikai dokumentációkat készítünk, amelyek valódi bevezetéseket hoznak.",
+        "icon": "Code",
+        "heroMetrics": [
+            {
+                "label": "Aktív Fejlesztők",
+                "value": "500+"
+            },
+            {
+                "label": "Élő Alkalmazások",
+                "value": "50+"
+            },
+            {
+                "label": "Támogatási Sebesség",
+                "value": "Gyors"
+            }
+        ],
+        "challenge": {
+            "title": "Bonyolult Belépés",
+            "description": "Ha a dokumentáció rossz, a fejlesztők elmennek a konkurenciához. Mi segítünk abban, hogy a technológiája könnyen használható és vonzó legyen a fejlesztőknek."
+        },
+        "methodology": {
+            "title": "Fejlesztői Adoptáció",
+            "phases": [
+                {
+                    "title": "Dokumentáció Audit",
+                    "description": "A technikai segédletek és útmutatók javítása és érthetővé tétele."
+                },
+                {
+                    "title": "Ösztönzők Tervezése",
+                    "description": "Olyan hackathonok és támogatások, amelyek valódi fejlesztéseket hoznak."
+                },
+                {
+                    "title": "Közvetlen Megkeresés",
+                    "description": "A legjobb fejlesztők megszólítása GitHub-on és egyéb csatornákon."
+                },
+                {
+                    "title": "Folyamatos Támogatás",
+                    "description": "Technikai segítségnyújtás a fejlesztők számára a projektjük során."
+                }
+            ]
+        },
+        "deliverables": [
+            "Dokumentáció Javítása",
+            "Hackathon Szervezése",
+            "Fejlesztői Támogatási Rendszer",
+            "Technikai Útmutatók",
+            "Developer Advocacy",
+            "GitHub Kezelés",
+            "Technikai PR",
+            "Eredménykövetés"
+        ],
+        "timeline": {
+            "duration": "12-16 Hét",
+            "milestones": [
+                {
+                    "week": "1-4. Hét",
+                    "title": "Dokumentáció Felmérése"
+                },
+                {
+                    "week": "5-8. Hét",
+                    "title": "Támogatási Program Tervezése"
+                },
+                {
+                    "week": "9. Hét+",
+                    "title": "Aktiválás és Támogatás"
+                }
+            ]
+        },
+        "targetAudience": {
+            "title": "Kinek Segítünk",
+            "types": [
+                "Layer 1 és Layer 2 Hálózatok",
+                "API és SDK Szolgáltatók",
+                "Fejlesztői Eszközök"
+            ]
+        },
+        "socialProof": {
+            "metrics": [
+                {
+                    "label": "Élő dApp",
+                    "value": "50+",
+                    "icon": "Code"
+                },
+                {
+                    "label": "Aktív Fejlesztő",
+                    "value": "500+",
+                    "icon": "Users"
+                },
+                {
+                    "label": "Szakmai Index",
+                    "value": "9/10",
+                    "icon": "ShieldCheck"
+                }
+            ],
+            "projectCount": "30+",
+            "retentionRate": "98%"
+        },
+        "differentiators": [
+            {
+                "title": "Technikai Hátttér",
+                "description": "Szakértőink maguk is fejlesztők, értik a technikai részleteket.",
+                "icon": "Terminal"
+            },
+            {
+                "title": "Eredményorientált",
+                "description": "A valódi bevezetéseket nézzük a puszta jelentkezők helyett.",
+                "icon": "Target"
+            },
+            {
+                "title": "Ökoszisztéma Fókusz",
+                "description": "A teljes fejlesztői közösség hosszú távú egészségére figyelünk.",
+                "icon": "Network"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Szerveznek nekünk hackathont?",
+                "answer": "Igen, a felületbeállítástól a marketingen át a zsűrizésig mindent intézünk."
+            },
+            {
+                "question": "Hogyan mérjük a fejlesztői sikert?",
+                "answer": "GitHub aktivitást, dokumentáció-használatot és a mainnet-re került projekteket követjük."
+            },
+            {
+                "question": "Írnak nekünk technikai szövegeket?",
+                "answer": "Igen, csapatunk segít a dokumentáció és az API útmutatók professzionális megírásában."
+            }
+        ],
+        "features": [],
+        "process": []
     }
 ]

@@ -1,0 +1,89 @@
+{
+    "hero": {
+        "badge": "Leadership as a Service • Built for Elite Startups",
+        "title_main": "The Impact of a CMO.",
+        "title_highlight": "Without the Equity.",
+        "subtitle": "Expert Fractional CMO services for ambitious Web3 & AI startups. We replace an entire marketing department with one integrated growth engine.",
+        "cta_pricing": "View Pricing Plans",
+        "cta_call": "Book Discovery Call"
+    },
+    "benefits": {
+        "fractional": {
+            "title": "Why Fractional?",
+            "desc": "Top-tier CMOs cost $250k/year + equity. We deliver the same strategic leadership and execution for a flat monthly fee. No equity, no onboarding time."
+        },
+        "ai": {
+            "title": "The AI Advantage",
+            "desc": "We don't just hire people; we deploy agents. Our AI-native stack allows us to execute 10x faster than traditional agencies."
+        }
+    },
+    "speed": {
+        "title_main": "From Zero to Live in",
+        "title_highlight": "under 48 Hours.",
+        "subtitle": "Our onboarding isn't weeks. It's hours.",
+        "steps": [
+            {
+                "step": "01",
+                "title": "Audit & Strategy",
+                "desc": "Deep dive into your current metrics, KPIs, and market positioning."
+            },
+            {
+                "step": "02",
+                "title": "AI Stack Deployment",
+                "desc": "Setting up our proprietary growth engine and automation tools."
+            },
+            {
+                "step": "03",
+                "title": "Creative Sprint",
+                "desc": "High-velocity production of ad creatives, landing pages, and copy."
+            },
+            {
+                "step": "04",
+                "title": "Scale & Optimize",
+                "desc": "Real-time performance tracking and automated budget allocation."
+            }
+        ]
+    },
+    "calculator": {
+        "badge": "ROI Calculator",
+        "title": "Calculate Your Potential Impact",
+        "subtitle": "See what our AI-driven performance engine can deliver for your budget.",
+        "budget_label": "Monthly Marketing Budget",
+        "impressions_label": "Est. Impressions",
+        "clicks_label": "Potential Clicks",
+        "cpc_label": "Cost Per Click",
+        "benchmarked": "Benchmarked Avg.",
+        "disclaimer": "*Estimates based on aggregated performance data from our Web3 & SaaS client portfolio."
+    },
+    "pricing": {
+        "badge": "Transparent Pricing",
+        "title": "Choose Your Growth Engine",
+        "subtitle": "From validation to domination. Our infrastructure adapts to your specific growth stage.",
+        "plans": {
+            "foundation": {
+                "title": "Foundation",
+                "price": "€3,500",
+                "desc": "Your steady engine for visibility consistent posting, smart SEO, and end-to-end content flow.",
+                "weekly_label": "What's Included: Per / Week"
+            },
+            "attention": {
+                "title": "Attention",
+                "price": "€5,000",
+                "desc": "Your visibility multiplier scale your content and engagement across every platform.",
+                "weekly_label": "What's Included: Per / Week",
+                "popular_badge": "★ POPULAR"
+            },
+            "accelerator": {
+                "title": "Accelerator",
+                "price": "€7,890",
+                "desc": "Dominate your niche with maximum output and precision execution at scale.",
+                "weekly_label": "What's Included: Per / Week"
+            }
+        }
+    },
+    "cta": {
+        "title": "Ready to lead the market?",
+        "subtitle": "Stop guessing. Start growing. Book your strategy session today.",
+        "button": "Book a Call Now"
+    }
+}

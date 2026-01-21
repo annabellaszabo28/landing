@@ -38,6 +38,6 @@ We are entering an era where Bitcoin and Ethereum may finally decouple from the 
 
 At BlockMarketing Consulting, we help you bridge the gap between the decentralized future and the institutional present, ensuring your brand resonates at the highest levels.
 
-Ready to position your project for institutional-grade growth? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our expert consultants today.
+Ready to position your project for institutional-grade growth? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our expert consultants today.
 
 Or, browse our [Web3 Growth solutions](/web3) to see how we turn institutional signals into marketing dominance for our clients.

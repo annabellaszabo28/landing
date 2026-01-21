@@ -1,12 +1,38 @@
 {
     "header": {
         "title": "A BlockMarketing Consultingról",
-        "subtitle": "Professzionális digitális architektúra az új gazdaság építőinek."
+        "subtitle": "Professzionális digitális megoldások az új gazdaság építőinek."
     },
     "mission": {
-        "title": "Identitásunk",
-        "content_1": "Marketingesek, programozók, stratégák és terméktervezők kollektívája vagyunk, akik értik az internet működését. Nem csak követjük a trendeket; mi tervezzük meg azokat a rendszereket, amelyek meghatározzák őket.",
-        "content_2": "Több mint 10 éves iparági tapasztalattal a hátunk mögött láttuk számtalan technológia felemelkedését és bukását. Hosszú távú sikerünk alapja az a képességünk, hogy megkülönböztessük a zajt a valódi jelektől, és intézményi szintű precizitást hozzunk minden projektbe.",
+        "title": "Kik vagyunk mi?",
+        "content_1": "Marketingesek, fejlesztők, stratégák és terméktervezők közössége vagyunk, akik mélyen értik az internet működését. Nem csak követjük a trendeket, hanem mi építjük azokat a rendszereket, amelyek meghatározzák a jövőt.",
+        "content_2": "Több mint 10 éves tapasztalattal a hátunk mögött a kreativitás és a technológia metszéspontjában dolgozunk. Sikerünk alapja az a képességünk, hogy megkülönböztessük a pillanatnyi divatot a valódi értékteremtéstől, és minden projektbe szakmai precizitást hozzunk.",
         "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
+    },
+    "impact": {
+        "badge": "Hatásunk",
+        "title": "Összekötjük a stratégiát a megvalósítással."
+    },
+    "expertise": {
+        "title": "Szakmai Kiválóság",
+        "items": [
+            {
+                "title": "Modern Automatizáció",
+                "description": "A legújabb technológiákat használjuk, hogy automatizáljuk a manuális folyamatokat, így a valódi stratégiai növekedésre tudunk koncentrálni."
+            },
+            {
+                "title": "Globális Szakértelem",
+                "description": "Csapatunk rendszeresen jelen van a legfontosabb nemzetközi konferenciákon (Token2049, NFT NYC, EthDenver)."
+            },
+            {
+                "title": "Full Stack Megvalósítás",
+                "description": "Az okosszerződések írásától a webes felületek fejlesztéséig mindent házon belül végzünk."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Készen áll a piacvezető szerepre?",
+        "subtitle": "A leggyorsabban növő cégek és Web3 projektek bízzák ránk növekedési stratégiájuk megvalósítását.",
+        "button": "Konzultáció Foglalása"
     }
 }

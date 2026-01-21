@@ -57,7 +57,7 @@ export default function FAQ({ content }: FAQProps) {
 
         <div className="text-center">
           <p className="text-slate-600 mb-8 font-bold text-lg">Still have questions about scaling your brand?</p>
-          <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+          <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
             <button className="bg-primary text-white px-10 py-4 rounded-full text-lg font-black hover:bg-brand-mint hover:text-primary transition-all shadow-xl shadow-primary/20 uppercase tracking-widest text-xs">
               Book a Strategy Session
             </button>

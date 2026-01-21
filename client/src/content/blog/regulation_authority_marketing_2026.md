@@ -38,6 +38,6 @@ Trust is built through consistent, transparent interactions. In the post-regulat
 
 At BlockMarketing Consulting, we bridge the gap between regulatory rigor and market engineering, ensuring your brand stands out for all the right reasons.
 
-Ready to build a compliant, authority-driven growth moat? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our expert team today.
+Ready to build a compliant, authority-driven growth moat? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our expert team today.
 
 Or, learn more about our [Product Planning services](/services/product-planning) to see how we architect growth before the code is even written.

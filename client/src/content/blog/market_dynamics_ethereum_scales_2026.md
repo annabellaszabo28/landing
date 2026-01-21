@@ -38,6 +38,6 @@ Reference the latest [CoinDesk market reports](https://www.coindesk.com/market-a
 
 At BlockMarketing Consulting, we help founders navigate these market shifts by building growth strategies rooted in on-chain performance rather than social media sentiment.
 
-Ready to turn network fundamentals into market dominance? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our expert consultants today.
+Ready to turn network fundamentals into market dominance? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our expert consultants today.
 
 Or, explore our [Web3 Development solutions](/web3) to see how we implement the latest Ethereum scaling techniques for global brands.

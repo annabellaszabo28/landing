@@ -46,6 +46,6 @@ The revolution of search is here. Visibility in a world without "ten blue links"
 
 By implementing these GEO principles today, you future-proof your organic growth and ensure that as users shift to AI, your brand remains at the center of the conversation.
 
-Ready for a deep dive into your current search visibility? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our expert consultants today.
+Ready for a deep dive into your current search visibility? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our expert consultants today.
 
 Or browse our latest [Marketing Case Studies](/work) to see how we've helped global brands dominate both traditional engines and the new generative frontier.

@@ -9,16 +9,9 @@
         "content_2": "With over 10 years of experience, we operate at the intersection of creativity and code. Our longevity is built on our ability to distinguish between noise and signal, bringing institutional-grade rigor to every project we touch.",
         "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
     },
-    "partners": {
-        "title": "Trusted Partners & Media",
-        "items": [
-            "CoinTelegraph",
-            "Coindesk",
-            "Forbes",
-            "TechCrunch",
-            "Yahoo Finance",
-            "Bloomberg"
-        ]
+    "impact": {
+        "badge": "Our Impact",
+        "title": "Bridging the Gap Between Insight and Execution."
     },
     "expertise": {
         "title": "AI Native & Technical Excellence",
@@ -36,5 +29,10 @@
                 "description": "From Solidity smart contracts to Next.js frontends, we build the entire stack in-house."
             }
         ]
+    },
+    "cta": {
+        "title": "Ready to lead the Market?",
+        "subtitle": "High-growth scale-ups and Web3 native protocols rely on our engine to scale their vision.",
+        "button": "Book a Strategy Call"
     }
 }

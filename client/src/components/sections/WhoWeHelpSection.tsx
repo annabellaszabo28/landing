@@ -73,7 +73,7 @@ export default function WhoWeHelpSection({ content }: WhoWeHelpProps) {
 
                 <div className="text-center">
                     <a
-                        href="https://cal.com/annabella-szabo-marketing/30min"
+                        href="https://cal.com/bella-dwsbwo/introductory-call"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block bg-white text-slate-900 px-12 py-5 rounded-full font-bold text-lg hover:bg-brand-mint hover:text-slate-900 hover:scale-105 transition-all shadow-xl shadow-white/10"

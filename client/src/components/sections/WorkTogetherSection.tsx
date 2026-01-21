@@ -81,7 +81,7 @@ export default function WorkTogetherSection({ content }: WorkTogetherProps) {
 
                 <div className="text-center">
                     <a
-                        href="https://cal.com/annabella-szabo-marketing/30min"
+                        href="https://cal.com/bella-dwsbwo/introductory-call"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-block bg-brand-mint text-primary px-12 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all transform hover:-translate-y-1 shadow-xl shadow-brand-mint/20"

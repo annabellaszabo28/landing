@@ -176,7 +176,7 @@ export default function PPCAdsPage() {
                             {content.cta.subtitle}
                         </p>
 
-                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                             <button className="px-16 py-6 bg-brand-mint text-primary font-black text-xl rounded-full hover:scale-105 transition-all shadow-2xl shadow-brand-mint/20 tracking-tighter uppercase">
                                 {content.cta.button_text}
                             </button>

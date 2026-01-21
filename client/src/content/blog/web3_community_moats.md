@@ -46,6 +46,6 @@ Building a community moat takes time. It requires moving beyond vanity metrics l
 
 In the age of AI-generated content and bots, the most valuable asset a brand can possess is a loyal, human community that acts as its primary decentralized sales force.
 
-Ready to architect a mission-driven community that scales with your protocol? [Book a Strategy Call](https://cal.com/annabella-szabo-marketing/30min) with our Web3 experts today.
+Ready to architect a mission-driven community that scales with your protocol? [Book a Strategy Call](https://cal.com/bella-dwsbwo/introductory-call) with our Web3 experts today.
 
 Or, explore our [Web3 Growth Marketing solutions](/web3) to see how we bridge the gap between on-chain analytics and authentic human engagement.

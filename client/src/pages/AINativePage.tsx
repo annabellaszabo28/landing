@@ -311,7 +311,7 @@ export default function AINativePage() {
                             Stop using AI as a tool. Start using it as your foundation. Let's build your next-gen marketing engine together.
                         </p>
 
-                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                             <button className="px-12 py-5 bg-white text-primary font-black text-xl rounded-full hover:bg-brand-mint hover:text-primary transition-all transform hover:scale-105 shadow-2xl shadow-white/10 tracking-tighter uppercase">
                                 Book Your AI Strategy Session
                             </button>

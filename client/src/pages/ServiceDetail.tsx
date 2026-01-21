@@ -80,7 +80,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-6">
-                                <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                                <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                                     <button className="px-10 py-5 bg-primary text-white font-black text-lg rounded-full hover:bg-slate-900 transition-all shadow-xl shadow-primary/20 hover:-translate-y-1">
                                         Book Discovery Call
                                     </button>
@@ -152,7 +152,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                             ))}
                         </div>
 
-                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                             <button className="px-8 py-4 bg-primary text-white font-black text-sm rounded-full hover:bg-slate-900 transition-all uppercase tracking-widest">
                                 Book Strategy Session
                             </button>
@@ -268,7 +268,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                         </div>
 
                         <div className="text-center mt-16">
-                            <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer" className="inline-block px-10 py-5 bg-brand-mint text-primary font-black text-xl rounded-full hover:bg-white transition-all transform hover:scale-105 shadow-2xl shadow-brand-mint/20">
+                            <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer" className="inline-block px-10 py-5 bg-brand-mint text-primary font-black text-xl rounded-full hover:bg-white transition-all transform hover:scale-105 shadow-2xl shadow-brand-mint/20">
                                 See How We Can Help You
                             </a>
                         </div>
@@ -312,7 +312,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                                 We offer bespoke pricing models tailored to your specific goals, from fixed-project fees to performance-based incentives.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                                <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                                <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                                     <button className="px-10 py-5 bg-primary text-white font-black text-lg rounded-full hover:bg-slate-900 transition-all shadow-xl shadow-primary/20 hover:-translate-y-1">
                                         Request Custom Quote
                                     </button>
@@ -369,7 +369,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                             Stop guessing. Start growing. Book your strategic growth session today and see the difference data-driven marketing makes.
                         </p>
 
-                        <a href="https://cal.com/annabella-szabo-marketing/30min" target="_blank" rel="noopener noreferrer">
+                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
                             <button className="px-12 py-5 bg-white text-primary font-black text-xl rounded-full hover:bg-brand-mint transition-all transform hover:scale-105 shadow-2xl shadow-white/10 tracking-tighter uppercase">
                                 Book a Strategy Call
                             </button>
