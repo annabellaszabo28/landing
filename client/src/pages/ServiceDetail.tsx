@@ -1,11 +1,12 @@
 import { useParams, Link } from "wouter";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import PricingCTA from "@/components/PricingCTA";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
 import * as Icons from "lucide-react";
 import {
-    ArrowLeft, CheckCircle2, Zap, ArrowRight, ShieldCheck, TrendingUp, Users, Clock, HelpCircle, BarChart
+    ArrowLeft, CheckCircle2, Zap, ArrowRight, ShieldCheck, TrendingUp, Users, Clock, Infinity, BarChart
 } from "lucide-react";
 import web2Services from "@/content/web2-services.json";
 import web3Services from "@/content/web3-services.json";
@@ -117,7 +118,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                         <div className="max-w-4xl mx-auto">
                             <div className="flex items-center gap-4 mb-8 text-slate-300">
                                 <div className="h-px flex-grow bg-slate-100" />
-                                <HelpCircle size={24} />
+                                <Infinity size={32} className="text-brand-mint" />
                                 <div className="h-px flex-grow bg-slate-100" />
                             </div>
                             <h2 className="text-3xl md:text-[42px] font-black font-heading tracking-tighter text-center mb-10 leading-none">
@@ -286,12 +287,12 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                         </div>
                         <div className="grid md:grid-cols-4 gap-8">
                             {service.differentiators.map((diff, i) => (
-                                <div key={i} className="space-y-4">
-                                    <div className="text-brand-mint mb-6">
+                                <div key={i} className="space-y-4 text-center">
+                                    <div className="text-brand-mint mb-6 flex justify-center">
                                         <DynamicIcon name={diff.icon} size={32} strokeWidth={2.5} />
                                     </div>
                                     <h3 className="text-lg font-black text-primary uppercase tracking-tight">{diff.title}</h3>
-                                    <p className="text-slate-600 text-sm leading-relaxed font-medium line-clamp-3">
+                                    <p className="text-slate-600 text-sm leading-relaxed font-medium line-clamp-3 max-w-[250px] mx-auto">
                                         {diff.description}
                                     </p>
                                 </div>
@@ -301,31 +302,7 @@ export default function ServiceDetail({ type }: { type: "web2" | "web3" }) {
                 </section>
 
                 {/* 10. Pricing Indicator */}
-                <section className="py-24 bg-slate-50">
-                    <div className="container px-4 text-center">
-                        <div className="max-w-2xl mx-auto">
-                            <span className="text-brand-mint font-black tracking-[0.3em] uppercase text-xs mb-4 block">Investment</span>
-                            <h2 className="text-3xl md:text-[42px] font-black font-heading tracking-tighter text-slate-900 leading-none mb-8">
-                                Value-Driven <span className="text-brand-mint">Pricing.</span>
-                            </h2>
-                            <p className="text-slate-600 text-xl font-medium mb-12">
-                                We offer bespoke pricing models tailored to your specific goals, from fixed-project fees to performance-based incentives.
-                            </p>
-                            <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                                <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
-                                    <button className="px-10 py-5 bg-primary text-white font-black text-lg rounded-full hover:bg-slate-900 transition-all shadow-xl shadow-primary/20 hover:-translate-y-1">
-                                        Request Custom Quote
-                                    </button>
-                                </a>
-                                <Link href="/contact">
-                                    <a className="px-10 py-5 bg-white border border-slate-200 text-slate-700 font-black text-lg rounded-full hover:bg-slate-100 transition-all text-center">
-                                        Contact Sales
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <PricingCTA />
 
                 {/* 11. FAQ Section */}
                 <section className="py-24 bg-white">

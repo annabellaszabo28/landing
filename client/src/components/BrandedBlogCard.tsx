@@ -12,13 +12,10 @@ export default function BrandedBlogCard({ title, category, className = "" }: Bra
             {/* Design Powerhouse Style: Clean & Deep */}
             <div className="absolute inset-0 opacity-[0.03] pointer-events-none border-[20px] border-white/10" />
 
-            {/* Top Bar: Logo & Status */}
+            {/* Top Bar: Status */}
             <div className="relative z-10 flex items-center justify-between mb-auto w-full">
                 <div className="flex items-center gap-3">
                     <div className="w-2 h-2 rounded-full bg-brand-mint" />
-                </div>
-                <div className="text-[12px] font-black tracking-[0.2em] uppercase text-white">
-                    BM <span className="text-brand-mint">CONSULTING</span>
                 </div>
                 <div className="w-2 h-2 rounded-full bg-brand-mint" />
             </div>

@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 import { getPageContent } from "@/lib/content";
 import { Helmet } from "react-helmet-async";
 import { motion } from "framer-motion";
+import PricingCTA from "@/components/PricingCTA";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 
@@ -74,10 +75,12 @@ export default function ProductPlanningPage() {
                                     initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
                                     transition={{ delay: idx * 0.1 }}
-                                    className="p-6 bg-white border border-slate-100 rounded-xl shadow-sm flex items-start gap-3"
+                                    className="p-6 bg-white border border-slate-100 rounded-xl shadow-sm flex flex-col items-center gap-4 text-center"
                                 >
-                                    <CheckCircle2 className="text-primary shrink-0" />
-                                    <span className="font-medium">{feature}</span>
+                                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                                        <CheckCircle2 size={24} className="text-primary" />
+                                    </div>
+                                    <span className="font-bold text-slate-800">{feature}</span>
                                 </motion.div>
                             ))}
                         </div>
@@ -97,20 +100,13 @@ export default function ProductPlanningPage() {
                     </div>
                 </section>
 
-                {/* Brand Dark CTA */}
-                <section className="py-24 bg-brand-dark relative overflow-hidden">
-                    {/* Retired Glow Effects */}
-                    <div className="container px-4 text-center relative z-10">
-                        <h2 className="text-4xl md:text-6xl font-bold font-heading mb-6 tracking-tight text-white">Ready to plan your roadmap?</h2>
-                        <p className="text-xl text-slate-300 mb-12 max-w-2xl mx-auto">Don't launch without a strategy. Let's map out your path to market domination.</p>
-
-                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
-                            <button className="px-12 py-5 bg-white text-slate-900 font-bold text-xl rounded-full hover:bg-primary hover:text-white transition-all transform hover:scale-105 shadow-xl shadow-white/10">
-                                Book a Strategy Session
-                            </button>
-                        </a>
-                    </div>
-                </section>
+                {/* CTA Section */}
+                <PricingCTA
+                    title="Ready to plan your roadmap?"
+                    subtitle="Don't launch without a strategy. Let's map out your path to market domination."
+                    primaryButtonText="Book a Strategy Session"
+                    theme="dark"
+                />
             </main>
 
             <Footer />

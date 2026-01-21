@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import LoadingSpinner from "@/components/LoadingSpinner";
+import PricingCTA from "@/components/PricingCTA";
 import { motion } from "framer-motion";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -132,9 +133,9 @@ export default function PPCAdsPage() {
                                         initial={{ opacity: 0, y: 20 }}
                                         whileInView={{ opacity: 1, y: 0 }}
                                         transition={{ delay: index * 0.1 }}
-                                        className="p-10 rounded-3xl bg-white/5 border border-white/10 hover:border-brand-mint transition-all duration-500 group"
+                                        className="p-10 rounded-3xl bg-white/5 border border-white/10 hover:border-brand-mint transition-all duration-500 group text-center"
                                     >
-                                        <div className="w-14 h-14 bg-brand-mint text-primary rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                                        <div className="w-14 h-14 bg-brand-mint text-primary rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform mx-auto">
                                             <Icon size={28} strokeWidth={2.5} />
                                         </div>
                                         <h3 className="text-2xl font-black mb-4 tracking-tight uppercase leading-none">{solution.title}</h3>
@@ -165,24 +166,13 @@ export default function PPCAdsPage() {
                     </div>
                 </section>
 
-                {/* High Conversion CTA Section */}
-                <section className="py-32 bg-slate-900 relative overflow-hidden">
-                    <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/20 blur-[120px] rounded-full" />
-                    <div className="container px-4 text-center relative z-10">
-                        <h2 className="text-5xl md:text-8xl font-black mb-8 tracking-tighter text-white leading-none">
-                            Ready to Lead <br /><span className="text-brand-mint italic">the Market?</span>
-                        </h2>
-                        <p className="text-xl md:text-2xl text-slate-400 mb-12 max-w-2xl mx-auto font-medium">
-                            {content.cta.subtitle}
-                        </p>
-
-                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
-                            <button className="px-16 py-6 bg-brand-mint text-primary font-black text-xl rounded-full hover:scale-105 transition-all shadow-2xl shadow-brand-mint/20 tracking-tighter uppercase">
-                                {content.cta.button_text}
-                            </button>
-                        </a>
-                    </div>
-                </section>
+                {/* CTA Section */}
+                <PricingCTA
+                    title="Ready to Lead the Market?"
+                    subtitle={content.cta.subtitle}
+                    primaryButtonText={content.cta.button_text}
+                    theme="dark"
+                />
             </main>
 
             <Footer />

@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import LoadingSpinner from "@/components/LoadingSpinner";
+import PricingCTA from "@/components/PricingCTA";
 import { motion } from "framer-motion";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -124,9 +125,9 @@ export default function AISearchPage() {
                                         whileInView={{ opacity: 1, y: 0 }}
                                         viewport={{ once: true }}
                                         transition={{ delay: index * 0.1 }}
-                                        className="p-10 rounded-[2rem] bg-slate-50 border border-slate-100 hover:border-brand-mint transition-all duration-500 group"
+                                        className="p-10 rounded-[2rem] bg-slate-50 border border-slate-100 hover:border-brand-mint transition-all duration-500 group text-center"
                                     >
-                                        <div className="w-14 h-14 bg-primary text-brand-mint rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                                        <div className="w-14 h-14 bg-primary text-brand-mint rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform mx-auto">
                                             <Icon size={28} strokeWidth={2.5} />
                                         </div>
                                         <h3 className="text-2xl font-black mb-4 tracking-tight uppercase leading-none text-primary">{solution.title}</h3>
@@ -138,25 +139,13 @@ export default function AISearchPage() {
                     </div>
                 </section>
 
-                {/* Authority Section / GEO Audit CTA */}
-                <section className="py-32 bg-primary relative overflow-hidden">
-                    <div className="absolute top-0 left-0 w-full h-full pointer-events-none overflow-hidden opacity-10">
-                        <Icons.Brain className="absolute -top-20 -right-20 w-[500px] h-[500px] text-white" />
-                    </div>
-                    <div className="container px-4 relative z-10 text-center text-white">
-                        <h2 className="text-5xl md:text-8xl font-black mb-8 tracking-tighter leading-none">
-                            Dominate the<br /><span className="text-brand-mint">Generative Web.</span>
-                        </h2>
-                        <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto font-bold opacity-90">
-                            {content.cta.subtitle}
-                        </p>
-                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
-                            <button className="px-16 py-6 bg-white text-primary font-black text-xl rounded-full hover:bg-brand-mint hover:text-primary transition-all transform hover:scale-105 shadow-2xl tracking-tighter uppercase font-heading">
-                                {content.cta.button_text}
-                            </button>
-                        </a>
-                    </div>
-                </section>
+                {/* CTA Section */}
+                <PricingCTA
+                    title="Dominate the Generative Web."
+                    subtitle={content.cta.subtitle}
+                    primaryButtonText={content.cta.button_text}
+                    theme="dark"
+                />
             </main>
 
             <Footer />

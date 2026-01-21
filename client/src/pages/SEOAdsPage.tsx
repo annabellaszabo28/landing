@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import LoadingSpinner from "@/components/LoadingSpinner";
+import PricingCTA from "@/components/PricingCTA";
 import { motion } from "framer-motion";
 import * as Icons from "lucide-react";
 import type { LucideIcon } from "lucide-react";
@@ -118,9 +119,9 @@ export default function SEOAdsPage() {
                                         whileInView={{ opacity: 1, y: 0 }}
                                         viewport={{ once: true }}
                                         transition={{ delay: index * 0.1 }}
-                                        className="p-10 rounded-3xl bg-white/5 border border-white/10 hover:border-brand-mint transition-all duration-500 group"
+                                        className="p-10 rounded-3xl bg-white/5 border border-white/10 hover:border-brand-mint transition-all duration-500 group text-center"
                                     >
-                                        <div className="w-14 h-14 bg-brand-mint text-primary rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+                                        <div className="w-14 h-14 bg-brand-mint text-primary rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform mx-auto">
                                             <Icon size={28} strokeWidth={2.5} />
                                         </div>
                                         <h3 className="text-2xl font-black mb-4 tracking-tight uppercase leading-none">{item.title}</h3>
@@ -159,21 +160,12 @@ export default function SEOAdsPage() {
                 </section>
 
                 {/* CTA Section */}
-                <section className="py-32 bg-primary relative overflow-hidden">
-                    <div className="container px-4 text-center relative z-10">
-                        <h2 className="text-5xl md:text-8xl font-black mb-8 tracking-tighter text-white leading-none">
-                            Ready for Organic<br /><span className="text-brand-mint italic">Dominance?</span>
-                        </h2>
-                        <p className="text-xl md:text-2xl text-white mb-12 max-w-2xl mx-auto font-bold opacity-90">
-                            {content.cta.subtitle}
-                        </p>
-                        <a href="https://cal.com/bella-dwsbwo/introductory-call" target="_blank" rel="noopener noreferrer">
-                            <button className="px-16 py-6 bg-white text-primary font-black text-xl rounded-full hover:bg-brand-mint transition-all transform hover:scale-105 shadow-2xl tracking-tighter uppercase font-heading">
-                                {content.cta.button_text}
-                            </button>
-                        </a>
-                    </div>
-                </section>
+                <PricingCTA
+                    title="Ready for Organic Dominance?"
+                    subtitle={content.cta.subtitle}
+                    primaryButtonText={content.cta.button_text}
+                    theme="dark"
+                />
             </main>
 
             <Footer />

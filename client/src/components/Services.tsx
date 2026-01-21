@@ -63,7 +63,7 @@ export default function Services({ content }: ServicesProps) {
           <AnimatePresence mode="wait">
             {currentItems.map((service, index) => {
               // @ts-ignore
-              const Icon = Icons[service.icon] || Icons.HelpCircle;
+              const Icon = Icons[service.icon as keyof typeof Icons] || Icons.Infinity;
               return (
                 <motion.div
                   key={service.title}

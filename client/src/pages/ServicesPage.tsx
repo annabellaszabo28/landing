@@ -56,7 +56,7 @@ export default function ServicesPage() {
                 <div className="grid md:grid-cols-2 gap-8">
                   {section.items.map((item: ServicesListItem, index: number) => {
                     const IconComponent = Icons[item.icon as keyof typeof Icons];
-                    const Icon = (typeof IconComponent === 'function' ? IconComponent : Icons.HelpCircle) as LucideIcon;
+                    const Icon = (typeof IconComponent === 'function' ? IconComponent : Icons.Infinity) as LucideIcon;
                     return (
                       <motion.div
                         key={item.title}
