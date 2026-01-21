@@ -124,7 +124,7 @@ export default function BlogPostDetail() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                className="prose prose-xl prose-slate max-w-none prose-headings:font-black prose-headings:tracking-tighter prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-[1.8] prose-p:text-lg md:prose-p:text-xl prose-li:text-slate-700 prose-strong:text-slate-900 prose-a:text-primary prose-a:no-underline hover:prose-a:text-brand-mint prose-a:transition-colors prose-img:rounded-3xl prose-blockquote:border-l-4 prose-blockquote:border-brand-mint prose-blockquote:bg-slate-50 prose-blockquote:p-8 prose-blockquote:rounded-2xl prose-blockquote:not-italic prose-blockquote:font-black prose-blockquote:text-2xl prose-blockquote:tracking-tight transition-all"
+                className="prose prose-xl prose-slate max-w-none prose-headings:font-black prose-headings:tracking-tighter prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-[1.8] prose-p:text-lg md:prose-p:text-xl prose-li:text-slate-700 prose-strong:text-slate-900 prose-a:text-brand-mint prose-a:no-underline hover:prose-a:text-primary prose-a:transition-colors prose-img:rounded-3xl prose-blockquote:border-l-4 prose-blockquote:border-brand-mint prose-blockquote:bg-slate-50 prose-blockquote:p-8 prose-blockquote:rounded-2xl prose-blockquote:not-italic prose-blockquote:font-black prose-blockquote:text-2xl prose-blockquote:tracking-tight transition-all"
               >
                 <ReactMarkdown>{post.content}</ReactMarkdown>
               </motion.div>
