@@ -64,8 +64,8 @@ Total price for our zero click and AI citation audit is 2,050 pounds. No sign up
 
 Efficiency is our standard, and our fixed pricing reflects our commitment to transparency.
 
+If you are unsure where to start or need expert guidance on zero click optimization, we would love to hear from you.
+
 Explore our SEO and Ads services: [SEO and Ads Services](/marketing/seo-ads)
 
-Book a Zero Click Strategy Call: [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call)
-
-Scale with the authority and precision that the era of the answer engine demands.
+Ready to discuss your search strategy? [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call) with our team today.

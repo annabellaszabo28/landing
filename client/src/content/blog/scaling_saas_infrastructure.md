@@ -70,8 +70,8 @@ Total price for our technical infrastructure audit is 2,050 pounds. No sign up f
 
 Clear pricing reflects our commitment to building long term partnerships based on trust. Efficiency is our standard, and we ensure that every pound of your investment works to secure the foundation of your global brand.
 
+If you are unsure where to start or need expert guidance on scaling your infrastructure, we would love to hear from you.
+
 Explore our strategy services: [Strategy Services](/services/strategy)
 
-Book a Technical Audit: [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call)
-
-Let us help you build a product that the world can rely on for its most critical tasks.
+Ready to discuss your technical roadmap? [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call) with our team today.

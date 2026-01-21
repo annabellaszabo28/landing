@@ -64,8 +64,8 @@ Total price for our Performance Media Audit and Creative Implementation is 2,050
 
 Clear pricing reflects our commitment to our partners. Every pound works to improve your raw ROI through the power of algorithmic execution and machine native design.
 
+If you are unsure where to start or need expert guidance on creative testing at scale, we would love to hear from you.
+
 Explore our Performance Marketing services: [Performance Marketing](/marketing/performance)
 
-Book a Performance Media Audit: [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call)
-
-Let us build the factory that ensures your brand always leads the auction.
+Ready to discuss your PPC strategy? [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call) with our team today.

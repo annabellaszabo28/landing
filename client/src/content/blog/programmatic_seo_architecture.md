@@ -62,8 +62,8 @@ Total price for our pSEO and Data Architecture strategy package is 2,050 pounds.
 
 Clear pricing reflects our commitment to transparency and our focus on building high performance outcomes for our partners. Efficiency is our standard, and we work tirelessly to find the technical bottlenecks slowing your growth.
 
+If you are unsure where to start or need expert guidance on programmatic SEO, we would love to hear from you.
+
 Explore our strategy services: [Strategy Services](/services/strategy)
 
-Book a pSEO Strategy Call: [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call)
-
-The future of search belongs to those who act with precision and build at scale.
+Ready to discuss your pSEO strategy? [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call) with our team today.

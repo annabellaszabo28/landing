@@ -66,8 +66,8 @@ Total price for our agent readiness audit and semantic review is 2,050 pounds. N
 
 Clear pricing reflects our commitment to our clients. Every pound works to make your brand readable to the future of the internet. Efficiency is our standard, and we work tirelessly to ensure your brand is AI native.
 
+If you are unsure where to start or need expert guidance on agent readiness, we would love to hear from you.
+
 Explore our AI Native services: [AI Native Services](/ai-native)
 
-Book an Agent Readiness Audit: [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call)
-
-Scale with the authority and precision that the 2026 market demands.
+Ready to discuss your AI strategy? [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call) with our team today.

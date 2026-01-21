@@ -70,6 +70,8 @@ Total price for our community audit and strategy package is 2,050 pounds. No sig
 
 Clear pricing reflects our commitment to our clients and their long term success. Every pound works to build your defensive moat and secure your position in the decentralized world.
 
+If you are unsure where to start or need expert guidance on building your community moat, we would love to hear from you.
+
 Explore our Community and DAO services: [Web3 Community Services](/web3/community)
 
-Book a Strategy Call: [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call)
+Ready to discuss your community strategy? [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call) with our team today.

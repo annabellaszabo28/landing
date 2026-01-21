@@ -59,8 +59,8 @@ Total price for our comprehensive GEO and Citation Strategy package is 2,050 pou
 
 Clear pricing reflects our commitment to our partners and our desire to build lasting relationships based on measurable technical success. Every pound of your investment works to make your brand the most cited and trusted source in your sector.
 
+If you are unsure where to start or need expert guidance on citation strategy, we would love to hear from you.
+
 Explore our SEO and Ads services: [SEO and Ads Services](/marketing/seo-ads)
 
-Book a GEO Strategy Call: [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call)
-
-The future of search is synthetic. Make sure your brand is the source of truth that powers it.
+Ready to discuss your GEO strategy? [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call) with our team today.

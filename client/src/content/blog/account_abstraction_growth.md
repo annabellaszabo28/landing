@@ -70,8 +70,8 @@ Total price for our onboarding audit and AA implementation roadmap is 2,050 poun
 
 Efficiency is our standard, and our pricing reflects our commitment to delivering clear, actionable results. We work with you to identify the hidden friction points currently costing you money and slowing your expansion.
 
+If you are unsure where to start or need expert guidance on frictionless onboarding, we would love to hear from you.
+
 Explore our strategy services: [Strategy Services](/services/strategy)
 
-Book an Onboarding Audit: [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call)
-
-Let us help you make your product something the whole world can use without thinking twice.
+Ready to discuss your onboarding strategy? [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call) with our team today.

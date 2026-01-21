@@ -66,8 +66,8 @@ Total price for our GEO vs SEO audit and implementation roadmap is 2,050 pounds.
 
 Clear pricing reflects our commitment to transparency. Efficiency is our standard, and we work tirelessly to ensure your brand is [programmatic ready](/blog/programmatic_seo_architecture).
 
+If you are unsure where to start or need expert guidance on GEO vs SEO, we would love to hear from you.
+
 Explore our SEO and Ads services: [SEO and Ads Services](/marketing/seo-ads)
 
-Book a Strategy Call: [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call)
-
-Do not just rank. Be the citation the world relies on.
+Ready to discuss your search strategy? [Schedule a Call](https://cal.com/bella-dwsbwo/introductory-call) with our team today.
